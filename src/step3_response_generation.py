@@ -87,7 +87,7 @@ for model_name in embedding_models:
                         device=device,
                     )
                     
-                    responses = [unique_responses[ori_to_unique[i]] for i in range(len(all_prompts))]
+                    responses = [unique_responses[ori_to_unique[p]] for p in all_prompts]
                     
                     # item["ori_response"] = responses[0]
                     item["bpo_response"] = responses[0]
