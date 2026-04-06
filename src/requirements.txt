@@ -1,0 +1,10 @@
+tqdm
+transformers
+torch
+sentence_transformers
+accelerate
+openai
+sentencepiece
+protobuf
+dotenv
+requests
