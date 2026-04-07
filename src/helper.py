@@ -2,8 +2,6 @@ import json
 import os
 
 import torch
-
-# device = "cuda:0"
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 BPO_MODEL = "THUDM/BPO"
@@ -33,10 +31,19 @@ BPO_EVAL = "testset/bpo_test.json"
 SELF_INSTRUCT_EVAL = "testset/self_instruct_eval.json"
 evaluation_datasets = [VICUNA_EVAL, DOLLY_EVAL, BPO_EVAL, SELF_INSTRUCT_EVAL]
 
+BBH = "bbh"
+ARC_C = "arc_challenge"
+ARC_E = "arc_easy"
+GSM8K = "gsm8k"
+PIQA = "piqa"
+downstream_task_datasets = [BBH, ARC_C, ARC_E, GSM8K, PIQA]
+
 mepo_folder_name = "rbpo_mepo"
 mismatch_folder_name = "mismatch"
 consistency_folder_name = "consistency"
 eval_folder_name = "evaluation"
+downstream_folder_name = "downstream"
+
 experiment_file_name = "experiment.txt"
 
 BPO = "bpo"
@@ -48,6 +55,9 @@ METHOD = [BPO, RBPO, MEPO, RMEPO]
 M = 10 # prompt optimization iterations
 # DISTANCE_THRESHOLD=0.05
 IMP_ENC=0.5
+
+OPTIM_PROMPT_INSTRUCTION_PATH = "optimize_prompt_instruction.txt"
+
 
 def clean_name(path_or_id: str):
     name = path_or_id.split("/")[-1]        
