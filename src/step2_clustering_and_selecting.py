@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.cluster import AgglomerativeClustering
 import torch
 from config import MODEL_CACHE_PATH
-from helper import DISTANCE_THRESHOLD, IMP_ENC, clean_name, experiment_file_name, eval_folder_name, device, M, embedding_models, distance_thresholds, METHOD
+from helper import IMP_ENC, clean_name, experiment_file_name, eval_folder_name, device, M, embedding_models, distance_thresholds, METHOD
 
 print("===== STEP 2: SBERT clustering =====")
 torch.cuda.empty_cache()
@@ -119,7 +119,6 @@ for model_name in embedding_models:
     
     distance_threshold = distance_thresholds.get(model_name,None)
     print(f"Using embedding model: {model_name} with distance threshold: {distance_threshold}")
-    continue
     
     assert distance_threshold is not None, f"Distance threshold not found for embedding model '{model_name}'"
     with open(experiment_file_name, "r") as f:
