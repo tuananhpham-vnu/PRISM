@@ -1,6 +1,6 @@
 import shutil
 
-from helper import (GEMMA_EMBEDDING_MODEL, MEPO, METHOD, RMEPO, SELF_INSTRUCT_EVAL, VICUNA_7B, VICUNA_EVAL, clean_name,
+from helper import (GEMMA3, GEMMA_EMBEDDING_MODEL, LLAMA2_7B, MEPO, METHOD, RMEPO, SELF_INSTRUCT_EVAL, VICUNA_7B, VICUNA_EVAL, clean_name,
     create_combined_name, eval_folder_name, experiment_file_name, base_llm_models, embedding_models,
     evaluation_datasets,evaluator_models, DOLLY_EVAL, BPO, RBPO, device)
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -20,6 +20,7 @@ load_dotenv()
 hf_token = os.getenv("HF_TOKEN")    
 
 embedding_models = [GEMMA_EMBEDDING_MODEL]
+base_llm_models = [LLAMA2_7B, GEMMA3]
 
 for model_name in embedding_models:
     for base_model in base_llm_models:
@@ -48,6 +49,7 @@ for model_name in embedding_models:
                 with open(f'{eval_folder_name}/{clean_name(model_name)}/{file_name}.json', "r", encoding="utf-8") as f:
                     data = json.load(f)
                 print(f"\nBase model: {base_model} | Dataset: {data_path} | Evaluator: {evaluator} | Loaded {len(data)} samples")                
+                # continue
                 
                 for item in data:
                     all_prompts = []
@@ -83,7 +85,7 @@ for model_name in embedding_models:
                         prompts=unique_prompts,
                         context=item.get("context", None) if is_need_context else None,
                         do_sample=False,
-                        apply_chat_template=False,  # đã format sẵn theo kiểu Vicuna nên tắt apply_chat_template
+                        apply_chat_template=is_vicuna,  # đã format sẵn theo kiểu Vicuna nên tắt apply_chat_template
                         device=device,
                     )
                     

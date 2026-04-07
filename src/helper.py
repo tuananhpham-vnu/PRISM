@@ -46,7 +46,7 @@ RMEPO = "rmepo"
 METHOD = [BPO, RBPO, MEPO, RMEPO]
 
 M = 10 # prompt optimization iterations
-DISTANCE_THRESHOLD=0.05
+# DISTANCE_THRESHOLD=0.05
 IMP_ENC=0.5
 
 def clean_name(path_or_id: str):

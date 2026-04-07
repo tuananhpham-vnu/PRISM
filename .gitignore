@@ -15,7 +15,7 @@ src/hf-cache/model
 
 *.jsonl
 
-*.json
+# *.json
 
 trick.txt
 
@@ -58,5 +58,13 @@ src/mepo/api.txt
 *demo_experiment.json
 *demo_experiment.txt
 *demo_output.json
+
+src/analysis/
+src/evaluation/
+src/rbpo_mepo/
+src/testset/dataset_process.py
+*.parquet
+*piqa.py
+demo.json
 
 .gitignore
