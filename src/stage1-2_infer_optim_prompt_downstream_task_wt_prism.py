@@ -244,7 +244,9 @@ model2, tokenizer2 = load_model_and_tokenizer(MEPO_MODEL)
 
 for method_key in METHOD:
     for task in downstream_task_datasets:
+        import torch, gc
         print('='*80)
+        print(torch.cuda.empty_cache(),gc.collect())
         print(f"\nProcessing task: {task} with method: {method_key}")
         
         save_file = f"{downstream_folder_name}/{method_key}/{task}_optim.json"

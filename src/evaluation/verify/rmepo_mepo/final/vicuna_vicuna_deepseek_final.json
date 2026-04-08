@@ -1,0 +1,32 @@
+{
+  "winner_counts": {
+    "0": 4,
+    "1": 2
+  },
+  "mismatches": [
+    {
+      "id": 2,
+      "final_winner": 0
+    },
+    {
+      "id": 14,
+      "final_winner": 0
+    },
+    {
+      "id": 22,
+      "final_winner": 0
+    },
+    {
+      "id": 50,
+      "final_winner": 1
+    },
+    {
+      "id": 51,
+      "final_winner": 1
+    },
+    {
+      "id": 80,
+      "final_winner": 0
+    }
+  ]
+}

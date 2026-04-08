@@ -1,0 +1,105 @@
+{
+  "winner_counts": {
+    "0": 6,
+    "2": 12,
+    "1": 6
+  },
+  "mismatches": [
+    {
+      "id": "user_oriented_task_5",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_44",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_59",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_62",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_68",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_74",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_88",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_100",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_104",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_110",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_113",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_129",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_130",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_151",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_161",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_172",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_180",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_185",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_186",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_204",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_207",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_215",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_219",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_230",
+      "final_winner": 1
+    }
+  ]
+}

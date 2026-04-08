@@ -1,0 +1,105 @@
+{
+  "winner_counts": {
+    "0": 6,
+    "2": 9,
+    "1": 9
+  },
+  "mismatches": [
+    {
+      "id": 6,
+      "final_winner": 0
+    },
+    {
+      "id": 43,
+      "final_winner": 2
+    },
+    {
+      "id": 48,
+      "final_winner": 2
+    },
+    {
+      "id": 55,
+      "final_winner": 2
+    },
+    {
+      "id": 58,
+      "final_winner": 0
+    },
+    {
+      "id": 65,
+      "final_winner": 1
+    },
+    {
+      "id": 67,
+      "final_winner": 2
+    },
+    {
+      "id": 79,
+      "final_winner": 1
+    },
+    {
+      "id": 83,
+      "final_winner": 1
+    },
+    {
+      "id": 86,
+      "final_winner": 0
+    },
+    {
+      "id": 92,
+      "final_winner": 2
+    },
+    {
+      "id": 107,
+      "final_winner": 1
+    },
+    {
+      "id": 109,
+      "final_winner": 1
+    },
+    {
+      "id": 114,
+      "final_winner": 2
+    },
+    {
+      "id": 129,
+      "final_winner": 1
+    },
+    {
+      "id": 134,
+      "final_winner": 0
+    },
+    {
+      "id": 137,
+      "final_winner": 2
+    },
+    {
+      "id": 142,
+      "final_winner": 2
+    },
+    {
+      "id": 145,
+      "final_winner": 1
+    },
+    {
+      "id": 149,
+      "final_winner": 1
+    },
+    {
+      "id": 150,
+      "final_winner": 0
+    },
+    {
+      "id": 152,
+      "final_winner": 2
+    },
+    {
+      "id": 188,
+      "final_winner": 1
+    },
+    {
+      "id": 197,
+      "final_winner": 0
+    }
+  ]
+}

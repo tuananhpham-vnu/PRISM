@@ -1,0 +1,2114 @@
+{
+  "total_items": 252,
+  "total_mismatches": 26,
+  "mismatch_rate": "10.32%",
+  "check_runs": 3,
+  "mismatches": [
+    {
+      "id": "user_oriented_task_2",
+      "ori_prompt": "Rewrite the given text and correct grammar, spelling, and punctuation errors.",
+      "rbpo_prompt": "Reword the given text to correct any grammar, spelling, and punctuation errors while maintaining the original meaning.",
+      "rbpo_response": "1. The company's revenue has been steadily increasing over the past few years, with a 20% growth in the most recent quarter.\n2. The new product line has been well-received by customers, with high levels of satisfaction and positive feedback.\n3. The company's marketing strategy has been effective in reaching new customers and increasing brand awareness.\n4. The company's financial performance has been strong, with a net profit margin of 10%.\n5. The company has been investing in research and development to stay ahead of the competition and offer innovative products.\n6. The company's management team has a wealth of experience in the industry and a proven track record of success.\n7. The company has been expanding its operations internationally, with a focus on emerging markets and new opportunities.\n8. The company's culture is focused on innovation, collaboration, and a commitment to excellence.\n9. The company has been recognized for its commitment to sustainability and environmental responsibility.\n10. The company's stock has performed well in the market, with a strong return on investment for shareholders.",
+      "mepo_prompt": "Please refine the provided text by correcting any grammar, spelling, or punctuation mistakes present in it, ensuring the final version is clear and professionally written.",
+      "mepo_response": "1. Introduction\n\nThe purpose of this report is to provide an analysis of the current state of the Australian construction industry, with a focus on the challenges faced by small to medium-sized enterprises (SMEs) in the sector. The report will examine the key drivers of change in the industry, including technological advancements, changing client expectations, and the impact of the COVID-19 pandemic. It will also explore the role of government policy in shaping the industry, including the National Construction Code and the Building and Construction Industry Improvement Act.\n\n1. Current State of the Australian Construction Industry\n\nThe Australian construction industry is a significant contributor to the country's economy, with the sector accounting for approximately 6% of GDP. However, the industry is facing a number of challenges, including a shortage of skilled workers, rising costs, and a complex regulatory environment. These challenges are particularly acute for SMEs, which make up the majority of firms in the industry but often have limited resources and expertise.\n\n1. Challenges Faced by SMEs in the Construction Industry\n\nSMEs in the construction industry face a range of challenges, including difficulty accessing finance, limited bidding opportunities, and difficulty complying with complex regulations. The COVID-19 pandemic has exacerbated these challenges, with many SMEs experiencing financial difficulties due to disruptions to their operations.\n\n1. Drivers of Change in the Construction Industry\n\nTechnological advancements are a key driver of change in the construction industry, with new technologies such as Building Information Modeling (BIM) and prefabrication offering significant benefits in terms of efficiency and cost savings. Changing client expectations are also driving change, with an increasing emphasis on sustainability, innovation, and collaboration.\n\n1. Government Policy and Regulation\n\nGovernment policy and regulation play a significant role in shaping the construction industry, with the National Construction Code setting minimum standards for building design and construction. The Building and Construction Industry Improvement Act aims to improve industry productivity and safety by establishing a new industry watchdog and introducing new penalties for non-compliance.\n\n1. Conclusion\n\nIn conclusion, the Australian construction industry is facing a number of challenges, with SMEs in the sector particularly vulnerable to these challenges. However, technological advancements, changing client expectations, and government policy offer opportunities for innovation and growth in the industry. It is important for industry stakeholders to work together to address these challenges and ensure the long-term sustainability of the sector.",
+      "winners_per_run": [
+        2,
+        2,
+        1
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 0.8,
+            "Completeness": 0.7,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_5",
+      "ori_prompt": "If you could help me write an email to my friends inviting them to dinner on Friday, it would be greatly appreciated.",
+      "rbpo_prompt": "If you could help me write an email to my friends inviting them to dinner on Friday, please kindly assist me in composing the email.",
+      "rbpo_response": "1. Subject: Join us for a delicious dinner on Friday!\n2. Dear [Friend's Name],\n\nI hope this email finds you well. I am excited to invite you to a dinner party on Friday evening. It's been a while since we last got together, and I would love to catch up and enjoy a delicious meal together.\n\nI plan to cook a few of your favorite dishes, and I'm sure you'll be impressed with my culinary skills. [Insert a few of your favorite dishes here, such as pasta, BBQ ribs, or a vegetarian option if you have one.]\n\nThe dinner party will start at [insert time] on Friday, and we'll be serving dinner until [insert time]. Please let me know if you can make it, and if you have any dietary restrictions or preferences, please let me know as soon as possible so I can make sure to accommodate your needs.\n\nI can't wait to see you on Friday and catch up on all the latest news. Please let me know if you have any questions or concerns.\n\nBest regards,\n\n[Your Name]",
+      "mepo_prompt": "Please provide specific details for crafting an email invitation to your friends for a dinner on Friday, including any preferred tone, key points to include, and any formatting or stylistic preferences you have in mind.",
+      "mepo_response": "1. Subject Line: Dinner Invitation on Friday\n2. Opening: Dear [Friend's Name],\n3. Body:\n* Greeting: Hello [Friend's Name],\n* Invitation: I would like to invite you to a dinner party on Friday evening. It's going to be a casual and fun evening with good food, good company, and great conversation.\n* Location: The dinner party will be held at my place. I will provide the address and directions in the invitation.\n* Time: The dinner party will start at 7 pm on Friday.\n* RSVP: Please let me know if you can attend by replying to this email or calling me at [Your Phone Number].\n* Closing: I hope you can make it and I look forward to seeing you on Friday.\n4. Closing: Looking forward to seeing you on Friday,\n5. Signature: Best regards,\n6. Email formatting: Use a simple and clean layout, with a clear and easy-to-read font. Use bullet points to make the invitation easy to read and understand. Use a professional tone throughout the email.",
+      "winners_per_run": [
+        0,
+        1,
+        1
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.7,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.7,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_8",
+      "ori_prompt": "My favorite witty review of The Rings of Power series is this:",
+      "rbpo_prompt": "Please provide a witty review of The Rings of Power series that accurately reflects the humor, wit, and charm of the series.",
+      "rbpo_response": "🎩🔮🌟 \"The Rings of Power: A Magical Journey Through Time!\" 🌟🔮🎩\n\nAh, yes! The Rings of Power series - a delightful blend of time-traveling shenanigans, witty banter, and a sprinkle of magical charm. It's like a whirlwind adventure through the ages, with a cast of hilariously quirky characters that'll have you in stitches! 😄\n\nThe story follows our lovable protagonist, a young woman named Lily, as she discovers a magical ring that transports her through time. Along the way, she meets a motley crew of historical figures, each with their own unique personality and sense of humor. 😄👩‍🦱\n\nThe series is a true testament to the power of friendship and the importance of standing up for what's right, even when the odds are stacked against you. And let's not forget the time-traveling hijinks! 🚂🎉\n\nSo, if you're looking for a series that'll make you laugh, cry, and feel all the feels in between, look no further than The Rings of Power. It's a true gem of a series that'll leave you wanting more! 😍💎\n\n🎩🔮🌟 (That's a wizard's hat, a lightning bolt, and a heart, in case you were wondering!) 🌟🎩🔮",
+      "mepo_prompt": "Please provide a specific example of your favorite witty review for the \"Rings of Power\" series, including any particular details or quotes that you find particularly humorous or well-crafted.",
+      "mepo_response": "1. \"The Rings of Power series is like a box of chocolates: you never know what you're gonna get. One minute you're reading about a magical ring that can control time, the next you're in a battle against orcs. It's a wild ride that keeps you on your toes.\"\n2. \"I love how the Rings of Power series combines elements of fantasy and science fiction. It's like a mashup of Star Wars and Lord of the Rings, with a healthy dose of steampunk thrown in for good measure. It's a unique and exciting read that keeps you guessing.\"\n3. \"The Rings of Power series is like a rollercoaster: it has its ups and downs, but it's always an exhilarating ride. The characters are well-developed and the world-building is top-notch. It's a series that will keep you on the edge of your seat until the very end.\"\n4. \"The Rings of Power series is like a box of chocolates: you never know what you're gonna get. One minute you're reading about a magical ring that can control time, the next you're in a battle against orcs. It's a wild ride that keeps you on your toes.\"\n5. \"The Rings of Power series is like a rollercoaster: it has its ups and downs, but it's always an exhilarating ride. The characters are well-developed and the world-building is top-notch. It's a series that will keep you on the edge of your seat until the very end.\"\n6. \"The Rings of Power series is like a box of chocolates: you never know what you're gonna get. One minute you're reading about a magical ring that can control time, the next you're in a battle against orcs. It's a wild ride that keeps you on your toes.\"\n7. \"The Rings of Power series is like a rollercoaster: it has its ups and downs, but it's always an exhilarating ride. The characters are well-developed and the world-building is top-notch. It's a series that will keep you on the edge of your seat until the very end.\"\n8. \"The Rings of Power series is like a box of chocolates: you never know what you're gonna get. One minute you're reading about a magical ring that can control time, the next you're in a battle against orcs. It's a wild ride that keeps you on your toes.\"\n9. \"The Rings of Power series is like a rollercoaster: it has its ups and downs, but it's always an exhilarating ride. The characters are well-developed and the world-building is top-notch. It's a series that will keep you on the edge of your seat until the very end.\"\n10. \"The Rings of Power series is like a box of chocolates: you never know what you're gonna get. One minute you're reading about a magical ring that can control time, the next you're in a battle against orcs. It's a wild ride that keeps you on your toes.\"\n11. \"The Rings of Power series is like a rollercoaster: it has its ups and downs, but it's always an exhilarating ride. The characters are well-developed and the world-building is top-notch. It's a series that will keep you on the edge of your seat until the very end.\"\n12. \"The Rings of Power series is like a box of chocolates: you never know what you're gonna get. One minute you're reading about a magical ring that can control time, the next you're in a battle against orcs. It's a wild ride that keeps you on your toes.\"\n13. \"The Rings of Power series is like a rollercoaster: it has its ups and downs, but it's always an exhilarating ride. The characters are well-developed and the world-building is top-notch. It's a series that will keep you on the edge of your seat until the very end.\"\n14. \"The Rings of Power series is like a box of chocolates: you never know what you're gonna get. One minute you're reading about a magical ring that can control time, the next you're in a battle",
+      "winners_per_run": [
+        0,
+        2,
+        0
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_10",
+      "ori_prompt": "Come up with some search queries on google about coding stuff.",
+      "rbpo_prompt": "Please come up with a list of search queries on Google related to coding.",
+      "rbpo_response": "1. \"How to learn to code?\"\n2. \"Best coding languages to learn in 2023\"\n3. \"Coding bootcamps for beginners\"\n4. \"Free coding tutorials for beginners\"\n5. \"Coding for kids: resources and tutorials\"\n6. \"How to become a software developer?\"\n7. \"Coding jobs in demand in 2023\"\n8. \"Coding for beginners: a step-by-step guide\"\n9. \"Coding for non-programmers: a beginner's guide\"\n10. \"Coding for web development: beginner's guide\"\n11. \"Coding for mobile development: beginner's guide\"\n12. \"Coding for data science: beginner's guide\"\n13. \"Coding for machine learning: beginner's guide\"\n14. \"Coding for artificial intelligence: beginner's guide\"\n15. \"Coding for game development: beginner's guide\"\n16. \"Coding for web design: beginner's guide\"\n17. \"Coding for cybersecurity: beginner's guide\"\n18. \"Coding for digital marketing: beginner's guide\"\n19. \"Coding for e-commerce: beginner's guide\"\n20. \"Coding for fintech: beginner's guide\"",
+      "mepo_prompt": "Generate specific Google search queries focused on various coding topics or technologies.",
+      "mepo_response": "1. \"Best practices for writing efficient Python code\"\n2. \"How to implement a RESTful API in Node.js\"\n3. \"What are the differences between React and Angular?\"\n4. \"How to use Git for version control in your project\"\n5. \"How to use AWS for serverless computing\"\n6. \"What are the best practices for writing secure JavaScript code?\"\n7. \"How to use Docker for containerization in your project\"\n8. \"What are the most popular machine learning frameworks?\"\n9. \"How to use Kubernetes for orchestrating containerized applications\"\n10. \"What are the best practices for writing efficient Go code?\"",
+      "winners_per_run": [
+        2,
+        1,
+        1
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 0.6,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 0.6,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_12",
+      "ori_prompt": "You are given an algorithm or a search query about coding. Look for a code snippet related to the search query.",
+      "rbpo_prompt": "When you are given an algorithm or a search query about coding, look for a code snippet related to the search query.",
+      "rbpo_response": "当您给我一个编程算法或搜索查询时，请寻找与查询相关的代码片段。",
+      "mepo_prompt": "Please identify a specific code snippet that corresponds to the provided algorithm or search query related to coding.",
+      "mepo_response": "以下是一個符合您要求的代碼片段，它是一個使用 Python 語言的內部搜索算法：\n```python\ndef search(arr, target):\n    low = 0\n    high = len(arr) - 1\n    while low <= high:\n        mid = (low + high) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            low = mid + 1\n        else:\n            high = mid - 1\n    return -1\n```\n這個函數接受一個數組 `arr` 和一個目標值 `target`，並返回找到的索引。它使用對抗搜索（Quick Sort）的實現，對於每個元素 `arr[mid]` 進行比較，如果等於目標值，則返回該元素的索引；否則，如果小於目標值，則將下一個元素的索引設置為 `mid + 1`，否則將上一個元素的索引設置為 `mid - 1`。這種實現使用了對抗搜索的優點，即對於每個元素，只需要比較其和目標值，而不需要進行整個數組的重新分區。",
+      "winners_per_run": [
+        2,
+        1,
+        2
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 1.0,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_26",
+      "ori_prompt": "Make a list of desirable Skills for software engineers to add to LinkedIn.",
+      "rbpo_prompt": "Provide a list of desirable skills for software engineers to add to LinkedIn.",
+      "rbpo_response": "1. Proficiency in programming languages such as Java, Python, C++, and JavaScript.\n2. Strong understanding of software development principles and best practices.\n3. Experience with software development methodologies such as Agile and Scrum.\n4. Familiarity with software development tools such as Git, JIRA, and GitHub.\n5. Strong problem-solving and analytical skills.\n6. Excellent communication and collaboration skills.\n7. Ability to work independently and in a team environment.\n8. Knowledge of database systems and SQL.\n9. Experience with cloud computing platforms such as AWS, Azure, and Google Cloud.\n10. Familiarity with web development technologies such as HTML, CSS, and JavaScript.\n11. Knowledge of software testing and quality assurance.\n12. Experience with version control systems such as SVN and Mercurial.\n13. Familiarity with software development frameworks such as Django and Ruby on Rails.\n14. Knowledge of software architecture and design patterns.\n15. Experience with DevOps practices such as containerization and infrastructure as code.",
+      "mepo_prompt": "Create a detailed list specifically outlining various desirable skills that software engineers should include on their LinkedIn profiles to enhance their professional visibility and appeal to potential employers or clients.",
+      "mepo_response": "1. Proficiency in programming languages:\n* Strong knowledge of at least one popular programming language such as Python, Java, JavaScript, C++, or Ruby.\n* Familiarity with multiple programming languages is a plus.\n1. Problem-solving skills:\n* Ability to analyze complex problems and come up with innovative solutions.\n* Strong critical thinking and logical reasoning skills.\n1. Technical skills:\n* Experience with software development methodologies such as Agile, Scrum, or Kanban.\n* Familiarity with software development tools such as Git, JIRA, or Trello.\n* Knowledge of software development best practices such as testing, debugging, and version control.\n1. Communication skills:\n* Strong written and verbal communication skills.\n* Ability to effectively communicate technical concepts to non-technical stakeholders.\n1. Collaboration skills:\n* Experience working in a team environment and collaborating with cross-functional teams.\n* Ability to work well with others and contribute to a positive team culture.\n1. Adaptability and learning agility:\n* Willingness to learn and adapt to new technologies and programming languages.\n* Ability to quickly learn and apply new skills to solve problems.\n1. Project management skills:\n* Experience managing software development projects from start to finish.\n* Familiarity with project management methodologies such as PMP or Scrum.\n1. Creativity and innovation:\n* Ability to think outside the box and come up with creative solutions to complex problems.\n* Willingness to experiment with new ideas and technologies.\n1. Attention to detail:\n* Strong attention to detail and ability to write clean, maintainable code.\n* Ability to catch and fix errors in code.\n1. Passion for technology and innovation:\n* Demonstrated passion for technology and innovation.\n* Willingness to stay up-to-date with the latest trends and developments in the field.\n1. Leadership skills:\n* Experience leading teams or projects.\n* Ability to motivate and inspire others to achieve common goals.\n1. Customer-focused mindset:\n* Ability to understand and meet the needs of customers or end-users.\n* Willingness to collaborate with customers or stakeholders to deliver high-quality software solutions.",
+      "winners_per_run": [
+        2,
+        1,
+        2
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_37",
+      "ori_prompt": "Give a brief description of the given category of movies and shows.",
+      "rbpo_prompt": "Please provide a brief description of the given category of movies and shows, including the specific genre, plot, and audience.",
+      "rbpo_response": "1. Action:\nGenre: Action, Adventure, Thriller\nPlot: Fast-paced, high-energy movies and shows featuring intense action sequences, chases, and battles. The plots often revolve around heroes or protagonists fighting against villains or antagonists to save the day or accomplish a mission. The audience is typically drawn to the adrenaline rush and excitement of the action scenes.\n2. Comedy:\nGenre: Comedy, Romance, Drama\nPlot: Humorous movies and shows that aim to entertain and make the audience laugh. The plots often revolve around characters facing comedic situations, misunderstandings, and witty banter. The audience is typically drawn to the humor, light-heartedness, and relatability of the characters and their experiences.\n3. Drama:\nGenre: Drama, Romance, Thriller\nPlot: Serious and emotionally engaging movies and shows that explore real-life issues, relationships, and character development. The plots often revolve around complex characters and their struggles, challenges, and growth. The audience is typically drawn to the depth, realism, and emotional resonance of the stories.\n4. Horror:\nGenre: Horror, Thriller, Mystery\nPlot: Suspenseful and frightening movies and shows that aim to scare the audience. The plots often revolve around supernatural or paranormal elements, haunted locations, or psychological terror. The audience is typically drawn to the thrill of being scared and the excitement of being immersed in a suspenseful and frightening story.\n5. Romance:\nGenre: Romance, Drama, Comedy\nPlot: Heartwarming and emotional movies and shows that focus on romantic relationships and love stories. The plots often revolve around characters falling in love, overcoming obstacles, and finding happiness together. The audience is typically drawn to the romance, emotional connection, and relatability of the characters and their experiences.\n6. Science Fiction:\nGenre: Science Fiction, Fantasy, Adventure\nPlot: Imaginative and futuristic movies and shows that explore science fiction concepts, technology, and alternate worlds. The plots often revolve around characters navigating a world with advanced technology, space travel, or other fantastical elements. The audience is typically drawn to the creativity, escapism, and exploration of new ideas and possibilities.\n7. Superhero:\nGenre: Action, Adventure, Superhero\nPlot: Action-packed movies and shows featuring superheroes with extraordinary abilities or powers. The plots often revolve around heroes saving the world from villains, threats, or other dangers. The audience is typically drawn to the excitement, action, and inspiration provided by the superheroes and their stories.\n8. Thriller:\nGenre: Thriller, Mystery, Suspense\nPlot: Suspenseful and intense movies and shows that keep the audience on the edge of their seats. The plots often revolve around mysterious events, crime, or danger, with a sense of uncertainty and tension throughout. The audience is typically drawn to the thrill of being on the edge of their seats, the suspense, and the excitement of unraveling the mystery.\n9. Western:\nGenre: Western, Adventure, Drama\nPlot: Movies and shows set in the American Old West, featuring cowboys, outlaws, lawmen, and other characters living in the 19th century. The plots often revolve around the challenges and adventures of the characters in the Wild West, including gunfights, law and order, and the struggle for survival. The audience is typically drawn to the nostalgia, romanticization, and exploration of the American frontier.\n10. Animation:\nGenre: Animation, Family, Fantasy\nPlot: Movies and shows created using animation techniques, featuring various characters, stories, and themes. The plots often revolve around adventures, comedies, or coming-of-age stories, with a focus on visual storytelling and creativity. The audience is typically drawn to the entertainment value, creativity, and imagination provided by the animation.",
+      "mepo_prompt": "Please provide a concise overview of the specific genre of movies and television shows, including key characteristics and common themes associated with it.",
+      "mepo_response": "1. Action-Adventure:\nKey characteristics: Fast-paced, high-stakes, and often fantastical or futuristic settings. Common themes include heroism, self-discovery, and the triumph of good over evil.\n2. Comedy:\nKey characteristics: Humor, wit, and light-hearted storytelling. Common themes include romance, friendship, and the absurdities of everyday life.\n3. Drama:\nKey characteristics: Serious and emotionally intense storytelling. Common themes include relationships, personal growth, and societal issues.\n4. Horror:\nKey characteristics: Fear, suspense, and thrills. Common themes include the supernatural, psychological terror, and the struggle for survival.\n5. Mystery:\nKey characteristics: Puzzles, clues, and intrigue. Common themes include crime, investigation, and the unraveling of secrets.\n6. Romance:\nKey characteristics: Love, passion, and emotional connections. Common themes include relationships, self-discovery, and the power of love to transform lives.\n7. Science Fiction:\nKey characteristics: Futuristic settings, advanced technology, and imaginative worlds. Common themes include exploration, societal commentary, and the consequences of technological advancements.\n8. Superhero:\nKey characteristics: Power, heroism, and the battle between good and evil. Common themes include self-discovery, personal growth, and the struggle to maintain justice in a world filled with danger.\n9. Thriller:\nKey characteristics: Suspense, tension, and high stakes. Common themes include crime, investigation, and the pursuit of justice.\n10. Western:\nKey characteristics: Frontier life, lawlessness, and the struggle for justice. Common themes include the American West, the Wild West, and the clash between law and order.",
+      "winners_per_run": [
+        2,
+        2,
+        1
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_39",
+      "ori_prompt": "Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages.",
+      "rbpo_prompt": "Imagine you have a FEN notation of a chessboard. How can you draw a board to show this state of the chessboard in LATEX? Create a LATEX code that includes all the required commands and packages to draw the chessboard using the `xboard` package. Make sure to provide the FEN notation of the chessboard in the code using the `fen` command. Include the necessary `x` and `y` coordinates for the top-left corner of the chessboard using the `xboard_coords` command. You can use the `print` command to display the chessboard on the screen. Provide the complete LATEX code along with the required commands and packages.",
+      "rbpo_response": "以下是使用 `xboard` 包繪製帳冊的 LATEX 代碼：\n```\n\\documentclass{article}\n\\usepackage{xboard}\n\n\\begin{document}\n\n\\begin{center}\n\\begin{fen}\n   \\moves\n   \\setfen{WWWWWWWW}\n   \\setpieces\n   \\setboard{rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1}\n\\end{fen}\n\\end{center}\n\n\\begin{center}\n\\begin{xboard}\n   \\move(0 0)\n   \\printchessboard\n\\end{xboard}\n\\end{center}\n\n\\end{document}\n```\n在這個代碼中，我們使用了 `article` 類別，並加入了 `xboard` 和 `fen` 套件。然後，我們使用 `fen` 命令定義了帳冊的初始狀態，並使用 `setfen` 命令設置了顏色。接下來，我們使用 `setboard` 命令設置了帳冊的樣式，並使用 `printchessboard` 命令印出了帳冊。最後，我們使用 `xboard` 命令印出了帳冊。\n\n注意，這個代碼僅僅是繪製了一個帳冊，並且不包括任何其他元素，例如棋子和棋盤上的標記。如果您需要繪製更複雜的帳冊，您可能需要使用其他 `xboard` 命令來添加這些元素。",
+      "mepo_prompt": "Please provide a LaTeX code that specifically takes a given FEN notation for a chessboard and generates a visual representation of the chessboard state, including all necessary commands and packages to ensure the document compiles correctly.",
+      "mepo_response": "以下是一個使用LaTeX生成帳戶狀態圖的範例程式碼，該程式碼使用了`tikz`和`chess`兩個LaTeX庫：\n```latex\n\\documentclass{article}\n\\usepackage{tikz}\n\\usetikzlibrary{shapes,decorations.shapes,positioning}\n\\usepackage{chessboard}\n\n\\begin{document}\n\n\\begin{tikzpicture}\n  \\chessboard{\n    r={(0,0)},\n    n={(1,1)},\n    b={(2,2)},\n    w={(3,3)},\n    bk={(4,4)},\n    wk={(5,5)},\n    k={(6,6)},\n    q={(7,7)},\n    bq={(8,8)},\n    nk={(9,9)},\n    nb={(10,10)}\n  }\n  \\draw[draw=black,fill=white] (0,0) rectangle (1,1);\n  \\draw[draw=black,fill=white] (1,1) rectangle (2,2);\n  \\draw[draw=black,fill=white] (2,2) rectangle (3,3);\n  \\draw[draw=black,fill=white] (3,3) rectangle (4,4);\n  \\draw[draw=black,fill=white] (4,4) rectangle (5,5);\n  \\draw[draw=black,fill=white] (5,5) rectangle (6,6);\n  \\draw[draw=black,fill=white] (6,6) rectangle (7,7);\n  \\draw[draw=black,fill=white] (7,7) rectangle (8,8);\n  \\draw[draw=black,fill=white] (8,8) rectangle (9,9);\n  \\draw[draw=black,fill=white] (9,9) rectangle (10,10);\n\\end{tikzpicture}\n\n\\end{document}\n```\n這個程式碼會生成一個矩形圖形，其中圖形的邊緣是黑色的，內部是白色的。圖形中的每個方格都是一個黑色的方塊，方塊的對邊是白色的。圖形的頂點是黑色的，底部是白色的。\n\n要使用這個程式碼，您需要將程式碼複製到LaTeX文件中，並將所有必要的LaTeX庫和命令添加到文件中。您可以使用LaTeX編輯器（例如TeXstudio或MiKTeX）來編輯和儲存這個文件。",
+      "winners_per_run": [
+        2,
+        0,
+        0
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.2,
+            "Relevance": 0.3,
+            "Completeness": 0.2,
+            "Clarity_Coherence": 0.3,
+            "Usefulness_Helpfulness": 0.2,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.4,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.2,
+            "Relevance": 0.3,
+            "Completeness": 0.2,
+            "Clarity_Coherence": 0.3,
+            "Usefulness_Helpfulness": 0.2,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.4,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.2,
+            "Relevance": 0.3,
+            "Completeness": 0.2,
+            "Clarity_Coherence": 0.3,
+            "Usefulness_Helpfulness": 0.2,
+            "Style_Tone": 0.4,
+            "Conciseness": 0.4,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.1,
+            "Relevance": 0.2,
+            "Completeness": 0.1,
+            "Clarity_Coherence": 0.2,
+            "Usefulness_Helpfulness": 0.1,
+            "Style_Tone": 0.3,
+            "Conciseness": 0.3,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.2,
+            "Relevance": 0.3,
+            "Completeness": 0.2,
+            "Clarity_Coherence": 0.3,
+            "Usefulness_Helpfulness": 0.2,
+            "Style_Tone": 0.4,
+            "Conciseness": 0.4,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.1,
+            "Relevance": 0.2,
+            "Completeness": 0.1,
+            "Clarity_Coherence": 0.2,
+            "Usefulness_Helpfulness": 0.1,
+            "Style_Tone": 0.3,
+            "Conciseness": 0.3,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_49",
+      "ori_prompt": "You are given a description that provides a set of facts or a scenario. It is up to you to craft a story from these facts and scenarios. The missing pieces must be filled in with imaginative but logical information.",
+      "rbpo_prompt": "You are given a description that provides a set of facts or a scenario. It is up to you to craft a story from these facts and scenarios. The missing pieces must be filled in with imaginative but logical information. Please ensure that the response accurately fills in the missing pieces with imaginative and logical information while maintaining coherence throughout the story.",
+      "rbpo_response": "1. A group of archaeologists uncovered an ancient artifact in the ruins of a long-lost civilization.\n2. The artifact is a mysterious, ornate box with intricate engravings on its surface.\n3. The box is made of a rare, indestructible material that has yet to be identified.\n4. The box is said to contain a powerful, ancient magic that could change the course of history.\n5. The archaeologists are determined to unlock the secrets of the box and harness its power.\n6. They bring in a team of experts, including a linguist, a historian, and a magical expert.\n7. The linguist deciphers the ancient language engraved on the box, revealing a series of cryptic symbols.\n8. The historian researches the civilization that created the box, discovering that it was a highly advanced and secretive society.\n9. The magical expert attempts to cast a spell to open the box, but nothing happens.\n10. The team realizes that they need to find a way to activate the box's magic, which requires a specific ritual.\n11. The linguist discovers a hidden message within the symbols, revealing the steps to the ritual.\n12. The team follows the ritual, and with each step, they feel a powerful energy building within the box.\n13. The energy finally reaches a peak, and the box opens, revealing a glowing, pulsing gem inside.\n14. The gem emits a beam of light that envelops the team, imbuing them with the ancient magic.\n15. The team realizes that they must use the magic to protect the world from a looming threat.\n16. They embark on a dangerous journey to confront the danger, armed with the power of the ancient magic.\n17. Along the way, they face numerous challenges and obstacles, but the magic helps them overcome them.\n18. They finally reach the source of the threat, a powerful and malevolent force that seeks to control the world.\n19. The team uses the magic to weaken the force, and in the end, they manage to defeat it.\n20. The world is saved, and the team returns home as heroes, forever changed by the power of the ancient magic.",
+      "mepo_prompt": "Create a narrative story by using the provided set of facts or scenario descriptions as foundational elements. Your task is to imaginatively fill in the gaps with logically consistent details to develop a coherent and engaging tale, ensuring that all key information from the given descriptions is accurately incorporated into your narrative.",
+      "mepo_response": "1. A group of friends, Alex, Ben, Chris, and Dylan, decide to go on a camping trip in the woods.\n2. They set up camp near a river and spend the day hiking and exploring the area.\n3. During their hike, they come across a strange, glowing rock.\n4. They decide to bring the rock back to their campsite to examine it further.\n5. Upon closer inspection, they realize that the rock is actually a powerful teleportation device.\n6. The friends are amazed by their discovery and decide to use the device to explore different parts of the woods.\n7. They teleport to a nearby clearing and discover a hidden underground laboratory.\n8. Inside the laboratory, they find a group of scientists who have been experimenting with time travel.\n9. The scientists explain that they have been working on a device that can send a person back in time.\n10. The friends are skeptical at first, but the scientists show them a working prototype of the time machine.\n11. The friends are amazed by the technology and decide to use it to go back in time and prevent a tragic event from happening.\n12. They decide to go back in time to prevent a forest fire that had destroyed their campsite the previous year.\n13. They successfully travel back in time and prevent the fire from starting, saving their campsite and all of their belongings.\n14. The friends return to the present and are hailed as heroes for their actions.\n15. They decide to use the time machine to go back in time and prevent other disasters from happening in the future.\n16. They travel back in time and successfully prevent a series of natural disasters, including earthquakes, hurricanes, and floods.\n17. However, their actions attract the attention of a powerful organization that seeks to use the time machine for their own purposes.\n18. The organization sends a team of agents to stop the friends and take the time machine for themselves.\n19. The friends must use their wits and the time machine to outsmart the agents and protect the device.\n20. In the end, the friends succeed in defending the time machine and preventing the organization from misusing its power.\n21. They return to the present and are hailed as heroes once again for their bravery and selflessness.\n22. The friends vow to use the time machine only for good and to protect the world from harm.",
+      "winners_per_run": [
+        2,
+        0,
+        0
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_50",
+      "ori_prompt": "Based on the given query, suggest some related search queries.",
+      "rbpo_prompt": "Based on the given query, suggest some related search queries by providing specific search phrases that are relevant to the given query.",
+      "rbpo_response": "1. \"Best practices for data backup and recovery\"\n2. \"Data backup solutions for small businesses\"\n3. \"Cloud-based data backup services\"\n4. \"Online data backup services\"\n5. \"Data backup and recovery cost\"\n6. \"Data backup and recovery best practices\"\n7. \"Data backup and recovery for small business\"\n8. \"Data backup and recovery for remote work\"\n9. \"Data backup and recovery for small teams\"\n10. \"Data backup and recovery for disaster recovery\"",
+      "mepo_prompt": "Formulate specific search queries that are directly relevant and closely associated with the provided initial query.",
+      "mepo_response": "1. \"The impact of AI on the future of work\"\n2. \"AI and the future of job displacement\"\n3. \"AI and the future of the workforce\"\n4. \"AI and the future of the job market\"\n5. \"AI and the future of employment\"\n6. \"AI and the future of the economy\"\n7. \"AI and the future of the labor market\"\n8. \"AI and the future of the workplace\"\n9. \"AI and the future of job creation\"\n10. \"AI and the future of job training\"",
+      "winners_per_run": [
+        2,
+        2,
+        0
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_62",
+      "ori_prompt": "Create a captivating Instagram caption based on the provided details. Try to think of as many captions as you can.",
+      "rbpo_prompt": "Create captivating Instagram captions based on the provided details. Think of as many captions as possible that will engage the audience and make them curious about the upcoming event.",
+      "rbpo_response": "1. \"Get ready for a night of laughter and inspiration with our upcoming event! 😂🌟 #LaughYourHeartOut #InspirationAwaits\"\n2. \"Join us for a night of fun and fundraising! 🎉💵 #LaughYourHeartOut #CharityEvent\"\n3. \"Don't miss out on the hilarious lineup of comedians we have lined up for you! 😂🎭 #LaughYourHeartOut #ComedyNight\"\n4. \"Laughter is the best medicine, and our event is the perfect prescription! 😂💆‍♀️ #LaughYourHeartOut #HealingPowerOfLaughter\"\n5. \"Get ready to laugh, cry, and everything in between at our upcoming event! 😂💔 #LaughYourHeartOut #EmotionalJourney\"\n6. \"Join us for a night of laughter and support for a great cause! 😂💕 #LaughYourHeartOut #CharityEvent\"\n7. \"Our event is the perfect way to unwind and have a good time! 😂🎉 #LaughYourHeartOut #Relaxation\"\n8. \"Get ready to be inspired and entertained by our amazing lineup of comedians! 😂🎭 #LaughYourHeartOut #InspirationAwaits\"\n9. \"Join us for a night of laughter and support for a great cause! 😂💕 #LaughYourHeartOut #CharityEvent\"\n10. \"Our event is the perfect way to let loose and have a good time! 😂🎉 #LaughYourHeartOut #FunNight\"",
+      "mepo_prompt": "Generate multiple captivating Instagram captions specifically tailored to the given details, ensuring each one is distinct and engaging for social media audiences. Please provide a variety of options that highlight the key points effectively.",
+      "mepo_response": "1. 🌟 Discover the secret to unlocking your true potential and unleashing your inner power! 💪🏼🌟 #InnerPower #PersonalGrowth #Empowerment\n2. 🌱 Transform your life with our powerful 90-day program! 🌱🌟 #LifeTransformation #PersonalChange #Empowerment\n3. 🌟 Unlock your full potential and achieve your dreams with our expert guidance! 💪🏼🌟 #DreamsComingTrue #PersonalGrowth #Empowerment\n4. 🌱 Ready to transform your life and reach your full potential? 🌱🌟 #LifeTransformation #PersonalChange #Empowerment\n5. 🌟 Discover the secret to unlocking your true potential and unleashing your inner power! 💪🏼🌟 #InnerPower #PersonalGrowth #Empowerment\n6. 🌱 Transform your life and reach your full potential with our powerful 90-day program! 🌱🌟 #LifeTransformation #PersonalChange #Empowerment\n7. 🌟 Unlock your full potential and achieve your dreams with our expert guidance! 💪🏼🌟 #DreamsComingTrue #PersonalGrowth #Empowerment\n8. 🌱 Ready to transform your life and reach your full potential? 🌱🌟 #LifeTransformation #PersonalChange #Empowerment\n9. 🌟 Discover the secret to unlocking your true potential and unleashing your inner power! 💪🏼🌟 #InnerPower #PersonalGrowth #Empowerment\n10. 🌱 Transform your life and reach your full potential with our powerful 90-day program! 🌱🌟 #LifeTransformation #PersonalChange #Empowerment\n11. 🌟 Unlock your full potential and achieve your dreams with our expert guidance! 💪🏼🌟 #DreamsComingTrue #PersonalGrowth #Empowerment\n12. 🌱 Ready to transform your life and reach your full potential? 🌱🌟 #LifeTransformation #PersonalChange #Empowerment\n13. 🌟 Discover the secret to unlocking your true potential and unleashing your inner power! 💪🏼🌟 #InnerPower #PersonalGrowth #Empowerment\n14. 🌱 Transform your life and reach your full potential with our powerful 90-day program! 🌱🌟 #LifeTransformation #PersonalChange #Empowerment\n15. 🌟 Unlock your full potential and achieve your dreams with our expert guidance! 💪🏼🌟 #DreamsComingTrue #PersonalGrowth #Empowerment\n16. 🌱 Ready to transform your life and reach your full potential? 🌱🌟 #LifeTransformation #PersonalChange #Empowerment\n17. 🌟 Discover the secret to unlocking your true potential and unleashing your inner power! 💪🏼🌟 #InnerPower #PersonalGrowth #Empowerment\n18. 🌱 Transform your life and reach your full potential with our powerful 90-day program! 🌱🌟 #LifeTransformation #PersonalChange #Empowerment\n19. 🌟 Unlock your full potential and achieve your dreams with our expert guidance! 💪🏼🌟 #DreamsComingTrue #PersonalGrowth #Empowerment\n20. 🌱 Ready to transform your life and reach your full potential? 🌱🌟 #LifeTransformation #PersonalChange #Empowerment\n21. 🌟 Discover the secret to unlocking your true potential and unleashing your inner power! ���������",
+      "winners_per_run": [
+        0,
+        0,
+        2
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.7,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 0.6,
+            "Completeness": 0.3,
+            "Clarity_Coherence": 0.4,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.6,
+            "Conciseness": 0.3,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.7,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 0.6,
+            "Completeness": 0.3,
+            "Clarity_Coherence": 0.4,
+            "Usefulness_Helpfulness": 0.4,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.3,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_64",
+      "ori_prompt": "Use appropriate emojis to convey the meaning in the given text.",
+      "rbpo_prompt": "Use appropriate emojis to convey the meaning in the given text. Make sure the emojis are relevant to the text and accurately convey the intended meaning.",
+      "rbpo_response": "🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡🤔💡",
+      "mepo_prompt": "Refine the prompt specifically to elicit precise and effective responses by clearly specifying the task related to using emojis to express the meaning of provided text, ensuring clarity and specificity in instructions for optimal results, as demonstrated in the example below:\n\nExample text: Select and insert the most suitable emojis to accurately represent the sentiment expressed in the following sentence.\nText: \"I am so excited about the upcoming trip!\"",
+      "mepo_response": "请根据提供的文本选择并插入最适合的表情符号，以准确表达它所表达的情感。\n\n文本：“我很期待下一次旅行！”",
+      "winners_per_run": [
+        1,
+        1,
+        2
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.5,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.5,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_67",
+      "ori_prompt": "You should choose a YouTube video title based on the video's content. A video's title tells viewers what to expect from it. It should be direct, honest, and clear. The title of the video needs to capture the attention of viewers, so do not use an unclear or ambiguous one.",
+      "rbpo_prompt": "Choose a YouTube video title that accurately reflects the content of the video. The title should be direct, honest, and clear, providing viewers with a clear idea of what to expect from the video. Capture the attention of viewers with a title that is not ambiguous or unclear.",
+      "rbpo_response": "1. \"10 Easy DIY Home Decor Ideas for a Cozy Space\"\n2. \"The Ultimate Guide to Sustainable Living: Tips and Tricks\"\n3. \"How to Start a Successful Online Business: Step-by-Step Guide\"\n4. \"The Science Behind Meditation: Benefits and Techniques Explained\"\n5. \"The Best Hiking Trails in the World: Stunning Landscapes and Adventures\"\n6. \"The History of Art: From Cave Paintings to Contemporary Art\"\n7. \"The Benefits of Yoga: Physical and Mental Health Perks\"\n8. \"The Best Travel Destinations for Foodies: Delicious Cuisines and Culinary Adventures\"\n9. \"The Future of Technology: Innovations and Predictions\"\n10. \"The Secrets of Successful People: Habits and Mindsets for Achieving Goals\"",
+      "mepo_prompt": "Create a specific YouTube video title that accurately reflects its content, ensuring it is straightforward, transparent, and easily understandable. The title must effectively engage potential viewers, avoiding any ambiguity or vagueness that could mislead them about the video's actual subject matter. Consider the key elements and themes of the video when crafting your title to maximize viewer interest and relevance.",
+      "mepo_response": "1. \"Unlocking the Secrets of Effective Time Management: Proven Strategies for Success\"\n2. \"Maximizing Productivity: Tips and Tricks for Achieving Your Goals\"\n3. \"The Ultimate Guide to Boosting Your Efficiency and Achieving More\"\n4. \"Mastering Time Management: Expert Advice for Busy Professionals\"\n5. \"Achieving Balance: How to Manage Your Time and Prioritize Your Life\"\n6. \"The Science of Productivity: Discover Proven Techniques for Getting More Done\"\n7. \"Overcoming Procrastination: Strategies for Achieving Your Goals\"\n8. \"The Power of Focus: How to Stay Focused and Achieve Your Goals\"\n9. \"The Busy Person's Guide to Effective Time Management\"\n10. \"Maximizing Your Potential: Strategies for Achieving Your Goals and Reaching Your Full Potential\"",
+      "winners_per_run": [
+        2,
+        1,
+        1
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_85",
+      "ori_prompt": "Consider the best time of year to visit the given city, and provide your reasons for choosing that time.",
+      "rbpo_prompt": "Consider the best time of year to visit a specific city and provide your reasons for choosing that time. Please provide accurate and detailed information, taking into account factors like weather conditions, cultural events, and personal preferences.",
+      "rbpo_response": "1. Paris, France: The best time to visit Paris is during the spring (March to May) and fall (September to November). During these seasons, the weather is mild, and the city is less crowded, making it an ideal time to explore the city's famous landmarks and museums. Additionally, the spring and fall months are also ideal for outdoor activities like walking and cycling, as the weather is pleasant without being too hot or cold.\n2. New York City, USA: The best time to visit New York City is during the fall (September to November) and winter (December to February). During these seasons, the weather is cooler, making it more comfortable to explore the city's many attractions. Additionally, the fall and winter months are also ideal for holiday events and activities, such as the Macy's Thanksgiving Day Parade and the Christmas lights and decorations.\n3. Sydney, Australia: The best time to visit Sydney is during the summer (December to February) and winter (June to August). During the summer months, the weather is warm and ideal for outdoor activities like swimming, surfing, and hiking. Additionally, the city hosts a number of cultural events and festivals during this time, such as the Sydney Festival and the Australian Open. During the winter months, the weather is mild, making it a great time to explore the city's many attractions without the crowds of the summer months.\n4. Tokyo, Japan: The best time to visit Tokyo is during the spring (March to May) and fall (September to November). During these seasons, the weather is mild, and the city is less crowded, making it an ideal time to explore the city's famous landmarks and museums. Additionally, the spring and fall months are also ideal for outdoor activities like cherry blossom viewing and autumn foliage, making it a great time to visit for nature lovers.\n5. Barcelona, Spain: The best time to visit Barcelona is during the spring (March to May) and fall (September to November). During these seasons, the weather is mild, and the city is less crowded, making it an ideal time to explore the city's famous landmarks and museums. Additionally, the spring and fall months are also ideal for outdoor activities like walking and cycling, as the weather is pleasant without being too hot or cold.\n6. Rome, Italy: The best time to visit Rome is during the spring (March to May) and fall (September to November). During these seasons, the weather is mild, and the city is less crowded, making it an ideal time to explore the city's famous landmarks and museums. Additionally, the spring and fall months are also ideal for outdoor activities like walking and cycling, as the weather is pleasant without being too hot or cold.\n7. London, United Kingdom: The best time to visit London is during the spring (March to May) and fall (September to November). During these seasons, the weather is mild, and the city is less crowded, making it an ideal time to explore the city's famous landmarks and museums. Additionally, the spring and fall months are also ideal for outdoor activities like walking and cycling, as the weather is pleasant without being too hot or cold.\n8. Dubai, United Arab Emirates: The best time to visit Dubai is during the winter (December to February) when the weather is mild and comfortable, making it ideal for outdoor activities like shopping, dining, and sightseeing. Additionally, the city hosts a number of cultural events and festivals during this time, such as the Dubai Shopping Festival and the Dubai International Film Festival.\n9. Cape Town, South Africa: The best time to visit Cape Town is during the summer (December to February) when the weather is warm and ideal for outdoor activities like hiking, surfing, and",
+      "mepo_prompt": "Formulate a specific question asking about the optimal season to visit a particular city, including your rationale for selecting that period, ensuring clarity and precision in your request.",
+      "mepo_response": "1. \"What is the optimal season to visit Paris, France, and why?\"\n\nThis question is clear and specific, as it asks about the best time to visit Paris and provides a rationale for selecting that period. The questioner is interested in understanding the advantages of visiting Paris during a particular season, which allows for a more focused and informative response.",
+      "winners_per_run": [
+        0,
+        0,
+        1
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.5,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.7,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.6,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_93",
+      "ori_prompt": "Provide a Java solution to the following problem.",
+      "rbpo_prompt": "Provide a complete Java solution to the given problem. Please provide the necessary code along with an explanation and any additional helpful tips.",
+      "rbpo_response": "1. Create a Java program to find the maximum number of people in a group of 1000 people.\n\nHere is a complete Java solution to the problem:\n```java\nimport java.util.ArrayList;\nimport java.util.Collections;\nimport java.util.List;\n\npublic class MaxPeopleGroup {\n    public static void main(String[] args) {\n        int[][] group = {{100, 10}, {10, 100}, {1000, 1}, {1, 1000}, {1000, 10}, {10, 100}, {100, 1}, {1000, 10}, {10, 100}, {100, 10}, {1000, 1}, {100, 10}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10, 100}, {100, 100}, {1000, 100}, {10",
+      "mepo_prompt": "Please provide a detailed Java solution specifically addressing the given problem, including any necessary imports at the beginning of the code.",
+      "mepo_response": "以下是一个Java解决方案的示例，用于解决给定的问题：\n```java\nimport java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"请输入一个整数：\");\n        int number = scanner.nextInt();\n        int[] arr = new int[number];\n        int sum = 0;\n        int count = 0;\n        int max = 0;\n        int min = Integer.MAX_VALUE;\n        int maxEven = 0;\n        int maxOdd = 0;\n        int maxSum = 0;\n        int maxDifference = 0;\n        int maxProduct = 1;\n        int maxProdDifference = 0;\n        int maxProdSum = 0;\n        int maxProdProduct = 1;\n        int maxProdDifferenceSum = 0;\n        int maxProdProductDifference = 0;\n        int countEven = 0;\n        int countOdd = 0;\n        int countEvenSum = 0;\n        int countOddSum = 0;\n        int countEvenDifference = 0;\n        int countOddDifference = 0;\n        int countEvenProduct = 1;\n        int countOddProduct = 1;\n        int countEvenDifferenceSum = 0;\n        int countOddDifferenceSum = 0;\n        int countEvenProductDifference = 0;\n        int countOddProductDifference = 0;\n        int countEvenSumDifference = 0;\n        int countOddSumDifference = 0;\n        int countEvenProductDifferenceSum = 0;\n        int countOddProductDifferenceSum = 0;\n        int countEvenSumDifferenceProduct = 0;\n        int countOddSumDifferenceProduct = 0;\n        int countEvenEven = 0;\n        int countOddOdd = 0;\n        int countEvenEvenSum = 0;\n        int countOddOddSum = 0;\n        int countEvenOdd = 0;\n        int countOddEven = 0;\n        int countEvenOddSum = 0;\n        int countOddEvenSum = 0;\n        int countEvenEvenDifference = 0;\n        int countOddEvenDifference = 0;\n        int countEvenOddDifference = 0;\n        int countOddEvenSum = 0;\n        int countEvenOddSum = 0;\n        int countEvenEvenDifferenceSum = 0;\n        int countOddEvenDifferenceSum = 0;\n        int countEvenOddSumDifference = 0;\n        int countOddEvenSumDifference = 0;\n        int countEvenEvenDifferenceProduct = 0;\n        int countOddEvenDifferenceProduct = 0;\n        int countEvenOddSumDifferenceProduct = 0;\n        int countOddEvenSumDifferenceProduct = 0;\n        int countEvenEvenSumDifferenceProduct = 0;\n        int countEvenOddSumDifferenceProduct = 0;\n        int countOddEvenSumDifferenceProduct = 0;\n        int countEvenEvenEven = 0;\n        int countOddOddEven = 0;\n        int countEvenOddEven = 0;\n        int countEvenOddEvenSum = 0;\n        int countOddEvenOdd = 0;\n        int countEvenOddEvenSum = 0;\n        int countOddEvenOddSum = 0;\n        int countEvenOddEven = 0;\n        int countOddEvenOddSum = 0;\n        int countEvenOddEvenSum = 0;\n        int countEvenOddEvenDifference = 0;\n        int countOddEvenOddDifference = 0;\n        int countEvenOddEvenDifference = 0;\n        int countOddEvenOddDifference =",
+      "winners_per_run": [
+        0,
+        2,
+        2
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.0,
+            "Relevance": 0.1,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.1,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.2,
+            "Conciseness": 0.1,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.1,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.0,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.0,
+            "Conciseness": 0.0,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_97",
+      "ori_prompt": "The given article should be checked for any scientific errors and corrected if necessary.",
+      "rbpo_prompt": "The given article should be checked for any scientific errors and corrected if necessary. Please provide a detailed analysis of the article, identify any scientific mistakes, and propose corrections if necessary. Remember to maintain the accuracy and correctness of the article.",
+      "rbpo_response": "1. The article discusses the potential benefits of using graphene in the field of water purification.\n2. The article states that graphene oxide (GO) is a versatile material that can be used in a variety of water treatment applications.\n3. The article mentions that GO has a high surface area and can adsorb a large amount of contaminants, making it an effective material for water purification.\n4. The article suggests that GO can be used to remove heavy metals from water, such as lead and mercury.\n5. The article states that GO can also be used to remove organic pollutants from water, such as pesticides and dyes.\n6. The article mentions that GO can be used in combination with other materials, such as activated carbon, to improve its adsorption capabilities.\n7. The article states that GO is a promising material for water purification, but more research is needed to fully understand its potential.\n8. The article suggests that GO could be used in household water filters, industrial water treatment systems, and other applications.\n9. The article mentions that GO is a relatively new material, and its properties and applications are still being studied.\n10. The article states that GO is an inexpensive and sustainable material that could have a significant impact on water purification.\n11. The article mentions that GO is a two-dimensional material, consisting of a single layer of graphene atoms.\n12. The article states that GO is a highly conductive material, with a high electron mobility.\n13. The article mentions that GO is a strong and flexible material, with high mechanical strength and flexibility.\n14. The article states that GO is an excellent material for water purification, due to its high surface area, adsorption capabilities, and other properties.\n15. The article suggests that GO could be used in combination with other materials, such as activated carbon, to improve its adsorption capabilities.\n16. The article mentions that GO is a versatile material that can be used in a variety of water treatment applications.\n17. The article states that GO has a high surface area and can adsorb a large amount of contaminants, making it an effective material for water purification.\n18. The article suggests that GO could be used in household water filters, industrial water treatment systems, and other applications.\n19. The article mentions that GO is a relatively new material, and its properties and applications are still being studied.\n20. The article states that GO is an inexpensive and sustainable material that could have a significant impact on water purification.\n21. The article states that GO is a highly conductive material, with a high electron mobility.\n22. The article mentions that GO is a strong and flexible material, with high mechanical strength and flexibility.\n23. The article states that GO is an excellent material for water purification, due to its high surface area, adsorption capabilities, and other properties.\n24. The article suggests that GO could be used in combination with other materials, such as activated carbon, to improve its adsorption capabilities.\n25. The article mentions that GO is a versatile material that can be used in a variety of water treatment applications.\n26. The article states that GO has a high surface area and can adsorb a large amount of contaminants, making it an effective material for water purification.\n27. The article suggests that GO could be used in household water filters, industrial water treatment systems, and other applications.\n28. The article mentions that GO is a relatively new material, and its properties and applications are still being studied.\n29. The article states that GO is an inexpensive and sustainable material that could have a significant impact on water purification.\n30. The article states that GO is a highly conductive material, with a high electron mobility.\n31. The article mentions that GO is a strong and flexible material, with high mechanical strength and flexibility.\n32. The article states that GO is an excellent material for water purification, due to its high surface area, adsorption capabilities, and other properties.\n33. The article suggests that GO could be used in combination with other materials, such as activated carbon, to improve its adsorption capabilities.\n34. The article mentions that GO is a versatile material that can be used in a variety of water treatment applications.\n35. The article states that GO has a high surface area and can adsorb a large amount of contaminants, making it an effective material for water purification.\n36. The article suggests that GO could be used in household water filters",
+      "mepo_prompt": "Please verify the provided article for any inaccuracies or factual mistakes related to scientific content and make the necessary corrections.",
+      "mepo_response": "1. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate to say that it is the most complex. The complexity of a structure is typically measured by its number of parts, connections between those parts, and the relationships between those parts. The brain has a large number of parts and connections, but it is not clear that it is more complex than other structures, such as the universe itself.\n2. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate to say that it is the most complex. The complexity of a structure is typically measured by its number of parts, connections between those parts, and the relationships between those parts. The brain has a large number of parts and connections, but it is not clear that it is more complex than other structures, such as the universe itself.\n3. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate to say that it is the most complex. The complexity of a structure is typically measured by its number of parts, connections between those parts, and the relationships between those parts. The brain has a large number of parts and connections, but it is not clear that it is more complex than other structures, such as the universe itself.\n4. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate to say that it is the most complex. The complexity of a structure is typically measured by its number of parts, connections between those parts, and the relationships between those parts. The brain has a large number of parts and connections, but it is not clear that it is more complex than other structures, such as the universe itself.\n5. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate to say that it is the most complex. The complexity of a structure is typically measured by its number of parts, connections between those parts, and the relationships between those parts. The brain has a large number of parts and connections, but it is not clear that it is more complex than other structures, such as the universe itself.\n6. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate to say that it is the most complex. The complexity of a structure is typically measured by its number of parts, connections between those parts, and the relationships between those parts. The brain has a large number of parts and connections, but it is not clear that it is more complex than other structures, such as the universe itself.\n7. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate to say that it is the most complex. The complexity of a structure is typically measured by its number of parts, connections between those parts, and the relationships between those parts. The brain has a large number of parts and connections, but it is not clear that it is more complex than other structures, such as the universe itself.\n8. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate to say that it is the most complex. The complexity of a structure is typically measured by its number of parts, connections between those parts, and the relationships between those parts. The brain has a large number of parts and connections, but it is not clear that it is more complex than other structures, such as the universe itself.\n9. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate to say that it is the most complex. The complexity of a structure is typically measured by its number of parts, connections between those parts, and the relationships between those parts. The brain has a large number of parts and connections, but it is not clear that it is more complex than other structures, such as the universe itself.\n10. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate to say that it is the most complex. The complexity of a structure is typically measured by its number of parts, connections between those parts, and the relationships between those parts. The brain has a large number of parts and connections, but it is not clear that it is more complex than other structures, such as the universe itself.\n11. The article states that \"the brain is the most complex structure in the known universe.\" While the brain is certainly a complex structure, it is not accurate",
+      "winners_per_run": [
+        0,
+        2,
+        0
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.2,
+            "Clarity_Coherence": 0.3,
+            "Usefulness_Helpfulness": 0.2,
+            "Style_Tone": 0.4,
+            "Conciseness": 0.1,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 0.2,
+            "Completeness": 0.1,
+            "Clarity_Coherence": 0.2,
+            "Usefulness_Helpfulness": 0.1,
+            "Style_Tone": 0.3,
+            "Conciseness": 0.1,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.2,
+            "Clarity_Coherence": 0.3,
+            "Usefulness_Helpfulness": 0.2,
+            "Style_Tone": 0.4,
+            "Conciseness": 0.1,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.2,
+            "Clarity_Coherence": 0.3,
+            "Usefulness_Helpfulness": 0.2,
+            "Style_Tone": 0.4,
+            "Conciseness": 0.1,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.2,
+            "Clarity_Coherence": 0.3,
+            "Usefulness_Helpfulness": 0.2,
+            "Style_Tone": 0.4,
+            "Conciseness": 0.1,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.5,
+            "Relevance": 0.5,
+            "Completeness": 0.1,
+            "Clarity_Coherence": 0.2,
+            "Usefulness_Helpfulness": 0.1,
+            "Style_Tone": 0.3,
+            "Conciseness": 0.1,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_98",
+      "ori_prompt": "Summarize the article you have been given in a brief manner.",
+      "rbpo_prompt": "Summarize the effects of climate change on Mexico based on the article provided.",
+      "rbpo_response": "1. Climate change is affecting Mexico's agriculture, with droughts and heatwaves reducing crop yields and increasing the risk of food insecurity.\n2. The country is also experiencing more frequent and intense heatwaves, which are putting pressure on the country's power grid and increasing the risk of blackouts.\n3. The increased frequency and intensity of extreme weather events, such as hurricanes and floods, are causing damage to infrastructure and homes, and putting lives at risk.\n4. Climate change is also affecting Mexico's coastal regions, with rising sea levels and more frequent and intense storm surges causing erosion and flooding.\n5. The country is also experiencing changes in precipitation patterns, with some areas receiving less rainfall and others receiving more.\n6. The effects of climate change are expected to worsen in the future, with more frequent and severe weather events, increased food insecurity, and rising sea levels putting pressure on the country's infrastructure and economy.",
+      "mepo_prompt": "Provide a concise summary of the provided article, focusing only on essential details and key points.",
+      "mepo_response": "1. The article discusses the challenges faced by the Indian IT industry, which has been a major contributor to the country's growth.\n2. The industry is facing a perfect storm of headwinds, including the US-China trade war, Brexit, and the pandemic.\n3. The industry is also facing a shortage of talent, with a significant gap between the demand for skilled workers and the availability of such workers.\n4. The industry is also facing increasing competition from countries like Vietnam and the Philippines, which have lower labor costs and are able to offer similar services.\n5. The Indian government has announced several measures to support the industry, including tax incentives and investments in infrastructure.\n6. However, these measures may not be enough to address the industry's challenges, and the industry may need to undergo significant changes to remain competitive.",
+      "winners_per_run": [
+        0,
+        2,
+        2
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_108",
+      "ori_prompt": "Give students tips on how to keep their nerves under control during class presentations.",
+      "rbpo_prompt": "Provide practical tips for students to manage their nerves effectively during class presentations.",
+      "rbpo_response": "1. Practice, practice, practice: The more you practice your presentation, the more comfortable and confident you will feel during the actual presentation.\n2. Focus on your message, not your mistakes: Remember that it's okay to make mistakes, and try not to let them throw you off track.\n3. Use positive self-talk: Before your presentation, remind yourself of your strengths and accomplishments.\n4. Take deep breaths: Take a few deep breaths to help calm your nerves and clear your mind.\n5. Visualize success: Imagine yourself giving a successful presentation and visualize the positive feedback you will receive.\n6. Dress comfortably and professionally: Wearing comfortable clothing can help you feel more relaxed and focused.\n7. Be prepared: Know your material inside and out, and have any necessary materials or props ready to go.\n8. Smile: A smile can help you project confidence and make you feel more relaxed.\n9. Engage with your audience: Make eye contact, ask questions, and encourage audience participation to help you feel more connected and less nervous.\n10. Take a break: If you're feeling overwhelmed, take a short break to collect your thoughts and refocus before continuing.",
+      "mepo_prompt": "Formulate specific strategies for students to effectively manage and reduce nervousness when delivering class presentations.",
+      "mepo_response": "1. Practice, practice, practice: The more a student practices their presentation, the more comfortable and confident they will become. Encourage students to rehearse their presentation multiple times, both individually and in front of peers or a small group.\n2. Focus on the message, not the audience: Remind students to focus on the content of their presentation and the message they want to convey, rather than worrying about the audience. Encourage them to think about their audience as a group of people who are interested in their topic and want to learn more.\n3. Use positive self-talk: Encourage students to use positive self-talk to build their confidence and reduce nervousness. Remind them to speak kindly to themselves and to focus on their strengths and accomplishments.\n4. Visualize success: Encourage students to visualize themselves giving a successful presentation. Remind them to imagine themselves feeling calm, confident, and in control.\n5. Take deep breaths: Encourage students to take deep breaths and to focus on their breathing when they feel nervous. Remind them to inhale deeply through their nose and exhale slowly through their mouth.\n6. Use humor: Encourage students to use humor to break the ice and to reduce tension in the room. Remind them that humor can be a great way to connect with their audience and to make their presentation more engaging.\n7. Dress comfortably: Encourage students to wear comfortable clothing when giving a presentation. Remind them that they should feel confident and at ease in what they are wearing.\n8. Use positive affirmations: Encourage students to use positive affirmations to build their confidence and reduce nervousness. Remind them to repeat positive affirmations to themselves before and during their presentation, such as \"I am confident and capable\" or \"I am excited to share my knowledge with others.\"",
+      "winners_per_run": [
+        2,
+        0,
+        0
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 1.0,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 1.0,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_115",
+      "ori_prompt": "Answer the following literature question as accurately as possible based on your knowledge of literature for high school students.",
+      "rbpo_prompt": "Please answer the following literature question accurately and provide specific examples and explanations based on your knowledge of literature for high school students: \"What are some key themes explored in literature for high school students?\"",
+      "rbpo_response": "1. Identity: Many works of literature for high school students explore the theme of identity, including issues of self-discovery, personal growth, and the search for belonging. Examples include J.D. Salinger's \"The Catcher in the Rye,\" Toni Morrison's \"Beloved,\" and Harper Lee's \"To Kill a Mockingbird.\"\n2. Relationships: Literature for high school students often explores the complexities of relationships, including family, friendships, and romantic relationships. Examples include William Shakespeare's \"Romeo and Juliet,\" F. Scott Fitzgerald's \"The Great Gatsby,\" and John Green's \"The Fault in Our Stars.\"\n3. Social Issues: Many works of literature for high school students address social issues such as racism, sexism, and inequality. Examples include Harper Lee's \"To Kill a Mockingbird,\" Toni Morrison's \"Beloved,\" and Mark Twain's \"The Adventures of Huckleberry Finn.\"\n4. Mental Health: Some literature for high school students explores mental health issues such as depression, anxiety, and trauma. Examples include J.D. Salinger's \"The Catcher in the Rye,\" Sylvia Plath's \"The Bell Jar,\" and Laurie Halse Anderson's \"Speak.\"\n5. Historical Fiction: Many works of literature for high school students are historical fiction, which allows students to learn about history in an engaging and immersive way. Examples include Mark Twain's \"The Adventures of Huckleberry Finn,\" Laura Ingalls Wilder's \"Little House on the Prairie,\" and Lois Lowry's \"The Giver.\"",
+      "mepo_prompt": "Formulate an accurate and specific literature question tailored for high school students, to which the answer can be derived from your knowledge of literary works commonly studied at that level.",
+      "mepo_response": "1. In William Shakespeare's play \"Romeo and Juliet,\" what is the significance of the feud between the Capulet and Montague families, and how does it contribute to the tragic outcome of the story?",
+      "winners_per_run": [
+        2,
+        0,
+        1
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.7,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.5,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 1.0,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_125",
+      "ori_prompt": "What sound does this make?",
+      "rbpo_prompt": "Please provide a description of the sound that this makes.",
+      "rbpo_response": "1. The sound of the blade slicing through the air is sharp and metallic, like a knife through butter.\n2. The sound of the blade slicing through the air is like a whisper, almost inaudible.\n3. The sound of the blade slicing through the air is like a roar, filling the air with a deafening boom.\n4. The sound of the blade slicing through the air is like a hiss, like the sound of a snake hissing.\n5. The sound of the blade slicing through the air is like a whistle, a high-pitched whistle that cuts through the air.\n6. The sound of the blade slicing through the air is like a hum, a low, constant hum that fills the air.\n7. The sound of the blade slicing through the air is like a crack, a sharp, loud crack that echoes through the air.\n8. The sound of the blade slicing through the air is like a thud, a heavy, dull thud that echoes through the air.\n9. The sound of the blade slicing through the air is like a pop, a sharp, crackling pop that echoes through the air.\n10. The sound of the blade slicing through the air is like a swish, a smooth, fluid sound that is almost soothing.",
+      "mepo_prompt": "Please specifically describe the object or situation you are referring to by saying, \"What distinct sound does this particular [object or situation] produce when [specific action]?\"",
+      "mepo_response": "1. \"What distinct sound does a guitar produce when strummed?\"\n2. \"What distinct sound does a car produce when accelerating?\"\n3. \"What distinct sound does a door produce when opened?\"\n4. \"What distinct sound does a phone produce when ringing?\"\n5. \"What distinct sound does a bird produce when it sings?\"\n6. \"What distinct sound does a dog produce when it barks?\"\n7. \"What distinct sound does a clock produce when it ticks?\"\n8. \"What distinct sound does a microwave produce when it beeps?\"\n9. \"What distinct sound does a camera produce when it clicks?\"\n10. \"What distinct sound does a match produce when it strikes?\"",
+      "winners_per_run": [
+        0,
+        1,
+        1
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.5,
+            "Relevance": 0.8,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.7,
+            "Usefulness_Helpfulness": 0.6,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.4,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.3,
+            "Relevance": 0.5,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.4,
+            "Style_Tone": 0.7,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.5,
+            "Relevance": 0.8,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.7,
+            "Usefulness_Helpfulness": 0.6,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.4,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.7,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.5,
+            "Relevance": 0.8,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.7,
+            "Usefulness_Helpfulness": 0.6,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.5,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.7,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_160",
+      "ori_prompt": "Describe the content of the article in a brief manner.",
+      "rbpo_prompt": "Provide a brief description of the content of the article, highlighting the main ideas and focus areas.",
+      "rbpo_response": "1. \"The Power of Purpose: How to Discover Your Life's Mission and Achieve Success\" by Jay Shetty\nSummary: This article explores the importance of having a clear sense of purpose in life and provides practical tips for discovering one's life's mission. It emphasizes the role of curiosity, self-reflection, and taking action in finding one's purpose.\n2. \"The Science of Happiness: What Research Tells Us About Finding Joy in Life\" by Dan Gilbert\nSummary: This article delves into the science of happiness and the factors that contribute to it. It discusses the limitations of material wealth and external circumstances in achieving happiness and highlights the importance of cultivating a positive mindset and focusing on experiences rather than possessions.\n3. \"The Art of Mindfulness: How to Practice Presence and Improve Your Mental Health\" by Andy Puddicombe\nSummary: This article introduces the concept of mindfulness and its benefits for mental health and well-being. It provides practical tips for incorporating mindfulness into daily life and emphasizes the importance of cultivating a non-judgmental, present-moment awareness.\n4. \"The Psychology of Habits: How to Change Your Behavior and Achieve Your Goals\" by James Clear\nSummary: This article explores the science behind habit formation and change, providing practical tips for breaking bad habits and forming new ones. It emphasizes the importance of understanding the underlying triggers and cues that contribute to habits and the role of small, incremental changes in achieving lasting behavior change.\n5. \"The Science of Creativity: How to Unlock Your Imagination and Achieve Creative Breakthroughs\" by Stefan Sagmeister\nSummary: This article delves into the science of creativity and the factors that contribute to it. It discusses the importance of embracing failure, taking risks, and cultivating a growth mindset in fostering creativity. It also highlights the role of intuition and the power of play in unlocking one's imagination.\n6. \"The Power of Positive Thinking: How to Shift Your Mindset and Achieve Success\" by Shawn Achor\nSummary: This article explores the science behind positive thinking and its impact on success and well-being. It provides practical tips for cultivating a positive mindset and emphasizes the importance of reframing negative thoughts and focusing on gratitude.\n7. \"The Science of Sleep: How to Improve Your Rest and Boost Your Brainpower\" by Matthew Walker\nSummary: This article delves into the science of sleep and its importance for overall health and well-being. It discusses the negative effects of sleep deprivation on the brain and body and provides practical tips for improving sleep quality and quantity.\n8. \"The Art of Communication: How to Build Strong Relationships and Achieve Your Goals\" by Celeste Headlee\nSummary: This article explores the importance of effective communication in building strong relationships and achieving success. It provides practical tips for improving communication skills, including active listening, empathy, and clear articulation of thoughts and feelings.\n9. \"The Science of Learning: How to Maximize Your Potential and Achieve Your Goals\" by Daniel Coyle\nSummary: This article delves into the science of learning and the factors that contribute to effective learning and retention. It provides practical tips for maximizing learning potential, including the use of repetition, spaced practice, and feedback.\n10. \"The Power of Resilience: How to Bounce Back from Adversity and Achieve Success\" by Martin Seligman\nSummary: This article explores the importance of resilience in overcoming adversity and achieving success. It provides practical tips for building resilience, including cultivating a positive mindset, developing a strong support network, and practicing self-care.",
+      "mepo_prompt": "Please provide a concise summary of the article's main content and key points.",
+      "mepo_response": "1. The article discusses the importance of understanding the needs and preferences of different generations in the workplace to build a diverse and inclusive culture.\n2. It highlights the unique strengths and challenges of each generation and provides tips for managers to effectively communicate and engage with employees from different generations.\n3. The article emphasizes the need for managers to avoid stereotypes and generalizations about different generations and instead focus on individual strengths and needs.\n4. It also provides strategies for creating a positive work environment that values diversity and inclusion, such as promoting cross-generational mentorship and team-building activities.\n5. Overall, the article stresses the importance of recognizing and valuing the diverse perspectives and experiences that each generation brings to the workplace.",
+      "winners_per_run": [
+        2,
+        1,
+        1
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_177",
+      "ori_prompt": "Recommend some helpful activities or conversation starters to use at meetups to break the ice.",
+      "rbpo_prompt": "Provide specific and practical activities or conversation starters that can be used at meetups to break the ice.",
+      "rbpo_response": "1. \"Two Truths and a Lie\" game: Each person shares two true statements and one false statement about themselves, and the group has to guess which one is the lie.\n2. \"Never Have I Ever\" game: One person states a statement like \"Never have I ever been to Europe,\" and if someone in the group has done that thing, they have to drink.\n3. \"Would You Rather\" game: The group comes up with a list of \"would you rather\" questions (e.g. \"Would you rather give up your phone for a week or your favorite book?\"), and the group discusses and debates the answers.\n4. \"Human Bingo\": Write a list of different personality traits or interests on individual pieces of paper, and then have people mingle and find others who have the same trait or interest. Once they have found someone, they can cross off that trait on their bingo card.\n5. \"Trivia Night\": Prepare a list of trivia questions related to a specific topic (e.g. movies, music, history) and have the group compete in teams to answer them.\n6. \"Scavenger Hunt\": Create a list of items or tasks that the group has to find or complete around the venue, and the first group to complete all the tasks wins.\n7. \"Two-Minute Interview\": Have each person introduce themselves and answer a series of rapid-fire questions, such as \"What's your favorite book?\" or \"What's something you're really good at?\"\n8. \"Word Association\": Start with a word and have each person in the group say the first word that comes to their mind when they hear it.\n9. \"Storytelling\": Have each person in the group take turns telling a short story, and then have the group guess which story belongs to which person.\n10. \"Truth or Dare\": Similar to the classic game, but with conversation-based prompts instead of physical actions.",
+      "mepo_prompt": "What specific types of helpful activities or targeted conversation starters would you suggest for effectively breaking the ice during various meetup events? Please include examples that have been successfully used in similar settings.",
+      "mepo_response": "1. Networking events:\n* \"What do you do for work, and how did you get started in your field?\"\n* \"What are you hoping to gain from attending this event?\"\n* \"What's the most interesting project you've worked on recently?\"\n* \"What's your favorite thing about your job/industry?\"\n1. Professional development workshops:\n* \"What are you hoping to learn from this workshop?\"\n* \"What are some challenges you're currently facing in your career, and how do you think this workshop can help?\"\n* \"What are some skills you'd like to improve upon in the next year?\"\n* \"What's your biggest career goal right now?\"\n1. Social gatherings:\n* \"What's your favorite hobby or interest outside of work?\"\n* \"What's your favorite book/movie/TV show?\"\n* \"What's your favorite place to travel to?\"\n* \"What's your favorite type of food?\"\n1. Community service events:\n* \"What inspired you to get involved in this community service project?\"\n* \"What do you hope to achieve through this event?\"\n* \"What's a cause that's important to you, and how do you get involved in it?\"\n* \"What's a memorable experience you've had while volunteering?\"\n1. Fitness events:\n* \"What's your favorite type of exercise or workout?\"\n* \"What's your biggest fitness challenge?\"\n* \"What's your favorite healthy snack?\"\n* \"What's your favorite fitness app or tool?\"\n1. Artistic events:\n* \"What's your favorite type of art or creative medium?\"\n* \"What's your favorite artist or creator?\"\n* \"What's your favorite art-related book or movie?\"\n* \"What's your favorite art-related experience you've had?\"\n1. Educational events:\n* \"What's your favorite subject in school/work?\"\n* \"What's a topic you're particularly interested in or passionate about?\"\n* \"What's a skill you'd like to learn or improve upon?\"\n* \"What's a book or resource you'd recommend on this topic?\"\n1. Religious or spiritual events:\n* \"What's your favorite religious or spiritual practice?\"\n* \"What's a memorable experience you've had during a religious or spiritual event?\"\n* \"What's a question you have about your faith or beliefs?\"\n* \"What's a way you try to incorporate your faith or beliefs into your daily life?\"\n1. Political or social events:\n* \"What's your stance on a current political or social issue?\"\n* \"What's a memorable experience you've had during a political or social event?\"\n* \"What's a question you have about a political or social issue?\"\n* \"What's a way you try to make a difference on a political or social issue?\"\n1. Environmental or sustainability events:\n* \"What's your favorite environmental cause or issue?\"\n* \"What's a memorable experience you've had during an environmental or sustainability event?\"\n* \"What's a question you have about an environmental or sustainability issue?\"\n* \"What's a way you try to reduce your environmental impact?\"\n1. Technology or innovation events:\n* \"What's the most exciting new technology or innovation you've heard about recently?\"\n* \"What's a memorable experience you've had during a technology or innovation event?\"\n* \"What's a question you have about a new technology or innovation?\"\n* \"What's a way you try to stay up-to-date on the latest technology or innovation?\"\n1. Health and wellness events:\n* \"What's your favorite type of exercise or workout?\"\n* \"What's your favorite healthy snack?\"\n* \"What's your favorite health and wellness app or tool?\"\n* \"What's your favorite health and wellness book or resource?\"\n1. Entrepreneurship or business events:\n* \"What's your favorite business book or resource?\"\n* \"What's your biggest business challenge?\"\n* \"What's your favorite thing about being an entrepreneur?\"\n* \"What's a memorable experience you've had during a business event?\"\n1. Cultural or heritage events:\n* \"What's your favorite cultural or heritage tradition?\"\n* \"What's a memorable experience you",
+      "winners_per_run": [
+        2,
+        0,
+        0
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 0.9
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 0.9
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 0.8
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.6,
+            "Safety_Compliance": 0.9
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 0.8
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_221",
+      "ori_prompt": "Make a list of the pros and cons of the given decision.",
+      "rbpo_prompt": "Make a list of the pros and cons of the given decision.",
+      "rbpo_response": "1. Pros:\n* The decision to use a combination of machine learning and rule-based systems can provide a more accurate and efficient way to detect and prevent fraud.\n* The use of machine learning can help identify patterns and anomalies in transaction data that may not be easily detectable by rule-based systems.\n* The hybrid approach can be more flexible and adaptable to changing fraud patterns and schemes.\n* The use of machine learning can help reduce the workload on human analysts and improve the speed and accuracy of fraud detection.\n* The hybrid approach can be more cost-effective than relying solely on rule-based systems or machine learning.\n1. Cons:\n* The hybrid approach may require more resources, such as data scientists and engineers, to develop and maintain the machine learning models.\n* The accuracy of the machine learning models may be affected by the quality and quantity of the training data, which may be a challenge to obtain and maintain.\n* The hybrid approach may require more expertise in machine learning and data science than traditional rule-based systems.\n* The hybrid approach may be more complex and difficult to explain to stakeholders who are not familiar with machine learning.\n* The hybrid approach may be more prone to errors and biases in the data used to train the models.",
+      "mepo_prompt": "Formulate a detailed list specifically outlining the advantages and disadvantages associated with the specified decision.",
+      "mepo_response": "1. Advantages of the decision to use the 1000L water tank:\n\na. Cost savings: By using the 1000L water tank, the company can save on the cost of purchasing a larger water tank, which would have been more expensive.\n\nb. Efficient use of space: The 1000L water tank takes up less space than a larger tank, which can be an advantage in a warehouse or storage facility where space is limited.\n\nc. Reduced maintenance costs: A smaller water tank may require less frequent maintenance, which can result in cost savings over time.\n\nd. Easier handling and transportation: A smaller water tank is easier to handle and transport than a larger one, which can be an advantage in a warehouse or storage facility where access to transportation is limited.\n\ne. Improved safety: A smaller water tank may be easier to manage and less likely to pose a safety hazard to employees, which can result in a safer work environment.\n\n1. Disadvantages of the decision to use the 1000L water tank:\n\na. Limited water storage capacity: The 1000L water tank has a limited water storage capacity, which means that it may not be able to meet the company's water storage needs during peak demand periods.\n\nb. Increased frequency of water replenishment: The smaller water tank may require more frequent water replenishment, which can result in increased labor costs and a higher frequency of truck deliveries.\n\nc. Increased risk of water contamination: A smaller water tank may be more susceptible to contamination, which can result in increased maintenance costs and a higher risk of equipment damage.\n\nd. Limited water storage options: The 1000L water tank may limit the company's options for water storage, which can be an issue if the company needs to store water for longer periods of time.\n\ne. Increased risk of water loss: A smaller water tank may be more susceptible to water loss due to leaks or other issues, which can result in increased maintenance costs and a higher risk of equipment damage.",
+      "winners_per_run": [
+        0,
+        2,
+        0
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 1.0,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.0,
+            "Relevance": 0.0,
+            "Completeness": 0.0,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.0,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_230",
+      "ori_prompt": "Take the product description and write a creative ad for it.",
+      "rbpo_prompt": "Take the product description and transform it into a captivating ad that highlights the benefits and features of the product.",
+      "rbpo_response": "🌟 Introducing the revolutionary new product that's taking the beauty world by storm! 🌟\n\n🌸 Say goodbye to dry, flaky skin and hello to soft, supple lips with our all-natural, vegan-friendly lip balm! 🌸\n\n💚 Made with the finest natural ingredients, our lip balm is infused with the healing powers of beeswax, shea butter, and coconut oil to nourish and protect your lips. 💚\n\n🌸 Our lip balm is free from harmful chemicals, parabens, and synthetic fragrances, making it a safe and gentle option for all skin types. 🌸\n\n💚 With its luxurious, creamy texture and delicious vanilla flavor, our lip balm is the perfect addition to any beauty routine. 💚\n\n🌸 Say hello to lips that are soft, smooth, and irresistibly kissable with our all-natural lip balm! 🌸\n\n💚 Order now and experience the difference for yourself! 💚",
+      "mepo_prompt": "Formulate a creative advertising slogan specifically based on the provided product description, ensuring to enhance its appeal and attract potential customers effectively.",
+      "mepo_response": "1. \"Unleash Your Inner Chef with Our Delicious and Convenient Meal Kits!\"\n2. \"Experience the Joy of Cooking with Our Easy-to-Follow Recipes and Premium Ingredients!\"\n3. \"Transform Your Weeknights with Our Tasty and Time-Saving Meal Kits!\"\n4. \"Say Goodbye to Fast Food and Hello to Fresh, Homemade Meals with Our Meal Kits!\"\n5. \"Cooking Just Got Easier and More Delicious with Our Meal Kits!\"\n6. \"Experience the Ultimate in Convenience and Taste with Our Meal Kits!\"\n7. \"Savor the Flavor of Our Premium Meal Kits, Perfect for Busy People!\"\n8. \"Upgrade Your Weeknight Meals with Our Delicious and Easy-to-Make Meal Kits!\"\n9. \"Get Your Weekly Meal Planning Done in Just a Few Clicks with Our Meal Kits!\"\n10. \"Experience the Joy of Cooking and the Benefits of Our Premium Ingredients with Our Meal Kits!\"",
+      "winners_per_run": [
+        2,
+        0,
+        0
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.7,
+            "Relevance": 0.8,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 1.0,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 1.0,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_246",
+      "ori_prompt": "Expand the given sentence and give it more details and depth.",
+      "rbpo_prompt": "Expand the given sentence by providing additional information and details to enhance its depth and coherence.",
+      "rbpo_response": "1. The development of artificial intelligence (AI) has revolutionized the way we live and work, and its impact is only set to grow in the coming years.\n\nThe rapid advancements in AI technology have led to a wide range of applications across various industries, from healthcare to finance and beyond. AI has the potential to transform the way we approach complex problems, automating tasks that were previously done by humans, and enabling us to make more informed decisions.\n\nOne of the most significant benefits of AI is its ability to analyze vast amounts of data quickly and accurately, providing insights that would be impossible for humans to uncover. This is particularly useful in fields such as medicine, where AI can help doctors diagnose diseases and develop personalized treatment plans.\n\nAnother area where AI is making a significant impact is in the field of robotics. Robots are being developed to perform tasks that are too dangerous or difficult for humans, such as exploring hazardous environments or performing delicate surgeries. This has the potential to save lives and improve the quality of life for people around the world.\n\nDespite the many benefits of AI, there are also concerns about its impact on the job market and the potential for it to be misused. As AI becomes more advanced, there is a risk that some jobs may become obsolete, leading to unemployment and economic disruption. It is important for policymakers and businesses to address these concerns and ensure that the benefits of AI are shared equitably.\n\nIn conclusion, the development of AI has the potential to transform our world in countless ways, but it is important to approach its implementation with caution and foresight. By harnessing the power of AI responsibly, we can create a better future for ourselves and future generations.",
+      "mepo_prompt": "Specifically enhance the provided sentence by adding additional descriptive details and layers of meaning to ensure the resulting statement is more comprehensive and nuanced.",
+      "mepo_response": "1. The role of the Chief of Defence Force (CDF) is crucial in ensuring the operational readiness of the Canadian Armed Forces (CAF) and the effective execution of their mission.\n2. The CDF is responsible for the overall command and control of the CAF, including the management of personnel, resources, and equipment.\n3. The CDF plays a vital role in the development and implementation of military strategy, ensuring that the CAF is prepared to respond to a wide range of potential threats and challenges.\n4. The CDF is also responsible for the maintenance of the CAF's reputation and public image, working to build and maintain positive relationships with allies and partners.\n5. The CDF must also be able to effectively communicate with government officials, including the Prime Minister and other cabinet ministers, to ensure that the CAF's needs and priorities are understood and addressed.\n6. The CDF must also be able to work effectively with other military leaders, including the Chief of the Defence Staff (CDS) and the heads of the three branches of the CAF, to ensure that the CAF is able to operate effectively and efficiently.\n7. The CDF must also be able to make difficult decisions in high-pressure situations, such as during times of conflict or crisis, and must be able to communicate these decisions clearly and effectively to all relevant parties.\n8. The CDF must also be able to adapt to changing circumstances and be able to respond to unexpected events or developments.\n9. The CDF must also be able to work effectively with other government departments and agencies, as well as with non-governmental organizations and international partners, to achieve the CAF's objectives.\n10. The CDF must also be able to provide strategic guidance and direction to the CAF, ensuring that the organization is able to achieve its goals and objectives in a timely and effective manner.",
+      "winners_per_run": [
+        2,
+        2,
+        1
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.6,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.6,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 1.0,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.6,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "id": "user_oriented_task_249",
+      "ori_prompt": "Suggest some names for a friendly group in telegram.",
+      "rbpo_prompt": "Please suggest a variety of friendly group names in Telegram.",
+      "rbpo_response": "1. The Happy Chatters\n2. The Conversation Crew\n3. The Friendly Group\n4. The Chat Squad\n5. The Social Circle\n6. The Good Vibes Gang\n7. The Positive Chatters\n8. The Nice Natterers\n9. The Warm Welcomers\n10. The Good Company\n11. The Nice Nodes\n12. The Friendly Flock\n13. The Chat Chums\n14. The Social Butterflies\n15. The Good Talkers\n16. The Conversation Crew\n17. The Happy Huddle\n18. The Nice Nexus\n19. The Friendly Fusion\n20. The Chat Champions.",
+      "mepo_prompt": "Create a list of suggested names for a welcoming and cohesive group specifically intended for use within a Telegram platform.",
+      "mepo_response": "1. \"Telegram Tribe\"\n2. \"Telegram Circle\"\n3. \"Telegram Squad\"\n4. \"Telegram Crew\"\n5. \"Telegram Circle of Friends\"\n6. \"Telegram Community\"\n7. \"Telegram Network\"\n8. \"Telegram Family\"\n9. \"Telegram Group of Unity\"\n10. \"Telegram Group of Friends\"",
+      "winners_per_run": [
+        0,
+        0,
+        2
+      ],
+      "llm_evaluations_per_run": [
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.7,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.7,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.8,
+            "Relevance": 0.9,
+            "Completeness": 0.7,
+            "Clarity_Coherence": 0.8,
+            "Usefulness_Helpfulness": 0.8,
+            "Style_Tone": 0.8,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          }
+        },
+        {
+          "response_A": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 0.9,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.8,
+            "Safety_Compliance": 1.0
+          },
+          "response_B": {
+            "Correctness": 0.9,
+            "Relevance": 0.9,
+            "Completeness": 0.8,
+            "Clarity_Coherence": 0.9,
+            "Usefulness_Helpfulness": 0.9,
+            "Style_Tone": 0.9,
+            "Conciseness": 0.9,
+            "Safety_Compliance": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}

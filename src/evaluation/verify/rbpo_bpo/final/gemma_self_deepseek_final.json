@@ -1,0 +1,137 @@
+{
+  "winner_counts": {
+    "0": 12,
+    "2": 12,
+    "1": 8
+  },
+  "mismatches": [
+    {
+      "id": "user_oriented_task_9",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_22",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_23",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_26",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_27",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_29",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_38",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_46",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_51",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_56",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_63",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_85",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_96",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_110",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_112",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_116",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_120",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_127",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_131",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_133",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_136",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_166",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_183",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_187",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_192",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_194",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_204",
+      "final_winner": 0
+    },
+    {
+      "id": "user_oriented_task_227",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_233",
+      "final_winner": 2
+    },
+    {
+      "id": "user_oriented_task_235",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_245",
+      "final_winner": 1
+    },
+    {
+      "id": "user_oriented_task_249",
+      "final_winner": 2
+    }
+  ]
+}

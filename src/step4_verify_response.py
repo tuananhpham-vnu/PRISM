@@ -3,7 +3,10 @@ import os
 from dotenv import load_dotenv
 import requests
 
-from helper import LLAMA2_7B, VICUNA_7B, DOLLY_EVAL, VICUNA_EVAL, DEEPSEEK, GEMMA3, eval_folder_name, evaluator_models, base_llm_models, evaluation_datasets, create_combined_name, mismatch_folder_name, consistency_folder_name
+from helper import (GEMMA_EMBEDDING_MODEL, LLAMA2_7B, VICUNA_7B, DOLLY_EVAL, VICUNA_EVAL, 
+    DEEPSEEK, GEMMA3, clean_name, eval_folder_name, evaluator_models, base_llm_models, 
+    evaluation_datasets, create_combined_name, mismatch_folder_name, 
+    consistency_folder_name, embedding_models)
 
 load_dotenv()
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
@@ -305,29 +308,31 @@ def process_batch(batch, verify_key, verify_methods, attempt_times=3):
 # MAIN
 def verify_response_batch(verify_key, verify_methods, verify_times = 5, BATCH_SIZE = 1):
     print(f"Starting verification for key: {verify_key} with methods: {verify_methods}")
-    for base_llm in base_llm_models:
-        for dataset in evaluation_datasets:
-            for evaluator in evaluator_models:
-                print(f"\n=== VERIFYING: {base_llm} | {dataset} | {evaluator} ===")
-                input_path = create_combined_name(base_llm, dataset, evaluator)
-                print(f"Processing: {input_path}")
-                verify_path = f"{eval_folder_name}/{input_path}.json"
-                
-                # continue
-                with open(verify_path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                for run_idx in range(verify_times):
-                    results = []
-                    output_path = f"{eval_folder_name}/verify/{verify_key}/{input_path}_eval_{run_idx+1}.json"
-                    if not os.path.exists(output_path):
-                        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    for embed_model in embedding_models:
+        for base_llm in base_llm_models:
+            for dataset in evaluation_datasets:
+                for evaluator in evaluator_models:
+                    print(f"\n=== VERIFYING: {base_llm} | {dataset} | {evaluator} ===")
+                    input_path = create_combined_name(base_llm, dataset, evaluator)
+                    print(f"Processing: {input_path}")
+                    verify_path = f"{eval_folder_name}/{clean_name(embed_model)}/{input_path}.json"
+                    print(f"Verify path: {verify_path}")
+                    
+                    continue
+                    with open(verify_path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                    for run_idx in range(verify_times):
+                        results = []
+                        output_path = f"{eval_folder_name}/verify/{verify_key}/{input_path}_eval_{run_idx+1}.json"
+                        if not os.path.exists(output_path):
+                            os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-                    for batch_idx, batch in enumerate(batch_iterator(data, BATCH_SIZE)):
-                        print(f"Processing batch {batch_idx + 1}...")
-                        batch_results = process_batch(batch, verify_key, verify_methods, attempt_times=3)
-                        results.extend(batch_results)
-                    with open(output_path, "w", encoding="utf-8") as f:
-                        json.dump(results, f, ensure_ascii=False, indent=2)   
+                        for batch_idx, batch in enumerate(batch_iterator(data, BATCH_SIZE)):
+                            print(f"Processing batch {batch_idx + 1}...")
+                            batch_results = process_batch(batch, verify_key, verify_methods, attempt_times=3)
+                            results.extend(batch_results)
+                        with open(output_path, "w", encoding="utf-8") as f:
+                            json.dump(results, f, ensure_ascii=False, indent=2)   
 
 def load_data_for_consistency_check(verify_key, input_path, check_runs):
     data = []
@@ -481,17 +486,17 @@ def check_verify_consistency(verify_key,verify_methods, check_runs=5):
                 else:
                     print(f"Summary: {len(mismatches)} mismatches + {len(consistencies)} consistent = {num_items} total")
                 
-if __name__ == "__main__":
-    BATCH_SIZE = 1
-    VERIFY_TIMES = 3
-    
-    verify_keys_method = {
-        "rbpo_bpo": ['rbpo_prompt', 'rbpo_response', 'bpo_prompt', 'bpo_response'], # đánh giá RBPO vs BPO
-        "rbpo_mepo": ['rbpo_prompt', 'rbpo_response', 'mepo_prompt', 'mepo_response'], # đánh giá RBPO vs MEPO
-        "rmepo_mepo": ['rmepo_prompt', 'rmepo_response', 'mepo_prompt', 'mepo_response'] # đánh giá RMEPO vs MEPO
-    }
-    for key, keys in verify_keys_method.items():
-        print(f"\n=== VERIFY KEY: {key} ===")
-        print(f"Verify keys: {keys}")
-        # verify_response_batch(key, keys, verify_times=VERIFY_TIMES, BATCH_SIZE=BATCH_SIZE)
-        check_verify_consistency(key,keys,check_runs=VERIFY_TIMES)
+BATCH_SIZE = 1
+VERIFY_TIMES = 3
+embedding_models = [GEMMA_EMBEDDING_MODEL]
+
+verify_keys_method = {
+    "rbpo_bpo": ['rbpo_prompt', 'rbpo_response', 'bpo_prompt', 'bpo_response'], # đánh giá RBPO vs BPO
+    "rbpo_mepo": ['rbpo_prompt', 'rbpo_response', 'mepo_prompt', 'mepo_response'], # đánh giá RBPO vs MEPO
+    "rmepo_mepo": ['rmepo_prompt', 'rmepo_response', 'mepo_prompt', 'mepo_response'] # đánh giá RMEPO vs MEPO
+}
+for key, keys in verify_keys_method.items():
+    print(f"\n=== VERIFY KEY: {key} ===")
+    print(f"Verify keys: {keys}")
+    verify_response_batch(key, keys, verify_times=VERIFY_TIMES, BATCH_SIZE=BATCH_SIZE)
+    # check_verify_consistency(key,keys,check_runs=VERIFY_TIMES)
