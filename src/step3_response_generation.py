@@ -2,7 +2,7 @@ import shutil
 
 from helper import (GEMMA3, GEMMA_EMBEDDING_MODEL, LLAMA2_7B, MEPO, METHOD, RMEPO, SELF_INSTRUCT_EVAL, VICUNA_7B, VICUNA_EVAL, clean_name,
     create_combined_name, eval_folder_name, experiment_file_name, base_llm_models, embedding_models,
-    evaluation_datasets,evaluator_models, DOLLY_EVAL, BPO, RBPO, device)
+    evaluation_datasets,evaluator_models, DOLLY_EVAL, BPO, RBPO, device, BPO_EVAL, SELF_INSTRUCT_EVAL)
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from config import MODEL_CACHE_PATH, prompt_template_vicuna
 
@@ -20,7 +20,8 @@ load_dotenv()
 hf_token = os.getenv("HF_TOKEN")    
 
 embedding_models = [GEMMA_EMBEDDING_MODEL]
-# base_llm_models = [LLAMA2_7B, GEMMA3]
+# base_llm_models = [VICUNA_7B]
+# evaluation_datasets = [BPO_EVAL, SELF_INSTRUCT_EVAL]
 
 for model_name in embedding_models:
     for base_model in base_llm_models:

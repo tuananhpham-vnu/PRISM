@@ -444,7 +444,7 @@ def check_verify_consistency(verify_key,verify_methods, check_runs=5):
                     
                     # Lưu file _mismatch.json
                     if mismatches:
-                        mismatch_path = f"{eval_folder_name}/verify/{verify_key}/{mismatch_folder_name}/{input_path}_mismatch.json"
+                        mismatch_path = f"{eval_folder_name}/{clean_name(embed_model)}/verify/{verify_key}/{mismatch_folder_name}/{file_name}_mismatch.json"
                         os.makedirs(os.path.dirname(mismatch_path), exist_ok=True)
                         
                         mismatch_result = {
@@ -463,7 +463,7 @@ def check_verify_consistency(verify_key,verify_methods, check_runs=5):
                     
                     # Lưu file _consistency.json
                     if consistencies:
-                        consistency_path = f"{eval_folder_name}/verify/{verify_key}/{consistency_folder_name}/{input_path}_consistency.json"
+                        consistency_path = f"{eval_folder_name}/{clean_name(embed_model)}/verify/{verify_key}/{consistency_folder_name}/{file_name}_consistency.json"
                         os.makedirs(os.path.dirname(consistency_path), exist_ok=True)
                         
                         consistency_winner_dist = count_winner_distribution(consistencies, exclude_ids)
