@@ -6,7 +6,7 @@ from datasets import load_dataset
 from dotenv import load_dotenv
 from config import MODEL_CACHE_PATH
 from tqdm import tqdm
-from helper import (MEPO_MODEL, METHOD, downstream_task_datasets,
+from helper import (MEPO_MODEL, METHOD, RMEPO, downstream_task_datasets,
     downstream_folder_name, M, temp_po_models)
 from utils import make_prompt_template
 from helper import MEPO, BPO_MODEL,BPO
@@ -54,7 +54,7 @@ def generate_multi_response(model,
     # is_apply_chat_template=True,
     device="cuda"
 ):
-    print(f"Generate multi response function")
+    # print(f"Generate multi response function")
     prompts = [prompt] * M
     
     messages = [
@@ -111,7 +111,7 @@ def arc(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
         po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
         # Lưu tất cả M rephrases
         rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
-        print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
+        # print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
 
         po_opt.append({
             'raw_question': prompt,
@@ -124,22 +124,24 @@ def arc(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
 
 def BBH(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
     po_opt = []
+    
+    # Handle nested structure with 'examples' key
+    examples = downstream_dataset.get('examples', downstream_dataset) if isinstance(downstream_dataset, dict) and 'examples' in downstream_dataset else downstream_dataset
 
-    for i in tqdm(range(len(downstream_dataset)), desc="Processing Answers"):
-        prompt = downstream_dataset[i]['question']
+    for i in tqdm(range(len(examples)), desc="Processing Answers"):
+        prompt = examples[i]['input']
 
         # Optimize prompt with PO model sử dụng batching
         po_qs_input = po_prompt_ins.replace("S_P", prompt)
         po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
         # Lưu tất cả M rephrases
         rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
-        print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
+        # print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
 
         po_opt.append({
             'raw_question': prompt,
             f"{method_key}_rephrases": rephrases,
-            "choices": downstream_dataset[i]['choices'],
-            "target": downstream_dataset[i]['target'],
+            "target": examples[i]['target'],
         })
 
         with open(save_file, "w", encoding="utf-8") as f:
@@ -147,21 +149,24 @@ def BBH(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
 
 def BBH_math(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
     po_opt = []
+    
+    # Handle nested structure with 'examples' key
+    examples = downstream_dataset.get('examples', downstream_dataset) if isinstance(downstream_dataset, dict) and 'examples' in downstream_dataset else downstream_dataset
 
-    for i in tqdm(range(len(downstream_dataset)), desc="Processing Answers"):
-        prompt = downstream_dataset[i]['question']
+    for i in tqdm(range(len(examples)), desc="Processing Answers"):
+        prompt = examples[i]['input']
 
         # Optimize prompt with PO model sử dụng batching
         po_qs_input = po_prompt_ins.replace("S_P", prompt)
         po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
         # Lưu tất cả M rephrases
         rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
-        print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
+        # print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
 
         po_opt.append({
             'raw_question': prompt,
             f"{method_key}_rephrases": rephrases,
-            "target": downstream_dataset[i]['target'],
+            "target": examples[i]['target'],
         })
 
         with open(save_file, "w", encoding="utf-8") as f:
@@ -169,8 +174,11 @@ def BBH_math(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
 
 def BBH_wordsorting(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
     po_opt = []
+    
+    # Handle nested structure with 'examples' key
+    examples = downstream_dataset.get('examples', downstream_dataset) if isinstance(downstream_dataset, dict) and 'examples' in downstream_dataset else downstream_dataset
 
-    prompt = downstream_dataset[0]['question']
+    prompt = examples[0]['input']
 
     # Optimize prompt with PO model sử dụng batching
     po_qs_input = po_prompt_ins.replace("S_P", prompt)
@@ -178,15 +186,13 @@ def BBH_wordsorting(model2, tokenizer2,downstream_dataset,method_key, save_file,
     # Lưu tất cả M rephrases
     rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
 
-    for i in tqdm(range(len(downstream_dataset)), desc="Processing Answers"):
-        prompt = downstream_dataset[i]['question']
-
+    for i in tqdm(range(len(examples)), desc="Processing Answers"):
+        prompt = examples[i]['input']
 
         po_opt.append({
             'raw_question': prompt,
             f"{method_key}_rephrases": rephrases,
-            "word_list": downstream_dataset[i]['word_list'],
-            "target": downstream_dataset[i]['target'],
+            "target": examples[i]['target'],
         })
 
         with open(save_file, "w", encoding="utf-8") as f:
@@ -203,7 +209,7 @@ def gsm8k(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
         po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
         # Lưu tất cả M rephrases
         rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
-        print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
+        # print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
 
         po_opt.append({
             'raw_question': prompt,
@@ -224,7 +230,7 @@ def piqa(model2, tokenizer2,downstream_dataset, method_key, save_file, M):
         po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
         # Lưu tất cả M rephrases
         rephrases = [remove_non_characters(p.replace("Golden Prompt:", "").strip().lstrip('\n')) for p in po_opt_prompts]
-        print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
+        # print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
 
         po_opt.append({
             'raw_question': prompt,
@@ -268,8 +274,8 @@ def inspect_dataset(name, dataset, n=2):
 print("Loading PO model...")
 model2, tokenizer2 = load_model_and_tokenizer(MEPO_MODEL)
 
-downstream_task_datasets = ["demo"]
-METHOD = [MEPO]
+# downstream_task_datasets = ["demo"]
+METHOD = [RMEPO]
 
 for method_key in METHOD:
     for task in downstream_task_datasets:
@@ -279,44 +285,48 @@ for method_key in METHOD:
         print(f"\nProcessing task: {task} with method: {method_key}")
         
         save_file = f"{downstream_folder_name}/{method_key}/{task}_optim.json"
-        # try:
-        if task.lower()=='demo':
-            downstream_dataset = read_json(f'./testset/demo.json')
-            piqa(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
-        # if task.lower()=='arc_easy':
-        #     downstream_dataset=load_dataset('allenai/ai2_arc', 'ARC-Easy')
-        #     arc(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
-        # elif task.lower() == 'arc_challenge':
-        #     downstream_dataset = load_dataset("allenai/ai2_arc", "ARC-Challenge")
-        #     arc(model2, tokenizer2,downstream_dataset,method_key,  save_file, M)
-        # elif task.lower()=='gsm8k':
-        #     downstream_dataset = load_dataset("gsm8k", "main")
-        #     gsm8k(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
-        # elif task.lower() == 'piqa':
-        #     downstream_dataset = read_json( f'./testset/{task}.json')
-        #     inspect_dataset(task, downstream_dataset)
+        if not os.path.exists(save_file):
+            os.makedirs(os.path.dirname(save_file), exist_ok=True)
+            
+        # if task.lower()=='demo':
+        #     downstream_dataset = read_json(f'./testset/demo.json')
         #     piqa(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
-        # elif task.upper() == 'BBH':
-        #     multiple_choice = [
-        #         'date_understanding', 'disambiguation_qa', 'hyperbaton', 'logical_deduction_five_objects',
-        #         'logical_deduction_seven_objects', 'logical_deduction_three_objects',
-        #         'movie_recommendation', 'penguins_in_a_table', 'reasoning_about_colored_objects',
-        #         'ruin_names', 'salient_translation_error_detection', 'snarks',
-        #         'temporal_sequences', 'tracking_shuffled_objects_five_objects',
-        #         'tracking_shuffled_objects_seven_objects', 'tracking_shuffled_objects_three_objects',
-        #         'causal_judgement','formal_fallacies','navigate','web_of_lies',
-        #         'sports_understanding','boolean_expressions',
-        #         'multistep_arithmetic_two', 'object_counting', 'word_sorting'
-        #     ]
-        #     for subtask in multiple_choice:
-        #         save_file = f"{downstream_folder_name}/{method_key}/{task}/{subtask}_optim.json"
-        #         downstream_dataset =read_json(f'./testset/{task}/{subtask}.json')
-        #         if subtask == 'word_sorting':
-        #             BBH_wordsorting(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
-        #         elif subtask in ['multistep_arithmetic_two', 'object_counting']:
-        #             BBH_math(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
-        #         else:
-        #             BBH(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+        if task.lower()=='arc_easy':
+            downstream_dataset=load_dataset('allenai/ai2_arc', 'ARC-Easy')
+            arc(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+        elif task.lower() == 'arc_challenge':
+            downstream_dataset = load_dataset("allenai/ai2_arc", "ARC-Challenge")
+            arc(model2, tokenizer2,downstream_dataset,method_key,  save_file, M)
+        elif task.lower()=='gsm8k':
+            downstream_dataset = load_dataset("gsm8k", "main")
+            gsm8k(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+        elif task.lower() == 'piqa':
+            downstream_dataset = read_json( f'./testset/{task}.json')
+            piqa(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+        elif task.upper() == 'BBH':
+            multiple_choice = [
+                'date_understanding', 'disambiguation_qa', 'hyperbaton', 'logical_deduction_five_objects',
+                'logical_deduction_seven_objects', 'logical_deduction_three_objects',
+                'movie_recommendation', 'penguins_in_a_table', 'reasoning_about_colored_objects',
+                'ruin_names', 'salient_translation_error_detection', 'snarks',
+                'temporal_sequences', 'tracking_shuffled_objects_five_objects',
+                'tracking_shuffled_objects_seven_objects', 'tracking_shuffled_objects_three_objects',
+                'causal_judgement','formal_fallacies','navigate','web_of_lies',
+                'sports_understanding','boolean_expressions',
+                'multistep_arithmetic_two', 'object_counting', 'word_sorting'
+            ]
+            for subtask in multiple_choice:
+                save_file = f"{downstream_folder_name}/{method_key}/{task}/{subtask}_optim.json"
+                if not os.path.exists(save_file):
+                    os.makedirs(os.path.dirname(save_file), exist_ok=True)
+            
+                downstream_dataset =read_json(f'./testset/{task}/{subtask}.json')
+                if subtask == 'word_sorting':
+                    BBH_wordsorting(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+                elif subtask in ['multistep_arithmetic_two', 'object_counting']:
+                    BBH_math(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+                else:
+                    BBH(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
 
 
     

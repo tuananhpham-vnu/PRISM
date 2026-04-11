@@ -7,14 +7,16 @@ from sentence_transformers import SentenceTransformer
 from sklearn.cluster import AgglomerativeClustering
 import torch
 from config import MODEL_CACHE_PATH
-from helper import IMP_ENC, clean_name, experiment_file_name, eval_folder_name, device, M, embedding_models, distance_thresholds, METHOD
+from helper import IMP_ENC, RMEPO, clean_name, experiment_file_name, eval_folder_name, device, M, embedding_models, distance_thresholds, METHOD
 
-print("===== STEP 2: clustering =====")
-torch.cuda.empty_cache()
-gc.collect()    
-
-def prompt_clustering(key, item, embedding_model, M, distance_threshold):
-    ori_prompt = item.get("ori_prompt", "")
+def prompt_clustering(key,
+    item,
+    embedding_model,
+    M,
+    distance_threshold,
+    ori_prompt_key
+):
+    ori_prompt = item.get(ori_prompt_key, "")
     samples = item.get(key, [])
     if M > 0:
         samples = samples[:M]
@@ -45,8 +47,8 @@ def prompt_clustering(key, item, embedding_model, M, distance_threshold):
     
     return clusters, embeddings
 
-def representative_selection(item,embedding_model, clusters, embeddings):
-    ori_prompt = item.get("ori_prompt", "")
+def representative_selection(item,embedding_model, clusters, embeddings, ori_prompt_key):
+    ori_prompt = item.get(ori_prompt_key, "")
     original_embedding = embedding_model.encode([ori_prompt], convert_to_tensor=True)[0]
     cluster_representatives = []
     single_cluster = False
@@ -100,16 +102,34 @@ def optimize_prompt_selection(key, item, clusters, embeddings, cluster_represent
     best_rep_idx = cluster_representatives[best_consensus_score_idx]
     return best_rep_idx
 
-from helper import GEMMA_EMBEDDING_MODEL
-folder_name = eval_folder_name
-method_keys = [
-    "rbpo_paraphrases",
-    "rmepo_paraphrases"
-    ]
-
-embedding_models = [GEMMA_EMBEDDING_MODEL]
-for model_name in embedding_models:
+def clustering_and_selection(path, key, item, embedding_model, M, distance_threshold, ori_prompt_key):
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    for item in data:
+        clusters, embeddings = prompt_clustering(key, item, embedding_model, M, distance_threshold, ori_prompt_key)
+        if clusters is None or len(clusters) == 0:  # Bỏ qua nếu dữ liệu không đủ
+            print(f"Warning: Không thể thực hiện clustering cho key '{key}' do dữ liệu không đủ, bỏ qua item này")
+            return None
+        cluster_representatives, single_cluster = representative_selection(item, embedding_model,clusters, embeddings, ori_prompt_key)
+        consensus_scores = compute_consensus_score(key, item, embedding_model, clusters, embeddings, cluster_representatives, single_cluster)
+        best_rep_idx = optimize_prompt_selection(key, item, clusters, embeddings, cluster_representatives, consensus_scores)
+        item[f'{key}_clusters'] = [[item[key][idx] for idx in cluster] for cluster in clusters]
+        item[f'{key}_prompt'] = item[key][best_rep_idx]
+        item[f"{key}_cluster_representatives"] = [item[key][idx] for idx in cluster_representatives]
+        item[f"{key}_consensus_scores"] = consensus_scores
     
+    return data
+
+from helper import GEMMA_EMBEDDING_MODEL, downstream_folder_name, MINLM_EMBEDDING_MODEL, downstream_task_datasets, RBPO
+
+folder_name = downstream_folder_name
+embedding_models = [
+    # GEMMA_EMBEDDING_MODEL,
+    MINLM_EMBEDDING_MODEL
+]
+METHOD = [RBPO,RMEPO]
+
+for model_name in embedding_models:
     embed_model = SentenceTransformer(
         model_name,
         device=device,
@@ -120,40 +140,35 @@ for model_name in embedding_models:
     print(f"Using embedding model: {model_name} with distance threshold: {distance_threshold}")
     
     assert distance_threshold is not None, f"Distance threshold not found for embedding model '{model_name}'"
-    with open(experiment_file_name, "r") as f:
-        lines = f.readlines()
-
-    for line in lines:
-        path = line.strip()
-        print(f"Processing: {path}")
-        output_path = f'{folder_name}/{clean_name(model_name)}/{path}.json'
-        with open(output_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        print(len(data))
-        
-        for item in data:
-            for key in method_keys:
-                clusters, embeddings = prompt_clustering(key, item, embed_model, M, distance_threshold)
-                if clusters is None or len(clusters) == 0:  # Bỏ qua nếu dữ liệu không đủ
-                    print(f"Warning: Không thể thực hiện clustering cho key '{key}' do dữ liệu không đủ, bỏ qua item này")
-                    continue
-                cluster_representatives, single_cluster = representative_selection(item, embed_model,clusters, embeddings)
-                consensus_scores = compute_consensus_score(key, item, embed_model, clusters, embeddings, cluster_representatives, single_cluster)
-                best_rep_idx = optimize_prompt_selection(key, item, clusters, embeddings, cluster_representatives, consensus_scores)
-                output_key = "rbpo" if key == "rbpo_paraphrases" else "rmepo"
-                item[f'{output_key}_clusters'] = [[item[key][idx] for idx in cluster] for cluster in clusters]
-                item[f'{output_key}_prompt'] = item[key][best_rep_idx]
-                item[f"{output_key}_cluster_representatives"] = [item[key][idx] for idx in cluster_representatives]
-                item[f"{output_key}_consensus_scores"] = consensus_scores
-                for key in METHOD:
-                    key_to_remove = f"{key}_response"
-                    if item.get(key_to_remove) is not None:
-                        del item[key_to_remove]
-        # output_path = f'{folder_name}/{clean_name(model_name)}/{path}.json'
-        if not os.path.exists(os.path.dirname(output_path)):
-            os.makedirs(os.path.dirname(output_path))
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-    # remove MODEL_CACHE_PATH
-    if os.path.exists(MODEL_CACHE_PATH):
-        shutil.rmtree(MODEL_CACHE_PATH, ignore_errors=True)
+    for method_key in METHOD:
+        for task in downstream_task_datasets:
+            import torch, gc
+            print('='*80)
+            print(torch.cuda.empty_cache(),gc.collect())
+            print(f"\nProcessing task: {task} with method: {method_key}")
+                        
+            if task.upper() == 'BBH':
+                multiple_choice = [
+                    'date_understanding', 'disambiguation_qa', 'hyperbaton', 'logical_deduction_five_objects',
+                    'logical_deduction_seven_objects', 'logical_deduction_three_objects',
+                    'movie_recommendation', 'penguins_in_a_table', 'reasoning_about_colored_objects',
+                    'ruin_names', 'salient_translation_error_detection', 'snarks',
+                    'temporal_sequences', 'tracking_shuffled_objects_five_objects',
+                    'tracking_shuffled_objects_seven_objects', 'tracking_shuffled_objects_three_objects',
+                    'causal_judgement','formal_fallacies','navigate','web_of_lies',
+                    'sports_understanding','boolean_expressions',
+                    'multistep_arithmetic_two', 'object_counting', 'word_sorting'
+                ]
+                for subtask in multiple_choice:
+                    input_path = f"{downstream_folder_name}/{method_key}/{task}/{subtask}_optim.json"
+                    objs = clustering_and_selection(input_path, f"{method_key}_paraphrases", embed_model, M, distance_threshold, "ori_prompt")
+                    with open(f"{downstream_folder_name}/{method_key}/{task}/{subtask}.json", "w", encoding="utf-8") as f:
+                        json.dump(objs, f, ensure_ascii=False, indent=2)
+                    
+            else:
+                input_path = f"{downstream_folder_name}/{method_key}/{task}_optim.json"
+                with open(input_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                objs = clustering_and_selection(input_path, f"{method_key}_paraphrases", embed_model, M, distance_threshold, "ori_prompt")
+                with open(f"{downstream_folder_name}/{method_key}/{task}.json", "w", encoding="utf-8") as f:
+                    json.dump(objs, f, ensure_ascii=False, indent=2)

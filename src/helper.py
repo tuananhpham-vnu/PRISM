@@ -137,6 +137,12 @@ def print_file_names(file_path: str):
     
     with open(file_path, "w", encoding="utf-8") as f:
         f.write("\n".join(results))
+        
+def read_json(file_path):
+    """Reads a JSON file and returns the parsed data."""
+    with open(file_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)  # Load JSON data
+    return data
 
 if __name__ == "__main__":
     # dataset_processing(evaluation_datasets)
