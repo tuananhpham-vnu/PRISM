@@ -6,8 +6,10 @@ from datasets import load_dataset
 from dotenv import load_dotenv
 from config import MODEL_CACHE_PATH
 from tqdm import tqdm
-from helper import (MEPO_MODEL, METHOD, downstream_task_datasets, downstream_folder_name, M, temp_po_models)
+from helper import (MEPO_MODEL, METHOD, downstream_task_datasets,
+    downstream_folder_name, M, temp_po_models)
 from utils import make_prompt_template
+from helper import MEPO, BPO_MODEL,BPO
 
 load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")    
@@ -49,24 +51,21 @@ def generate_multi_response(model,
     prompt,
     M,
     temperature,
-    is_apply_chat_template=True,
+    # is_apply_chat_template=True,
     device="cuda"
 ):
     print(f"Generate multi response function")
     prompts = [prompt] * M
     
-    if is_apply_chat_template:
-        messages = [
-            [{"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": p}]
-            for p in prompts
-        ]
-        texts = [
-            tokenizer.apply_chat_template(m, tokenize=False, add_generation_prompt=True)
-            for m in messages
-        ]
-    else:
-        texts = prompts  # raw prompt
+    messages = [
+        [{"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": p}]
+        for p in prompts
+    ]
+    texts = [
+        tokenizer.apply_chat_template(m, tokenize=False, add_generation_prompt=True)
+        for m in messages
+    ]
     
     # ===== Tokenize =====
     model_inputs = tokenizer(
@@ -75,21 +74,15 @@ def generate_multi_response(model,
         padding=True,
         truncation=True
     ).to(device)
-        
     
-    # inputs = tokenizer(prompt, return_tensors="pt", truncation=True).to(device)
-    # input_ids = inputs["input_ids"]
-    
-    
-    # texts = [
-        # tokenizer.apply_chat_template(m, tokenize=False, add_generation_prompt=True)
-        # for m in messages
-    # ]
-
-    # model_inputs = tokenizer(texts, return_tensors="pt", padding=True).to(model.device)
+    # Only keep input_ids and attention_mask for generation
+    gen_inputs = {
+        "input_ids": model_inputs["input_ids"],
+        "attention_mask": model_inputs["attention_mask"]
+    }
 
     gen_outputs  = model.generate(
-        **model_inputs,
+        **gen_inputs,
         max_new_tokens=512,
         do_sample=True,             
         temperature=temperature,
@@ -272,12 +265,11 @@ def inspect_dataset(name, dataset, n=2):
         for i in range(min(n, len(dataset))):
             print(dataset[i])
     
-from helper import MEPO, BPO_MODEL,BPO
 print("Loading PO model...")
-model2, tokenizer2 = load_model_and_tokenizer(BPO_MODEL)
+model2, tokenizer2 = load_model_and_tokenizer(MEPO_MODEL)
 
 downstream_task_datasets = ["demo"]
-METHOD = [BPO]
+METHOD = [MEPO]
 
 for method_key in METHOD:
     for task in downstream_task_datasets:
