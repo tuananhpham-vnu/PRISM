@@ -6,7 +6,8 @@ from datasets import load_dataset
 from dotenv import load_dotenv
 from config import MODEL_CACHE_PATH
 from tqdm import tqdm
-from helper import (MEPO_MODEL, METHOD, downstream_task_datasets, downstream_folder_name, M)
+from helper import (MEPO_MODEL, METHOD, downstream_task_datasets, downstream_folder_name, M, temp_po_models)
+from utils import make_prompt_template
 
 load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")    
@@ -31,7 +32,7 @@ def load_model_and_tokenizer(model_path,
         torch_dtype="auto"
     )
     tokenizer = AutoTokenizer.from_pretrained(
-        model,
+        model_path,
         cache_dir=MODEL_CACHE_PATH,
         token=HF_TOKEN,
         legacy=False,
@@ -43,36 +44,68 @@ def load_model_and_tokenizer(model_path,
             
     return model, tokenizer
 
-def generate_multi_response(model, tokenizer, prompt, M):
+def generate_multi_response(model,
+    tokenizer,
+    prompt,
+    M,
+    temperature,
+    is_apply_chat_template=True,
+    device="cuda"
+):
+    print(f"Generate multi response function")
     prompts = [prompt] * M
+    
+    if is_apply_chat_template:
+        messages = [
+            [{"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": p}]
+            for p in prompts
+        ]
+        texts = [
+            tokenizer.apply_chat_template(m, tokenize=False, add_generation_prompt=True)
+            for m in messages
+        ]
+    else:
+        texts = prompts  # raw prompt
+    
+    # ===== Tokenize =====
+    model_inputs = tokenizer(
+        texts,
+        return_tensors="pt",
+        padding=True,
+        truncation=True
+    ).to(device)
+        
+    
+    # inputs = tokenizer(prompt, return_tensors="pt", truncation=True).to(device)
+    # input_ids = inputs["input_ids"]
+    
+    
+    # texts = [
+        # tokenizer.apply_chat_template(m, tokenize=False, add_generation_prompt=True)
+        # for m in messages
+    # ]
 
-    messages = [
-        [{"role": "system", "content": "You are a helpful assistant."},
-         {"role": "user", "content": p}]
-        for p in prompts
-    ]
+    # model_inputs = tokenizer(texts, return_tensors="pt", padding=True).to(model.device)
 
-    texts = [
-        tokenizer.apply_chat_template(m, tokenize=False, add_generation_prompt=True)
-        for m in messages
-    ]
-
-    model_inputs = tokenizer(texts, return_tensors="pt", padding=True).to(model.device)
-
-    outputs = model.generate(
+    gen_outputs  = model.generate(
         **model_inputs,
         max_new_tokens=512,
         do_sample=True,             
-        temperature=0.7,
-        top_p=0.9
-    )
+        temperature=temperature,
+        top_p=0.9,
+        return_dict_in_generate=True
+    )    
+    sequences = gen_outputs.sequences
+
+    # ===== Correct slicing (important) =====
+    input_lengths = (model_inputs.input_ids != tokenizer.pad_token_id).sum(dim=1)
 
     outputs = [
-        out[len(inp):] for inp, out in zip(model_inputs.input_ids, outputs)
+        seq[input_len:] for seq, input_len in zip(sequences, input_lengths)
     ]
-
-    return tokenizer.batch_decode(outputs, skip_special_tokens=True) # ? chỗ này không lấy [0] à?
-
+    # ===== Decode =====
+    return tokenizer.batch_decode(outputs, skip_special_tokens=True)
 
 def arc(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
     po_opt = []
@@ -82,7 +115,7 @@ def arc(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
 
         po_qs_input = po_prompt_ins.replace("S_P", prompt)
         # Sử dụng batching để sinh M variations cùng lúc
-        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M)
+        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
         # Lưu tất cả M rephrases
         rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
         print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
@@ -104,7 +137,7 @@ def BBH(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
 
         # Optimize prompt with PO model sử dụng batching
         po_qs_input = po_prompt_ins.replace("S_P", prompt)
-        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M)
+        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
         # Lưu tất cả M rephrases
         rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
         print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
@@ -127,7 +160,7 @@ def BBH_math(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
 
         # Optimize prompt with PO model sử dụng batching
         po_qs_input = po_prompt_ins.replace("S_P", prompt)
-        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M)
+        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
         # Lưu tất cả M rephrases
         rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
         print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
@@ -148,7 +181,7 @@ def BBH_wordsorting(model2, tokenizer2,downstream_dataset,method_key, save_file,
 
     # Optimize prompt with PO model sử dụng batching
     po_qs_input = po_prompt_ins.replace("S_P", prompt)
-    po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M)
+    po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
     # Lưu tất cả M rephrases
     rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
 
@@ -174,7 +207,7 @@ def gsm8k(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
 
         # Optimize prompt with PO model sử dụng batching
         po_qs_input = po_prompt_ins.replace("S_P", prompt)
-        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M)
+        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
         # Lưu tất cả M rephrases
         rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
         print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
@@ -195,7 +228,7 @@ def piqa(model2, tokenizer2,downstream_dataset, method_key, save_file, M):
 
         # Optimize prompt with PO model sử dụng batching
         po_qs_input = po_prompt_ins.replace("S_P", prompt)
-        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M)
+        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
         # Lưu tất cả M rephrases
         rephrases = [remove_non_characters(p.replace("Golden Prompt:", "").strip().lstrip('\n')) for p in po_opt_prompts]
         print(f"\n--- Optimized Prompts by PO Model ---\n{rephrases[0]}")
@@ -239,8 +272,12 @@ def inspect_dataset(name, dataset, n=2):
         for i in range(min(n, len(dataset))):
             print(dataset[i])
     
+from helper import MEPO, BPO_MODEL,BPO
 print("Loading PO model...")
-model2, tokenizer2 = load_model_and_tokenizer(MEPO_MODEL)
+model2, tokenizer2 = load_model_and_tokenizer(BPO_MODEL)
+
+downstream_task_datasets = ["demo"]
+METHOD = [BPO]
 
 for method_key in METHOD:
     for task in downstream_task_datasets:
@@ -250,9 +287,13 @@ for method_key in METHOD:
         print(f"\nProcessing task: {task} with method: {method_key}")
         
         save_file = f"{downstream_folder_name}/{method_key}/{task}_optim.json"
-        if task.lower()=='arc_easy':
-            downstream_dataset=load_dataset('allenai/ai2_arc', 'ARC-Easy')
-            arc(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+        # try:
+        if task.lower()=='demo':
+            downstream_dataset = read_json(f'./testset/demo.json')
+            piqa(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+        # if task.lower()=='arc_easy':
+        #     downstream_dataset=load_dataset('allenai/ai2_arc', 'ARC-Easy')
+        #     arc(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
         # elif task.lower() == 'arc_challenge':
         #     downstream_dataset = load_dataset("allenai/ai2_arc", "ARC-Challenge")
         #     arc(model2, tokenizer2,downstream_dataset,method_key,  save_file, M)

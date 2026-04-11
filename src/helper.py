@@ -7,6 +7,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 BPO_MODEL = "THUDM/BPO"
 MEPO_MODEL= "zixiaozhu/MePO"
 
+
 MINILM_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L12-v2"
 GEMMA_EMBEDDING_MODEL = "google/embeddinggemma-300m"
 embedding_models = [MINILM_EMBEDDING_MODEL, GEMMA_EMBEDDING_MODEL]
@@ -51,6 +52,10 @@ RBPO = "rbpo"
 MEPO = "mepo"
 RMEPO = "rmepo"
 METHOD = [BPO, RBPO, MEPO, RMEPO]
+temp_po_models = {
+    f'{RBPO}': 0.9,
+    f'{RMEPO}': 0.7
+}
 
 M = 10 # prompt optimization iterations
 # DISTANCE_THRESHOLD=0.05

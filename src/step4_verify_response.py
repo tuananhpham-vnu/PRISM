@@ -503,5 +503,5 @@ verify_keys_method = {
 for key, keys in verify_keys_method.items():
     print(f"\n=== VERIFY KEY: {key} ===")
     print(f"Verify keys: {keys}")
-    verify_response_batch(key, keys, verify_times=VERIFY_TIMES, BATCH_SIZE=BATCH_SIZE)
-    # check_verify_consistency(key,keys,check_runs=VERIFY_TIMES)
+    # verify_response_batch(key, keys, verify_times=VERIFY_TIMES, BATCH_SIZE=BATCH_SIZE)
+    check_verify_consistency(key,keys,check_runs=VERIFY_TIMES)
