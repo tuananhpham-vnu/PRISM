@@ -7,7 +7,9 @@ from sentence_transformers import SentenceTransformer
 from sklearn.cluster import AgglomerativeClustering
 import torch
 from config import MODEL_CACHE_PATH
-from helper import IMP_ENC, RMEPO, clean_name, experiment_file_name, eval_folder_name, device, M, embedding_models, distance_thresholds, METHOD
+from helper import (IMP_ENC, MINILM_EMBEDDING_MODEL, RMEPO, clean_name, experiment_file_name,
+    eval_folder_name, device, M, embedding_models, distance_thresholds, METHOD, 
+    GEMMA_EMBEDDING_MODEL, downstream_folder_name, downstream_task_datasets, RBPO)
 
 def prompt_clustering(key,
     item,
@@ -102,11 +104,11 @@ def optimize_prompt_selection(key, item, clusters, embeddings, cluster_represent
     best_rep_idx = cluster_representatives[best_consensus_score_idx]
     return best_rep_idx
 
-def clustering_and_selection(path, key, item, embedding_model, M, distance_threshold, ori_prompt_key):
+def clustering_and_selection(path, key, embedding_model, M, distance_threshold, ori_prompt_key):
     with open(path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     for item in data:
-        clusters, embeddings = prompt_clustering(key, item, embedding_model, M, distance_threshold, ori_prompt_key)
+        clusters, embeddings = prompt_clustering(f"{key}_rephrases", item, embedding_model, M, distance_threshold, ori_prompt_key)
         if clusters is None or len(clusters) == 0:  # Bỏ qua nếu dữ liệu không đủ
             print(f"Warning: Không thể thực hiện clustering cho key '{key}' do dữ liệu không đủ, bỏ qua item này")
             return None
@@ -120,14 +122,17 @@ def clustering_and_selection(path, key, item, embedding_model, M, distance_thres
     
     return data
 
-from helper import GEMMA_EMBEDDING_MODEL, downstream_folder_name, MINLM_EMBEDDING_MODEL, downstream_task_datasets, RBPO
+
 
 folder_name = downstream_folder_name
 embedding_models = [
-    # GEMMA_EMBEDDING_MODEL,
-    MINLM_EMBEDDING_MODEL
+    GEMMA_EMBEDDING_MODEL,
+    MINILM_EMBEDDING_MODEL
 ]
-METHOD = [RBPO,RMEPO]
+METHOD = [
+    # RBPO,
+    RMEPO
+]
 
 for model_name in embedding_models:
     embed_model = SentenceTransformer(
@@ -142,6 +147,8 @@ for model_name in embedding_models:
     assert distance_threshold is not None, f"Distance threshold not found for embedding model '{model_name}'"
     for method_key in METHOD:
         for task in downstream_task_datasets:
+            save_path = None
+            objs = None
             import torch, gc
             print('='*80)
             print(torch.cuda.empty_cache(),gc.collect())
@@ -161,14 +168,26 @@ for model_name in embedding_models:
                 ]
                 for subtask in multiple_choice:
                     input_path = f"{downstream_folder_name}/{method_key}/{task}/{subtask}_optim.json"
-                    objs = clustering_and_selection(input_path, f"{method_key}_paraphrases", embed_model, M, distance_threshold, "ori_prompt")
-                    with open(f"{downstream_folder_name}/{method_key}/{task}/{subtask}.json", "w", encoding="utf-8") as f:
+                    objs = clustering_and_selection(input_path, method_key, embed_model, M, distance_threshold, ori_prompt_key="raw_question")
+                    save_path = f"{downstream_folder_name}/{clean_name(model_name)}/{method_key}/{task}/{subtask}_cluster.json"
+                    if not os.path.exists(save_path):
+                        os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                    with open(save_path, "w", encoding="utf-8") as f:
                         json.dump(objs, f, ensure_ascii=False, indent=2)
                     
             else:
                 input_path = f"{downstream_folder_name}/{method_key}/{task}_optim.json"
                 with open(input_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                objs = clustering_and_selection(input_path, f"{method_key}_paraphrases", embed_model, M, distance_threshold, "ori_prompt")
-                with open(f"{downstream_folder_name}/{method_key}/{task}.json", "w", encoding="utf-8") as f:
+                objs = clustering_and_selection(input_path, method_key, embed_model, M, distance_threshold, ori_prompt_key="raw_question")
+                save_path = f"{downstream_folder_name}/{clean_name(model_name)}/{method_key}/{task}_cluster.json"
+                if not os.path.exists(save_path):
+                    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                with open(save_path, "w", encoding="utf-8") as f:
                     json.dump(objs, f, ensure_ascii=False, indent=2)
+                    
+    del embed_model
+    torch.cuda.empty_cache()
+    gc.collect()                    
+    if os.path.exists(MODEL_CACHE_PATH):
+        shutil.rmtree(MODEL_CACHE_PATH, ignore_errors=True)

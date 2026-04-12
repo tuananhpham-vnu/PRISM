@@ -41,6 +41,7 @@ def load_model_and_tokenizer(model_path,
         truncation_side='left',
         padding_side='left'
     )
+    model.config.return_dict = True
     if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
             
@@ -177,17 +178,12 @@ def BBH_wordsorting(model2, tokenizer2,downstream_dataset,method_key, save_file,
     
     # Handle nested structure with 'examples' key
     examples = downstream_dataset.get('examples', downstream_dataset) if isinstance(downstream_dataset, dict) and 'examples' in downstream_dataset else downstream_dataset
-
-    prompt = examples[0]['input']
-
-    # Optimize prompt with PO model sử dụng batching
-    po_qs_input = po_prompt_ins.replace("S_P", prompt)
-    po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
-    # Lưu tất cả M rephrases
-    rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
-
     for i in tqdm(range(len(examples)), desc="Processing Answers"):
         prompt = examples[i]['input']
+        po_qs_input = po_prompt_ins.replace("S_P", prompt)
+        po_opt_prompts = generate_multi_response(model2, tokenizer2, po_qs_input, M, temperature=temp_po_models[method_key])
+        # Lưu tất cả M rephrases
+        rephrases = [p.replace("Golden Prompt:", "").strip().lstrip('\n') for p in po_opt_prompts]
 
         po_opt.append({
             'raw_question': prompt,
