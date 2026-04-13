@@ -2,9 +2,13 @@ import json
 import os
 
 import torch
+from dotenv import load_dotenv
 
 from config import MODEL_CACHE_PATH
-from processing import HF_TOKEN
+
+load_dotenv()
+HF_TOKEN = os.getenv("HF_TOKEN")
+
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 BPO_MODEL = "THUDM/BPO"
@@ -65,6 +69,7 @@ M = 10 # prompt optimization iterations
 IMP_ENC=0.5
 
 OPTIM_PROMPT_INSTRUCTION_PATH = "optimize_prompt_instruction.txt"
+
 
 
 def clean_name(path_or_id: str):

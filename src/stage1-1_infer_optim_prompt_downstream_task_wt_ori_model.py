@@ -240,7 +240,6 @@ for method_key in METHOD:
             gsm8k(model2, tokenizer2,downstream_dataset, method_key, save_file)
         elif task.lower() == 'piqa':
             downstream_dataset = read_json( f'./testset/{task}.json')
-            inspect_dataset(task, downstream_dataset)
             piqa(model2, tokenizer2,downstream_dataset, method_key, save_file)
         elif task.upper() == 'BBH':
             multiple_choice = [
