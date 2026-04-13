@@ -2,6 +2,9 @@ import json
 import os
 
 import torch
+
+from config import MODEL_CACHE_PATH
+from processing import HF_TOKEN
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 BPO_MODEL = "THUDM/BPO"
@@ -143,6 +146,32 @@ def read_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)  # Load JSON data
     return data
+
+def load_model_and_tokenizer(model_path,
+    device_map="auto",
+    cache_dir=MODEL_CACHE_PATH,
+    token=HF_TOKEN
+):
+    from transformers import AutoModelForCausalLM, AutoTokenizer
+    model = AutoModelForCausalLM.from_pretrained(model_path, 
+        device_map=device_map,
+        cache_dir=cache_dir,
+        token=token,
+        torch_dtype="auto"
+    )
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_path,
+        cache_dir=MODEL_CACHE_PATH,
+        token=HF_TOKEN,
+        legacy=False,
+        truncation_side='left',
+        padding_side='left'
+    )
+    model.config.return_dict = True
+    if tokenizer.pad_token is None:
+            tokenizer.pad_token = tokenizer.eos_token
+            
+    return model, tokenizer
 
 if __name__ == "__main__":
     # dataset_processing(evaluation_datasets)

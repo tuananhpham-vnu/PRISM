@@ -115,9 +115,9 @@ def clustering_and_selection(path, key, embedding_model, M, distance_threshold, 
         cluster_representatives, single_cluster = representative_selection(item, embedding_model,clusters, embeddings, ori_prompt_key)
         consensus_scores = compute_consensus_score(key, item, embedding_model, clusters, embeddings, cluster_representatives, single_cluster)
         best_rep_idx = optimize_prompt_selection(key, item, clusters, embeddings, cluster_representatives, consensus_scores)
-        item[f'{key}_clusters'] = [[item[key][idx] for idx in cluster] for cluster in clusters]
-        item[f'{key}_prompt'] = item[key][best_rep_idx]
-        item[f"{key}_cluster_representatives"] = [item[key][idx] for idx in cluster_representatives]
+        item[f'{key}_clusters'] = [[item[f"{key}_rephrases"][idx] for idx in cluster] for cluster in clusters]
+        item[f'{key}_prompt'] = item[f"{key}_rephrases"][best_rep_idx]
+        item[f"{key}_cluster_representatives"] = [item[f"{key}_rephrases"][idx] for idx in cluster_representatives]
         item[f"{key}_consensus_scores"] = consensus_scores
     
     return data
@@ -169,7 +169,7 @@ for model_name in embedding_models:
                 for subtask in multiple_choice:
                     input_path = f"{downstream_folder_name}/{method_key}/{task}/{subtask}_optim.json"
                     objs = clustering_and_selection(input_path, method_key, embed_model, M, distance_threshold, ori_prompt_key="raw_question")
-                    save_path = f"{downstream_folder_name}/{clean_name(model_name)}/{method_key}/{task}/{subtask}_cluster.json"
+                    save_path = f"{downstream_folder_name}/{method_key}/{clean_name(model_name)}/{task}/{subtask}_cluster.json"
                     if not os.path.exists(save_path):
                         os.makedirs(os.path.dirname(save_path), exist_ok=True)
                     with open(save_path, "w", encoding="utf-8") as f:
@@ -180,7 +180,7 @@ for model_name in embedding_models:
                 with open(input_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                 objs = clustering_and_selection(input_path, method_key, embed_model, M, distance_threshold, ori_prompt_key="raw_question")
-                save_path = f"{downstream_folder_name}/{clean_name(model_name)}/{method_key}/{task}_cluster.json"
+                save_path = f"{downstream_folder_name}/{method_key}/{clean_name(model_name)}/{task}_cluster.json"
                 if not os.path.exists(save_path):
                     os.makedirs(os.path.dirname(save_path), exist_ok=True)
                 with open(save_path, "w", encoding="utf-8") as f:
