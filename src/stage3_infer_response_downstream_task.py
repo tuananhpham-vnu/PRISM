@@ -6,6 +6,8 @@ from helper import (LLAMA2_7B, clean_name, downstream_folder_name, downstream_ta
 import json, os
 
 from config import prompt_template_gsm8k, prompt_template_piqa, prompt_template_multiple_choice
+from utils import generate, generate_batch
+from utils_downstream_task import format_prompt_template
 
 load_dotenv()
 hf_token = os.getenv("HF_TOKEN")    
@@ -40,6 +42,8 @@ for method in METHOD:
                 legacy=False
             )
             for task in downstream_task_datasets:
+                if task == "demo":
+                    continue
                 if task == BBH:
                     multiple_choice = [
                     'date_understanding', 'disambiguation_qa', 'hyperbaton', 'logical_deduction_five_objects',
@@ -55,31 +59,65 @@ for method in METHOD:
                     for subtask in multiple_choice:
                         data_path = f"{downstream_folder_name}/{method}/{clean_name(embed_model_name)}/{task}/{subtask}_cluster.json"
                         with open(data_path, "r", encoding="utf-8") as f:
-                            data = json.load(f)[:2]
-                        print(f"\nBase model: {base_model} | Task: {subtask} | Dataset: {data_path} | Loaded {len(data)} samples")
+                            data = json.load(f)[:2] # NOTE: chỉ lấy 2 sample đầu để test
+                        print(f"\nBase model: {base_model} | Task: {subtask} | Dataset: {data_path} | Loaded {len(data)} samples")                        
                         
-                        # sua batch cho doan nay di, doan nay call api thi nen batching sang gpu duoc khong?
-                        for item in data:
-                            prompt = item.get(f"{method}_prompt", "")
-                            
-                        
-                            
-                        # obj = f"Loaded data for {method} - {embed_model_name} - {task} - 
-                        # {subtask}, number of samples: {len(data)}"                        
-                        # res.append(obj)
+                        prompts = []
+                        indices = []
+                        for i, item in enumerate(data):
+                            prompt = format_prompt_template(
+                                task_name=subtask,
+                                item=item,
+                                method_key=method
+                            )
+                            prompts.append(prompt)
+                            indices.append(i)
+
+                        responses = generate_batch(
+                            model=model,
+                            tokenizer=tokenizer,
+                            prompts=prompts,
+                            context=None,
+                            do_sample=False,
+                            apply_chat_template=False,
+                            device=device
+                        )
+                        for i, response in zip(indices, responses):
+                            data[i][f"{method}_response"] = response
+                        with open(data_path, "w", encoding="utf-8") as f:
+                            json.dump(data, f, ensure_ascii=False, indent=2)
                 else:
                     data_path= f"{downstream_folder_name}/{method}/{clean_name(embed_model_name)}/{task}_cluster.json"
 
                     with open(data_path, "r", encoding="utf-8") as f:
-                        data = json.load(f)[:2]
+                        data = json.load(f)[:2] # NOTE: chỉ lấy 2 sample đầu để test
                     print(f"\nBase model: {base_model} | Task: {task} | Dataset: {data_path} | Loaded {len(data)} samples")
                     
-                    # obj = f"Loaded data for {method} - {embed_model_name} - {task}, number of samples: {len(data)}"
-                    # res.append(obj)
+                    prompts = []
+                    indices = []
+                    for i, item in enumerate(data):
+                        prompt = format_prompt_template(
+                            task_name=task,
+                            item=item,
+                            method_key=method
+                        )
+                        prompts.append(prompt)
+                        indices.append(i)
+                        
+                    responses = generate_batch(
+                        model=model,
+                        tokenizer=tokenizer,
+                        prompts=prompts,
+                        context=None,
+                        do_sample=False,
+                        apply_chat_template=False,
+                        device=device
+                    )
+                    for i, response in zip(indices, responses):
+                        data[i][f"{method}_response"] = response
+                        
+                    with open(data_path, "w", encoding="utf-8") as f:
+                        json.dump(data, f, ensure_ascii=False, indent=2)
         if os.path.exists(MODEL_CACHE_PATH):
             import shutil
             shutil.rmtree(MODEL_CACHE_PATH, ignore_errors=True)           
-
-# with open("data_overview.txt", "w", encoding="utf-8") as f:
-#     for line in res:
-#         f.write(line + "\n")

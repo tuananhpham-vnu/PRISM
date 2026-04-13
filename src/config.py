@@ -69,9 +69,8 @@ prompt_template_multiple_choice = """
 Question:
 {Q}
 Options:
-##{L_i}: {T_i}
-Reply me with the option of the answer start with \'##\' like ##A or ##B or ##C
-or ##D.
+{options_block}
+Reply me with the option of the answer start with \'##\' like {label_instruction}.
 Answer:"""
 
 

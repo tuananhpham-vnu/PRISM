@@ -6,7 +6,7 @@ from datasets import load_dataset
 from dotenv import load_dotenv
 from config import MODEL_CACHE_PATH
 from tqdm import tqdm
-from helper import (MEPO_MODEL, METHOD, RBPO, RMEPO, downstream_task_datasets,
+from helper import (MEPO_MODEL, METHOD, RBPO, RMEPO, downstream_tasks,
     downstream_folder_name, M, temp_po_models)
 from utils import generate_batch, make_prompt_template
 from helper import MEPO, BPO_MODEL,BPO
@@ -294,7 +294,7 @@ model2, tokenizer2 = load_model_and_tokenizer(BPO_MODEL)
 METHOD = [RBPO]
 
 for method_key in METHOD:
-    for task in downstream_task_datasets:
+    for task in downstream_tasks:
         import torch, gc
         print('='*80)
         print(torch.cuda.empty_cache(),gc.collect())
