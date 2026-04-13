@@ -130,7 +130,7 @@ def BBH(model2, tokenizer2,downstream_dataset,method_key, save_file, M):
     examples = downstream_dataset.get('examples', downstream_dataset) if isinstance(downstream_dataset, dict) and 'examples' in downstream_dataset else downstream_dataset
 
     for i in tqdm(range(len(examples)), desc="Processing Answers"):
-        prompt = examples[i]['input']
+        prompt = examples[i]['question']
 
         # Optimize prompt with PO model sử dụng batching
         po_qs_input = po_prompt_ins.replace("S_P", prompt)

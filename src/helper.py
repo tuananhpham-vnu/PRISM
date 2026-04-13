@@ -44,7 +44,7 @@ ARC_C = "arc_challenge"
 ARC_E = "arc_easy"
 GSM8K = "gsm8k"
 PIQA = "piqa"
-downstream_task_datasets = [BBH, ARC_C, ARC_E, GSM8K, PIQA]
+downstream_tasks = [BBH, ARC_C, ARC_E, GSM8K, PIQA]
 
 mepo_folder_name = "rbpo_mepo"
 mismatch_folder_name = "mismatch"
