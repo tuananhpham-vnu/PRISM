@@ -87,7 +87,7 @@ def format_prompt_template(
         def build_options_block(labels, texts):
             return "\n".join([f"##{l}: {t}" for l, t in zip(labels, texts)])
         def build_label_instruction(labels):
-            return " or ".join([f"##{l}" for l in labels])
+            return " or ".join([f"({l})" for l in labels])
         
         choices = item.get("choices")
         labels = choices.get("label")

@@ -69,6 +69,9 @@ def generate(model, tokenizer, prompt, max_new_tokens=1024, apply_chat_template=
     inputs = tokenizer(prompt, return_tensors="pt", truncation=True).to(device)
     input_ids = inputs["input_ids"]
 
+    # Remove max_length from kwargs to avoid conflict with max_new_tokens
+    kwargs.pop('max_length', None)
+
     # Generate
     out = model.generate(
         **inputs,
@@ -114,6 +117,9 @@ def generate_batch(model, tokenizer, prompts, context=None, max_new_tokens=1024,
 
     # Lưu độ dài input của từng prompt (trước padding)
     input_lengths = [len(ids) for ids in inputs["input_ids"]]
+
+    # Remove max_length from kwargs to avoid conflict with max_new_tokens
+    kwargs.pop('max_length', None)
 
     # Generate
     outputs = model.generate(
@@ -175,6 +181,9 @@ def generate_batch_with_logprob(model, tokenizer, prompts,context=None, max_new_
 
     # Lưu độ dài input của từng prompt
     input_lengths = [len(ids) for ids in inputs["input_ids"]]
+
+    # Remove max_length from kwargs to avoid conflict with max_new_tokens
+    kwargs.pop('max_length', None)
 
     # Generate với output_scores
     outputs = model.generate(
