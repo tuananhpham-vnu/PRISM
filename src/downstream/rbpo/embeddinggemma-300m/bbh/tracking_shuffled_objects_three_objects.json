@@ -36,18 +36,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ulysses",
-          "Frankenstein",
-          "Lolita"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ulysses",
+        "Frankenstein",
+        "Lolita"
+      ]
     }
   },
   {
@@ -91,18 +89,16 @@
       0.6458756625652313
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Hound of the Baskervilles",
-          "The Odyssey",
-          "Catch-22"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Hound of the Baskervilles",
+        "The Odyssey",
+        "Catch-22"
+      ]
     }
   },
   {
@@ -142,18 +138,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "Catch-22",
-          "Ulysses"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "Catch-22",
+        "Ulysses"
+      ]
     }
   },
   {
@@ -197,18 +191,16 @@
       0.47346331179142
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Helga",
-          "Lola",
-          "Ophelia"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Helga",
+        "Lola",
+        "Ophelia"
+      ]
     }
   },
   {
@@ -248,18 +240,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Odyssey",
-          "Lolita"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Odyssey",
+        "Lolita"
+      ]
     }
   },
   {
@@ -299,18 +289,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Catch-22",
-          "Moby Dick",
-          "The Great Gatsby"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Catch-22",
+        "Moby Dick",
+        "The Great Gatsby"
+      ]
     }
   },
   {
@@ -350,18 +338,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Izzi",
-          "Melissa",
-          "Lola"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Izzi",
+        "Melissa",
+        "Lola"
+      ]
     }
   },
   {
@@ -401,18 +387,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Great Gatsby",
-          "The Odyssey",
-          "Lolita"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Great Gatsby",
+        "The Odyssey",
+        "Lolita"
+      ]
     }
   },
   {
@@ -452,18 +436,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "brown ball",
-          "red ball",
-          "white ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "brown ball",
+        "red ball",
+        "white ball"
+      ]
     }
   },
   {
@@ -503,18 +485,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow ball",
-          "brown ball",
-          "green ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow ball",
+        "brown ball",
+        "green ball"
+      ]
     }
   },
   {
@@ -554,18 +534,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow ball",
-          "orange ball",
-          "white ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow ball",
+        "orange ball",
+        "white ball"
+      ]
     }
   },
   {
@@ -605,18 +583,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Karl",
-          "Rodrigo",
-          "Helga"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Karl",
+        "Rodrigo",
+        "Helga"
+      ]
     }
   },
   {
@@ -656,18 +632,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "red present",
-          "black ball",
-          "white present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "red present",
+        "black ball",
+        "white present"
+      ]
     }
   },
   {
@@ -707,18 +681,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "purple present",
-          "red present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "purple present",
+        "red present"
+      ]
     }
   },
   {
@@ -758,18 +730,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue ball",
-          "red ball",
-          "yellow ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue ball",
+        "red ball",
+        "yellow ball"
+      ]
     }
   },
   {
@@ -809,18 +779,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ophelia",
-          "Jamie",
-          "Rodrigo"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ophelia",
+        "Jamie",
+        "Rodrigo"
+      ]
     }
   },
   {
@@ -860,18 +828,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "Moby Dick",
-          "The Fellowship of the Ring"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "Moby Dick",
+        "The Fellowship of the Ring"
+      ]
     }
   },
   {
@@ -911,18 +877,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "goalkeeper",
-          "left winger",
-          "center midfielder"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "goalkeeper",
+        "left winger",
+        "center midfielder"
+      ]
     }
   },
   {
@@ -962,18 +926,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "cheerleader",
-          "right winger",
-          "benchwarmer"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "cheerleader",
+        "right winger",
+        "benchwarmer"
+      ]
     }
   },
   {
@@ -1013,18 +975,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Great Gatsby",
-          "Frankenstein",
-          "Ulysses"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Great Gatsby",
+        "Frankenstein",
+        "Ulysses"
+      ]
     }
   },
   {
@@ -1064,18 +1024,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ophelia",
-          "Lola",
-          "Izzi"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ophelia",
+        "Lola",
+        "Izzi"
+      ]
     }
   },
   {
@@ -1115,18 +1073,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right midfielder",
-          "center midfielder",
-          "striker"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right midfielder",
+        "center midfielder",
+        "striker"
+      ]
     }
   },
   {
@@ -1170,18 +1126,16 @@
       0.7009426578879356
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Helga",
-          "Patrick",
-          "Sam"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Helga",
+        "Patrick",
+        "Sam"
+      ]
     }
   },
   {
@@ -1221,18 +1175,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "purple ball",
-          "yellow ball",
-          "orange ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "purple ball",
+        "yellow ball",
+        "orange ball"
+      ]
     }
   },
   {
@@ -1272,18 +1224,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Great Gatsby",
-          "Ulysses"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Great Gatsby",
+        "Ulysses"
+      ]
     }
   },
   {
@@ -1323,18 +1273,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Pearl",
-          "The Fellowship of the Ring"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Pearl",
+        "The Fellowship of the Ring"
+      ]
     }
   },
   {
@@ -1374,18 +1322,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "orange ball",
-          "white present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "orange ball",
+        "white present"
+      ]
     }
   },
   {
@@ -1425,18 +1371,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "white present",
-          "blue present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "white present",
+        "blue present"
+      ]
     }
   },
   {
@@ -1476,18 +1420,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Great Gatsby",
-          "Ulysses"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Great Gatsby",
+        "Ulysses"
+      ]
     }
   },
   {
@@ -1527,18 +1469,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Karl",
-          "Rodrigo",
-          "Patrick"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Karl",
+        "Rodrigo",
+        "Patrick"
+      ]
     }
   },
   {
@@ -1578,18 +1518,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow present",
-          "orange ball",
-          "green present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow present",
+        "orange ball",
+        "green present"
+      ]
     }
   },
   {
@@ -1629,18 +1567,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Jamie",
-          "Patrick",
-          "Melissa"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Jamie",
+        "Patrick",
+        "Melissa"
+      ]
     }
   },
   {
@@ -1680,18 +1616,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Rodrigo",
-          "Sam",
-          "Lola"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Rodrigo",
+        "Sam",
+        "Lola"
+      ]
     }
   },
   {
@@ -1731,18 +1665,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "white present",
-          "pink ball",
-          "black ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "white present",
+        "pink ball",
+        "black ball"
+      ]
     }
   },
   {
@@ -1782,18 +1714,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Hound of the Baskervilles",
-          "Frankenstein",
-          "The Odyssey"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Hound of the Baskervilles",
+        "Frankenstein",
+        "The Odyssey"
+      ]
     }
   },
   {
@@ -1833,18 +1763,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow ball",
-          "purple ball",
-          "blue ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow ball",
+        "purple ball",
+        "blue ball"
+      ]
     }
   },
   {
@@ -1884,18 +1812,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "yellow ball",
-          "white ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "yellow ball",
+        "white ball"
+      ]
     }
   },
   {
@@ -1935,18 +1861,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "purple present",
-          "blue present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "purple present",
+        "blue present"
+      ]
     }
   },
   {
@@ -1986,18 +1910,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "brown ball",
-          "orange ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "brown ball",
+        "orange ball"
+      ]
     }
   },
   {
@@ -2037,18 +1959,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Lola",
-          "Patrick",
-          "Melissa"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Lola",
+        "Patrick",
+        "Melissa"
+      ]
     }
   },
   {
@@ -2088,18 +2008,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue present",
-          "red present",
-          "green present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue present",
+        "red present",
+        "green present"
+      ]
     }
   },
   {
@@ -2139,18 +2057,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "fullback",
-          "goalkeeper",
-          "right winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "fullback",
+        "goalkeeper",
+        "right winger"
+      ]
     }
   },
   {
@@ -2194,18 +2110,16 @@
       0.6374328508973122
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "cheerleader",
-          "benchwarmer",
-          "left winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "cheerleader",
+        "benchwarmer",
+        "left winger"
+      ]
     }
   },
   {
@@ -2245,18 +2159,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow ball",
-          "green ball",
-          "blue ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow ball",
+        "green ball",
+        "blue ball"
+      ]
     }
   },
   {
@@ -2296,18 +2208,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Catch-22",
-          "Moby Dick",
-          "The Great Gatsby"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Catch-22",
+        "Moby Dick",
+        "The Great Gatsby"
+      ]
     }
   },
   {
@@ -2347,18 +2257,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "black ball",
-          "purple present",
-          "blue present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "black ball",
+        "purple present",
+        "blue present"
+      ]
     }
   },
   {
@@ -2398,18 +2306,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "white present",
-          "blue present",
-          "pink ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "white present",
+        "blue present",
+        "pink ball"
+      ]
     }
   },
   {
@@ -2449,18 +2355,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Odyssey",
-          "The Great Gatsby"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Odyssey",
+        "The Great Gatsby"
+      ]
     }
   },
   {
@@ -2500,18 +2404,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "left midfielder",
-          "right midfielder",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "left midfielder",
+        "right midfielder",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -2551,18 +2453,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "black ball",
-          "purple present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "black ball",
+        "purple present"
+      ]
     }
   },
   {
@@ -2602,18 +2502,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Fellowship of the Ring",
-          "Frankenstein",
-          "The Great Gatsby"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Fellowship of the Ring",
+        "Frankenstein",
+        "The Great Gatsby"
+      ]
     }
   },
   {
@@ -2653,18 +2551,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "black ball",
-          "brown ball",
-          "blue ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "black ball",
+        "brown ball",
+        "blue ball"
+      ]
     }
   },
   {
@@ -2704,18 +2600,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "brown ball",
-          "blue ball",
-          "purple ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "brown ball",
+        "blue ball",
+        "purple ball"
+      ]
     }
   },
   {
@@ -2755,18 +2649,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ulysses",
-          "Frankenstein",
-          "Catch-22"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ulysses",
+        "Frankenstein",
+        "Catch-22"
+      ]
     }
   },
   {
@@ -2806,18 +2698,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Sam",
-          "Karl",
-          "Helga"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Sam",
+        "Karl",
+        "Helga"
+      ]
     }
   },
   {
@@ -2857,18 +2747,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "black ball",
-          "brown ball",
-          "blue ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "black ball",
+        "brown ball",
+        "blue ball"
+      ]
     }
   },
   {
@@ -2908,18 +2796,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "striker",
-          "benchwarmer",
-          "center midfielder"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "striker",
+        "benchwarmer",
+        "center midfielder"
+      ]
     }
   },
   {
@@ -2959,18 +2845,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow ball",
-          "blue ball",
-          "pink ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow ball",
+        "blue ball",
+        "pink ball"
+      ]
     }
   },
   {
@@ -3010,18 +2894,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Hound of the Baskervilles",
-          "Frankenstein",
-          "Lolita"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Hound of the Baskervilles",
+        "Frankenstein",
+        "Lolita"
+      ]
     }
   },
   {
@@ -3061,18 +2943,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "left midfielder",
-          "right midfielder",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "left midfielder",
+        "right midfielder",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -3112,18 +2992,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Lolita",
-          "Catch-22",
-          "The Great Gatsby"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Lolita",
+        "Catch-22",
+        "The Great Gatsby"
+      ]
     }
   },
   {
@@ -3163,18 +3041,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Sam",
-          "Lola",
-          "Karl"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Sam",
+        "Lola",
+        "Karl"
+      ]
     }
   },
   {
@@ -3214,18 +3090,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "left midfielder",
-          "center midfielder",
-          "benchwarmer"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "left midfielder",
+        "center midfielder",
+        "benchwarmer"
+      ]
     }
   },
   {
@@ -3265,18 +3139,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "goalkeeper",
-          "left midfielder",
-          "fullback"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "goalkeeper",
+        "left midfielder",
+        "fullback"
+      ]
     }
   },
   {
@@ -3316,18 +3188,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "left winger",
-          "fullback",
-          "right winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "left winger",
+        "fullback",
+        "right winger"
+      ]
     }
   },
   {
@@ -3367,18 +3237,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "red ball",
-          "orange ball",
-          "green ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "red ball",
+        "orange ball",
+        "green ball"
+      ]
     }
   },
   {
@@ -3418,18 +3286,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "purple ball",
-          "blue ball",
-          "black ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "purple ball",
+        "blue ball",
+        "black ball"
+      ]
     }
   },
   {
@@ -3473,18 +3339,16 @@
       0.7255069017410278
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow present",
-          "brown present",
-          "blue present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow present",
+        "brown present",
+        "blue present"
+      ]
     }
   },
   {
@@ -3524,18 +3388,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "blue present",
-          "brown present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "blue present",
+        "brown present"
+      ]
     }
   },
   {
@@ -3575,18 +3437,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "cheerleader",
-          "right winger",
-          "fullback"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "cheerleader",
+        "right winger",
+        "fullback"
+      ]
     }
   },
   {
@@ -3626,18 +3486,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "brown ball",
-          "orange ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "brown ball",
+        "orange ball"
+      ]
     }
   },
   {
@@ -3677,18 +3535,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Melissa",
-          "Karl",
-          "Patrick"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Melissa",
+        "Karl",
+        "Patrick"
+      ]
     }
   },
   {
@@ -3728,18 +3584,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow ball",
-          "purple ball",
-          "blue ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow ball",
+        "purple ball",
+        "blue ball"
+      ]
     }
   },
   {
@@ -3779,18 +3633,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "Moby Dick",
-          "The Fellowship of the Ring"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "Moby Dick",
+        "The Fellowship of the Ring"
+      ]
     }
   },
   {
@@ -3834,18 +3686,16 @@
       0.4945284575223923
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "black ball",
-          "purple present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "black ball",
+        "purple present"
+      ]
     }
   },
   {
@@ -3885,18 +3735,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "yellow present",
-          "orange ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "yellow present",
+        "orange ball"
+      ]
     }
   },
   {
@@ -3936,18 +3784,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "black ball",
-          "orange ball",
-          "white present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "black ball",
+        "orange ball",
+        "white present"
+      ]
     }
   },
   {
@@ -3987,18 +3833,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Odyssey",
-          "The Fellowship of the Ring",
-          "Hound of the Baskervilles"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Odyssey",
+        "The Fellowship of the Ring",
+        "Hound of the Baskervilles"
+      ]
     }
   },
   {
@@ -4038,18 +3882,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "brown ball",
-          "orange ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "brown ball",
+        "orange ball"
+      ]
     }
   },
   {
@@ -4089,18 +3931,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Odyssey",
-          "Lolita",
-          "The Great Gatsby"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Odyssey",
+        "Lolita",
+        "The Great Gatsby"
+      ]
     }
   },
   {
@@ -4140,18 +3980,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Helga",
-          "Ophelia",
-          "Sam"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Helga",
+        "Ophelia",
+        "Sam"
+      ]
     }
   },
   {
@@ -4195,18 +4033,16 @@
       0.6845686361193657
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "center midfielder",
-          "right midfielder",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "center midfielder",
+        "right midfielder",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -4250,18 +4086,16 @@
       0.4220518171787262
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "left winger",
-          "fullback",
-          "right winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "left winger",
+        "fullback",
+        "right winger"
+      ]
     }
   },
   {
@@ -4301,18 +4135,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "center midfielder",
-          "left midfielder",
-          "left winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "center midfielder",
+        "left midfielder",
+        "left winger"
+      ]
     }
   },
   {
@@ -4352,18 +4184,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Patrick",
-          "Karl",
-          "Izzi"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Patrick",
+        "Karl",
+        "Izzi"
+      ]
     }
   },
   {
@@ -4403,18 +4233,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "orange ball",
-          "white ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "orange ball",
+        "white ball"
+      ]
     }
   },
   {
@@ -4454,18 +4282,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Catch-22",
-          "Moby Dick",
-          "The Fellowship of the Ring"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Catch-22",
+        "Moby Dick",
+        "The Fellowship of the Ring"
+      ]
     }
   },
   {
@@ -4505,18 +4331,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "goalkeeper",
-          "left midfielder",
-          "striker"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "goalkeeper",
+        "left midfielder",
+        "striker"
+      ]
     }
   },
   {
@@ -4556,18 +4380,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Odyssey",
-          "Ulysses"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Odyssey",
+        "Ulysses"
+      ]
     }
   },
   {
@@ -4611,18 +4433,16 @@
       0.5568801388144493
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "black ball",
-          "green present",
-          "brown present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "black ball",
+        "green present",
+        "brown present"
+      ]
     }
   },
   {
@@ -4662,18 +4482,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "green ball",
-          "black ball",
-          "blue ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "green ball",
+        "black ball",
+        "blue ball"
+      ]
     }
   },
   {
@@ -4717,18 +4535,16 @@
       0.6591501906514168
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "center midfielder",
-          "benchwarmer",
-          "fullback"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "center midfielder",
+        "benchwarmer",
+        "fullback"
+      ]
     }
   },
   {
@@ -4768,18 +4584,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "fullback",
-          "goalkeeper",
-          "left midfielder"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "fullback",
+        "goalkeeper",
+        "left midfielder"
+      ]
     }
   },
   {
@@ -4819,18 +4633,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right winger",
-          "left midfielder",
-          "center midfielder"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right winger",
+        "left midfielder",
+        "center midfielder"
+      ]
     }
   },
   {
@@ -4870,18 +4682,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow present",
-          "white present",
-          "purple present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow present",
+        "white present",
+        "purple present"
+      ]
     }
   },
   {
@@ -4921,18 +4731,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ophelia",
-          "Rodrigo",
-          "Karl"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ophelia",
+        "Rodrigo",
+        "Karl"
+      ]
     }
   },
   {
@@ -4972,18 +4780,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Fellowship of the Ring",
-          "Catch-22",
-          "Moby Dick"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Fellowship of the Ring",
+        "Catch-22",
+        "Moby Dick"
+      ]
     }
   },
   {
@@ -5023,18 +4829,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Fellowship of the Ring",
-          "The Odyssey",
-          "The Great Gatsby"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Fellowship of the Ring",
+        "The Odyssey",
+        "The Great Gatsby"
+      ]
     }
   },
   {
@@ -5074,18 +4878,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "green present",
-          "blue present",
-          "brown present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "green present",
+        "blue present",
+        "brown present"
+      ]
     }
   },
   {
@@ -5125,18 +4927,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Pearl",
-          "The Odyssey"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Pearl",
+        "The Odyssey"
+      ]
     }
   },
   {
@@ -5176,18 +4976,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "green ball",
-          "white ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "green ball",
+        "white ball"
+      ]
     }
   },
   {
@@ -5227,18 +5025,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Sam",
-          "Helga",
-          "Karl"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Sam",
+        "Helga",
+        "Karl"
+      ]
     }
   },
   {
@@ -5278,18 +5074,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Jamie",
-          "Patrick",
-          "Melissa"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Jamie",
+        "Patrick",
+        "Melissa"
+      ]
     }
   },
   {
@@ -5329,18 +5123,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "white present",
-          "blue present",
-          "yellow present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "white present",
+        "blue present",
+        "yellow present"
+      ]
     }
   },
   {
@@ -5380,18 +5172,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "white ball",
-          "blue ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "white ball",
+        "blue ball"
+      ]
     }
   },
   {
@@ -5431,18 +5221,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Helga",
-          "Sam",
-          "Jamie"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Helga",
+        "Sam",
+        "Jamie"
+      ]
     }
   },
   {
@@ -5482,18 +5270,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "white ball",
-          "purple ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "white ball",
+        "purple ball"
+      ]
     }
   },
   {
@@ -5533,18 +5319,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "purple present",
-          "blue present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "purple present",
+        "blue present"
+      ]
     }
   },
   {
@@ -5584,18 +5368,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue ball",
-          "white ball",
-          "red ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue ball",
+        "white ball",
+        "red ball"
+      ]
     }
   },
   {
@@ -5635,18 +5417,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow present",
-          "green present",
-          "purple present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow present",
+        "green present",
+        "purple present"
+      ]
     }
   },
   {
@@ -5686,18 +5466,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "Catch-22",
-          "Ulysses"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "Catch-22",
+        "Ulysses"
+      ]
     }
   },
   {
@@ -5737,18 +5515,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right midfielder",
-          "goalkeeper",
-          "left winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right midfielder",
+        "goalkeeper",
+        "left winger"
+      ]
     }
   },
   {
@@ -5788,18 +5564,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Odyssey",
-          "Frankenstein",
-          "The Pearl"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Odyssey",
+        "Frankenstein",
+        "The Pearl"
+      ]
     }
   },
   {
@@ -5839,18 +5613,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "green present",
-          "black ball",
-          "blue present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "green present",
+        "black ball",
+        "blue present"
+      ]
     }
   },
   {
@@ -5898,18 +5670,16 @@
       1.0202938169240952
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "black ball",
-          "purple present",
-          "blue present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "black ball",
+        "purple present",
+        "blue present"
+      ]
     }
   },
   {
@@ -5949,18 +5719,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "black ball",
-          "purple present",
-          "blue present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "black ball",
+        "purple present",
+        "blue present"
+      ]
     }
   },
   {
@@ -6000,18 +5768,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "green ball",
-          "black ball",
-          "purple ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "green ball",
+        "black ball",
+        "purple ball"
+      ]
     }
   },
   {
@@ -6051,18 +5817,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "goalkeeper",
-          "left midfielder",
-          "striker"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "goalkeeper",
+        "left midfielder",
+        "striker"
+      ]
     }
   },
   {
@@ -6102,18 +5866,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Patrick",
-          "Izzi",
-          "Karl"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Patrick",
+        "Izzi",
+        "Karl"
+      ]
     }
   },
   {
@@ -6153,18 +5915,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "red ball",
-          "black ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "red ball",
+        "black ball"
+      ]
     }
   },
   {
@@ -6204,18 +5964,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Catch-22",
-          "Lolita",
-          "Hound of the Baskervilles"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Catch-22",
+        "Lolita",
+        "Hound of the Baskervilles"
+      ]
     }
   },
   {
@@ -6255,18 +6013,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "left midfielder",
-          "goalkeeper",
-          "right winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "left midfielder",
+        "goalkeeper",
+        "right winger"
+      ]
     }
   },
   {
@@ -6306,18 +6062,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Melissa",
-          "Sam",
-          "Karl"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Melissa",
+        "Sam",
+        "Karl"
+      ]
     }
   },
   {
@@ -6357,18 +6111,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "red ball",
-          "green ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "red ball",
+        "green ball"
+      ]
     }
   },
   {
@@ -6408,18 +6160,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right midfielder",
-          "goalkeeper",
-          "left winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right midfielder",
+        "goalkeeper",
+        "left winger"
+      ]
     }
   },
   {
@@ -6459,18 +6209,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "center midfielder",
-          "right midfielder",
-          "right winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "center midfielder",
+        "right midfielder",
+        "right winger"
+      ]
     }
   },
   {
@@ -6514,18 +6262,16 @@
       0.37696513533592224
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Lolita",
-          "The Great Gatsby",
-          "The Odyssey"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Lolita",
+        "The Great Gatsby",
+        "The Odyssey"
+      ]
     }
   },
   {
@@ -6565,18 +6311,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow present",
-          "white present",
-          "purple present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow present",
+        "white present",
+        "purple present"
+      ]
     }
   },
   {
@@ -6620,18 +6364,16 @@
       0.6453305631875992
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "goalkeeper",
-          "fullback",
-          "left winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "goalkeeper",
+        "fullback",
+        "left winger"
+      ]
     }
   },
   {
@@ -6671,18 +6413,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ulysses",
-          "Frankenstein",
-          "Catch-22"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ulysses",
+        "Frankenstein",
+        "Catch-22"
+      ]
     }
   },
   {
@@ -6722,18 +6462,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "blue present",
-          "brown present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "blue present",
+        "brown present"
+      ]
     }
   },
   {
@@ -6773,18 +6511,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Lolita",
-          "Hound of the Baskervilles",
-          "The Fellowship of the Ring"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Lolita",
+        "Hound of the Baskervilles",
+        "The Fellowship of the Ring"
+      ]
     }
   },
   {
@@ -6824,18 +6560,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue present",
-          "red present",
-          "orange ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue present",
+        "red present",
+        "orange ball"
+      ]
     }
   },
   {
@@ -6875,18 +6609,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "black ball",
-          "white present",
-          "pink ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "black ball",
+        "white present",
+        "pink ball"
+      ]
     }
   },
   {
@@ -6930,18 +6662,16 @@
       0.42019787430763245
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "white present",
-          "orange ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "white present",
+        "orange ball"
+      ]
     }
   },
   {
@@ -6981,18 +6711,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ophelia",
-          "Jamie",
-          "Melissa"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ophelia",
+        "Jamie",
+        "Melissa"
+      ]
     }
   },
   {
@@ -7032,18 +6760,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Odyssey",
-          "The Fellowship of the Ring",
-          "The Pearl"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Odyssey",
+        "The Fellowship of the Ring",
+        "The Pearl"
+      ]
     }
   },
   {
@@ -7083,18 +6809,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Izzi",
-          "Jamie",
-          "Rodrigo"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Izzi",
+        "Jamie",
+        "Rodrigo"
+      ]
     }
   },
   {
@@ -7134,18 +6858,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "green ball",
-          "blue ball",
-          "brown ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "green ball",
+        "blue ball",
+        "brown ball"
+      ]
     }
   },
   {
@@ -7185,18 +6907,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "center midfielder",
-          "right midfielder",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "center midfielder",
+        "right midfielder",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -7236,18 +6956,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Odyssey",
-          "The Great Gatsby"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Odyssey",
+        "The Great Gatsby"
+      ]
     }
   },
   {
@@ -7287,18 +7005,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right winger",
-          "striker",
-          "fullback"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right winger",
+        "striker",
+        "fullback"
+      ]
     }
   },
   {
@@ -7338,18 +7054,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "goalkeeper",
-          "center midfielder",
-          "benchwarmer"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "goalkeeper",
+        "center midfielder",
+        "benchwarmer"
+      ]
     }
   },
   {
@@ -7389,18 +7103,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "white ball",
-          "purple ball",
-          "pink ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "white ball",
+        "purple ball",
+        "pink ball"
+      ]
     }
   },
   {
@@ -7440,18 +7152,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Rodrigo",
-          "Jamie",
-          "Sam"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Rodrigo",
+        "Jamie",
+        "Sam"
+      ]
     }
   },
   {
@@ -7495,18 +7205,16 @@
       0.7317526489496231
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "yellow ball",
-          "white ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "yellow ball",
+        "white ball"
+      ]
     }
   },
   {
@@ -7546,18 +7254,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "brown present",
-          "yellow present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "brown present",
+        "yellow present"
+      ]
     }
   },
   {
@@ -7597,18 +7303,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue present",
-          "brown present",
-          "white present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue present",
+        "brown present",
+        "white present"
+      ]
     }
   },
   {
@@ -7648,18 +7352,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "fullback",
-          "cheerleader",
-          "left winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "fullback",
+        "cheerleader",
+        "left winger"
+      ]
     }
   },
   {
@@ -7699,18 +7401,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Catch-22",
-          "Lolita",
-          "Hound of the Baskervilles"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Catch-22",
+        "Lolita",
+        "Hound of the Baskervilles"
+      ]
     }
   },
   {
@@ -7750,18 +7450,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "white present",
-          "pink ball",
-          "black ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "white present",
+        "pink ball",
+        "black ball"
+      ]
     }
   },
   {
@@ -7801,18 +7499,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "striker",
-          "benchwarmer",
-          "center midfielder"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "striker",
+        "benchwarmer",
+        "center midfielder"
+      ]
     }
   },
   {
@@ -7856,18 +7552,16 @@
       0.7450319454073906
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow present",
-          "green present",
-          "purple present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow present",
+        "green present",
+        "purple present"
+      ]
     }
   },
   {
@@ -7907,18 +7601,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "brown ball",
-          "pink ball",
-          "blue ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "brown ball",
+        "pink ball",
+        "blue ball"
+      ]
     }
   },
   {
@@ -7958,18 +7650,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Patrick",
-          "Izzi",
-          "Karl"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Patrick",
+        "Izzi",
+        "Karl"
+      ]
     }
   },
   {
@@ -8009,18 +7699,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "cheerleader",
-          "right winger",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "cheerleader",
+        "right winger",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -8060,18 +7748,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Odyssey",
-          "Ulysses"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Odyssey",
+        "Ulysses"
+      ]
     }
   },
   {
@@ -8111,18 +7797,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "cheerleader",
-          "right winger",
-          "fullback"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "cheerleader",
+        "right winger",
+        "fullback"
+      ]
     }
   },
   {
@@ -8162,18 +7846,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Catch-22",
-          "Moby Dick",
-          "The Fellowship of the Ring"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Catch-22",
+        "Moby Dick",
+        "The Fellowship of the Ring"
+      ]
     }
   },
   {
@@ -8213,18 +7895,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow ball",
-          "green ball",
-          "blue ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow ball",
+        "green ball",
+        "blue ball"
+      ]
     }
   },
   {
@@ -8264,18 +7944,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right winger",
-          "right midfielder",
-          "fullback"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right winger",
+        "right midfielder",
+        "fullback"
+      ]
     }
   },
   {
@@ -8315,18 +7993,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "goalkeeper",
-          "left winger",
-          "left midfielder"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "goalkeeper",
+        "left winger",
+        "left midfielder"
+      ]
     }
   },
   {
@@ -8370,18 +8046,16 @@
       0.6619902998209
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "red ball",
-          "orange ball",
-          "black ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "red ball",
+        "orange ball",
+        "black ball"
+      ]
     }
   },
   {
@@ -8421,18 +8095,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "purple ball",
-          "red ball",
-          "green ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "purple ball",
+        "red ball",
+        "green ball"
+      ]
     }
   },
   {
@@ -8472,18 +8144,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "brown ball",
-          "white ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "brown ball",
+        "white ball"
+      ]
     }
   },
   {
@@ -8531,18 +8201,16 @@
       1.456728145480156
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "red ball",
-          "pink ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "red ball",
+        "pink ball"
+      ]
     }
   },
   {
@@ -8582,18 +8250,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Great Gatsby",
-          "The Pearl",
-          "The Odyssey"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Great Gatsby",
+        "The Pearl",
+        "The Odyssey"
+      ]
     }
   },
   {
@@ -8633,18 +8299,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Melissa",
-          "Lola",
-          "Izzi"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Melissa",
+        "Lola",
+        "Izzi"
+      ]
     }
   },
   {
@@ -8684,18 +8348,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Rodrigo",
-          "Jamie",
-          "Izzi"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Rodrigo",
+        "Jamie",
+        "Izzi"
+      ]
     }
   },
   {
@@ -8735,18 +8397,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right winger",
-          "benchwarmer",
-          "striker"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right winger",
+        "benchwarmer",
+        "striker"
+      ]
     }
   },
   {
@@ -8790,18 +8450,16 @@
       0.6182527989149094
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "cheerleader",
-          "right winger",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "cheerleader",
+        "right winger",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -8841,18 +8499,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Pearl",
-          "The Fellowship of the Ring"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Pearl",
+        "The Fellowship of the Ring"
+      ]
     }
   },
   {
@@ -8892,18 +8548,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue present",
-          "red present",
-          "black ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue present",
+        "red present",
+        "black ball"
+      ]
     }
   },
   {
@@ -8943,18 +8597,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "striker",
-          "right winger",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "striker",
+        "right winger",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -8994,18 +8646,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right midfielder",
-          "center midfielder",
-          "striker"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right midfielder",
+        "center midfielder",
+        "striker"
+      ]
     }
   },
   {
@@ -9045,18 +8695,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ophelia",
-          "Rodrigo",
-          "Patrick"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ophelia",
+        "Rodrigo",
+        "Patrick"
+      ]
     }
   },
   {
@@ -9096,18 +8744,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "purple ball",
-          "yellow ball",
-          "orange ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "purple ball",
+        "yellow ball",
+        "orange ball"
+      ]
     }
   },
   {
@@ -9147,18 +8793,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "striker",
-          "left winger",
-          "benchwarmer"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "striker",
+        "left winger",
+        "benchwarmer"
+      ]
     }
   },
   {
@@ -9198,18 +8842,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "orange ball",
-          "white ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "orange ball",
+        "white ball"
+      ]
     }
   },
   {
@@ -9249,18 +8891,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Fellowship of the Ring",
-          "The Odyssey",
-          "The Great Gatsby"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Fellowship of the Ring",
+        "The Odyssey",
+        "The Great Gatsby"
+      ]
     }
   },
   {
@@ -9300,18 +8940,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Melissa",
-          "Lola",
-          "Patrick"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Melissa",
+        "Lola",
+        "Patrick"
+      ]
     }
   },
   {
@@ -9351,18 +8989,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "green present",
-          "white present",
-          "black ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "green present",
+        "white present",
+        "black ball"
+      ]
     }
   },
   {
@@ -9402,18 +9038,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Odyssey",
-          "The Pearl",
-          "Frankenstein"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Odyssey",
+        "The Pearl",
+        "Frankenstein"
+      ]
     }
   },
   {
@@ -9453,18 +9087,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Hound of the Baskervilles",
-          "The Pearl",
-          "The Odyssey"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Hound of the Baskervilles",
+        "The Pearl",
+        "The Odyssey"
+      ]
     }
   },
   {
@@ -9504,18 +9136,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Sam",
-          "Jamie",
-          "Melissa"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Sam",
+        "Jamie",
+        "Melissa"
+      ]
     }
   },
   {
@@ -9555,18 +9185,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Izzi",
-          "Jamie",
-          "Rodrigo"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Izzi",
+        "Jamie",
+        "Rodrigo"
+      ]
     }
   },
   {
@@ -9610,18 +9238,16 @@
       0.7116896286606789
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Sam",
-          "Jamie",
-          "Melissa"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Sam",
+        "Jamie",
+        "Melissa"
+      ]
     }
   },
   {
@@ -9661,18 +9287,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ulysses",
-          "The Fellowship of the Ring",
-          "The Pearl"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ulysses",
+        "The Fellowship of the Ring",
+        "The Pearl"
+      ]
     }
   },
   {
@@ -9712,18 +9336,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "goalkeeper",
-          "left winger",
-          "right midfielder"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "goalkeeper",
+        "left winger",
+        "right midfielder"
+      ]
     }
   },
   {
@@ -9763,18 +9385,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "black ball",
-          "green present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "black ball",
+        "green present"
+      ]
     }
   },
   {
@@ -9814,18 +9434,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "goalkeeper",
-          "left midfielder",
-          "fullback"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "goalkeeper",
+        "left midfielder",
+        "fullback"
+      ]
     }
   },
   {
@@ -9865,18 +9483,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Lolita",
-          "Moby Dick",
-          "The Odyssey"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Lolita",
+        "Moby Dick",
+        "The Odyssey"
+      ]
     }
   },
   {
@@ -9916,18 +9532,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue ball",
-          "black ball",
-          "brown ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue ball",
+        "black ball",
+        "brown ball"
+      ]
     }
   },
   {
@@ -9967,18 +9581,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ulysses",
-          "Moby Dick",
-          "Frankenstein"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ulysses",
+        "Moby Dick",
+        "Frankenstein"
+      ]
     }
   },
   {
@@ -10018,18 +9630,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow present",
-          "purple present",
-          "green present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow present",
+        "purple present",
+        "green present"
+      ]
     }
   },
   {
@@ -10069,18 +9679,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "green present",
-          "blue present",
-          "brown present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "green present",
+        "blue present",
+        "brown present"
+      ]
     }
   },
   {
@@ -10120,18 +9728,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ulysses",
-          "Moby Dick",
-          "Frankenstein"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ulysses",
+        "Moby Dick",
+        "Frankenstein"
+      ]
     }
   },
   {
@@ -10171,18 +9777,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Helga",
-          "Patrick",
-          "Izzi"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Helga",
+        "Patrick",
+        "Izzi"
+      ]
     }
   },
   {
@@ -10222,18 +9826,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "Moby Dick",
-          "The Fellowship of the Ring"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "Moby Dick",
+        "The Fellowship of the Ring"
+      ]
     }
   },
   {
@@ -10273,18 +9875,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Helga",
-          "Patrick",
-          "Sam"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Helga",
+        "Patrick",
+        "Sam"
+      ]
     }
   },
   {
@@ -10324,18 +9924,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Rodrigo",
-          "Jamie",
-          "Lola"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Rodrigo",
+        "Jamie",
+        "Lola"
+      ]
     }
   },
   {
@@ -10375,18 +9973,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "green ball",
-          "black ball",
-          "purple ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "green ball",
+        "black ball",
+        "purple ball"
+      ]
     }
   },
   {
@@ -10426,18 +10022,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "pink ball",
-          "yellow present",
-          "orange ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "pink ball",
+        "yellow present",
+        "orange ball"
+      ]
     }
   },
   {
@@ -10481,18 +10075,16 @@
       0.6853707432746887
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "striker",
-          "right midfielder",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "striker",
+        "right midfielder",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -10536,18 +10128,16 @@
       0.3353622853755951
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "red present",
-          "blue present",
-          "yellow present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "red present",
+        "blue present",
+        "yellow present"
+      ]
     }
   },
   {
@@ -10587,18 +10177,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Melissa",
-          "Lola",
-          "Izzi"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Melissa",
+        "Lola",
+        "Izzi"
+      ]
     }
   },
   {
@@ -10638,18 +10226,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "black ball",
-          "green present",
-          "brown present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "black ball",
+        "green present",
+        "brown present"
+      ]
     }
   },
   {
@@ -10689,18 +10275,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "goalkeeper",
-          "left midfielder",
-          "striker"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "goalkeeper",
+        "left midfielder",
+        "striker"
+      ]
     }
   },
   {
@@ -10740,18 +10324,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "striker",
-          "right winger",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "striker",
+        "right winger",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -10791,18 +10373,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "red ball",
-          "orange ball",
-          "black ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "red ball",
+        "orange ball",
+        "black ball"
+      ]
     }
   },
   {
@@ -10842,18 +10422,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "striker",
-          "right winger",
-          "right midfielder"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "striker",
+        "right winger",
+        "right midfielder"
+      ]
     }
   },
   {
@@ -10893,18 +10471,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Izzi",
-          "Patrick",
-          "Ophelia"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Izzi",
+        "Patrick",
+        "Ophelia"
+      ]
     }
   },
   {
@@ -10944,18 +10520,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow present",
-          "red present",
-          "white present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow present",
+        "red present",
+        "white present"
+      ]
     }
   },
   {
@@ -10995,18 +10569,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "purple ball",
-          "yellow ball",
-          "orange ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "purple ball",
+        "yellow ball",
+        "orange ball"
+      ]
     }
   },
   {
@@ -11046,18 +10618,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "black ball",
-          "brown present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "black ball",
+        "brown present"
+      ]
     }
   },
   {
@@ -11097,18 +10667,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "red ball",
-          "pink ball",
-          "black ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "red ball",
+        "pink ball",
+        "black ball"
+      ]
     }
   },
   {
@@ -11148,18 +10716,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Rodrigo",
-          "Jamie",
-          "Sam"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Rodrigo",
+        "Jamie",
+        "Sam"
+      ]
     }
   },
   {
@@ -11199,18 +10765,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Izzi",
-          "Patrick",
-          "Ophelia"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Izzi",
+        "Patrick",
+        "Ophelia"
+      ]
     }
   },
   {
@@ -11250,18 +10814,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Frankenstein",
-          "The Pearl",
-          "The Odyssey"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Frankenstein",
+        "The Pearl",
+        "The Odyssey"
+      ]
     }
   },
   {
@@ -11301,18 +10863,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "fullback",
-          "cheerleader",
-          "left winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "fullback",
+        "cheerleader",
+        "left winger"
+      ]
     }
   },
   {
@@ -11352,18 +10912,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "purple present",
-          "red present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "purple present",
+        "red present"
+      ]
     }
   },
   {
@@ -11403,18 +10961,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue ball",
-          "white ball",
-          "red ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue ball",
+        "white ball",
+        "red ball"
+      ]
     }
   },
   {
@@ -11454,18 +11010,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue present",
-          "red present",
-          "green present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue present",
+        "red present",
+        "green present"
+      ]
     }
   },
   {
@@ -11505,18 +11059,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue ball",
-          "black ball",
-          "pink ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue ball",
+        "black ball",
+        "pink ball"
+      ]
     }
   },
   {
@@ -11556,18 +11108,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Patrick",
-          "Karl",
-          "Izzi"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Patrick",
+        "Karl",
+        "Izzi"
+      ]
     }
   },
   {
@@ -11607,18 +11157,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Rodrigo",
-          "Jamie",
-          "Lola"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Rodrigo",
+        "Jamie",
+        "Lola"
+      ]
     }
   },
   {
@@ -11658,18 +11206,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Jamie",
-          "Sam",
-          "Izzi"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Jamie",
+        "Sam",
+        "Izzi"
+      ]
     }
   },
   {
@@ -11709,18 +11255,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "white present",
-          "blue present",
-          "pink ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "white present",
+        "blue present",
+        "pink ball"
+      ]
     }
   },
   {
@@ -11760,18 +11304,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "black ball",
-          "green present",
-          "brown present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "black ball",
+        "green present",
+        "brown present"
+      ]
     }
   },
   {
@@ -11811,18 +11353,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "red present",
-          "blue present",
-          "yellow present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "red present",
+        "blue present",
+        "yellow present"
+      ]
     }
   },
   {
@@ -11862,18 +11402,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "orange ball",
-          "green present",
-          "red present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "orange ball",
+        "green present",
+        "red present"
+      ]
     }
   },
   {
@@ -11913,18 +11451,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right midfielder",
-          "center midfielder",
-          "striker"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right midfielder",
+        "center midfielder",
+        "striker"
+      ]
     }
   },
   {
@@ -11964,18 +11500,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "green ball",
-          "purple ball",
-          "blue ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "green ball",
+        "purple ball",
+        "blue ball"
+      ]
     }
   },
   {
@@ -12015,18 +11549,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Melissa",
-          "Karl",
-          "Patrick"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Melissa",
+        "Karl",
+        "Patrick"
+      ]
     }
   },
   {
@@ -12066,18 +11598,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Hound of the Baskervilles",
-          "The Pearl",
-          "The Odyssey"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Hound of the Baskervilles",
+        "The Pearl",
+        "The Odyssey"
+      ]
     }
   },
   {
@@ -12117,18 +11647,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Lolita",
-          "Catch-22",
-          "Moby Dick"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Lolita",
+        "Catch-22",
+        "Moby Dick"
+      ]
     }
   },
   {
@@ -12168,18 +11696,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Helga",
-          "Ophelia",
-          "Sam"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Helga",
+        "Ophelia",
+        "Sam"
+      ]
     }
   },
   {
@@ -12219,18 +11745,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Lola",
-          "Patrick",
-          "Melissa"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Lola",
+        "Patrick",
+        "Melissa"
+      ]
     }
   },
   {
@@ -12270,18 +11794,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "striker",
-          "right midfielder",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "striker",
+        "right midfielder",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -12321,18 +11843,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right midfielder",
-          "goalkeeper",
-          "left winger"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right midfielder",
+        "goalkeeper",
+        "left winger"
+      ]
     }
   },
   {
@@ -12372,18 +11892,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Great Gatsby",
-          "The Odyssey",
-          "Lolita"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Great Gatsby",
+        "The Odyssey",
+        "Lolita"
+      ]
     }
   },
   {
@@ -12423,18 +11941,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "benchwarmer",
-          "fullback",
-          "goalkeeper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "benchwarmer",
+        "fullback",
+        "goalkeeper"
+      ]
     }
   },
   {
@@ -12474,18 +11990,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "blue ball",
-          "black ball",
-          "pink ball"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "blue ball",
+        "black ball",
+        "pink ball"
+      ]
     }
   },
   {
@@ -12529,18 +12043,16 @@
       0.7118988260626793
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Lola",
-          "Rodrigo",
-          "Patrick"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Lola",
+        "Rodrigo",
+        "Patrick"
+      ]
     }
   },
   {
@@ -12580,18 +12092,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The Great Gatsby",
-          "Moby Dick",
-          "The Fellowship of the Ring"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The Great Gatsby",
+        "Moby Dick",
+        "The Fellowship of the Ring"
+      ]
     }
   },
   {
@@ -12631,18 +12141,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "yellow present",
-          "brown present",
-          "blue present"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "yellow present",
+        "brown present",
+        "blue present"
+      ]
     }
   },
   {
@@ -12682,18 +12190,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Catch-22",
-          "Moby Dick",
-          "The Great Gatsby"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Catch-22",
+        "Moby Dick",
+        "The Great Gatsby"
+      ]
     }
   },
   {
@@ -12733,18 +12239,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Rodrigo",
-          "Jamie",
-          "Lola"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Rodrigo",
+        "Jamie",
+        "Lola"
+      ]
     }
   },
   {
@@ -12784,18 +12288,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right winger",
-          "cheerleader",
-          "striker"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right winger",
+        "cheerleader",
+        "striker"
+      ]
     }
   },
   {
@@ -12835,18 +12337,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "right winger",
-          "cheerleader",
-          "striker"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "right winger",
+        "cheerleader",
+        "striker"
+      ]
     }
   }
 ]

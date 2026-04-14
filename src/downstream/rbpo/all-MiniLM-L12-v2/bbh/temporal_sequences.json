@@ -56,20 +56,18 @@
       4.580492280423641
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 9pm",
-          "7am to 11am",
-          "1pm to 2pm",
-          "2pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 9pm",
+        "7am to 11am",
+        "1pm to 2pm",
+        "2pm to 6pm"
+      ]
     }
   },
   {
@@ -117,20 +115,18 @@
       1.7634405680000782
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 1pm",
-          "10am to 12pm",
-          "2pm to 8pm",
-          "1pm to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 1pm",
+        "10am to 12pm",
+        "2pm to 8pm",
+        "1pm to 2pm"
+      ]
     }
   },
   {
@@ -182,20 +178,18 @@
       2.2223805487155914
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 7pm",
-          "9pm to 10pm",
-          "11am to 1pm",
-          "7pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 7pm",
+        "9pm to 10pm",
+        "11am to 1pm",
+        "7pm to 9pm"
+      ]
     }
   },
   {
@@ -239,20 +233,18 @@
       0.9150452073663473
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 3pm",
-          "5am to 6am",
-          "4pm to 9pm",
-          "3pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 3pm",
+        "5am to 6am",
+        "4pm to 9pm",
+        "3pm to 4pm"
+      ]
     }
   },
   {
@@ -304,20 +296,18 @@
       2.713627001270652
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 6pm",
-          "10am to 3pm",
-          "7pm to 10pm",
-          "6pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 6pm",
+        "10am to 3pm",
+        "7pm to 10pm",
+        "6pm to 7pm"
+      ]
     }
   },
   {
@@ -373,20 +363,18 @@
       3.5767019987106323
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 9am",
-          "6am to 8am",
-          "3pm to 7pm",
-          "7pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 9am",
+        "6am to 8am",
+        "3pm to 7pm",
+        "7pm to 8pm"
+      ]
     }
   },
   {
@@ -430,20 +418,18 @@
       0.844924183562398
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7pm to 9pm",
-          "11am to 12pm",
-          "12pm to 4pm",
-          "7am to 11am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7pm to 9pm",
+        "11am to 12pm",
+        "12pm to 4pm",
+        "7am to 11am"
+      ]
     }
   },
   {
@@ -503,20 +489,18 @@
       4.303292961791158
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 4pm",
-          "2pm to 3pm",
-          "6am to 8am",
-          "8am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 4pm",
+        "2pm to 3pm",
+        "6am to 8am",
+        "8am to 2pm"
+      ]
     }
   },
   {
@@ -572,20 +556,18 @@
       3.559300798922777
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 6pm",
-          "9am to 10am",
-          "7am to 8am",
-          "10am to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 6pm",
+        "9am to 10am",
+        "7am to 8am",
+        "10am to 3pm"
+      ]
     }
   },
   {
@@ -645,20 +627,18 @@
       4.267712350934744
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 12pm",
-          "3pm to 6pm",
-          "12pm to 1pm",
-          "8pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 12pm",
+        "3pm to 6pm",
+        "12pm to 1pm",
+        "8pm to 10pm"
+      ]
     }
   },
   {
@@ -714,20 +694,18 @@
       3.2940978221595287
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 2pm",
-          "5pm to 6pm",
-          "9am to 12pm",
-          "12pm to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 2pm",
+        "5pm to 6pm",
+        "9am to 12pm",
+        "12pm to 1pm"
+      ]
     }
   },
   {
@@ -775,20 +753,18 @@
       1.7025611773133278
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 10am",
-          "2pm to 4pm",
-          "11am to 2pm",
-          "4pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 10am",
+        "2pm to 4pm",
+        "11am to 2pm",
+        "4pm to 8pm"
+      ]
     }
   },
   {
@@ -836,20 +812,18 @@
       1.7824188992381096
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 6pm",
-          "6pm to 8pm",
-          "8pm to 9pm",
-          "3pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 6pm",
+        "6pm to 8pm",
+        "8pm to 9pm",
+        "3pm to 4pm"
+      ]
     }
   },
   {
@@ -901,20 +875,18 @@
       2.6292161643505096
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 7pm",
-          "7pm to 10pm",
-          "8am to 10am",
-          "1pm to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 7pm",
+        "7pm to 10pm",
+        "8am to 10am",
+        "1pm to 2pm"
+      ]
     }
   },
   {
@@ -966,20 +938,18 @@
       2.57889823615551
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 6pm",
-          "5am to 7am",
-          "7am to 11am",
-          "6pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 6pm",
+        "5am to 7am",
+        "7am to 11am",
+        "6pm to 10pm"
+      ]
     }
   },
   {
@@ -1039,20 +1009,18 @@
       4.21529595926404
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 5pm",
-          "5am to 6am",
-          "6am to 7am",
-          "8pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 5pm",
+        "5am to 6am",
+        "6am to 7am",
+        "8pm to 9pm"
+      ]
     }
   },
   {
@@ -1104,20 +1072,18 @@
       2.6344706416130066
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 9pm",
-          "5am to 6am",
-          "9pm to 10pm",
-          "2pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 9pm",
+        "5am to 6am",
+        "9pm to 10pm",
+        "2pm to 6pm"
+      ]
     }
   },
   {
@@ -1177,20 +1143,18 @@
       4.5254627130925655
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 9am",
-          "12pm to 3pm",
-          "9am to 12pm",
-          "5am to 8am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 9am",
+        "12pm to 3pm",
+        "9am to 12pm",
+        "5am to 8am"
+      ]
     }
   },
   {
@@ -1234,20 +1198,18 @@
       0.8426285050809383
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 3pm",
-          "6am to 8am",
-          "10am to 1pm",
-          "8pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 3pm",
+        "6am to 8am",
+        "10am to 1pm",
+        "8pm to 10pm"
+      ]
     }
   },
   {
@@ -1315,20 +1277,18 @@
       5.744417515583336
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 3pm",
-          "11am to 1pm",
-          "3pm to 6pm",
-          "5am to 11am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 3pm",
+        "11am to 1pm",
+        "3pm to 6pm",
+        "5am to 11am"
+      ]
     }
   },
   {
@@ -1380,20 +1340,18 @@
       2.6187404841184616
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 9am",
-          "10am to 12pm",
-          "6pm to 10pm",
-          "12pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 9am",
+        "10am to 12pm",
+        "6pm to 10pm",
+        "12pm to 6pm"
+      ]
     }
   },
   {
@@ -1449,20 +1407,18 @@
       3.5662980675697327
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 4pm",
-          "10am to 2pm",
-          "8am to 10am",
-          "6pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 4pm",
+        "10am to 2pm",
+        "8am to 10am",
+        "6pm to 8pm"
+      ]
     }
   },
   {
@@ -1518,20 +1474,18 @@
       3.5740513801574707
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 2pm",
-          "10am to 12pm",
-          "2pm to 4pm",
-          "4pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 2pm",
+        "10am to 12pm",
+        "2pm to 4pm",
+        "4pm to 5pm"
+      ]
     }
   },
   {
@@ -1587,20 +1541,18 @@
       3.5017737187445164
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8pm to 10pm",
-          "9am to 12pm",
-          "6am to 7am",
-          "7am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8pm to 10pm",
+        "9am to 12pm",
+        "6am to 7am",
+        "7am to 9am"
+      ]
     }
   },
   {
@@ -1660,20 +1612,18 @@
       4.410371959209442
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 10am",
-          "2pm to 3pm",
-          "4pm to 6pm",
-          "3pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 10am",
+        "2pm to 3pm",
+        "4pm to 6pm",
+        "3pm to 4pm"
+      ]
     }
   },
   {
@@ -1717,20 +1667,18 @@
       0.899314634501934
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 11am",
-          "2pm to 4pm",
-          "6am to 7am",
-          "11am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 11am",
+        "2pm to 4pm",
+        "6am to 7am",
+        "11am to 2pm"
+      ]
     }
   },
   {
@@ -1790,20 +1738,18 @@
       4.300266519188881
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 3pm",
-          "6pm to 8pm",
-          "5pm to 6pm",
-          "7am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 3pm",
+        "6pm to 8pm",
+        "5pm to 6pm",
+        "7am to 12pm"
+      ]
     }
   },
   {
@@ -1855,20 +1801,18 @@
       2.71817484498024
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 12pm",
-          "2pm to 3pm",
-          "5am to 6am",
-          "3pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 12pm",
+        "2pm to 3pm",
+        "5am to 6am",
+        "3pm to 9pm"
+      ]
     }
   },
   {
@@ -1912,20 +1856,18 @@
       0.8885171301662922
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 7pm",
-          "9am to 11am",
-          "11am to 1pm",
-          "1pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 7pm",
+        "9am to 11am",
+        "11am to 1pm",
+        "1pm to 6pm"
+      ]
     }
   },
   {
@@ -1977,20 +1919,18 @@
       2.639789327979088
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7pm to 8pm",
-          "7am to 9am",
-          "9am to 7pm",
-          "5am to 7am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7pm to 8pm",
+        "7am to 9am",
+        "9am to 7pm",
+        "5am to 7am"
+      ]
     }
   },
   {
@@ -2034,20 +1974,18 @@
       0.8457162752747536
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5pm to 7pm",
-          "3pm to 5pm",
-          "12pm to 3pm",
-          "10am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5pm to 7pm",
+        "3pm to 5pm",
+        "12pm to 3pm",
+        "10am to 12pm"
+      ]
     }
   },
   {
@@ -2103,20 +2041,18 @@
       3.426295705139637
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 5pm",
-          "12pm to 4pm",
-          "9am to 10am",
-          "10am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 5pm",
+        "12pm to 4pm",
+        "9am to 10am",
+        "10am to 12pm"
+      ]
     }
   },
   {
@@ -2180,20 +2116,18 @@
       5.4049911722540855
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 5pm",
-          "2pm to 4pm",
-          "6am to 1pm",
-          "1pm to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 5pm",
+        "2pm to 4pm",
+        "6am to 1pm",
+        "1pm to 2pm"
+      ]
     }
   },
   {
@@ -2257,20 +2191,18 @@
       5.173412263393402
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 8am",
-          "8am to 10am",
-          "4pm to 7pm",
-          "7pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 8am",
+        "8am to 10am",
+        "4pm to 7pm",
+        "7pm to 9pm"
+      ]
     }
   },
   {
@@ -2318,20 +2250,18 @@
       1.7427661046385765
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 7am",
-          "7am to 9am",
-          "3pm to 9pm",
-          "9am to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 7am",
+        "7am to 9am",
+        "3pm to 9pm",
+        "9am to 3pm"
+      ]
     }
   },
   {
@@ -2375,20 +2305,18 @@
       0.8954067230224609
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 5pm",
-          "11am to 12pm",
-          "5am to 8am",
-          "8am to 11am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 5pm",
+        "11am to 12pm",
+        "5am to 8am",
+        "8am to 11am"
+      ]
     }
   },
   {
@@ -2444,20 +2372,18 @@
       3.3078487887978554
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 2pm",
-          "6pm to 7pm",
-          "3pm to 5pm",
-          "2pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 2pm",
+        "6pm to 7pm",
+        "3pm to 5pm",
+        "2pm to 3pm"
+      ]
     }
   },
   {
@@ -2513,20 +2439,18 @@
       3.578329436480999
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 4pm",
-          "7am to 12pm",
-          "4pm to 5pm",
-          "12pm to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 4pm",
+        "7am to 12pm",
+        "4pm to 5pm",
+        "12pm to 2pm"
+      ]
     }
   },
   {
@@ -2582,20 +2506,18 @@
       3.5072989091277122
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 4pm",
-          "10am to 1pm",
-          "8am to 10am",
-          "1pm to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 4pm",
+        "10am to 1pm",
+        "8am to 10am",
+        "1pm to 2pm"
+      ]
     }
   },
   {
@@ -2639,20 +2561,18 @@
       0.753461554646492
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 4pm",
-          "6pm to 8pm",
-          "8am to 11am",
-          "11am to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 4pm",
+        "6pm to 8pm",
+        "8am to 11am",
+        "11am to 3pm"
+      ]
     }
   },
   {
@@ -2700,20 +2620,18 @@
       1.827700525522232
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5pm to 6pm",
-          "3pm to 5pm",
-          "7am to 1pm",
-          "2pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5pm to 6pm",
+        "3pm to 5pm",
+        "7am to 1pm",
+        "2pm to 3pm"
+      ]
     }
   },
   {
@@ -2761,20 +2679,18 @@
       1.7466219179332256
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 8am",
-          "6am to 7am",
-          "8am to 5pm",
-          "5pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 8am",
+        "6am to 7am",
+        "8am to 5pm",
+        "5pm to 8pm"
+      ]
     }
   },
   {
@@ -2830,20 +2746,18 @@
       3.530791699886322
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 10am",
-          "11am to 4pm",
-          "10am to 11am",
-          "5pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 10am",
+        "11am to 4pm",
+        "10am to 11am",
+        "5pm to 6pm"
+      ]
     }
   },
   {
@@ -2895,20 +2809,18 @@
       2.7036704309284687
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 8pm",
-          "1pm to 3pm",
-          "11am to 1pm",
-          "3pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 8pm",
+        "1pm to 3pm",
+        "11am to 1pm",
+        "3pm to 6pm"
+      ]
     }
   },
   {
@@ -2952,20 +2864,18 @@
       0.8764496445655823
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 1pm",
-          "1pm to 10pm",
-          "5am to 8am",
-          "8am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 1pm",
+        "1pm to 10pm",
+        "5am to 8am",
+        "8am to 9am"
+      ]
     }
   },
   {
@@ -3017,20 +2927,18 @@
       2.4338981956243515
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7pm to 10pm",
-          "4pm to 5pm",
-          "3pm to 4pm",
-          "5pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7pm to 10pm",
+        "4pm to 5pm",
+        "3pm to 4pm",
+        "5pm to 7pm"
+      ]
     }
   },
   {
@@ -3086,20 +2994,18 @@
       3.5578388143330812
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8pm to 9pm",
-          "9pm to 10pm",
-          "5pm to 8pm",
-          "10am to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8pm to 9pm",
+        "9pm to 10pm",
+        "5pm to 8pm",
+        "10am to 5pm"
+      ]
     }
   },
   {
@@ -3155,20 +3061,18 @@
       3.451021283864975
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 11am",
-          "5am to 10am",
-          "11am to 3pm",
-          "8pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 11am",
+        "5am to 10am",
+        "11am to 3pm",
+        "8pm to 10pm"
+      ]
     }
   },
   {
@@ -3224,20 +3128,18 @@
       3.5955460257828236
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7pm to 8pm",
-          "9am to 12pm",
-          "6am to 9am",
-          "12pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7pm to 8pm",
+        "9am to 12pm",
+        "6am to 9am",
+        "12pm to 7pm"
+      ]
     }
   },
   {
@@ -3293,20 +3195,18 @@
       3.4014721922576427
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 10pm",
-          "2pm to 4pm",
-          "5am to 8am",
-          "8am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 10pm",
+        "2pm to 4pm",
+        "5am to 8am",
+        "8am to 12pm"
+      ]
     }
   },
   {
@@ -3362,20 +3262,18 @@
       3.6359383687376976
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5pm to 6pm",
-          "6pm to 8pm",
-          "6am to 12pm",
-          "8pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5pm to 6pm",
+        "6pm to 8pm",
+        "6am to 12pm",
+        "8pm to 10pm"
+      ]
     }
   },
   {
@@ -3439,20 +3337,18 @@
       5.2114250510931015
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 1pm",
-          "1pm to 3pm",
-          "3pm to 5pm",
-          "8am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 1pm",
+        "1pm to 3pm",
+        "3pm to 5pm",
+        "8am to 12pm"
+      ]
     }
   },
   {
@@ -3500,20 +3396,18 @@
       1.7737751007080078
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 11am",
-          "4pm to 8pm",
-          "7am to 9am",
-          "11am to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 11am",
+        "4pm to 8pm",
+        "7am to 9am",
+        "11am to 4pm"
+      ]
     }
   },
   {
@@ -3561,20 +3455,18 @@
       1.7798344641923904
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 12pm",
-          "12pm to 1pm",
-          "3pm to 7pm",
-          "7pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 12pm",
+        "12pm to 1pm",
+        "3pm to 7pm",
+        "7pm to 10pm"
+      ]
     }
   },
   {
@@ -3634,20 +3526,18 @@
       3.8059153705835342
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 6am",
-          "8am to 6pm",
-          "6pm to 7pm",
-          "7am to 8am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 6am",
+        "8am to 6pm",
+        "6pm to 7pm",
+        "7am to 8am"
+      ]
     }
   },
   {
@@ -3711,20 +3601,18 @@
       5.1100573390722275
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 11am",
-          "9am to 10am",
-          "8am to 9am",
-          "4pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 11am",
+        "9am to 10am",
+        "8am to 9am",
+        "4pm to 10pm"
+      ]
     }
   },
   {
@@ -3776,20 +3664,18 @@
       2.6853287555277348
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 11am",
-          "12pm to 1pm",
-          "2pm to 10pm",
-          "9am to 10am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 11am",
+        "12pm to 1pm",
+        "2pm to 10pm",
+        "9am to 10am"
+      ]
     }
   },
   {
@@ -3833,20 +3719,18 @@
       0.8893778882920742
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 2pm",
-          "10am to 12pm",
-          "2pm to 4pm",
-          "4pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 2pm",
+        "10am to 12pm",
+        "2pm to 4pm",
+        "4pm to 8pm"
+      ]
     }
   },
   {
@@ -3902,20 +3786,18 @@
       3.2763687074184418
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 8pm",
-          "5am to 11am",
-          "11am to 6pm",
-          "8pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 8pm",
+        "5am to 11am",
+        "11am to 6pm",
+        "8pm to 9pm"
+      ]
     }
   },
   {
@@ -3967,20 +3849,18 @@
       2.378373885527253
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 7pm",
-          "9am to 2pm",
-          "5pm to 6pm",
-          "8am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 7pm",
+        "9am to 2pm",
+        "5pm to 6pm",
+        "8am to 9am"
+      ]
     }
   },
   {
@@ -4040,20 +3920,18 @@
       4.400475595146418
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 9am",
-          "12pm to 1pm",
-          "5pm to 8pm",
-          "1pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 9am",
+        "12pm to 1pm",
+        "5pm to 8pm",
+        "1pm to 4pm"
+      ]
     }
   },
   {
@@ -4097,20 +3975,18 @@
       0.706481228582561
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 1pm",
-          "10am to 11am",
-          "6am to 10am",
-          "1pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 1pm",
+        "10am to 11am",
+        "6am to 10am",
+        "1pm to 6pm"
+      ]
     }
   },
   {
@@ -4158,20 +4034,18 @@
       1.8513356298208237
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8pm to 10pm",
-          "11am to 1pm",
-          "8am to 11am",
-          "1pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8pm to 10pm",
+        "11am to 1pm",
+        "8am to 11am",
+        "1pm to 8pm"
+      ]
     }
   },
   {
@@ -4227,20 +4101,18 @@
       3.402713168412447
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 6pm",
-          "10am to 11am",
-          "6am to 10am",
-          "6pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 6pm",
+        "10am to 11am",
+        "6am to 10am",
+        "6pm to 8pm"
+      ]
     }
   },
   {
@@ -4288,20 +4160,18 @@
       1.7251539453864098
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 5pm",
-          "7am to 9am",
-          "5pm to 6pm",
-          "9am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 5pm",
+        "7am to 9am",
+        "5pm to 6pm",
+        "9am to 2pm"
+      ]
     }
   },
   {
@@ -4349,20 +4219,18 @@
       1.4608469419181347
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 1pm",
-          "6pm to 7pm",
-          "5am to 8am",
-          "1pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 1pm",
+        "6pm to 7pm",
+        "5am to 8am",
+        "1pm to 6pm"
+      ]
     }
   },
   {
@@ -4418,20 +4286,18 @@
       3.508105870336294
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 8am",
-          "3pm to 6pm",
-          "8am to 2pm",
-          "2pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 8am",
+        "3pm to 6pm",
+        "8am to 2pm",
+        "2pm to 3pm"
+      ]
     }
   },
   {
@@ -4479,20 +4345,18 @@
       1.5996832773089409
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 9am",
-          "5am to 8am",
-          "9am to 10am",
-          "11am to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 9am",
+        "5am to 8am",
+        "9am to 10am",
+        "11am to 3pm"
+      ]
     }
   },
   {
@@ -4552,20 +4416,18 @@
       4.071311987936497
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 4pm",
-          "4pm to 6pm",
-          "6pm to 9pm",
-          "9am to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 4pm",
+        "4pm to 6pm",
+        "6pm to 9pm",
+        "9am to 3pm"
+      ]
     }
   },
   {
@@ -4621,20 +4483,18 @@
       3.4250182434916496
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 5pm",
-          "5pm to 6pm",
-          "7pm to 9pm",
-          "6pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 5pm",
+        "5pm to 6pm",
+        "7pm to 9pm",
+        "6pm to 7pm"
+      ]
     }
   },
   {
@@ -4686,20 +4546,18 @@
       2.6385296173393726
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 11am",
-          "5am to 8am",
-          "5pm to 9pm",
-          "11am to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 11am",
+        "5am to 8am",
+        "5pm to 9pm",
+        "11am to 5pm"
+      ]
     }
   },
   {
@@ -4747,20 +4605,18 @@
       1.8076424896717072
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 5pm",
-          "5pm to 8pm",
-          "12pm to 2pm",
-          "2pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 5pm",
+        "5pm to 8pm",
+        "12pm to 2pm",
+        "2pm to 4pm"
+      ]
     }
   },
   {
@@ -4816,20 +4672,18 @@
       3.2742176577448845
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 5pm",
-          "6am to 4pm",
-          "6pm to 8pm",
-          "5am to 6am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 5pm",
+        "6am to 4pm",
+        "6pm to 8pm",
+        "5am to 6am"
+      ]
     }
   },
   {
@@ -4885,20 +4739,18 @@
       1.4501109644770622
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 6pm",
-          "6pm to 10pm",
-          "8am to 10am",
-          "10am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 6pm",
+        "6pm to 10pm",
+        "8am to 10am",
+        "10am to 2pm"
+      ]
     }
   },
   {
@@ -4942,20 +4794,18 @@
       0.9160140380263329
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 9am",
-          "9am to 4pm",
-          "5pm to 6pm",
-          "4pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 9am",
+        "9am to 4pm",
+        "5pm to 6pm",
+        "4pm to 5pm"
+      ]
     }
   },
   {
@@ -5011,20 +4861,18 @@
       3.5209182500839233
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 3pm",
-          "10am to 12pm",
-          "12pm to 1pm",
-          "3pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 3pm",
+        "10am to 12pm",
+        "12pm to 1pm",
+        "3pm to 5pm"
+      ]
     }
   },
   {
@@ -5072,20 +4920,18 @@
       1.6099261082708836
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 2pm",
-          "8am to 10am",
-          "2pm to 5pm",
-          "5pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 2pm",
+        "8am to 10am",
+        "2pm to 5pm",
+        "5pm to 6pm"
+      ]
     }
   },
   {
@@ -5137,20 +4983,18 @@
       2.6471740528941154
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 10am",
-          "6am to 9am",
-          "3pm to 5pm",
-          "1pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 10am",
+        "6am to 9am",
+        "3pm to 5pm",
+        "1pm to 3pm"
+      ]
     }
   },
   {
@@ -5194,20 +5038,18 @@
       0.8498043026775122
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 2pm",
-          "7pm to 9pm",
-          "2pm to 4pm",
-          "4pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 2pm",
+        "7pm to 9pm",
+        "2pm to 4pm",
+        "4pm to 7pm"
+      ]
     }
   },
   {
@@ -5251,20 +5093,18 @@
       0.9015395231544971
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 1pm",
-          "11am to 12pm",
-          "6am to 11am",
-          "5am to 6am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 1pm",
+        "11am to 12pm",
+        "6am to 11am",
+        "5am to 6am"
+      ]
     }
   },
   {
@@ -5324,20 +5164,18 @@
       4.279493510723114
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 10am",
-          "7am to 8am",
-          "1pm to 6pm",
-          "12pm to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 10am",
+        "7am to 8am",
+        "1pm to 6pm",
+        "12pm to 1pm"
+      ]
     }
   },
   {
@@ -5397,20 +5235,18 @@
       4.534226641058922
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 3pm",
-          "6am to 7am",
-          "7am to 2pm",
-          "3pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 3pm",
+        "6am to 7am",
+        "7am to 2pm",
+        "3pm to 9pm"
+      ]
     }
   },
   {
@@ -5462,20 +5298,18 @@
       2.6666975766420364
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 9am",
-          "9am to 1pm",
-          "1pm to 3pm",
-          "8pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 9am",
+        "9am to 1pm",
+        "1pm to 3pm",
+        "8pm to 9pm"
+      ]
     }
   },
   {
@@ -5535,20 +5369,18 @@
       4.524228066205978
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 11am",
-          "11am to 2pm",
-          "4pm to 8pm",
-          "2pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 11am",
+        "11am to 2pm",
+        "4pm to 8pm",
+        "2pm to 4pm"
+      ]
     }
   },
   {
@@ -5596,20 +5428,18 @@
       1.820508312433958
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 11am",
-          "12pm to 2pm",
-          "11am to 12pm",
-          "2pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 11am",
+        "12pm to 2pm",
+        "11am to 12pm",
+        "2pm to 5pm"
+      ]
     }
   },
   {
@@ -5669,20 +5499,18 @@
       4.489049714058638
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 3pm",
-          "9pm to 10pm",
-          "6am to 1pm",
-          "5am to 6am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 3pm",
+        "9pm to 10pm",
+        "6am to 1pm",
+        "5am to 6am"
+      ]
     }
   },
   {
@@ -5734,20 +5562,18 @@
       2.500085886567831
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 7pm",
-          "12pm to 2pm",
-          "10am to 11am",
-          "7pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 7pm",
+        "12pm to 2pm",
+        "10am to 11am",
+        "7pm to 8pm"
+      ]
     }
   },
   {
@@ -5799,20 +5625,18 @@
       2.693486474454403
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 1pm",
-          "4pm to 9pm",
-          "10am to 11am",
-          "2pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 1pm",
+        "4pm to 9pm",
+        "10am to 11am",
+        "2pm to 4pm"
+      ]
     }
   },
   {
@@ -5860,20 +5684,18 @@
       1.785666085779667
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 7am",
-          "3pm to 5pm",
-          "7am to 8am",
-          "6pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 7am",
+        "3pm to 5pm",
+        "7am to 8am",
+        "6pm to 7pm"
+      ]
     }
   },
   {
@@ -5921,20 +5743,18 @@
       1.7845284193754196
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7pm to 8pm",
-          "8pm to 10pm",
-          "5am to 7am",
-          "7am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7pm to 8pm",
+        "8pm to 10pm",
+        "5am to 7am",
+        "7am to 9am"
+      ]
     }
   },
   {
@@ -5978,20 +5798,18 @@
       0.8761637546122074
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 11am",
-          "3pm to 4pm",
-          "11am to 3pm",
-          "4pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 11am",
+        "3pm to 4pm",
+        "11am to 3pm",
+        "4pm to 7pm"
+      ]
     }
   },
   {
@@ -6047,20 +5865,18 @@
       3.546954534947872
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 5pm",
-          "5am to 6am",
-          "7pm to 8pm",
-          "6am to 8am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 5pm",
+        "5am to 6am",
+        "7pm to 8pm",
+        "6am to 8am"
+      ]
     }
   },
   {
@@ -6112,20 +5928,18 @@
       2.6666144728660583
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 1pm",
-          "7am to 8am",
-          "3pm to 5pm",
-          "8am to 10am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 1pm",
+        "7am to 8am",
+        "3pm to 5pm",
+        "8am to 10am"
+      ]
     }
   },
   {
@@ -6169,20 +5983,18 @@
       0.897519638761878
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 2pm",
-          "8am to 9am",
-          "2pm to 9pm",
-          "9am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 2pm",
+        "8am to 9am",
+        "2pm to 9pm",
+        "9am to 12pm"
+      ]
     }
   },
   {
@@ -6238,20 +6050,18 @@
       3.4452472664415836
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 7pm",
-          "9am to 1pm",
-          "7am to 9am",
-          "1pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 7pm",
+        "9am to 1pm",
+        "7am to 9am",
+        "1pm to 4pm"
+      ]
     }
   },
   {
@@ -6311,20 +6121,18 @@
       4.238991677761078
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 7am",
-          "10am to 1pm",
-          "7am to 10am",
-          "1pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 7am",
+        "10am to 1pm",
+        "7am to 10am",
+        "1pm to 3pm"
+      ]
     }
   },
   {
@@ -6376,20 +6184,18 @@
       2.621116440743208
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8pm to 9pm",
-          "5pm to 8pm",
-          "8am to 9am",
-          "9am to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8pm to 9pm",
+        "5pm to 8pm",
+        "8am to 9am",
+        "9am to 5pm"
+      ]
     }
   },
   {
@@ -6453,20 +6259,18 @@
       5.293812990188599
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 2pm",
-          "11am to 12pm",
-          "3pm to 9pm",
-          "6am to 11am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 2pm",
+        "11am to 12pm",
+        "3pm to 9pm",
+        "6am to 11am"
+      ]
     }
   },
   {
@@ -6522,20 +6326,18 @@
       3.348802838474512
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 7pm",
-          "9am to 10am",
-          "1pm to 2pm",
-          "10am to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 7pm",
+        "9am to 10am",
+        "1pm to 2pm",
+        "10am to 1pm"
+      ]
     }
   },
   {
@@ -6583,20 +6385,18 @@
       1.8198887668550014
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 9pm",
-          "9pm to 10pm",
-          "7am to 10am",
-          "10am to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 9pm",
+        "9pm to 10pm",
+        "7am to 10am",
+        "10am to 4pm"
+      ]
     }
   },
   {
@@ -6640,20 +6440,18 @@
       0.8931717574596405
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 12pm",
-          "1pm to 4pm",
-          "4pm to 5pm",
-          "12pm to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 12pm",
+        "1pm to 4pm",
+        "4pm to 5pm",
+        "12pm to 1pm"
+      ]
     }
   },
   {
@@ -6705,20 +6503,18 @@
       2.7461270168423653
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 7pm",
-          "3pm to 6pm",
-          "5am to 8am",
-          "7pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 7pm",
+        "3pm to 6pm",
+        "5am to 8am",
+        "7pm to 8pm"
+      ]
     }
   },
   {
@@ -6770,20 +6566,18 @@
       2.3792435750365257
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 7pm",
-          "6am to 12pm",
-          "12pm to 2pm",
-          "2pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 7pm",
+        "6am to 12pm",
+        "12pm to 2pm",
+        "2pm to 6pm"
+      ]
     }
   },
   {
@@ -6831,20 +6625,18 @@
       1.7314996011555195
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 7am",
-          "8pm to 9pm",
-          "9pm to 10pm",
-          "11am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 7am",
+        "8pm to 9pm",
+        "9pm to 10pm",
+        "11am to 12pm"
+      ]
     }
   },
   {
@@ -6904,20 +6696,18 @@
       4.338830392807722
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 5pm",
-          "6pm to 7pm",
-          "5pm to 6pm",
-          "6am to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 5pm",
+        "6pm to 7pm",
+        "5pm to 6pm",
+        "6am to 3pm"
+      ]
     }
   },
   {
@@ -6965,20 +6755,18 @@
       1.7291884273290634
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 9am",
-          "6pm to 7pm",
-          "3pm to 6pm",
-          "12pm to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 9am",
+        "6pm to 7pm",
+        "3pm to 6pm",
+        "12pm to 1pm"
+      ]
     }
   },
   {
@@ -7038,20 +6826,18 @@
       4.256314309313893
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5pm to 6pm",
-          "6pm to 10pm",
-          "5am to 7am",
-          "7am to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5pm to 6pm",
+        "6pm to 10pm",
+        "5am to 7am",
+        "7am to 5pm"
+      ]
     }
   },
   {
@@ -7099,20 +6885,18 @@
       1.6667880713939667
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 3pm",
-          "5am to 11am",
-          "3pm to 5pm",
-          "11am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 3pm",
+        "5am to 11am",
+        "3pm to 5pm",
+        "11am to 2pm"
+      ]
     }
   },
   {
@@ -7156,20 +6940,18 @@
       0.8453396335244179
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 12pm",
-          "4pm to 7pm",
-          "12pm to 4pm",
-          "5am to 10am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 12pm",
+        "4pm to 7pm",
+        "12pm to 4pm",
+        "5am to 10am"
+      ]
     }
   },
   {
@@ -7225,20 +7007,18 @@
       3.5470324382185936
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 12pm",
-          "5am to 6am",
-          "8am to 10am",
-          "12pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 12pm",
+        "5am to 6am",
+        "8am to 10am",
+        "12pm to 5pm"
+      ]
     }
   },
   {
@@ -7282,20 +7062,18 @@
       0.8550765514373779
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 1pm",
-          "2pm to 3pm",
-          "1pm to 2pm",
-          "3pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 1pm",
+        "2pm to 3pm",
+        "1pm to 2pm",
+        "3pm to 5pm"
+      ]
     }
   },
   {
@@ -7343,20 +7121,18 @@
       1.784849800169468
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 12pm",
-          "6pm to 10pm",
-          "4pm to 6pm",
-          "3pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 12pm",
+        "6pm to 10pm",
+        "4pm to 6pm",
+        "3pm to 4pm"
+      ]
     }
   },
   {
@@ -7408,20 +7184,18 @@
       2.6689855121076107
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 5pm",
-          "5pm to 8pm",
-          "6am to 2pm",
-          "8pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 5pm",
+        "5pm to 8pm",
+        "6am to 2pm",
+        "8pm to 9pm"
+      ]
     }
   },
   {
@@ -7465,20 +7239,18 @@
       0.8695192784070969
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 9pm",
-          "8am to 10am",
-          "10am to 3pm",
-          "5am to 8am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 9pm",
+        "8am to 10am",
+        "10am to 3pm",
+        "5am to 8am"
+      ]
     }
   },
   {
@@ -7530,20 +7302,18 @@
       2.674997454509139
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 7pm",
-          "9am to 11am",
-          "2pm to 3pm",
-          "11am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 7pm",
+        "9am to 11am",
+        "2pm to 3pm",
+        "11am to 2pm"
+      ]
     }
   },
   {
@@ -7599,20 +7369,18 @@
       3.4804593976587057
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 9pm",
-          "6am to 7am",
-          "5am to 6am",
-          "9pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 9pm",
+        "6am to 7am",
+        "5am to 6am",
+        "9pm to 10pm"
+      ]
     }
   },
   {
@@ -7656,20 +7424,18 @@
       0.8837353512644768
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8pm to 10pm",
-          "1pm to 2pm",
-          "2pm to 4pm",
-          "4pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8pm to 10pm",
+        "1pm to 2pm",
+        "2pm to 4pm",
+        "4pm to 8pm"
+      ]
     }
   },
   {
@@ -7717,20 +7483,18 @@
       1.789190161973238
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 10am",
-          "7pm to 10pm",
-          "10am to 1pm",
-          "3pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 10am",
+        "7pm to 10pm",
+        "10am to 1pm",
+        "3pm to 7pm"
+      ]
     }
   },
   {
@@ -7774,20 +7538,18 @@
       0.8965129479765892
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 4pm",
-          "7am to 9am",
-          "9am to 3pm",
-          "6am to 7am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 4pm",
+        "7am to 9am",
+        "9am to 3pm",
+        "6am to 7am"
+      ]
     }
   },
   {
@@ -7843,20 +7605,18 @@
       3.5688745379447937
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 3pm",
-          "4pm to 7pm",
-          "3pm to 4pm",
-          "7pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 3pm",
+        "4pm to 7pm",
+        "3pm to 4pm",
+        "7pm to 8pm"
+      ]
     }
   },
   {
@@ -7912,20 +7672,18 @@
       3.397717323154211
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 11am",
-          "6pm to 9pm",
-          "11am to 5pm",
-          "5pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 11am",
+        "6pm to 9pm",
+        "11am to 5pm",
+        "5pm to 6pm"
+      ]
     }
   },
   {
@@ -7973,20 +7731,18 @@
       1.7857189923524857
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 12pm",
-          "12pm to 8pm",
-          "9am to 11am",
-          "8pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 12pm",
+        "12pm to 8pm",
+        "9am to 11am",
+        "8pm to 10pm"
+      ]
     }
   },
   {
@@ -8030,20 +7786,18 @@
       0.8494209721684456
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 11am",
-          "4pm to 5pm",
-          "5pm to 6pm",
-          "11am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 11am",
+        "4pm to 5pm",
+        "5pm to 6pm",
+        "11am to 12pm"
+      ]
     }
   },
   {
@@ -8099,20 +7853,18 @@
       3.6640936508774757
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 9am",
-          "9am to 6pm",
-          "8pm to 10pm",
-          "6pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 9am",
+        "9am to 6pm",
+        "8pm to 10pm",
+        "6pm to 8pm"
+      ]
     }
   },
   {
@@ -8168,20 +7920,18 @@
       3.6413589995354414
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 10am",
-          "6am to 8am",
-          "8pm to 9pm",
-          "8am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 10am",
+        "6am to 8am",
+        "8pm to 9pm",
+        "8am to 9am"
+      ]
     }
   },
   {
@@ -8233,20 +7983,18 @@
       2.5799876041710377
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 1pm",
-          "9am to 10am",
-          "1pm to 10pm",
-          "10am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 1pm",
+        "9am to 10am",
+        "1pm to 10pm",
+        "10am to 12pm"
+      ]
     }
   },
   {
@@ -8290,20 +8038,18 @@
       0.8488081991672516
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 8pm",
-          "8am to 1pm",
-          "7am to 8am",
-          "8pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 8pm",
+        "8am to 1pm",
+        "7am to 8am",
+        "8pm to 10pm"
+      ]
     }
   },
   {
@@ -8355,20 +8101,18 @@
       2.687845144420862
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 10am",
-          "6am to 9am",
-          "5am to 6am",
-          "10am to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 10am",
+        "6am to 9am",
+        "5am to 6am",
+        "10am to 3pm"
+      ]
     }
   },
   {
@@ -8428,20 +8172,18 @@
       4.453881084918976
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 10am",
-          "5am to 6am",
-          "6am to 8am",
-          "11am to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 10am",
+        "5am to 6am",
+        "6am to 8am",
+        "11am to 8pm"
+      ]
     }
   },
   {
@@ -8485,20 +8227,18 @@
       0.8595692589879036
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5pm to 9pm",
-          "9am to 11am",
-          "9pm to 10pm",
-          "4pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5pm to 9pm",
+        "9am to 11am",
+        "9pm to 10pm",
+        "4pm to 5pm"
+      ]
     }
   },
   {
@@ -8554,20 +8294,18 @@
       3.5407509803771973
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9pm to 10pm",
-          "1pm to 3pm",
-          "3pm to 4pm",
-          "7pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9pm to 10pm",
+        "1pm to 3pm",
+        "3pm to 4pm",
+        "7pm to 9pm"
+      ]
     }
   },
   {
@@ -8619,20 +8357,18 @@
       2.7238987386226654
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 7am",
-          "3pm to 8pm",
-          "9am to 1pm",
-          "7am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 7am",
+        "3pm to 8pm",
+        "9am to 1pm",
+        "7am to 9am"
+      ]
     }
   },
   {
@@ -8684,20 +8420,18 @@
       2.6523624882102013
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 11am",
-          "5pm to 8pm",
-          "11am to 1pm",
-          "1pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 11am",
+        "5pm to 8pm",
+        "11am to 1pm",
+        "1pm to 5pm"
+      ]
     }
   },
   {
@@ -8753,20 +8487,18 @@
       3.281500682234764
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 6am",
-          "2pm to 6pm",
-          "1pm to 2pm",
-          "6am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 6am",
+        "2pm to 6pm",
+        "1pm to 2pm",
+        "6am to 9am"
+      ]
     }
   },
   {
@@ -8822,20 +8554,18 @@
       3.641317740082741
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 4pm",
-          "4pm to 5pm",
-          "5pm to 8pm",
-          "5am to 7am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 4pm",
+        "4pm to 5pm",
+        "5pm to 8pm",
+        "5am to 7am"
+      ]
     }
   },
   {
@@ -8883,20 +8613,18 @@
       1.8208963349461555
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 3pm",
-          "6am to 7am",
-          "6pm to 7pm",
-          "7am to 11am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 3pm",
+        "6am to 7am",
+        "6pm to 7pm",
+        "7am to 11am"
+      ]
     }
   },
   {
@@ -8944,20 +8672,18 @@
       1.8216056115925312
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 8pm",
-          "4pm to 6pm",
-          "10am to 12pm",
-          "12pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 8pm",
+        "4pm to 6pm",
+        "10am to 12pm",
+        "12pm to 4pm"
+      ]
     }
   },
   {
@@ -9009,20 +8735,18 @@
       2.422840029001236
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 4pm",
-          "4pm to 7pm",
-          "2pm to 3pm",
-          "7pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 4pm",
+        "4pm to 7pm",
+        "2pm to 3pm",
+        "7pm to 9pm"
+      ]
     }
   },
   {
@@ -9070,20 +8794,18 @@
       1.818084854632616
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 8pm",
-          "12pm to 3pm",
-          "5am to 11am",
-          "11am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 8pm",
+        "12pm to 3pm",
+        "5am to 11am",
+        "11am to 12pm"
+      ]
     }
   },
   {
@@ -9131,20 +8853,18 @@
       1.6206981614232063
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 8am",
-          "9am to 5pm",
-          "5pm to 8pm",
-          "8am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 8am",
+        "9am to 5pm",
+        "5pm to 8pm",
+        "8am to 9am"
+      ]
     }
   },
   {
@@ -9188,20 +8908,18 @@
       0.8498299047350883
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7pm to 8pm",
-          "10am to 5pm",
-          "5pm to 7pm",
-          "5am to 7am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7pm to 8pm",
+        "10am to 5pm",
+        "5pm to 7pm",
+        "5am to 7am"
+      ]
     }
   },
   {
@@ -9253,20 +8971,18 @@
       2.607356953434646
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 12pm",
-          "2pm to 7pm",
-          "12pm to 2pm",
-          "6am to 7am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 12pm",
+        "2pm to 7pm",
+        "12pm to 2pm",
+        "6am to 7am"
+      ]
     }
   },
   {
@@ -9314,20 +9030,18 @@
       1.7901852056384087
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 1pm",
-          "8am to 9am",
-          "6am to 8am",
-          "1pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 1pm",
+        "8am to 9am",
+        "6am to 8am",
+        "1pm to 3pm"
+      ]
     }
   },
   {
@@ -9383,20 +9097,18 @@
       3.455864056944847
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 3pm",
-          "10am to 11am",
-          "8pm to 10pm",
-          "3pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 3pm",
+        "10am to 11am",
+        "8pm to 10pm",
+        "3pm to 5pm"
+      ]
     }
   },
   {
@@ -9452,20 +9164,18 @@
       3.4385364428162575
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 7pm",
-          "1pm to 2pm",
-          "10am to 12pm",
-          "2pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 7pm",
+        "1pm to 2pm",
+        "10am to 12pm",
+        "2pm to 6pm"
+      ]
     }
   },
   {
@@ -9521,20 +9231,18 @@
       3.5372177809476852
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 5pm",
-          "5pm to 9pm",
-          "6am to 10am",
-          "5am to 6am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 5pm",
+        "5pm to 9pm",
+        "6am to 10am",
+        "5am to 6am"
+      ]
     }
   },
   {
@@ -9590,20 +9298,18 @@
       3.43911768309772
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7pm to 8pm",
-          "6am to 12pm",
-          "8pm to 10pm",
-          "12pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7pm to 8pm",
+        "6am to 12pm",
+        "8pm to 10pm",
+        "12pm to 3pm"
+      ]
     }
   },
   {
@@ -9655,20 +9361,18 @@
       2.6123641319572926
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 4pm",
-          "9pm to 10pm",
-          "4pm to 5pm",
-          "5pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 4pm",
+        "9pm to 10pm",
+        "4pm to 5pm",
+        "5pm to 9pm"
+      ]
     }
   },
   {
@@ -9728,20 +9432,18 @@
       4.316379759460688
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 5pm",
-          "11am to 3pm",
-          "5am to 11am",
-          "5pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 5pm",
+        "11am to 3pm",
+        "5am to 11am",
+        "5pm to 9pm"
+      ]
     }
   },
   {
@@ -9793,20 +9495,18 @@
       2.6640415638685226
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 1pm",
-          "3pm to 8pm",
-          "5am to 7am",
-          "1pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 1pm",
+        "3pm to 8pm",
+        "5am to 7am",
+        "1pm to 3pm"
+      ]
     }
   },
   {
@@ -9854,20 +9554,18 @@
       1.7922694385051727
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 2pm",
-          "4pm to 5pm",
-          "2pm to 4pm",
-          "8pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 2pm",
+        "4pm to 5pm",
+        "2pm to 4pm",
+        "8pm to 9pm"
+      ]
     }
   },
   {
@@ -9919,20 +9617,18 @@
       2.3023582585155964
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 1pm",
-          "1pm to 4pm",
-          "8am to 10am",
-          "10am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 1pm",
+        "1pm to 4pm",
+        "8am to 10am",
+        "10am to 12pm"
+      ]
     }
   },
   {
@@ -9980,20 +9676,18 @@
       1.846021804958582
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 3pm",
-          "12pm to 1pm",
-          "3pm to 7pm",
-          "10am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 3pm",
+        "12pm to 1pm",
+        "3pm to 7pm",
+        "10am to 12pm"
+      ]
     }
   },
   {
@@ -10041,20 +9735,18 @@
       1.7997555434703827
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7pm to 9pm",
-          "7am to 8am",
-          "1pm to 7pm",
-          "9pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7pm to 9pm",
+        "7am to 8am",
+        "1pm to 7pm",
+        "9pm to 10pm"
+      ]
     }
   },
   {
@@ -10110,20 +9802,18 @@
       3.6491268929094076
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5pm to 6pm",
-          "1pm to 4pm",
-          "4pm to 5pm",
-          "12pm to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5pm to 6pm",
+        "1pm to 4pm",
+        "4pm to 5pm",
+        "12pm to 1pm"
+      ]
     }
   },
   {
@@ -10171,20 +9861,18 @@
       1.7989704087376595
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 2pm",
-          "5am to 8am",
-          "2pm to 10pm",
-          "8am to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 2pm",
+        "5am to 8am",
+        "2pm to 10pm",
+        "8am to 1pm"
+      ]
     }
   },
   {
@@ -10236,20 +9924,18 @@
       2.5695871375501156
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 7am",
-          "9am to 3pm",
-          "8am to 9am",
-          "3pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 7am",
+        "9am to 3pm",
+        "8am to 9am",
+        "3pm to 5pm"
+      ]
     }
   },
   {
@@ -10305,20 +9991,18 @@
       3.5889180079102516
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 6am",
-          "2pm to 7pm",
-          "8pm to 10pm",
-          "6am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 6am",
+        "2pm to 7pm",
+        "8pm to 10pm",
+        "6am to 2pm"
+      ]
     }
   },
   {
@@ -10374,20 +10058,18 @@
       3.2276386469602585
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 1pm",
-          "9am to 10am",
-          "7am to 9am",
-          "1pm to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 1pm",
+        "9am to 10am",
+        "7am to 9am",
+        "1pm to 2pm"
+      ]
     }
   },
   {
@@ -10435,20 +10117,18 @@
       1.7933654189109802
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 3pm",
-          "5pm to 8pm",
-          "5am to 10am",
-          "3pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 3pm",
+        "5pm to 8pm",
+        "5am to 10am",
+        "3pm to 4pm"
+      ]
     }
   },
   {
@@ -10508,20 +10188,18 @@
       4.438691154122353
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 6pm",
-          "11am to 12pm",
-          "6am to 11am",
-          "6pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 6pm",
+        "11am to 12pm",
+        "6am to 11am",
+        "6pm to 10pm"
+      ]
     }
   },
   {
@@ -10573,20 +10251,18 @@
       2.6397479996085167
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 6pm",
-          "7am to 8am",
-          "3pm to 4pm",
-          "8am to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 6pm",
+        "7am to 8am",
+        "3pm to 4pm",
+        "8am to 3pm"
+      ]
     }
   },
   {
@@ -10642,20 +10318,18 @@
       3.6453648544847965
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 5pm",
-          "11am to 1pm",
-          "6am to 11am",
-          "5pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 5pm",
+        "11am to 1pm",
+        "6am to 11am",
+        "5pm to 6pm"
+      ]
     }
   },
   {
@@ -10707,20 +10381,18 @@
       2.659879148006439
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 4pm",
-          "8am to 9am",
-          "9am to 10am",
-          "6pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 4pm",
+        "8am to 9am",
+        "9am to 10am",
+        "6pm to 8pm"
+      ]
     }
   },
   {
@@ -10768,20 +10440,18 @@
       1.7920904383063316
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 4pm",
-          "5pm to 9pm",
-          "4pm to 5pm",
-          "5am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 4pm",
+        "5pm to 9pm",
+        "4pm to 5pm",
+        "5am to 12pm"
+      ]
     }
   },
   {
@@ -10833,20 +10503,18 @@
       2.6794159039855003
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 2pm",
-          "4pm to 5pm",
-          "5pm to 6pm",
-          "2pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 2pm",
+        "4pm to 5pm",
+        "5pm to 6pm",
+        "2pm to 4pm"
+      ]
     }
   },
   {
@@ -10898,20 +10566,18 @@
       2.5966251604259014
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 12pm",
-          "4pm to 6pm",
-          "5am to 8am",
-          "12pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 12pm",
+        "4pm to 6pm",
+        "5am to 8am",
+        "12pm to 4pm"
+      ]
     }
   },
   {
@@ -10971,20 +10637,18 @@
       4.180888667702675
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 12pm",
-          "4pm to 5pm",
-          "5am to 6am",
-          "5pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 12pm",
+        "4pm to 5pm",
+        "5am to 6am",
+        "5pm to 7pm"
+      ]
     }
   },
   {
@@ -11036,20 +10700,18 @@
       2.534350909292698
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 10am",
-          "7am to 8am",
-          "12pm to 1pm",
-          "4pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 10am",
+        "7am to 8am",
+        "12pm to 1pm",
+        "4pm to 7pm"
+      ]
     }
   },
   {
@@ -11105,20 +10767,18 @@
       3.5200421884655952
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 5pm",
-          "11am to 1pm",
-          "5pm to 6pm",
-          "1pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 5pm",
+        "11am to 1pm",
+        "5pm to 6pm",
+        "1pm to 3pm"
+      ]
     }
   },
   {
@@ -11174,20 +10834,18 @@
       3.5744004622101784
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9pm to 10pm",
-          "9am to 2pm",
-          "6am to 8am",
-          "2pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9pm to 10pm",
+        "9am to 2pm",
+        "6am to 8am",
+        "2pm to 9pm"
+      ]
     }
   },
   {
@@ -11243,20 +10901,18 @@
       3.619343016296625
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 6pm",
-          "7pm to 8pm",
-          "6am to 8am",
-          "8am to 10am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 6pm",
+        "7pm to 8pm",
+        "6am to 8am",
+        "8am to 10am"
+      ]
     }
   },
   {
@@ -11316,20 +10972,18 @@
       4.36224864423275
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7pm to 8pm",
-          "6pm to 7pm",
-          "7am to 6pm",
-          "8pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7pm to 8pm",
+        "6pm to 7pm",
+        "7am to 6pm",
+        "8pm to 10pm"
+      ]
     }
   },
   {
@@ -11377,20 +11031,18 @@
       1.7982013979926705
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 1pm",
-          "8am to 11am",
-          "7am to 8am",
-          "1pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 1pm",
+        "8am to 11am",
+        "7am to 8am",
+        "1pm to 9pm"
+      ]
     }
   },
   {
@@ -11446,20 +11098,18 @@
       3.5705982111394405
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 7pm",
-          "11am to 3pm",
-          "8am to 11am",
-          "6am to 8am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 7pm",
+        "11am to 3pm",
+        "8am to 11am",
+        "6am to 8am"
+      ]
     }
   },
   {
@@ -11511,20 +11161,18 @@
       2.6096494384109974
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 6pm",
-          "6am to 7am",
-          "7am to 12pm",
-          "12pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 6pm",
+        "6am to 7am",
+        "7am to 12pm",
+        "12pm to 4pm"
+      ]
     }
   },
   {
@@ -11572,20 +11220,18 @@
       1.8515598997473717
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 1pm",
-          "4pm to 9pm",
-          "1pm to 4pm",
-          "9pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 1pm",
+        "4pm to 9pm",
+        "1pm to 4pm",
+        "9pm to 10pm"
+      ]
     }
   },
   {
@@ -11637,20 +11283,18 @@
       2.675343219190836
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 5pm",
-          "12pm to 3pm",
-          "5pm to 8pm",
-          "11am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 5pm",
+        "12pm to 3pm",
+        "5pm to 8pm",
+        "11am to 12pm"
+      ]
     }
   },
   {
@@ -11698,20 +11342,18 @@
       1.6886697858572006
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 7pm",
-          "7pm to 10pm",
-          "7am to 10am",
-          "10am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 7pm",
+        "7pm to 10pm",
+        "7am to 10am",
+        "10am to 12pm"
+      ]
     }
   },
   {
@@ -11759,20 +11401,18 @@
       1.8505226150155067
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 7am",
-          "5pm to 9pm",
-          "7am to 9am",
-          "9am to 10am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 7am",
+        "5pm to 9pm",
+        "7am to 9am",
+        "9am to 10am"
+      ]
     }
   },
   {
@@ -11820,20 +11460,18 @@
       1.7825548723340034
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 11am",
-          "11am to 5pm",
-          "5pm to 6pm",
-          "7am to 8am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 11am",
+        "11am to 5pm",
+        "5pm to 6pm",
+        "7am to 8am"
+      ]
     }
   },
   {
@@ -11877,20 +11515,18 @@
       0.8587793875485659
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 5pm",
-          "7pm to 10pm",
-          "5am to 10am",
-          "5pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 5pm",
+        "7pm to 10pm",
+        "5am to 10am",
+        "5pm to 7pm"
+      ]
     }
   },
   {
@@ -11942,20 +11578,18 @@
       2.5017005018889904
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5pm to 6pm",
-          "2pm to 5pm",
-          "6pm to 7pm",
-          "8am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5pm to 6pm",
+        "2pm to 5pm",
+        "6pm to 7pm",
+        "8am to 2pm"
+      ]
     }
   },
   {
@@ -12003,20 +11637,18 @@
       1.8449990153312683
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 8am",
-          "6am to 7am",
-          "9am to 7pm",
-          "8am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 8am",
+        "6am to 7am",
+        "9am to 7pm",
+        "8am to 9am"
+      ]
     }
   },
   {
@@ -12060,20 +11692,18 @@
       0.8755351901054382
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 2pm",
-          "2pm to 3pm",
-          "9am to 11am",
-          "3pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 2pm",
+        "2pm to 3pm",
+        "9am to 11am",
+        "3pm to 4pm"
+      ]
     }
   },
   {
@@ -12129,20 +11759,18 @@
       3.556758426129818
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 10am",
-          "7pm to 8pm",
-          "12pm to 7pm",
-          "10am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 10am",
+        "7pm to 8pm",
+        "12pm to 7pm",
+        "10am to 12pm"
+      ]
     }
   },
   {
@@ -12190,20 +11818,18 @@
       1.7589729465544224
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 3pm",
-          "3pm to 4pm",
-          "7pm to 9pm",
-          "9pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 3pm",
+        "3pm to 4pm",
+        "7pm to 9pm",
+        "9pm to 10pm"
+      ]
     }
   },
   {
@@ -12263,20 +11889,18 @@
       4.555994477123022
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 7pm",
-          "5am to 9am",
-          "9am to 4pm",
-          "8pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 7pm",
+        "5am to 9am",
+        "9am to 4pm",
+        "8pm to 10pm"
+      ]
     }
   },
   {
@@ -12324,20 +11948,18 @@
       1.6744291000068188
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 4pm",
-          "6am to 7am",
-          "7am to 1pm",
-          "5am to 6am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 4pm",
+        "6am to 7am",
+        "7am to 1pm",
+        "5am to 6am"
+      ]
     }
   },
   {
@@ -12393,20 +12015,18 @@
       3.4858081229031086
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 7pm",
-          "2pm to 3pm",
-          "12pm to 2pm",
-          "11am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 7pm",
+        "2pm to 3pm",
+        "12pm to 2pm",
+        "11am to 12pm"
+      ]
     }
   },
   {
@@ -12458,20 +12078,18 @@
       2.622190397232771
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 1pm",
-          "10am to 12pm",
-          "7am to 8am",
-          "5am to 7am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 1pm",
+        "10am to 12pm",
+        "7am to 8am",
+        "5am to 7am"
+      ]
     }
   },
   {
@@ -12515,20 +12133,18 @@
       0.9074689820408821
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 7am",
-          "12pm to 2pm",
-          "4pm to 9pm",
-          "7am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 7am",
+        "12pm to 2pm",
+        "4pm to 9pm",
+        "7am to 12pm"
+      ]
     }
   },
   {
@@ -12580,20 +12196,18 @@
       2.427094206213951
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 5pm",
-          "11am to 3pm",
-          "5pm to 7pm",
-          "7pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 5pm",
+        "11am to 3pm",
+        "5pm to 7pm",
+        "7pm to 10pm"
+      ]
     }
   },
   {
@@ -12649,20 +12263,18 @@
       3.6077042147517204
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 7am",
-          "5am to 6am",
-          "7am to 2pm",
-          "6pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 7am",
+        "5am to 6am",
+        "7am to 2pm",
+        "6pm to 8pm"
+      ]
     }
   },
   {
@@ -12722,20 +12334,18 @@
       4.027540519833565
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 6pm",
-          "7am to 11am",
-          "5am to 7am",
-          "11am to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 6pm",
+        "7am to 11am",
+        "5am to 7am",
+        "11am to 1pm"
+      ]
     }
   },
   {
@@ -12783,20 +12393,18 @@
       1.5283026173710823
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 2pm",
-          "4pm to 10pm",
-          "5am to 6am",
-          "2pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 2pm",
+        "4pm to 10pm",
+        "5am to 6am",
+        "2pm to 4pm"
+      ]
     }
   },
   {
@@ -12848,20 +12456,18 @@
       2.7276533767580986
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 6pm",
-          "12pm to 2pm",
-          "6pm to 8pm",
-          "2pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 6pm",
+        "12pm to 2pm",
+        "6pm to 8pm",
+        "2pm to 3pm"
+      ]
     }
   },
   {
@@ -12913,20 +12519,18 @@
       2.7482594922184944
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 4pm",
-          "7am to 11am",
-          "4pm to 8pm",
-          "11am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 4pm",
+        "7am to 11am",
+        "4pm to 8pm",
+        "11am to 2pm"
+      ]
     }
   },
   {
@@ -12982,20 +12586,18 @@
       3.664230030030012
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8pm to 9pm",
-          "4pm to 6pm",
-          "5am to 3pm",
-          "6pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8pm to 9pm",
+        "4pm to 6pm",
+        "5am to 3pm",
+        "6pm to 7pm"
+      ]
     }
   },
   {
@@ -13043,20 +12645,18 @@
       1.7115621715784073
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5pm to 9pm",
-          "3pm to 5pm",
-          "7am to 11am",
-          "11am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5pm to 9pm",
+        "3pm to 5pm",
+        "7am to 11am",
+        "11am to 2pm"
+      ]
     }
   },
   {
@@ -13108,20 +12708,18 @@
       2.709541767835617
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 6pm",
-          "7am to 9am",
-          "6pm to 7pm",
-          "10am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 6pm",
+        "7am to 9am",
+        "6pm to 7pm",
+        "10am to 12pm"
+      ]
     }
   },
   {
@@ -13169,20 +12767,18 @@
       1.847644541412592
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5pm to 6pm",
-          "6pm to 9pm",
-          "4pm to 5pm",
-          "1pm to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5pm to 6pm",
+        "6pm to 9pm",
+        "4pm to 5pm",
+        "1pm to 4pm"
+      ]
     }
   },
   {
@@ -13230,20 +12826,18 @@
       1.7243008613586426
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 7am",
-          "8am to 10am",
-          "10am to 11am",
-          "11am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 7am",
+        "8am to 10am",
+        "10am to 11am",
+        "11am to 2pm"
+      ]
     }
   },
   {
@@ -13299,20 +12893,18 @@
       3.579053871333599
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12pm to 2pm",
-          "2pm to 3pm",
-          "4pm to 10pm",
-          "5am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12pm to 2pm",
+        "2pm to 3pm",
+        "4pm to 10pm",
+        "5am to 12pm"
+      ]
     }
   },
   {
@@ -13356,20 +12948,18 @@
       0.900210153311491
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 4pm",
-          "5am to 9am",
-          "4pm to 7pm",
-          "7pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 4pm",
+        "5am to 9am",
+        "4pm to 7pm",
+        "7pm to 9pm"
+      ]
     }
   },
   {
@@ -13421,20 +13011,18 @@
       2.6885180547833443
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 12pm",
-          "9pm to 10pm",
-          "12pm to 4pm",
-          "8pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 12pm",
+        "9pm to 10pm",
+        "12pm to 4pm",
+        "8pm to 9pm"
+      ]
     }
   },
   {
@@ -13486,20 +13074,18 @@
       2.6115541234612465
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "10am to 12pm",
-          "5am to 8am",
-          "8am to 10am",
-          "12pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "10am to 12pm",
+        "5am to 8am",
+        "8am to 10am",
+        "12pm to 7pm"
+      ]
     }
   },
   {
@@ -13559,20 +13145,18 @@
       4.533998496830463
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 12pm",
-          "12pm to 4pm",
-          "6am to 11am",
-          "4pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 12pm",
+        "12pm to 4pm",
+        "6am to 11am",
+        "4pm to 8pm"
+      ]
     }
   },
   {
@@ -13636,20 +13220,18 @@
       5.027350317686796
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9pm to 10pm",
-          "7pm to 9pm",
-          "8am to 1pm",
-          "3pm to 7pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9pm to 10pm",
+        "7pm to 9pm",
+        "8am to 1pm",
+        "3pm to 7pm"
+      ]
     }
   },
   {
@@ -13701,20 +13283,18 @@
       2.670553244650364
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 7pm",
-          "1pm to 6pm",
-          "12pm to 1pm",
-          "10am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 7pm",
+        "1pm to 6pm",
+        "12pm to 1pm",
+        "10am to 12pm"
+      ]
     }
   },
   {
@@ -13762,20 +13342,18 @@
       1.7112997472286224
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 6pm",
-          "8pm to 9pm",
-          "6am to 11am",
-          "6pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 6pm",
+        "8pm to 9pm",
+        "6am to 11am",
+        "6pm to 8pm"
+      ]
     }
   },
   {
@@ -13839,20 +13417,18 @@
       5.282212475314736
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7pm to 10pm",
-          "9am to 12pm",
-          "5pm to 7pm",
-          "12pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7pm to 10pm",
+        "9am to 12pm",
+        "5pm to 7pm",
+        "12pm to 5pm"
+      ]
     }
   },
   {
@@ -13900,20 +13476,18 @@
       1.6013039834797382
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 10am",
-          "7am to 8am",
-          "10am to 12pm",
-          "1pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 10am",
+        "7am to 8am",
+        "10am to 12pm",
+        "1pm to 8pm"
+      ]
     }
   },
   {
@@ -13961,20 +13535,18 @@
       1.6336992606520653
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 12pm",
-          "8am to 9am",
-          "6am to 8am",
-          "12pm to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 12pm",
+        "8am to 9am",
+        "6am to 8am",
+        "12pm to 1pm"
+      ]
     }
   },
   {
@@ -14030,20 +13602,18 @@
       3.6219546981155872
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 9am",
-          "9am to 1pm",
-          "1pm to 8pm",
-          "8pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 9am",
+        "9am to 1pm",
+        "1pm to 8pm",
+        "8pm to 9pm"
+      ]
     }
   },
   {
@@ -14087,20 +13657,18 @@
       0.8258393853902817
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 2pm",
-          "2pm to 9pm",
-          "9am to 11am",
-          "6am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 2pm",
+        "2pm to 9pm",
+        "9am to 11am",
+        "6am to 9am"
+      ]
     }
   },
   {
@@ -14144,20 +13712,18 @@
       0.8923561125993729
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 1pm",
-          "1pm to 6pm",
-          "6pm to 10pm",
-          "7am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 1pm",
+        "1pm to 6pm",
+        "6pm to 10pm",
+        "7am to 9am"
+      ]
     }
   },
   {
@@ -14209,20 +13775,18 @@
       2.6225083395838737
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 10am",
-          "1pm to 6pm",
-          "10am to 1pm",
-          "7am to 8am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 10am",
+        "1pm to 6pm",
+        "10am to 1pm",
+        "7am to 8am"
+      ]
     }
   },
   {
@@ -14270,20 +13834,18 @@
       1.7808130718767643
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 6pm",
-          "9pm to 10pm",
-          "6pm to 9pm",
-          "8am to 10am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 6pm",
+        "9pm to 10pm",
+        "6pm to 9pm",
+        "8am to 10am"
+      ]
     }
   },
   {
@@ -14331,20 +13893,18 @@
       1.7819952890276909
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 6am",
-          "6am to 8am",
-          "8am to 10am",
-          "7pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 6am",
+        "6am to 8am",
+        "8am to 10am",
+        "7pm to 9pm"
+      ]
     }
   },
   {
@@ -14404,20 +13964,18 @@
       4.355435971170664
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 2pm",
-          "5pm to 8pm",
-          "2pm to 4pm",
-          "4pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 2pm",
+        "5pm to 8pm",
+        "2pm to 4pm",
+        "4pm to 5pm"
+      ]
     }
   },
   {
@@ -14473,20 +14031,18 @@
       3.515252275392413
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 3pm",
-          "8am to 10am",
-          "10am to 12pm",
-          "12pm to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 3pm",
+        "8am to 10am",
+        "10am to 12pm",
+        "12pm to 1pm"
+      ]
     }
   },
   {
@@ -14546,20 +14102,18 @@
       4.163909833878279
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 9am",
-          "11am to 5pm",
-          "10am to 11am",
-          "9am to 10am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 9am",
+        "11am to 5pm",
+        "10am to 11am",
+        "9am to 10am"
+      ]
     }
   },
   {
@@ -14615,20 +14169,18 @@
       3.5801896303892136
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "2pm to 7pm",
-          "11am to 2pm",
-          "5am to 7am",
-          "7am to 8am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "2pm to 7pm",
+        "11am to 2pm",
+        "5am to 7am",
+        "7am to 8am"
+      ]
     }
   },
   {
@@ -14680,20 +14232,18 @@
       2.6085998602211475
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 7am",
-          "11am to 12pm",
-          "12pm to 2pm",
-          "7am to 11am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 7am",
+        "11am to 12pm",
+        "12pm to 2pm",
+        "7am to 11am"
+      ]
     }
   },
   {
@@ -14749,20 +14299,18 @@
       3.544923536479473
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 7pm",
-          "8am to 10am",
-          "9pm to 10pm",
-          "10am to 11am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 7pm",
+        "8am to 10am",
+        "9pm to 10pm",
+        "10am to 11am"
+      ]
     }
   },
   {
@@ -14822,20 +14370,18 @@
       4.46255212649703
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 9am",
-          "2pm to 7pm",
-          "5am to 7am",
-          "11am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 9am",
+        "2pm to 7pm",
+        "5am to 7am",
+        "11am to 2pm"
+      ]
     }
   },
   {
@@ -14891,20 +14437,18 @@
       3.5584424883127213
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 2pm",
-          "5pm to 6pm",
-          "9pm to 10pm",
-          "2pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 2pm",
+        "5pm to 6pm",
+        "9pm to 10pm",
+        "2pm to 5pm"
+      ]
     }
   },
   {
@@ -14960,20 +14504,18 @@
       3.5317326188087463
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 5pm",
-          "5pm to 10pm",
-          "5am to 9am",
-          "10am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 5pm",
+        "5pm to 10pm",
+        "5am to 9am",
+        "10am to 2pm"
+      ]
     }
   },
   {
@@ -15033,20 +14575,18 @@
       4.042438216507435
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "1pm to 2pm",
-          "8am to 9am",
-          "9am to 1pm",
-          "6am to 8am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "1pm to 2pm",
+        "8am to 9am",
+        "9am to 1pm",
+        "6am to 8am"
+      ]
     }
   },
   {
@@ -15102,20 +14642,18 @@
       3.494318410754204
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 9am",
-          "4pm to 7pm",
-          "9am to 10am",
-          "7pm to 8pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 9am",
+        "4pm to 7pm",
+        "9am to 10am",
+        "7pm to 8pm"
+      ]
     }
   },
   {
@@ -15163,20 +14701,18 @@
       1.8093766085803509
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "7am to 3pm",
-          "9pm to 10pm",
-          "6am to 7am",
-          "3pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "7am to 3pm",
+        "9pm to 10pm",
+        "6am to 7am",
+        "3pm to 9pm"
+      ]
     }
   },
   {
@@ -15228,20 +14764,18 @@
       2.714110866189003
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 8am",
-          "5am to 6am",
-          "3pm to 10pm",
-          "8am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 8am",
+        "5am to 6am",
+        "3pm to 10pm",
+        "8am to 9am"
+      ]
     }
   },
   {
@@ -15289,20 +14823,18 @@
       1.7394862100481987
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 11am",
-          "12pm to 5pm",
-          "5pm to 7pm",
-          "11am to 12pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 11am",
+        "12pm to 5pm",
+        "5pm to 7pm",
+        "11am to 12pm"
+      ]
     }
   },
   {
@@ -15366,20 +14898,18 @@
       5.027338773012161
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 7am",
-          "9am to 12pm",
-          "7pm to 10pm",
-          "7am to 9am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 7am",
+        "9am to 12pm",
+        "7pm to 10pm",
+        "7am to 9am"
+      ]
     }
   },
   {
@@ -15447,20 +14977,18 @@
       6.217650841921568
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 6am",
-          "6am to 9am",
-          "9am to 6pm",
-          "6pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 6am",
+        "6am to 9am",
+        "9am to 6pm",
+        "6pm to 10pm"
+      ]
     }
   },
   {
@@ -15512,20 +15040,18 @@
       2.5893493108451366
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 7pm",
-          "5am to 7am",
-          "7pm to 8pm",
-          "7am to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 7pm",
+        "5am to 7am",
+        "7pm to 8pm",
+        "7am to 3pm"
+      ]
     }
   },
   {
@@ -15585,20 +15111,18 @@
       4.5494348257780075
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6am to 7am",
-          "1pm to 4pm",
-          "7am to 9am",
-          "4pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6am to 7am",
+        "1pm to 4pm",
+        "7am to 9am",
+        "4pm to 9pm"
+      ]
     }
   },
   {
@@ -15650,20 +15174,18 @@
       2.689519539475441
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "9am to 12pm",
-          "12pm to 2pm",
-          "7am to 9am",
-          "9pm to 10pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "9am to 12pm",
+        "12pm to 2pm",
+        "7am to 9am",
+        "9pm to 10pm"
+      ]
     }
   },
   {
@@ -15715,20 +15237,18 @@
       2.620817471295595
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5am to 8am",
-          "8am to 11am",
-          "5pm to 7pm",
-          "11am to 4pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5am to 8am",
+        "8am to 11am",
+        "5pm to 7pm",
+        "11am to 4pm"
+      ]
     }
   },
   {
@@ -15768,20 +15288,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 12pm",
-          "9pm to 10pm",
-          "2pm to 9pm",
-          "12pm to 1pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 12pm",
+        "9pm to 10pm",
+        "2pm to 9pm",
+        "12pm to 1pm"
+      ]
     }
   },
   {
@@ -15841,20 +15359,18 @@
       4.30721665546298
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8pm to 10pm",
-          "6pm to 8pm",
-          "10am to 3pm",
-          "5pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8pm to 10pm",
+        "6pm to 8pm",
+        "10am to 3pm",
+        "5pm to 6pm"
+      ]
     }
   },
   {
@@ -15906,20 +15422,18 @@
       2.596241023391485
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 9pm",
-          "10am to 1pm",
-          "1pm to 4pm",
-          "4pm to 6pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 9pm",
+        "10am to 1pm",
+        "1pm to 4pm",
+        "4pm to 6pm"
+      ]
     }
   },
   {
@@ -15967,20 +15481,18 @@
       1.8412205539643764
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "4pm to 5pm",
-          "7am to 9am",
-          "9am to 11am",
-          "11am to 2pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "4pm to 5pm",
+        "7am to 9am",
+        "9am to 11am",
+        "11am to 2pm"
+      ]
     }
   },
   {
@@ -16040,20 +15552,18 @@
       4.451367702335119
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 1pm",
-          "5am to 6am",
-          "2pm to 7pm",
-          "7am to 11am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 1pm",
+        "5am to 6am",
+        "2pm to 7pm",
+        "7am to 11am"
+      ]
     }
   },
   {
@@ -16101,20 +15611,18 @@
       1.6217327564954758
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "8am to 10am",
-          "5am to 8am",
-          "3pm to 4pm",
-          "10am to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "8am to 10am",
+        "5am to 8am",
+        "3pm to 4pm",
+        "10am to 3pm"
+      ]
     }
   },
   {
@@ -16170,20 +15678,18 @@
       3.4036668092012405
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3pm to 4pm",
-          "12pm to 2pm",
-          "10am to 12pm",
-          "2pm to 3pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3pm to 4pm",
+        "12pm to 2pm",
+        "10am to 12pm",
+        "2pm to 3pm"
+      ]
     }
   },
   {
@@ -16227,20 +15733,18 @@
       0.8920258842408657
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "6pm to 7pm",
-          "2pm to 5pm",
-          "5pm to 6pm",
-          "7pm to 9pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "6pm to 7pm",
+        "2pm to 5pm",
+        "5pm to 6pm",
+        "7pm to 9pm"
+      ]
     }
   },
   {
@@ -16284,20 +15788,18 @@
       0.8389828056097031
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "11am to 2pm",
-          "10am to 11am",
-          "3pm to 5pm",
-          "7am to 10am"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "11am to 2pm",
+        "10am to 11am",
+        "3pm to 5pm",
+        "7am to 10am"
+      ]
     }
   },
   {
@@ -16345,20 +15847,18 @@
       1.779162012040615
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "5pm to 8pm",
-          "8am to 12pm",
-          "8pm to 9pm",
-          "4pm to 5pm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "5pm to 8pm",
+        "8am to 12pm",
+        "8pm to 9pm",
+        "4pm to 5pm"
+      ]
     }
   }
 ]

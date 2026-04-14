@@ -90,8 +90,8 @@ def format_prompt_template(
             return " or ".join([f"##{l}" for l in labels])
         
         choices = item.get("choices")
-        labels = choices.get("labels")
-        texts = choices.get("texts")
+        labels = choices.get("label")
+        texts = choices.get("text")
         options_block = build_options_block(labels, texts)
         label_instruction = build_label_instruction(labels)
         return prompt_template_multiple_choice.format(Q=prompt,

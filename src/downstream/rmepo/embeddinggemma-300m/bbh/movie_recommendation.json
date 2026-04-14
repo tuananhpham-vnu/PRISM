@@ -36,20 +36,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Front Page",
-          "Maelstrom",
-          "The Lion King",
-          "Lamerica"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Front Page",
+        "Maelstrom",
+        "The Lion King",
+        "Lamerica"
+      ]
     }
   },
   {
@@ -93,20 +91,18 @@
       0.630626305937767
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Street Fighter II The Animated Movie",
-          "The Sheltering Sky",
-          "The Boy Who Could Fly",
-          "Terminator 2 Judgment Day"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Street Fighter II The Animated Movie",
+        "The Sheltering Sky",
+        "The Boy Who Could Fly",
+        "Terminator 2 Judgment Day"
+      ]
     }
   },
   {
@@ -146,20 +142,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Orlando",
-          "Guilty of Romance",
-          "Forrest Gump",
-          "All the Real Girls"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Orlando",
+        "Guilty of Romance",
+        "Forrest Gump",
+        "All the Real Girls"
+      ]
     }
   },
   {
@@ -199,22 +193,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "Walk",
-          "Don't Run",
-          "Shaun the Sheep Movie",
-          "Rocky IV",
-          "Braveheart"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "Walk",
+        "Don't Run",
+        "Shaun the Sheep Movie",
+        "Rocky IV",
+        "Braveheart"
+      ]
     }
   },
   {
@@ -254,20 +246,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Club Dread",
-          "George Washington",
-          "Schindler's List",
-          "Once Upon a Time in America"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Club Dread",
+        "George Washington",
+        "Schindler's List",
+        "Once Upon a Time in America"
+      ]
     }
   },
   {
@@ -307,20 +297,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Death Race 2",
-          "Cannonball Run II",
-          "Independence Day",
-          "Slumber Party Massacre II"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Death Race 2",
+        "Cannonball Run II",
+        "Independence Day",
+        "Slumber Party Massacre II"
+      ]
     }
   },
   {
@@ -360,20 +348,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Beyond the Poseidon Adventure",
-          "The Chorus",
-          "Forrest Gump",
-          "Scouts Guide to the Zombie Apocalypse"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Beyond the Poseidon Adventure",
+        "The Chorus",
+        "Forrest Gump",
+        "Scouts Guide to the Zombie Apocalypse"
+      ]
     }
   },
   {
@@ -413,20 +399,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "12 Angry Men",
-          "Mo' Better Blues",
-          "Mindhunters",
-          "The Shawshank Redemption"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "12 Angry Men",
+        "Mo' Better Blues",
+        "Mindhunters",
+        "The Shawshank Redemption"
+      ]
     }
   },
   {
@@ -466,20 +450,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "A Hard Day's Night",
-          "Showtime",
-          "Forrest Gump",
-          "Eddie the Eagle"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "A Hard Day's Night",
+        "Showtime",
+        "Forrest Gump",
+        "Eddie the Eagle"
+      ]
     }
   },
   {
@@ -519,20 +501,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Return",
-          "The Hidden Fortress",
-          "Schindler's List",
-          "The End of the Affair"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Return",
+        "The Hidden Fortress",
+        "Schindler's List",
+        "The End of the Affair"
+      ]
     }
   },
   {
@@ -572,20 +552,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Dragonheart 3 The Sorcerer's Curse",
-          "Chi-Raq",
-          "Stargate",
-          "Tae Guk Gi The Brotherhood of War"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Dragonheart 3 The Sorcerer's Curse",
+        "Chi-Raq",
+        "Stargate",
+        "Tae Guk Gi The Brotherhood of War"
+      ]
     }
   },
   {
@@ -625,20 +603,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Anchors Aweigh",
-          "Looney Tunes Back in Action",
-          "Porky's Revenge",
-          "Dances with Wolves"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Anchors Aweigh",
+        "Looney Tunes Back in Action",
+        "Porky's Revenge",
+        "Dances with Wolves"
+      ]
     }
   },
   {
@@ -678,20 +654,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Joe Somebody",
-          "Dogfight",
-          "Independence Day",
-          "Twin Peaks Fire Walk with Me"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Joe Somebody",
+        "Dogfight",
+        "Independence Day",
+        "Twin Peaks Fire Walk with Me"
+      ]
     }
   },
   {
@@ -731,20 +705,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Damage",
-          "Pie in the Sky",
-          "The Fugitive",
-          "A Plasticine Crow"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Damage",
+        "Pie in the Sky",
+        "The Fugitive",
+        "A Plasticine Crow"
+      ]
     }
   },
   {
@@ -784,20 +756,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Amazing Panda Adventure",
-          "Sweeney Todd",
-          "Welcome to Sarajevo",
-          "Seven"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Amazing Panda Adventure",
+        "Sweeney Todd",
+        "Welcome to Sarajevo",
+        "Seven"
+      ]
     }
   },
   {
@@ -837,20 +807,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Gandhi",
-          "Schindler's List",
-          "Dogfight",
-          "Repo Man"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Gandhi",
+        "Schindler's List",
+        "Dogfight",
+        "Repo Man"
+      ]
     }
   },
   {
@@ -890,20 +858,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Goon Last of the Enforcers",
-          "A Very Harold & Kumar 3D Christmas",
-          "The Fugitive",
-          "A Separation"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Goon Last of the Enforcers",
+        "A Very Harold & Kumar 3D Christmas",
+        "The Fugitive",
+        "A Separation"
+      ]
     }
   },
   {
@@ -943,20 +909,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Art of the Steal",
-          "Pulp Fiction",
-          "Battlestar Galactica The Plan",
-          "Breakin' All the Rules"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Art of the Steal",
+        "Pulp Fiction",
+        "Battlestar Galactica The Plan",
+        "Breakin' All the Rules"
+      ]
     }
   },
   {
@@ -996,20 +960,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Easter Parade",
-          "Captain America The First Avenger",
-          "Braveheart",
-          "Manic"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Easter Parade",
+        "Captain America The First Avenger",
+        "Braveheart",
+        "Manic"
+      ]
     }
   },
   {
@@ -1049,20 +1011,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Bag Man",
-          "The Silence of the Lambs",
-          "Extreme Measures",
-          "Kicking Off"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Bag Man",
+        "The Silence of the Lambs",
+        "Extreme Measures",
+        "Kicking Off"
+      ]
     }
   },
   {
@@ -1106,20 +1066,18 @@
       0.6111342757940292
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "PK",
-          "The Great Gatsby",
-          "Philadelphia",
-          "Casper Meets Wendy"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "PK",
+        "The Great Gatsby",
+        "Philadelphia",
+        "Casper Meets Wendy"
+      ]
     }
   },
   {
@@ -1159,20 +1117,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Who's Afraid of Virginia Woolf",
-          "Fantastic Mr Fox",
-          "Clash of the Titans",
-          "Independence Day"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Who's Afraid of Virginia Woolf",
+        "Fantastic Mr Fox",
+        "Clash of the Titans",
+        "Independence Day"
+      ]
     }
   },
   {
@@ -1212,20 +1168,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Ernest Rides Again",
-          "Forrest Gump",
-          "The Proposal",
-          "Everything You Always Wanted to Know About Sex  But Were Afraid to Ask"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Ernest Rides Again",
+        "Forrest Gump",
+        "The Proposal",
+        "Everything You Always Wanted to Know About Sex  But Were Afraid to Ask"
+      ]
     }
   },
   {
@@ -1265,20 +1219,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Jurassic World Fallen Kingdom",
-          "The Fifth Element",
-          "Across the Universe",
-          "Insomnia"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Jurassic World Fallen Kingdom",
+        "The Fifth Element",
+        "Across the Universe",
+        "Insomnia"
+      ]
     }
   },
   {
@@ -1318,20 +1270,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "View from the Top",
-          "The Doors",
-          "Raiders of the Lost Ark",
-          "Quick Change"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "View from the Top",
+        "The Doors",
+        "Raiders of the Lost Ark",
+        "Quick Change"
+      ]
     }
   },
   {
@@ -1371,20 +1321,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Cool Hand Luke",
-          "Children of the Corn III",
-          "Ice Guardians",
-          "Cinema Paradiso"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Cool Hand Luke",
+        "Children of the Corn III",
+        "Ice Guardians",
+        "Cinema Paradiso"
+      ]
     }
   },
   {
@@ -1424,20 +1372,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Killer Movie",
-          "Stealth",
-          "The Last Man on Earth",
-          "True Lies"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Killer Movie",
+        "Stealth",
+        "The Last Man on Earth",
+        "True Lies"
+      ]
     }
   },
   {
@@ -1477,20 +1423,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Stoked The Rise and Fall of Gator",
-          "Surviving the Game",
-          "Look Who's Talking",
-          "The Shawshank Redemption"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Stoked The Rise and Fall of Gator",
+        "Surviving the Game",
+        "Look Who's Talking",
+        "The Shawshank Redemption"
+      ]
     }
   },
   {
@@ -1530,20 +1474,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Exit Wounds",
-          "Punch-Drunk Love",
-          "Seeking Justice",
-          "Pretty Woman"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Exit Wounds",
+        "Punch-Drunk Love",
+        "Seeking Justice",
+        "Pretty Woman"
+      ]
     }
   },
   {
@@ -1583,20 +1525,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Bank Job",
-          "Robot Carnival",
-          "Dances with Wolves",
-          "The Family Stone"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Bank Job",
+        "Robot Carnival",
+        "Dances with Wolves",
+        "The Family Stone"
+      ]
     }
   },
   {
@@ -1636,20 +1576,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Care Bears Movie II A New Generation",
-          "Noises Off",
-          "The Fugitive",
-          "Lights Out"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Care Bears Movie II A New Generation",
+        "Noises Off",
+        "The Fugitive",
+        "Lights Out"
+      ]
     }
   },
   {
@@ -1689,20 +1627,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Last Kiss",
-          "Europa",
-          "Braveheart",
-          "Rise of the Planet of the Apes"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Last Kiss",
+        "Europa",
+        "Braveheart",
+        "Rise of the Planet of the Apes"
+      ]
     }
   },
   {
@@ -1742,20 +1678,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Mad City",
-          "The Scorpion King",
-          "The Shawshank Redemption",
-          "City of Men"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Mad City",
+        "The Scorpion King",
+        "The Shawshank Redemption",
+        "City of Men"
+      ]
     }
   },
   {
@@ -1795,20 +1729,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Tickling Giants",
-          "Shadow of the Vampire",
-          "The Usual Suspects",
-          "On the Town"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Tickling Giants",
+        "Shadow of the Vampire",
+        "The Usual Suspects",
+        "On the Town"
+      ]
     }
   },
   {
@@ -1848,20 +1780,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Nothing to Declare",
-          "Crossfire",
-          "End of Days",
-          "Star Wars Episode IV - A New Hope"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Nothing to Declare",
+        "Crossfire",
+        "End of Days",
+        "Star Wars Episode IV - A New Hope"
+      ]
     }
   },
   {
@@ -1901,22 +1831,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "Monty Python and the Holy Grail",
-          "Weekend at Bernie's",
-          "American in Paris",
-          "An",
-          "Let It Snow"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "Monty Python and the Holy Grail",
+        "Weekend at Bernie's",
+        "American in Paris",
+        "An",
+        "Let It Snow"
+      ]
     }
   },
   {
@@ -1956,20 +1884,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "All Over the Guy",
-          "Forrest Gump",
-          "Elizabethtown",
-          "The Bride of Frankenstein"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "All Over the Guy",
+        "Forrest Gump",
+        "Elizabethtown",
+        "The Bride of Frankenstein"
+      ]
     }
   },
   {
@@ -2009,20 +1935,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Batman",
-          "Alien Resurrection",
-          "A Tale of Two Cities",
-          "The Quiet American"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Batman",
+        "Alien Resurrection",
+        "A Tale of Two Cities",
+        "The Quiet American"
+      ]
     }
   },
   {
@@ -2062,20 +1986,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Terminator 2 Judgment Day",
-          "The Next Three Days",
-          "Detachment",
-          "Ruby Sparks"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Terminator 2 Judgment Day",
+        "The Next Three Days",
+        "Detachment",
+        "Ruby Sparks"
+      ]
     }
   },
   {
@@ -2115,20 +2037,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "WarGames",
-          "King Kong",
-          "Foreign Correspondent",
-          "Pretty Woman"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "WarGames",
+        "King Kong",
+        "Foreign Correspondent",
+        "Pretty Woman"
+      ]
     }
   },
   {
@@ -2168,20 +2088,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Brave",
-          "Dredd",
-          "When Worlds Collide",
-          "Go"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Brave",
+        "Dredd",
+        "When Worlds Collide",
+        "Go"
+      ]
     }
   },
   {
@@ -2221,20 +2139,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Fugitive",
-          "Music and Lyrics",
-          "Deuce Bigalow Male Gigolo",
-          "Louis CK Oh My God"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Fugitive",
+        "Music and Lyrics",
+        "Deuce Bigalow Male Gigolo",
+        "Louis CK Oh My God"
+      ]
     }
   },
   {
@@ -2274,20 +2190,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Schindler's List",
-          "Day for Night",
-          "Man of the House",
-          "The Neon Demon"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Schindler's List",
+        "Day for Night",
+        "Man of the House",
+        "The Neon Demon"
+      ]
     }
   },
   {
@@ -2327,20 +2241,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Toy Soldiers",
-          "The Fugitive",
-          "The Wasp Woman",
-          "Baxter"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Toy Soldiers",
+        "The Fugitive",
+        "The Wasp Woman",
+        "Baxter"
+      ]
     }
   },
   {
@@ -2380,20 +2292,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Forrest Gump",
-          "Kevin Smith Too Fat For 40",
-          "Scorched",
-          "Stand and Deliver"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Forrest Gump",
+        "Kevin Smith Too Fat For 40",
+        "Scorched",
+        "Stand and Deliver"
+      ]
     }
   },
   {
@@ -2433,20 +2343,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Lion King",
-          "Urban Cowboy",
-          "Space Truckers",
-          "Universal Soldier Day of Reckoning"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Lion King",
+        "Urban Cowboy",
+        "Space Truckers",
+        "Universal Soldier Day of Reckoning"
+      ]
     }
   },
   {
@@ -2486,20 +2394,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Thing",
-          "Pinocchio",
-          "Nymphomaniac Volume I",
-          "Lights in the Dusk"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Thing",
+        "Pinocchio",
+        "Nymphomaniac Volume I",
+        "Lights in the Dusk"
+      ]
     }
   },
   {
@@ -2539,20 +2445,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Swimming Pool",
-          "Maggie's Plan",
-          "The Fifth Element",
-          "For the Boys"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Swimming Pool",
+        "Maggie's Plan",
+        "The Fifth Element",
+        "For the Boys"
+      ]
     }
   },
   {
@@ -2592,20 +2496,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Los Angeles Plays Itself",
-          "Gintama The Final Chapter - Be Forever Yorozuya",
-          "Doctor Who Last Christmas",
-          "The Fugitive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Los Angeles Plays Itself",
+        "Gintama The Final Chapter - Be Forever Yorozuya",
+        "Doctor Who Last Christmas",
+        "The Fugitive"
+      ]
     }
   },
   {
@@ -2645,20 +2547,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Pickup on South Street",
-          "Poltergeist III",
-          "Crush",
-          "The Shawshank Redemption"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Pickup on South Street",
+        "Poltergeist III",
+        "Crush",
+        "The Shawshank Redemption"
+      ]
     }
   },
   {
@@ -2698,20 +2598,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Dragon Ball The Curse Of The Blood Rubies",
-          "Moonlight Mile",
-          "Hollywood Homicide",
-          "Star Wars Episode IV - A New Hope"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Dragon Ball The Curse Of The Blood Rubies",
+        "Moonlight Mile",
+        "Hollywood Homicide",
+        "Star Wars Episode IV - A New Hope"
+      ]
     }
   },
   {
@@ -2751,20 +2649,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Dracula Dead and Loving It",
-          "Independence Day",
-          "The Extraordinary Adventures of Adèle Blanc-Sec",
-          "The American President"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Dracula Dead and Loving It",
+        "Independence Day",
+        "The Extraordinary Adventures of Adèle Blanc-Sec",
+        "The American President"
+      ]
     }
   },
   {
@@ -2804,20 +2700,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Get Shorty",
-          "The Firm",
-          "Pillow Talk",
-          "Hairspray"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Get Shorty",
+        "The Firm",
+        "Pillow Talk",
+        "Hairspray"
+      ]
     }
   },
   {
@@ -2857,20 +2751,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "My Fellow Americans",
-          "Shadow of the Vampire",
-          "Star Wars Episode VII - The Force Awakens",
-          "Psycho II"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "My Fellow Americans",
+        "Shadow of the Vampire",
+        "Star Wars Episode VII - The Force Awakens",
+        "Psycho II"
+      ]
     }
   },
   {
@@ -2910,20 +2802,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Pleasantville",
-          "The Mask",
-          "To Catch a Thief",
-          "Microwave Massacre"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Pleasantville",
+        "The Mask",
+        "To Catch a Thief",
+        "Microwave Massacre"
+      ]
     }
   },
   {
@@ -2963,20 +2853,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Hawks and Sparrows",
-          "The Scent of Green Papaya",
-          "Schindler's List",
-          "Le Maître d'école"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Hawks and Sparrows",
+        "The Scent of Green Papaya",
+        "Schindler's List",
+        "Le Maître d'école"
+      ]
     }
   },
   {
@@ -3016,22 +2904,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "High School",
-          "Pushing Tin",
-          "What Happened",
-          "Miss Simone",
-          "Back to the Future"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "High School",
+        "Pushing Tin",
+        "What Happened",
+        "Miss Simone",
+        "Back to the Future"
+      ]
     }
   },
   {
@@ -3071,20 +2957,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Child's Play 3",
-          "Some Kind of Wonderful",
-          "Goodfellas",
-          "Chocolat"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Child's Play 3",
+        "Some Kind of Wonderful",
+        "Goodfellas",
+        "Chocolat"
+      ]
     }
   },
   {
@@ -3124,20 +3008,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Out of the Past",
-          "Sleeping with the Enemy",
-          "Independence Day",
-          "Ghost in the Shell Arise - Border 2 Ghost Whispers"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Out of the Past",
+        "Sleeping with the Enemy",
+        "Independence Day",
+        "Ghost in the Shell Arise - Border 2 Ghost Whispers"
+      ]
     }
   },
   {
@@ -3177,20 +3059,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Da Vinci Code",
-          "Inception",
-          "Identity Thief",
-          "War for the Planet of the Apes"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Da Vinci Code",
+        "Inception",
+        "Identity Thief",
+        "War for the Planet of the Apes"
+      ]
     }
   },
   {
@@ -3230,20 +3110,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Cabinet of Dr Caligari",
-          "The Shawshank Redemption",
-          "Spider-Man 2",
-          "Taxi"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Cabinet of Dr Caligari",
+        "The Shawshank Redemption",
+        "Spider-Man 2",
+        "Taxi"
+      ]
     }
   },
   {
@@ -3283,20 +3161,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Boy",
-          "Swiss Family Robinson",
-          "And Then There Were None",
-          "Crimson Tide"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Boy",
+        "Swiss Family Robinson",
+        "And Then There Were None",
+        "Crimson Tide"
+      ]
     }
   },
   {
@@ -3336,20 +3212,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Real McCoy",
-          "Batman",
-          "Master and Commander The Far Side of the World",
-          "Supercop"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Real McCoy",
+        "Batman",
+        "Master and Commander The Far Side of the World",
+        "Supercop"
+      ]
     }
   },
   {
@@ -3389,22 +3263,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "Terminator 2 Judgment Day",
-          "Everlasting Piece",
-          "An",
-          "Cloverfield",
-          "The Last Temptation of Christ"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "Terminator 2 Judgment Day",
+        "Everlasting Piece",
+        "An",
+        "Cloverfield",
+        "The Last Temptation of Christ"
+      ]
     }
   },
   {
@@ -3444,20 +3316,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Dragon Ball Z Dead Zone",
-          "Lightning in a Bottle",
-          "The Omega Man",
-          "Goodfellas"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Dragon Ball Z Dead Zone",
+        "Lightning in a Bottle",
+        "The Omega Man",
+        "Goodfellas"
+      ]
     }
   },
   {
@@ -3497,20 +3367,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Independence Day",
-          "The Human Condition III",
-          "The Lifeguard",
-          "Secretary"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Independence Day",
+        "The Human Condition III",
+        "The Lifeguard",
+        "Secretary"
+      ]
     }
   },
   {
@@ -3550,22 +3418,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "1984",
-          "Good Night",
-          "and Good Luck",
-          "Kiss of the Dragon",
-          "District 9"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "1984",
+        "Good Night",
+        "and Good Luck",
+        "Kiss of the Dragon",
+        "District 9"
+      ]
     }
   },
   {
@@ -3605,20 +3471,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Batman Assault on Arkham",
-          "The Shawshank Redemption",
-          "Pokémon Heroes",
-          "The Flamingo Kid"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Batman Assault on Arkham",
+        "The Shawshank Redemption",
+        "Pokémon Heroes",
+        "The Flamingo Kid"
+      ]
     }
   },
   {
@@ -3658,20 +3522,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Ruby & Quentin",
-          "Insidious Chapter 3",
-          "Fast Times at Ridgemont High",
-          "The Fugitive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Ruby & Quentin",
+        "Insidious Chapter 3",
+        "Fast Times at Ridgemont High",
+        "The Fugitive"
+      ]
     }
   },
   {
@@ -3711,20 +3573,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Little Women",
-          "Dances with Wolves",
-          "Bring It On All or Nothing",
-          "Dead Alive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Little Women",
+        "Dances with Wolves",
+        "Bring It On All or Nothing",
+        "Dead Alive"
+      ]
     }
   },
   {
@@ -3764,20 +3624,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Cargo",
-          "Neon Bull",
-          "Jeffrey",
-          "The Silence of the Lambs"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Cargo",
+        "Neon Bull",
+        "Jeffrey",
+        "The Silence of the Lambs"
+      ]
     }
   },
   {
@@ -3817,20 +3675,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Fargo",
-          "Conan the Barbarian",
-          "Wisdom",
-          "The Crew"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Fargo",
+        "Conan the Barbarian",
+        "Wisdom",
+        "The Crew"
+      ]
     }
   },
   {
@@ -3870,20 +3726,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Romper Stomper",
-          "Fame",
-          "Up",
-          "The Browning Version"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Romper Stomper",
+        "Fame",
+        "Up",
+        "The Browning Version"
+      ]
     }
   },
   {
@@ -3923,20 +3777,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Miss Meadows",
-          "Little Man",
-          "Goodfellas",
-          "You Can't Take It with You"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Miss Meadows",
+        "Little Man",
+        "Goodfellas",
+        "You Can't Take It with You"
+      ]
     }
   },
   {
@@ -3976,20 +3828,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Pulp Fiction",
-          "The Girl on the Bridge",
-          "Radioland Murders",
-          "Father of the Bride"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Pulp Fiction",
+        "The Girl on the Bridge",
+        "Radioland Murders",
+        "Father of the Bride"
+      ]
     }
   },
   {
@@ -4029,20 +3879,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Baby Secret of the Lost Legend",
-          "The Care Bears Movie",
-          "The Fiendish Plot of Dr Fu Manchu",
-          "Forrest Gump"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Baby Secret of the Lost Legend",
+        "The Care Bears Movie",
+        "The Fiendish Plot of Dr Fu Manchu",
+        "Forrest Gump"
+      ]
     }
   },
   {
@@ -4082,20 +3930,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Bad Taste",
-          "My Big Fat Greek Wedding 2",
-          "The Santa Clause 2",
-          "Dances with Wolves"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Bad Taste",
+        "My Big Fat Greek Wedding 2",
+        "The Santa Clause 2",
+        "Dances with Wolves"
+      ]
     }
   },
   {
@@ -4135,20 +3981,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Ladybugs",
-          "American Ultra",
-          "Saving Private Ryan",
-          "Siam Sunset"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Ladybugs",
+        "American Ultra",
+        "Saving Private Ryan",
+        "Siam Sunset"
+      ]
     }
   },
   {
@@ -4188,20 +4032,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Experimenter",
-          "Highway 61",
-          "Terminator 2 Judgment Day",
-          "Short Circuit 2"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Experimenter",
+        "Highway 61",
+        "Terminator 2 Judgment Day",
+        "Short Circuit 2"
+      ]
     }
   },
   {
@@ -4241,20 +4083,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Nixon",
-          "The Pink Panther",
-          "The Pawnbroker",
-          "Raiders of the Lost Ark"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Nixon",
+        "The Pink Panther",
+        "The Pawnbroker",
+        "Raiders of the Lost Ark"
+      ]
     }
   },
   {
@@ -4294,20 +4134,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Christmas in Connecticut",
-          "The Princess Bride",
-          "Bill & Ted's Bogus Journey",
-          "Melvin and Howard"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Christmas in Connecticut",
+        "The Princess Bride",
+        "Bill & Ted's Bogus Journey",
+        "Melvin and Howard"
+      ]
     }
   },
   {
@@ -4347,20 +4185,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Wizard of Oz",
-          "Captain Corelli's Mandolin",
-          "Timecrimes",
-          "Arlington Road"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Wizard of Oz",
+        "Captain Corelli's Mandolin",
+        "Timecrimes",
+        "Arlington Road"
+      ]
     }
   },
   {
@@ -4400,20 +4236,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "3000 Miles to Graceland",
-          "Crimson Tide",
-          "Best Men",
-          "A Very Harold & Kumar 3D Christmas"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "3000 Miles to Graceland",
+        "Crimson Tide",
+        "Best Men",
+        "A Very Harold & Kumar 3D Christmas"
+      ]
     }
   },
   {
@@ -4453,20 +4287,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Caligula",
-          "Anger Management",
-          "The Fugitive",
-          "Mommy"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Caligula",
+        "Anger Management",
+        "The Fugitive",
+        "Mommy"
+      ]
     }
   },
   {
@@ -4506,20 +4338,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Fugitive",
-          "The Boss of It All",
-          "Barb Wire",
-          "Basic Instinct 2"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Fugitive",
+        "The Boss of It All",
+        "Barb Wire",
+        "Basic Instinct 2"
+      ]
     }
   },
   {
@@ -4559,20 +4389,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Howards End",
-          "Long Night's Journey Into Day",
-          "Boccaccio '70",
-          "What's Eating Gilbert Grape"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Howards End",
+        "Long Night's Journey Into Day",
+        "Boccaccio '70",
+        "What's Eating Gilbert Grape"
+      ]
     }
   },
   {
@@ -4612,20 +4440,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Bone Tomahawk",
-          "The Brice Man",
-          "The Village",
-          "The Shawshank Redemption"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Bone Tomahawk",
+        "The Brice Man",
+        "The Village",
+        "The Shawshank Redemption"
+      ]
     }
   },
   {
@@ -4665,20 +4491,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Forrest Gump",
-          "American Flyers",
-          "Shadows and Fog",
-          "Thunderbirds"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Forrest Gump",
+        "American Flyers",
+        "Shadows and Fog",
+        "Thunderbirds"
+      ]
     }
   },
   {
@@ -4718,22 +4542,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "Schindler's List",
-          "The Handmaiden",
-          "Davy Crockett",
-          "King of the Wild Frontier",
-          "Jet Li's Fearless"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "Schindler's List",
+        "The Handmaiden",
+        "Davy Crockett",
+        "King of the Wild Frontier",
+        "Jet Li's Fearless"
+      ]
     }
   },
   {
@@ -4773,20 +4595,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Indiana Jones and the Last Crusade",
-          "Stander",
-          "Too Late for Tears",
-          "Tower Heist"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Indiana Jones and the Last Crusade",
+        "Stander",
+        "Too Late for Tears",
+        "Tower Heist"
+      ]
     }
   },
   {
@@ -4826,20 +4646,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Comic-Con Episode IV A Fan's Hope",
-          "Harley Davidson and the Marlboro Man",
-          "Heat",
-          "Scratch"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Comic-Con Episode IV A Fan's Hope",
+        "Harley Davidson and the Marlboro Man",
+        "Heat",
+        "Scratch"
+      ]
     }
   },
   {
@@ -4879,20 +4697,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Dead Man Walking",
-          "World's Greatest Dad",
-          "The Bad and the Beautiful",
-          "Hood of Horror"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Dead Man Walking",
+        "World's Greatest Dad",
+        "The Bad and the Beautiful",
+        "Hood of Horror"
+      ]
     }
   },
   {
@@ -4932,22 +4748,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "Death to Smoochy",
-          "The Artist",
-          "LA Confidential",
-          "New York",
-          "I Love You"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "Death to Smoochy",
+        "The Artist",
+        "LA Confidential",
+        "New York",
+        "I Love You"
+      ]
     }
   },
   {
@@ -4987,22 +4801,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "Ruby Sparks",
-          "The Last Klezmer Leopold Kozlowski",
-          "His Life and Music",
-          "Circus",
-          "Dances with Wolves"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "Ruby Sparks",
+        "The Last Klezmer Leopold Kozlowski",
+        "His Life and Music",
+        "Circus",
+        "Dances with Wolves"
+      ]
     }
   },
   {
@@ -5042,20 +4854,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Frankenstein Unbound",
-          "Jon Stewart Has Left the Building",
-          "Clear and Present Danger",
-          "Little Giants"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Frankenstein Unbound",
+        "Jon Stewart Has Left the Building",
+        "Clear and Present Danger",
+        "Little Giants"
+      ]
     }
   },
   {
@@ -5095,20 +4905,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Night of the Living Dead",
-          "Forrest Gump",
-          "Ghost Ship",
-          "Revenge for Jolly!"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Night of the Living Dead",
+        "Forrest Gump",
+        "Ghost Ship",
+        "Revenge for Jolly!"
+      ]
     }
   },
   {
@@ -5148,22 +4956,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "The End of the Tour",
-          "Forrest Gump",
-          "Lust",
-          "Caution",
-          "Shelter"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "The End of the Tour",
+        "Forrest Gump",
+        "Lust",
+        "Caution",
+        "Shelter"
+      ]
     }
   },
   {
@@ -5203,20 +5009,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Lawnmower Man",
-          "Virus",
-          "Jaws The Revenge",
-          "Get Shorty"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Lawnmower Man",
+        "Virus",
+        "Jaws The Revenge",
+        "Get Shorty"
+      ]
     }
   },
   {
@@ -5256,20 +5060,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Towering Inferno",
-          "The Collector",
-          "Diabolique",
-          "The Fugitive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Towering Inferno",
+        "The Collector",
+        "Diabolique",
+        "The Fugitive"
+      ]
     }
   },
   {
@@ -5309,20 +5111,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Bright",
-          "Babe",
-          "Unicorn City",
-          "Zoom"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Bright",
+        "Babe",
+        "Unicorn City",
+        "Zoom"
+      ]
     }
   },
   {
@@ -5362,20 +5162,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Black Mirror",
-          "Aladdin",
-          "Super Mario Bros",
-          "The Stunt Man"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Black Mirror",
+        "Aladdin",
+        "Super Mario Bros",
+        "The Stunt Man"
+      ]
     }
   },
   {
@@ -5415,20 +5213,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Trail of the Pink Panther",
-          "Inception",
-          "Firestarter",
-          "Joe's Apartment"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Trail of the Pink Panther",
+        "Inception",
+        "Firestarter",
+        "Joe's Apartment"
+      ]
     }
   },
   {
@@ -5468,20 +5264,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Babe",
-          "What We Do in the Shadows",
-          "Game of Death",
-          "Eastern Promises"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Babe",
+        "What We Do in the Shadows",
+        "Game of Death",
+        "Eastern Promises"
+      ]
     }
   },
   {
@@ -5521,20 +5315,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Couples Retreat",
-          "Those Magnificent Men in Their Flying Machines",
-          "Star Wars Episode IV - A New Hope",
-          "Friday After Next"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Couples Retreat",
+        "Those Magnificent Men in Their Flying Machines",
+        "Star Wars Episode IV - A New Hope",
+        "Friday After Next"
+      ]
     }
   },
   {
@@ -5574,20 +5366,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Terminator",
-          "Remember Me",
-          "Train to Busan",
-          "Fast & Furious"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Terminator",
+        "Remember Me",
+        "Train to Busan",
+        "Fast & Furious"
+      ]
     }
   },
   {
@@ -5627,22 +5417,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "Pulp Fiction",
-          "Dutch",
-          "Murder in the First",
-          "Mystery",
-          "Alaska"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "Pulp Fiction",
+        "Dutch",
+        "Murder in the First",
+        "Mystery",
+        "Alaska"
+      ]
     }
   },
   {
@@ -5682,20 +5470,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Babe",
-          "The House",
-          "Saving Santa",
-          "Experimenter"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Babe",
+        "The House",
+        "Saving Santa",
+        "Experimenter"
+      ]
     }
   },
   {
@@ -5735,20 +5521,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "I Know Who Killed Me",
-          "Oceans",
-          "Dances with Wolves",
-          "It Can't Be!"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "I Know Who Killed Me",
+        "Oceans",
+        "Dances with Wolves",
+        "It Can't Be!"
+      ]
     }
   },
   {
@@ -5788,20 +5572,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Schindler's List",
-          "Crimes and Misdemeanors",
-          "King Kong",
-          "Gorillas in the Mist"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Schindler's List",
+        "Crimes and Misdemeanors",
+        "King Kong",
+        "Gorillas in the Mist"
+      ]
     }
   },
   {
@@ -5841,20 +5623,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Pushing Hands",
-          "Mortal Kombat The Journey Begins",
-          "Sin Nombre",
-          "The Godfather"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Pushing Hands",
+        "Mortal Kombat The Journey Begins",
+        "Sin Nombre",
+        "The Godfather"
+      ]
     }
   },
   {
@@ -5894,20 +5674,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Dances with Wolves",
-          "Arachnophobia",
-          "The Good Son",
-          "Liam"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Dances with Wolves",
+        "Arachnophobia",
+        "The Good Son",
+        "Liam"
+      ]
     }
   },
   {
@@ -5947,20 +5725,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Ride with the Devil",
-          "It Runs in the Family",
-          "The Usual Suspects",
-          "Anomalisa"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Ride with the Devil",
+        "It Runs in the Family",
+        "The Usual Suspects",
+        "Anomalisa"
+      ]
     }
   },
   {
@@ -6000,20 +5776,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Cannibal Holocaust",
-          "Seven",
-          "Bride & Prejudice",
-          "Night at the Museum Secret of the Tomb"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Cannibal Holocaust",
+        "Seven",
+        "Bride & Prejudice",
+        "Night at the Museum Secret of the Tomb"
+      ]
     }
   },
   {
@@ -6053,20 +5827,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Jon Stewart Has Left the Building",
-          "Hud",
-          "The Mummy Tomb of the Dragon Emperor",
-          "The Terminator"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Jon Stewart Has Left the Building",
+        "Hud",
+        "The Mummy Tomb of the Dragon Emperor",
+        "The Terminator"
+      ]
     }
   },
   {
@@ -6106,20 +5878,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Thumbelina",
-          "Hereafter",
-          "The Thinning",
-          "Raiders of the Lost Ark"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Thumbelina",
+        "Hereafter",
+        "The Thinning",
+        "Raiders of the Lost Ark"
+      ]
     }
   },
   {
@@ -6159,20 +5929,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Get Shorty",
-          "Kolya",
-          "Death Wish 2",
-          "Gold Diggers of 1933"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Get Shorty",
+        "Kolya",
+        "Death Wish 2",
+        "Gold Diggers of 1933"
+      ]
     }
   },
   {
@@ -6212,20 +5980,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Unstrung Heroes",
-          "Vampire in Brooklyn",
-          "Braveheart",
-          "Borat Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Unstrung Heroes",
+        "Vampire in Brooklyn",
+        "Braveheart",
+        "Borat Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan"
+      ]
     }
   },
   {
@@ -6265,20 +6031,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Double Life of Veronique",
-          "Bridget Jones's Diary",
-          "The Lion King",
-          "Cujo"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Double Life of Veronique",
+        "Bridget Jones's Diary",
+        "The Lion King",
+        "Cujo"
+      ]
     }
   },
   {
@@ -6318,20 +6082,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Metropolis",
-          "Nadja",
-          "Marty",
-          "Toy Story"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Metropolis",
+        "Nadja",
+        "Marty",
+        "Toy Story"
+      ]
     }
   },
   {
@@ -6371,20 +6133,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Being Elmo A Puppeteer's Journey",
-          "Far From Home The Adventures of Yellow Dog",
-          "Terminator 2 Judgment Day",
-          "RoboGeisha"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Being Elmo A Puppeteer's Journey",
+        "Far From Home The Adventures of Yellow Dog",
+        "Terminator 2 Judgment Day",
+        "RoboGeisha"
+      ]
     }
   },
   {
@@ -6428,20 +6188,18 @@
       0.5886484831571579
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "John Q",
-          "Raiders of the Lost Ark",
-          "No Man's Land",
-          "The Morning After"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "John Q",
+        "Raiders of the Lost Ark",
+        "No Man's Land",
+        "The Morning After"
+      ]
     }
   },
   {
@@ -6485,20 +6243,18 @@
       0.6740827560424805
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Indecent Proposal",
-          "Star Wars Episode V - The Empire Strikes Back",
-          "Gray's Anatomy",
-          "The Girl Next Door"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Indecent Proposal",
+        "Star Wars Episode V - The Empire Strikes Back",
+        "Gray's Anatomy",
+        "The Girl Next Door"
+      ]
     }
   },
   {
@@ -6538,20 +6294,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Fugitive",
-          "Frankenstein Unbound",
-          "Easter Parade",
-          "One Crazy Summer"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Fugitive",
+        "Frankenstein Unbound",
+        "Easter Parade",
+        "One Crazy Summer"
+      ]
     }
   },
   {
@@ -6591,20 +6345,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Killing Me Softly",
-          "A King in New York",
-          "The Proposition",
-          "Pretty Woman"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Killing Me Softly",
+        "A King in New York",
+        "The Proposition",
+        "Pretty Woman"
+      ]
     }
   },
   {
@@ -6644,20 +6396,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "LA Confidential",
-          "PS I Love You",
-          "Boyz N the Hood",
-          "Let It Ride"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "LA Confidential",
+        "PS I Love You",
+        "Boyz N the Hood",
+        "Let It Ride"
+      ]
     }
   },
   {
@@ -6697,22 +6447,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "Angel at My Table",
-          "An",
-          "Beauty of the Day",
-          "Pulp Fiction",
-          "The Omega Man"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "Angel at My Table",
+        "An",
+        "Beauty of the Day",
+        "Pulp Fiction",
+        "The Omega Man"
+      ]
     }
   },
   {
@@ -6752,20 +6500,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Pulp Fiction",
-          "Da geht noch was!",
-          "Hudson Hawk",
-          "The Brothers Grimm"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Pulp Fiction",
+        "Da geht noch was!",
+        "Hudson Hawk",
+        "The Brothers Grimm"
+      ]
     }
   },
   {
@@ -6805,20 +6551,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Nina's Heavenly Delights",
-          "American Pie Presents The Book of Love",
-          "The Recruit",
-          "The Lion King"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Nina's Heavenly Delights",
+        "American Pie Presents The Book of Love",
+        "The Recruit",
+        "The Lion King"
+      ]
     }
   },
   {
@@ -6858,20 +6602,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Doctor Dolittle",
-          "Pi",
-          "House Party 3",
-          "Star Wars Episode IV - A New Hope"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Doctor Dolittle",
+        "Pi",
+        "House Party 3",
+        "Star Wars Episode IV - A New Hope"
+      ]
     }
   },
   {
@@ -6911,20 +6653,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "49 Up",
-          "Gattaca",
-          "Alex and Emma",
-          "The Terrorist"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "49 Up",
+        "Gattaca",
+        "Alex and Emma",
+        "The Terrorist"
+      ]
     }
   },
   {
@@ -6964,20 +6704,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Birdman of Alcatraz",
-          "Raiders of the Lost Ark",
-          "Le Samouraï",
-          "Imagine That"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Birdman of Alcatraz",
+        "Raiders of the Lost Ark",
+        "Le Samouraï",
+        "Imagine That"
+      ]
     }
   },
   {
@@ -7017,20 +6755,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Valet",
-          "Love Potion #9",
-          "The Twilight Samurai",
-          "Fargo"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Valet",
+        "Love Potion #9",
+        "The Twilight Samurai",
+        "Fargo"
+      ]
     }
   },
   {
@@ -7070,20 +6806,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Impostors",
-          "Virunga",
-          "Self-criticism of a Bourgeois Dog",
-          "American Beauty"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Impostors",
+        "Virunga",
+        "Self-criticism of a Bourgeois Dog",
+        "American Beauty"
+      ]
     }
   },
   {
@@ -7123,20 +6857,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Hostage",
-          "Behind Enemy Lines",
-          "Get Shorty",
-          "Alice"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Hostage",
+        "Behind Enemy Lines",
+        "Get Shorty",
+        "Alice"
+      ]
     }
   },
   {
@@ -7176,20 +6908,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Usual Suspects",
-          "Return to the Blue Lagoon",
-          "Practical Magic",
-          "Scrooge"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Usual Suspects",
+        "Return to the Blue Lagoon",
+        "Practical Magic",
+        "Scrooge"
+      ]
     }
   },
   {
@@ -7229,20 +6959,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Independence Day",
-          "Broken",
-          "Toy Story 2",
-          "Men of Honor"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Independence Day",
+        "Broken",
+        "Toy Story 2",
+        "Men of Honor"
+      ]
     }
   },
   {
@@ -7282,20 +7010,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Somewhere",
-          "Batman",
-          "The Hot Chick",
-          "The Apartment"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Somewhere",
+        "Batman",
+        "The Hot Chick",
+        "The Apartment"
+      ]
     }
   },
   {
@@ -7335,20 +7061,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Emperor and the Assassin",
-          "Gladiator",
-          "Tin Cup",
-          "Alex and Emma"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Emperor and the Assassin",
+        "Gladiator",
+        "Tin Cup",
+        "Alex and Emma"
+      ]
     }
   },
   {
@@ -7388,20 +7112,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "A Night to Remember",
-          "The Swan Princess",
-          "Kinsey",
-          "Léon The Professional"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "A Night to Remember",
+        "The Swan Princess",
+        "Kinsey",
+        "Léon The Professional"
+      ]
     }
   },
   {
@@ -7441,20 +7163,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Sign of Four",
-          "The Hunt for Red October",
-          "Auto Focus",
-          "Marauders"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Sign of Four",
+        "The Hunt for Red October",
+        "Auto Focus",
+        "Marauders"
+      ]
     }
   },
   {
@@ -7494,20 +7214,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Interstate 60",
-          "Primary Colors",
-          "Careful What You Wish For",
-          "The Shawshank Redemption"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Interstate 60",
+        "Primary Colors",
+        "Careful What You Wish For",
+        "The Shawshank Redemption"
+      ]
     }
   },
   {
@@ -7547,20 +7265,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Pulp Fiction",
-          "Autumn Marathon",
-          "I'm Not There",
-          "The Limey"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Pulp Fiction",
+        "Autumn Marathon",
+        "I'm Not There",
+        "The Limey"
+      ]
     }
   },
   {
@@ -7600,20 +7316,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Burrowers",
-          "Children of the Corn III",
-          "Hood of Horror",
-          "Braveheart"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Burrowers",
+        "Children of the Corn III",
+        "Hood of Horror",
+        "Braveheart"
+      ]
     }
   },
   {
@@ -7653,20 +7367,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Sound of the Mountain",
-          "Braveheart",
-          "Ruby Red",
-          "Candleshoe"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Sound of the Mountain",
+        "Braveheart",
+        "Ruby Red",
+        "Candleshoe"
+      ]
     }
   },
   {
@@ -7706,22 +7418,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "I",
-          "Robot",
-          "Cookie's Fortune",
-          "Being John Malkovich",
-          "Behind Enemy Lines"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "I",
+        "Robot",
+        "Cookie's Fortune",
+        "Being John Malkovich",
+        "Behind Enemy Lines"
+      ]
     }
   },
   {
@@ -7761,22 +7471,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "Three to Tango",
-          "Choke",
-          "Angel at My Table",
-          "An",
-          "The Shawshank Redemption"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "Three to Tango",
+        "Choke",
+        "Angel at My Table",
+        "An",
+        "The Shawshank Redemption"
+      ]
     }
   },
   {
@@ -7816,20 +7524,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Women in Trouble",
-          "The Fugitive",
-          "Night at the Museum Secret of the Tomb",
-          "While You Were Sleeping"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Women in Trouble",
+        "The Fugitive",
+        "Night at the Museum Secret of the Tomb",
+        "While You Were Sleeping"
+      ]
     }
   },
   {
@@ -7869,20 +7575,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Family Guy Presents It's a Trap",
-          "Charlie and the Chocolate Factory",
-          "Futurama Bender's Game",
-          "Toy Story"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Family Guy Presents It's a Trap",
+        "Charlie and the Chocolate Factory",
+        "Futurama Bender's Game",
+        "Toy Story"
+      ]
     }
   },
   {
@@ -7922,20 +7626,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Apollo 13",
-          "Battle Beyond the Stars",
-          "Great Balls of Fire!",
-          "The Atomic Submarine"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Apollo 13",
+        "Battle Beyond the Stars",
+        "Great Balls of Fire!",
+        "The Atomic Submarine"
+      ]
     }
   },
   {
@@ -7975,20 +7677,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Baby's Day Out",
-          "Les Misérables",
-          "Terminator 2 Judgment Day",
-          "Dudley Do-Right"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Baby's Day Out",
+        "Les Misérables",
+        "Terminator 2 Judgment Day",
+        "Dudley Do-Right"
+      ]
     }
   },
   {
@@ -8028,20 +7728,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Kazaam",
-          "Eichmann",
-          "Children of the Night",
-          "Apollo 13"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Kazaam",
+        "Eichmann",
+        "Children of the Night",
+        "Apollo 13"
+      ]
     }
   },
   {
@@ -8081,20 +7779,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "In July",
-          "Black Snake Moan",
-          "Dances with Wolves",
-          "Heartbreaker"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "In July",
+        "Black Snake Moan",
+        "Dances with Wolves",
+        "Heartbreaker"
+      ]
     }
   },
   {
@@ -8134,20 +7830,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Pale Rider",
-          "Runaway Brain",
-          "Crimson Tide",
-          "Super Mario Bros"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Pale Rider",
+        "Runaway Brain",
+        "Crimson Tide",
+        "Super Mario Bros"
+      ]
     }
   },
   {
@@ -8187,20 +7881,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Latter Days",
-          "Dirty Dancing Havana Nights",
-          "The Silence of the Lambs",
-          "The Devil and Daniel Johnston"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Latter Days",
+        "Dirty Dancing Havana Nights",
+        "The Silence of the Lambs",
+        "The Devil and Daniel Johnston"
+      ]
     }
   },
   {
@@ -8240,20 +7932,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Wadjda",
-          "Gray's Anatomy",
-          "Rear Window",
-          "The Shaggy DA"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Wadjda",
+        "Gray's Anatomy",
+        "Rear Window",
+        "The Shaggy DA"
+      ]
     }
   },
   {
@@ -8293,20 +7983,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Big Daddy",
-          "Mogambo",
-          "Kiss Kiss Bang Bang",
-          "Monty Python and the Holy Grail"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Big Daddy",
+        "Mogambo",
+        "Kiss Kiss Bang Bang",
+        "Monty Python and the Holy Grail"
+      ]
     }
   },
   {
@@ -8346,20 +8034,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Raiders of the Lost Ark",
-          "Changing Lanes",
-          "The Ewok Adventure",
-          "High Noon"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Raiders of the Lost Ark",
+        "Changing Lanes",
+        "The Ewok Adventure",
+        "High Noon"
+      ]
     }
   },
   {
@@ -8399,20 +8085,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Tape",
-          "Gettysburg",
-          "The Princess Bride",
-          "Stardust"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Tape",
+        "Gettysburg",
+        "The Princess Bride",
+        "Stardust"
+      ]
     }
   },
   {
@@ -8452,20 +8136,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Barbershop 2 Back in Business",
-          "Cool Runnings",
-          "To Be or Not to Be",
-          "The Shawshank Redemption"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Barbershop 2 Back in Business",
+        "Cool Runnings",
+        "To Be or Not to Be",
+        "The Shawshank Redemption"
+      ]
     }
   },
   {
@@ -8505,20 +8187,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Ip Man 3",
-          "Star Wars Episode IV - A New Hope",
-          "The Wedding Ringer",
-          "Delivery Man"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Ip Man 3",
+        "Star Wars Episode IV - A New Hope",
+        "The Wedding Ringer",
+        "Delivery Man"
+      ]
     }
   },
   {
@@ -8558,22 +8238,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "The Matrix",
-          "Scorpio",
-          "Oh",
-          "Hello On Broadway",
-          "The Prophecy"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "The Matrix",
+        "Scorpio",
+        "Oh",
+        "Hello On Broadway",
+        "The Prophecy"
+      ]
     }
   },
   {
@@ -8613,20 +8291,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Edge of Love",
-          "Untitled Spider-Man Reboot",
-          "The Lion King",
-          "Daddy Day Camp"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Edge of Love",
+        "Untitled Spider-Man Reboot",
+        "The Lion King",
+        "Daddy Day Camp"
+      ]
     }
   },
   {
@@ -8666,20 +8342,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Attack of the Killer Tomatoes!",
-          "Up",
-          "Ernest Rides Again",
-          "White Christmas"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Attack of the Killer Tomatoes!",
+        "Up",
+        "Ernest Rides Again",
+        "White Christmas"
+      ]
     }
   },
   {
@@ -8719,22 +8393,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "Monsters",
-          "Inc",
-          "Children of the Night",
-          "The Incredible Shrinking Man",
-          "Town & Country"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "Monsters",
+        "Inc",
+        "Children of the Night",
+        "The Incredible Shrinking Man",
+        "Town & Country"
+      ]
     }
   },
   {
@@ -8774,20 +8446,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Bad Boy Bubby",
-          "Raiders of the Lost Ark",
-          "Whatever Works",
-          "Porco Rosso"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Bad Boy Bubby",
+        "Raiders of the Lost Ark",
+        "Whatever Works",
+        "Porco Rosso"
+      ]
     }
   },
   {
@@ -8827,20 +8497,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Like Crazy",
-          "Win Win",
-          "Morvern Callar",
-          "Independence Day"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Like Crazy",
+        "Win Win",
+        "Morvern Callar",
+        "Independence Day"
+      ]
     }
   },
   {
@@ -8880,20 +8548,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Mummy",
-          "Narc",
-          "Fright Night",
-          "Pretty Woman"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Mummy",
+        "Narc",
+        "Fright Night",
+        "Pretty Woman"
+      ]
     }
   },
   {
@@ -8933,20 +8599,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Beneath the Planet of the Apes",
-          "Tokyo Decadence",
-          "Batman",
-          "I Sell the Dead"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Beneath the Planet of the Apes",
+        "Tokyo Decadence",
+        "Batman",
+        "I Sell the Dead"
+      ]
     }
   },
   {
@@ -8986,20 +8650,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Sorority House Massacre",
-          "Evolution",
-          "Memento",
-          "Scooby-Doo Goes Hollywood"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Sorority House Massacre",
+        "Evolution",
+        "Memento",
+        "Scooby-Doo Goes Hollywood"
+      ]
     }
   },
   {
@@ -9039,20 +8701,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Air Force One",
-          "Clear and Present Danger",
-          "Bone Tomahawk",
-          "Mambo Italiano"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Air Force One",
+        "Clear and Present Danger",
+        "Bone Tomahawk",
+        "Mambo Italiano"
+      ]
     }
   },
   {
@@ -9092,20 +8752,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "In Good Company",
-          "A Summer's Tale",
-          "Phenomena",
-          "The Shawshank Redemption"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "In Good Company",
+        "A Summer's Tale",
+        "Phenomena",
+        "The Shawshank Redemption"
+      ]
     }
   },
   {
@@ -9145,20 +8803,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Shawshank Redemption",
-          "The Sandpiper",
-          "Material Girls",
-          "Life as We Know It"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Shawshank Redemption",
+        "The Sandpiper",
+        "Material Girls",
+        "Life as We Know It"
+      ]
     }
   },
   {
@@ -9198,22 +8854,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "A Woman Under the Influence",
-          "It's the Great Pumpkin",
-          "Charlie Brown",
-          "The House",
-          "Dances with Wolves"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "A Woman Under the Influence",
+        "It's the Great Pumpkin",
+        "Charlie Brown",
+        "The House",
+        "Dances with Wolves"
+      ]
     }
   },
   {
@@ -9253,20 +8907,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Save the Last Dance",
-          "Passion",
-          "Being John Malkovich",
-          "Trial and Error"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Save the Last Dance",
+        "Passion",
+        "Being John Malkovich",
+        "Trial and Error"
+      ]
     }
   },
   {
@@ -9306,22 +8958,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "The Firm",
-          "Roger Dodger",
-          "Innocent Man",
-          "An",
-          "The Silence of the Lambs"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "The Firm",
+        "Roger Dodger",
+        "Innocent Man",
+        "An",
+        "The Silence of the Lambs"
+      ]
     }
   },
   {
@@ -9361,20 +9011,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Schindler's List",
-          "The Diary of Anne Frank",
-          "Cleanskin",
-          "Boy"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Schindler's List",
+        "The Diary of Anne Frank",
+        "Cleanskin",
+        "Boy"
+      ]
     }
   },
   {
@@ -9414,20 +9062,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Europa",
-          "'night Mother",
-          "Star Wars Episode IV - A New Hope",
-          "Of Human Bondage"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Europa",
+        "'night Mother",
+        "Star Wars Episode IV - A New Hope",
+        "Of Human Bondage"
+      ]
     }
   },
   {
@@ -9467,20 +9113,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Way of the Gun",
-          "Bully",
-          "Fiddler on the Roof",
-          "Batman"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Way of the Gun",
+        "Bully",
+        "Fiddler on the Roof",
+        "Batman"
+      ]
     }
   },
   {
@@ -9520,20 +9164,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Prime Gig",
-          "9 12 Weeks",
-          "The Usual Suspects",
-          "It Happened One Night"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Prime Gig",
+        "9 12 Weeks",
+        "The Usual Suspects",
+        "It Happened One Night"
+      ]
     }
   },
   {
@@ -9573,20 +9215,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Police Academy Mission to Moscow",
-          "The Matrix",
-          "Carnival of Souls",
-          "SupermanDoomsday"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Police Academy Mission to Moscow",
+        "The Matrix",
+        "Carnival of Souls",
+        "SupermanDoomsday"
+      ]
     }
   },
   {
@@ -9626,20 +9266,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Upside Down The Creation Records Story",
-          "The Adventures of Sherlock Holmes and Doctor Watson",
-          "Waking Life",
-          "The Lord of the Rings The Two Towers"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Upside Down The Creation Records Story",
+        "The Adventures of Sherlock Holmes and Doctor Watson",
+        "Waking Life",
+        "The Lord of the Rings The Two Towers"
+      ]
     }
   },
   {
@@ -9679,20 +9317,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Iron Eagle IV",
-          "The Shawshank Redemption",
-          "Knockin' on Heaven's Door",
-          "Aguirre The Wrath of God"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Iron Eagle IV",
+        "The Shawshank Redemption",
+        "Knockin' on Heaven's Door",
+        "Aguirre The Wrath of God"
+      ]
     }
   },
   {
@@ -9732,20 +9368,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Ashby",
-          "Groove",
-          "The Dinner Game",
-          "Schindler's List"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Ashby",
+        "Groove",
+        "The Dinner Game",
+        "Schindler's List"
+      ]
     }
   },
   {
@@ -9785,20 +9419,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Opposite Sex",
-          "Mr Holmes",
-          "Pulp Fiction",
-          "The Letter"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Opposite Sex",
+        "Mr Holmes",
+        "Pulp Fiction",
+        "The Letter"
+      ]
     }
   },
   {
@@ -9838,20 +9470,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Rachel Getting Married",
-          "Howard the Duck",
-          "The Shawshank Redemption",
-          "The Post"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Rachel Getting Married",
+        "Howard the Duck",
+        "The Shawshank Redemption",
+        "The Post"
+      ]
     }
   },
   {
@@ -9891,20 +9521,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Counterfeiters",
-          "Gone with the Wind",
-          "Braveheart",
-          "Pitfall"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Counterfeiters",
+        "Gone with the Wind",
+        "Braveheart",
+        "Pitfall"
+      ]
     }
   },
   {
@@ -9944,20 +9572,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Independence Day",
-          "A Place in the Sun",
-          "Son in Law",
-          "Hot Tub Time Machine"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Independence Day",
+        "A Place in the Sun",
+        "Son in Law",
+        "Hot Tub Time Machine"
+      ]
     }
   },
   {
@@ -10001,20 +9627,18 @@
       0.6249781548976898
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Little Miss Marker",
-          "Pulp Fiction",
-          "What Love Is",
-          "The Spy Next Door"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Little Miss Marker",
+        "Pulp Fiction",
+        "What Love Is",
+        "The Spy Next Door"
+      ]
     }
   },
   {
@@ -10054,20 +9678,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Opera",
-          "Austin Powers International Man of Mystery",
-          "Highlander The Search for Vengeance",
-          "Supergirl"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Opera",
+        "Austin Powers International Man of Mystery",
+        "Highlander The Search for Vengeance",
+        "Supergirl"
+      ]
     }
   },
   {
@@ -10107,20 +9729,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Iron Man & Hulk Heroes United",
-          "Schindler's List",
-          "Sherlock Jr",
-          "Lilya 4-Ever"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Iron Man & Hulk Heroes United",
+        "Schindler's List",
+        "Sherlock Jr",
+        "Lilya 4-Ever"
+      ]
     }
   },
   {
@@ -10160,20 +9780,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Robots",
-          "King of Comedy",
-          "Raiders of the Lost Ark",
-          "Won't You Be My Neighbor"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Robots",
+        "King of Comedy",
+        "Raiders of the Lost Ark",
+        "Won't You Be My Neighbor"
+      ]
     }
   },
   {
@@ -10213,20 +9831,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Aladdin",
-          "Enter the Void",
-          "Contraband",
-          "No Small Affair"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Aladdin",
+        "Enter the Void",
+        "Contraband",
+        "No Small Affair"
+      ]
     }
   },
   {
@@ -10266,20 +9882,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Hector and the Search for Happiness",
-          "The Quiet American",
-          "The Shawshank Redemption",
-          "Falling Down"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Hector and the Search for Happiness",
+        "The Quiet American",
+        "The Shawshank Redemption",
+        "Falling Down"
+      ]
     }
   },
   {
@@ -10319,20 +9933,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Bandidas",
-          "Braveheart",
-          "Too Many Cooks",
-          "Bad Santa"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Bandidas",
+        "Braveheart",
+        "Too Many Cooks",
+        "Bad Santa"
+      ]
     }
   },
   {
@@ -10372,22 +9984,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "What's Up",
-          "Tiger Lily",
-          "Cave of Forgotten Dreams",
-          "Batman",
-          "Quatermass and the Pit"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "What's Up",
+        "Tiger Lily",
+        "Cave of Forgotten Dreams",
+        "Batman",
+        "Quatermass and the Pit"
+      ]
     }
   },
   {
@@ -10427,20 +10037,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Batman",
-          "The Deadly Bees",
-          "Hot Girls Wanted",
-          "Mermaids"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Batman",
+        "The Deadly Bees",
+        "Hot Girls Wanted",
+        "Mermaids"
+      ]
     }
   },
   {
@@ -10480,20 +10088,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Skyline",
-          "Jurassic Park",
-          "Dragon Ball Z Broly - The Legendary Super Saiyan",
-          "One Fine Day"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Skyline",
+        "Jurassic Park",
+        "Dragon Ball Z Broly - The Legendary Super Saiyan",
+        "One Fine Day"
+      ]
     }
   },
   {
@@ -10533,20 +10139,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Forrest Gump",
-          "Righteous Kill",
-          "Cheech and Chong's Up in Smoke",
-          "Blood The Last Vampire"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Forrest Gump",
+        "Righteous Kill",
+        "Cheech and Chong's Up in Smoke",
+        "Blood The Last Vampire"
+      ]
     }
   },
   {
@@ -10590,20 +10194,18 @@
       0.6368499100208282
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Way South",
-          "Er ist wieder da",
-          "Braveheart",
-          "Miss Nobody"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Way South",
+        "Er ist wieder da",
+        "Braveheart",
+        "Miss Nobody"
+      ]
     }
   },
   {
@@ -10643,20 +10245,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Wisdom",
-          "Lost and Delirious",
-          "People I Know",
-          "Braveheart"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Wisdom",
+        "Lost and Delirious",
+        "People I Know",
+        "Braveheart"
+      ]
     }
   },
   {
@@ -10696,20 +10296,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Silence of the Lambs",
-          "Making the Grade",
-          "The Boy and the Beast",
-          "Vicky Cristina Barcelona"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Silence of the Lambs",
+        "Making the Grade",
+        "The Boy and the Beast",
+        "Vicky Cristina Barcelona"
+      ]
     }
   },
   {
@@ -10753,20 +10351,18 @@
       0.6361541077494621
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Shine",
-          "Banana Joe",
-          "Max Keeble's Big Move",
-          "Independence Day"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Shine",
+        "Banana Joe",
+        "Max Keeble's Big Move",
+        "Independence Day"
+      ]
     }
   },
   {
@@ -10806,20 +10402,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Fight Club",
-          "I Shot Jesse James",
-          "Out Cold",
-          "Blackrock"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Fight Club",
+        "I Shot Jesse James",
+        "Out Cold",
+        "Blackrock"
+      ]
     }
   },
   {
@@ -10859,20 +10453,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Joe Dirt 2 Beautiful Loser",
-          "Braveheart",
-          "Where Eagles Dare",
-          "Polyester"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Joe Dirt 2 Beautiful Loser",
+        "Braveheart",
+        "Where Eagles Dare",
+        "Polyester"
+      ]
     }
   },
   {
@@ -10912,20 +10504,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Exte Hair Extensions",
-          "The Shawshank Redemption",
-          "Hot Lead and Cold Feet",
-          "The Man Who Shot Liberty Valance"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Exte Hair Extensions",
+        "The Shawshank Redemption",
+        "Hot Lead and Cold Feet",
+        "The Man Who Shot Liberty Valance"
+      ]
     }
   },
   {
@@ -10965,20 +10555,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Guinevere",
-          "White Frog",
-          "Dances with Wolves",
-          "Benny & Joon"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Guinevere",
+        "White Frog",
+        "Dances with Wolves",
+        "Benny & Joon"
+      ]
     }
   },
   {
@@ -11018,20 +10606,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "My Neighbor Totoro",
-          "Hang 'Em High",
-          "They Came Together",
-          "Toy Story"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "My Neighbor Totoro",
+        "Hang 'Em High",
+        "They Came Together",
+        "Toy Story"
+      ]
     }
   },
   {
@@ -11071,20 +10657,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Colombiana",
-          "Snow Falling on Cedars",
-          "Groundhog Day",
-          "Santa's Little Helper"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Colombiana",
+        "Snow Falling on Cedars",
+        "Groundhog Day",
+        "Santa's Little Helper"
+      ]
     }
   },
   {
@@ -11124,20 +10708,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "I'll Be Home For Christmas",
-          "Lilya 4-Ever",
-          "A Night in the Life of Jimmy Reardon",
-          "Aladdin"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "I'll Be Home For Christmas",
+        "Lilya 4-Ever",
+        "A Night in the Life of Jimmy Reardon",
+        "Aladdin"
+      ]
     }
   },
   {
@@ -11177,20 +10759,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Blame It on the Bellboy",
-          "Forrest Gump",
-          "Barcelona",
-          "Frank"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Blame It on the Bellboy",
+        "Forrest Gump",
+        "Barcelona",
+        "Frank"
+      ]
     }
   },
   {
@@ -11230,20 +10810,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Feast",
-          "In the Loop",
-          "Return with Honor",
-          "Reservoir Dogs"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Feast",
+        "In the Loop",
+        "Return with Honor",
+        "Reservoir Dogs"
+      ]
     }
   },
   {
@@ -11283,20 +10861,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Terminator 2 Judgment Day",
-          "A Field in England",
-          "Green Street Hooligans",
-          "Guardians of the Galaxy 2"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Terminator 2 Judgment Day",
+        "A Field in England",
+        "Green Street Hooligans",
+        "Guardians of the Galaxy 2"
+      ]
     }
   },
   {
@@ -11340,20 +10916,18 @@
       0.6929818391799927
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "A Special Day",
-          "David Cross Making America Great Again",
-          "Happy Go Lovely",
-          "Pulp Fiction"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "A Special Day",
+        "David Cross Making America Great Again",
+        "Happy Go Lovely",
+        "Pulp Fiction"
+      ]
     }
   },
   {
@@ -11393,20 +10967,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Meyerowitz Stories",
-          "Saw",
-          "Star Wars Episode IV - A New Hope",
-          "Josie and the Pussycats"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Meyerowitz Stories",
+        "Saw",
+        "Star Wars Episode IV - A New Hope",
+        "Josie and the Pussycats"
+      ]
     }
   },
   {
@@ -11446,20 +11018,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Fugitive",
-          "Ready to Rumble",
-          "Thoroughly Modern Millie",
-          "Ninja Shadow of a Tear"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Fugitive",
+        "Ready to Rumble",
+        "Thoroughly Modern Millie",
+        "Ninja Shadow of a Tear"
+      ]
     }
   },
   {
@@ -11499,20 +11069,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "THX 1138",
-          "Iron Eagle II",
-          "Chocolat",
-          "Forrest Gump"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "THX 1138",
+        "Iron Eagle II",
+        "Chocolat",
+        "Forrest Gump"
+      ]
     }
   },
   {
@@ -11552,20 +11120,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Drag Me to Hell",
-          "The Old Man and the Sea",
-          "The Mask",
-          "'night Mother"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Drag Me to Hell",
+        "The Old Man and the Sea",
+        "The Mask",
+        "'night Mother"
+      ]
     }
   },
   {
@@ -11605,20 +11171,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Village",
-          "Beverly Hills Cop III",
-          "Bring Me the Head of Alfredo Garcia",
-          "Pulp Fiction"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Village",
+        "Beverly Hills Cop III",
+        "Bring Me the Head of Alfredo Garcia",
+        "Pulp Fiction"
+      ]
     }
   },
   {
@@ -11658,20 +11222,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The City of Women",
-          "Avengers Infinity War - Part I",
-          "Forrest Gump",
-          "The Man Who Knew Too Much"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The City of Women",
+        "Avengers Infinity War - Part I",
+        "Forrest Gump",
+        "The Man Who Knew Too Much"
+      ]
     }
   },
   {
@@ -11711,20 +11273,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Silence of the Lambs",
-          "College",
-          "Music Box",
-          "Get Smart"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Silence of the Lambs",
+        "College",
+        "Music Box",
+        "Get Smart"
+      ]
     }
   },
   {
@@ -11764,20 +11324,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Fugitive",
-          "Tristram Shandy A Cock and Bull Story",
-          "Barefoot in the Park",
-          "Dante's Inferno An Animated Epic"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Fugitive",
+        "Tristram Shandy A Cock and Bull Story",
+        "Barefoot in the Park",
+        "Dante's Inferno An Animated Epic"
+      ]
     }
   },
   {
@@ -11817,20 +11375,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Twelve Monkeys",
-          "She's Out of My League",
-          "The Lost Room",
-          "High Crimes"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Twelve Monkeys",
+        "She's Out of My League",
+        "The Lost Room",
+        "High Crimes"
+      ]
     }
   },
   {
@@ -11870,20 +11426,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "From Hell",
-          "The Insider",
-          "Independence Day",
-          "Bride of Chucky"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "From Hell",
+        "The Insider",
+        "Independence Day",
+        "Bride of Chucky"
+      ]
     }
   },
   {
@@ -11923,20 +11477,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Pickup on South Street",
-          "One Flew Over the Cuckoo's Nest",
-          "Home",
-          "Trumbo"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Pickup on South Street",
+        "One Flew Over the Cuckoo's Nest",
+        "Home",
+        "Trumbo"
+      ]
     }
   },
   {
@@ -11976,20 +11528,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Godfather Trilogy 1972-1990",
-          "Star Wars Episode VI - Return of the Jedi",
-          "Halloween II",
-          "Alice Through the Looking Glass"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Godfather Trilogy 1972-1990",
+        "Star Wars Episode VI - Return of the Jedi",
+        "Halloween II",
+        "Alice Through the Looking Glass"
+      ]
     }
   },
   {
@@ -12033,20 +11583,18 @@
       0.7380146607756615
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Pulp Fiction",
-          "The Machinist",
-          "Yes Man",
-          "Perfect Sense"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Pulp Fiction",
+        "The Machinist",
+        "Yes Man",
+        "Perfect Sense"
+      ]
     }
   },
   {
@@ -12086,20 +11634,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Pet Sematary II",
-          "Star Wars Episode V - The Empire Strikes Back",
-          "Winnie Pooh",
-          "Ken Park"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Pet Sematary II",
+        "Star Wars Episode V - The Empire Strikes Back",
+        "Winnie Pooh",
+        "Ken Park"
+      ]
     }
   },
   {
@@ -12139,20 +11685,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Shrek",
-          "The Natural",
-          "Strike!",
-          "Gentlemen Broncos"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Shrek",
+        "The Natural",
+        "Strike!",
+        "Gentlemen Broncos"
+      ]
     }
   },
   {
@@ -12192,20 +11736,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Dances with Wolves",
-          "The Killer Shrews",
-          "Uptown Girls",
-          "The Den"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Dances with Wolves",
+        "The Killer Shrews",
+        "Uptown Girls",
+        "The Den"
+      ]
     }
   },
   {
@@ -12245,20 +11787,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "I Do How to Get Married and Stay Single",
-          "Forrest Gump",
-          "The Crossing Guard",
-          "Jimmy Carr Making People Laugh"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "I Do How to Get Married and Stay Single",
+        "Forrest Gump",
+        "The Crossing Guard",
+        "Jimmy Carr Making People Laugh"
+      ]
     }
   },
   {
@@ -12298,20 +11838,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Godfather Part II",
-          "The Sting",
-          "Trash Humpers",
-          "The Seventh Sign"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Godfather Part II",
+        "The Sting",
+        "Trash Humpers",
+        "The Seventh Sign"
+      ]
     }
   },
   {
@@ -12351,20 +11889,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Astronaut Farmer",
-          "It's Pat",
-          "One-Eyed Jacks",
-          "Dances with Wolves"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Astronaut Farmer",
+        "It's Pat",
+        "One-Eyed Jacks",
+        "Dances with Wolves"
+      ]
     }
   },
   {
@@ -12404,20 +11940,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Braveheart",
-          "The Pretty One",
-          "Elsa & Fred",
-          "The Sound of Music"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Braveheart",
+        "The Pretty One",
+        "Elsa & Fred",
+        "The Sound of Music"
+      ]
     }
   },
   {
@@ -12457,20 +11991,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Kevin Hart I'm a Grown Little Man",
-          "IQ",
-          "Pulp Fiction",
-          "Penguins of Madagascar"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Kevin Hart I'm a Grown Little Man",
+        "IQ",
+        "Pulp Fiction",
+        "Penguins of Madagascar"
+      ]
     }
   },
   {
@@ -12510,20 +12042,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Apple",
-          "Independence Day",
-          "Boiling Point",
-          "Car Wash"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Apple",
+        "Independence Day",
+        "Boiling Point",
+        "Car Wash"
+      ]
     }
   },
   {
@@ -12563,20 +12093,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Dracula 2000",
-          "1492 Conquest of Paradise",
-          "Schindler's List",
-          "Auto Focus"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Dracula 2000",
+        "1492 Conquest of Paradise",
+        "Schindler's List",
+        "Auto Focus"
+      ]
     }
   },
   {
@@ -12616,20 +12144,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Sessions",
-          "The Girl Who Kicked the Hornet's Nest",
-          "Forrest Gump",
-          "Before Night Falls"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Sessions",
+        "The Girl Who Kicked the Hornet's Nest",
+        "Forrest Gump",
+        "Before Night Falls"
+      ]
     }
   },
   {
@@ -12669,20 +12195,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Braveheart",
-          "Ripley's Game",
-          "Spanglish",
-          "Meet the Feebles"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Braveheart",
+        "Ripley's Game",
+        "Spanglish",
+        "Meet the Feebles"
+      ]
     }
   },
   {
@@ -12722,22 +12246,20 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E"
-        ],
-        "text": [
-          "The Fly",
-          "Metropia",
-          "Ciao",
-          "Professore!",
-          "Dances with Wolves"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "text": [
+        "The Fly",
+        "Metropia",
+        "Ciao",
+        "Professore!",
+        "Dances with Wolves"
+      ]
     }
   },
   {
@@ -12777,20 +12299,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Valentine's Day",
-          "The Double",
-          "The Secret Garden",
-          "All Is Lost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Valentine's Day",
+        "The Double",
+        "The Secret Garden",
+        "All Is Lost"
+      ]
     }
   },
   {
@@ -12830,20 +12350,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Babylon 5 A Call to Arms",
-          "Letters from Iwo Jima",
-          "Forrest Gump",
-          "Saint Ralph"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Babylon 5 A Call to Arms",
+        "Letters from Iwo Jima",
+        "Forrest Gump",
+        "Saint Ralph"
+      ]
     }
   },
   {
@@ -12883,20 +12401,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Wild Orchid",
-          "The Silence of the Lambs",
-          "Hello Ladies The Movie",
-          "Star Trek"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Wild Orchid",
+        "The Silence of the Lambs",
+        "Hello Ladies The Movie",
+        "Star Trek"
+      ]
     }
   },
   {
@@ -12936,20 +12452,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Frankenweenie",
-          "Ivan Vasilievich Back to the Future",
-          "We Bought a Zoo",
-          "Star Wars Episode IV - A New Hope"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Frankenweenie",
+        "Ivan Vasilievich Back to the Future",
+        "We Bought a Zoo",
+        "Star Wars Episode IV - A New Hope"
+      ]
     }
   },
   {
@@ -12989,20 +12503,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Hunting Party",
-          "Schindler's List",
-          "Baraka",
-          "Reality Bites"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Hunting Party",
+        "Schindler's List",
+        "Baraka",
+        "Reality Bites"
+      ]
     }
   },
   {
@@ -13042,20 +12554,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Blitz",
-          "Only Lovers Left Alive",
-          "The Chase",
-          "The Usual Suspects"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Blitz",
+        "Only Lovers Left Alive",
+        "The Chase",
+        "The Usual Suspects"
+      ]
     }
   },
   {
@@ -13095,20 +12605,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "With a Friend Like Harry",
-          "Crash",
-          "The Stepford Wives",
-          "Pulp Fiction"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "With a Friend Like Harry",
+        "Crash",
+        "The Stepford Wives",
+        "Pulp Fiction"
+      ]
     }
   },
   {
@@ -13148,20 +12656,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Seven",
-          "Meet the Spartans",
-          "Leprechaun 4 In Space",
-          "Harlem Nights"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Seven",
+        "Meet the Spartans",
+        "Leprechaun 4 In Space",
+        "Harlem Nights"
+      ]
     }
   },
   {
@@ -13201,20 +12707,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Cloud Atlas",
-          "Friday Night Lights",
-          "The Godfather",
-          "Pride and Prejudice"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Cloud Atlas",
+        "Friday Night Lights",
+        "The Godfather",
+        "Pride and Prejudice"
+      ]
     }
   },
   {
@@ -13254,20 +12758,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "Braveheart",
-          "Popeye",
-          "House II The Second Story",
-          "In China They Eat Dogs"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "Braveheart",
+        "Popeye",
+        "House II The Second Story",
+        "In China They Eat Dogs"
+      ]
     }
   },
   {
@@ -13307,20 +12809,18 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C",
-          "D"
-        ],
-        "text": [
-          "The Red Turtle",
-          "Tarzan",
-          "Nothing But Trouble",
-          "Aladdin"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "text": [
+        "The Red Turtle",
+        "Tarzan",
+        "Nothing But Trouble",
+        "Aladdin"
+      ]
     }
   }
 ]

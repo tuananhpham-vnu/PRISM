@@ -44,18 +44,16 @@
       1.7231444120407104
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue jay is the second from the left",
-          "The quail is the second from the left",
-          "The falcon is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue jay is the second from the left",
+        "The quail is the second from the left",
+        "The falcon is the second from the left"
+      ]
     }
   },
   {
@@ -115,18 +113,16 @@
       4.321809604763985
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The motorcyle is the oldest",
-          "The limousine is the oldest",
-          "The convertible is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The motorcyle is the oldest",
+        "The limousine is the oldest",
+        "The convertible is the oldest"
+      ]
     }
   },
   {
@@ -170,18 +166,16 @@
       0.8704511299729347
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue book is the second from the left",
-          "The orange book is the second from the left",
-          "The red book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue book is the second from the left",
+        "The orange book is the second from the left",
+        "The red book is the second from the left"
+      ]
     }
   },
   {
@@ -225,18 +219,16 @@
       0.8398664742708206
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The robin is the rightmost",
-          "The blue jay is the rightmost",
-          "The crow is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The robin is the rightmost",
+        "The blue jay is the rightmost",
+        "The crow is the rightmost"
+      ]
     }
   },
   {
@@ -280,18 +272,16 @@
       0.9093189090490341
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The green book is the rightmost",
-          "The red book is the rightmost",
-          "The blue book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The green book is the rightmost",
+        "The red book is the rightmost",
+        "The blue book is the rightmost"
+      ]
     }
   },
   {
@@ -343,18 +333,16 @@
       2.2576039880514145
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The apples are the second-most expensive",
-          "The peaches are the second-most expensive",
-          "The mangoes are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The apples are the second-most expensive",
+        "The peaches are the second-most expensive",
+        "The mangoes are the second-most expensive"
+      ]
     }
   },
   {
@@ -402,18 +390,16 @@
       1.6154720112681389
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The tractor is the newest",
-          "The truck is the newest",
-          "The minivan is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The tractor is the newest",
+        "The truck is the newest",
+        "The minivan is the newest"
+      ]
     }
   },
   {
@@ -461,18 +447,16 @@
       1.5169115737080574
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eve finished first",
-          "Rob finished first",
-          "Mel finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eve finished first",
+        "Rob finished first",
+        "Mel finished first"
+      ]
     }
   },
   {
@@ -520,18 +504,16 @@
       1.8083549328148365
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The orange book is the second from the left",
-          "The yellow book is the second from the left",
-          "The blue book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The orange book is the second from the left",
+        "The yellow book is the second from the left",
+        "The blue book is the second from the left"
+      ]
     }
   },
   {
@@ -587,18 +569,16 @@
       3.65695833414793
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The station wagon is the newest",
-          "The minivan is the newest",
-          "The truck is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The station wagon is the newest",
+        "The minivan is the newest",
+        "The truck is the newest"
+      ]
     }
   },
   {
@@ -642,18 +622,16 @@
       0.894748866558075
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The gray book is the leftmost",
-          "The purple book is the leftmost",
-          "The red book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The gray book is the leftmost",
+        "The purple book is the leftmost",
+        "The red book is the leftmost"
+      ]
     }
   },
   {
@@ -693,18 +671,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The peaches are the second-most expensive",
-          "The mangoes are the second-most expensive",
-          "The apples are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The peaches are the second-most expensive",
+        "The mangoes are the second-most expensive",
+        "The apples are the second-most expensive"
+      ]
     }
   },
   {
@@ -748,18 +724,16 @@
       0.8906351625919342
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue jay is the second from the left",
-          "The falcon is the second from the left",
-          "The hummingbird is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue jay is the second from the left",
+        "The falcon is the second from the left",
+        "The hummingbird is the second from the left"
+      ]
     }
   },
   {
@@ -823,18 +797,16 @@
       4.564355179667473
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The minivan is the second-newest",
-          "The bus is the second-newest",
-          "The sedan is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The minivan is the second-newest",
+        "The bus is the second-newest",
+        "The sedan is the second-newest"
+      ]
     }
   },
   {
@@ -894,18 +866,16 @@
       3.9457981437444687
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hatchback is the second-newest",
-          "The convertible is the second-newest",
-          "The tractor is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hatchback is the second-newest",
+        "The convertible is the second-newest",
+        "The tractor is the second-newest"
+      ]
     }
   },
   {
@@ -957,18 +927,16 @@
       2.6961162760853767
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The loquats are the most expensive",
-          "The watermelons are the most expensive",
-          "The cantaloupes are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The loquats are the most expensive",
+        "The watermelons are the most expensive",
+        "The cantaloupes are the most expensive"
+      ]
     }
   },
   {
@@ -1020,18 +988,16 @@
       2.6376157999038696
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The mangoes are the most expensive",
-          "The watermelons are the most expensive",
-          "The kiwis are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The mangoes are the most expensive",
+        "The watermelons are the most expensive",
+        "The kiwis are the most expensive"
+      ]
     }
   },
   {
@@ -1079,18 +1045,16 @@
       1.7804890125989914
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue book is the rightmost",
-          "The orange book is the rightmost",
-          "The red book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue book is the rightmost",
+        "The orange book is the rightmost",
+        "The red book is the rightmost"
+      ]
     }
   },
   {
@@ -1134,18 +1098,16 @@
       0.7789110615849495
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ada finished last",
-          "Mel finished last",
-          "Mya finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ada finished last",
+        "Mel finished last",
+        "Mya finished last"
+      ]
     }
   },
   {
@@ -1189,18 +1151,16 @@
       0.8317958042025566
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Mel finished last",
-          "Ada finished last",
-          "Ana finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Mel finished last",
+        "Ada finished last",
+        "Ana finished last"
+      ]
     }
   },
   {
@@ -1248,18 +1208,16 @@
       1.750059101730585
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The plums are the cheapest",
-          "The apples are the cheapest",
-          "The loquats are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The plums are the cheapest",
+        "The apples are the cheapest",
+        "The loquats are the cheapest"
+      ]
     }
   },
   {
@@ -1307,18 +1265,16 @@
       1.829771913588047
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The black book is the second from the left",
-          "The orange book is the second from the left",
-          "The blue book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The black book is the second from the left",
+        "The orange book is the second from the left",
+        "The blue book is the second from the left"
+      ]
     }
   },
   {
@@ -1374,18 +1330,16 @@
       3.4056403785943985
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The convertible is the oldest",
-          "The motorcyle is the oldest",
-          "The truck is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The convertible is the oldest",
+        "The motorcyle is the oldest",
+        "The truck is the oldest"
+      ]
     }
   },
   {
@@ -1429,18 +1383,16 @@
       0.8504122421145439
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The apples are the cheapest",
-          "The peaches are the cheapest",
-          "The mangoes are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The apples are the cheapest",
+        "The peaches are the cheapest",
+        "The mangoes are the cheapest"
+      ]
     }
   },
   {
@@ -1488,18 +1440,16 @@
       1.371793631464243
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eve finished first",
-          "Joe finished first",
-          "Amy finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eve finished first",
+        "Joe finished first",
+        "Amy finished first"
+      ]
     }
   },
   {
@@ -1551,18 +1501,16 @@
       2.604101650416851
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eli finished second",
-          "Mya finished second",
-          "Eve finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eli finished second",
+        "Mya finished second",
+        "Eve finished second"
+      ]
     }
   },
   {
@@ -1602,18 +1550,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The peaches are the most expensive",
-          "The pears are the most expensive",
-          "The mangoes are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The peaches are the most expensive",
+        "The pears are the most expensive",
+        "The mangoes are the most expensive"
+      ]
     }
   },
   {
@@ -1677,18 +1623,16 @@
       5.083866283297539
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hatchback is the oldest",
-          "The convertible is the oldest",
-          "The tractor is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hatchback is the oldest",
+        "The convertible is the oldest",
+        "The tractor is the oldest"
+      ]
     }
   },
   {
@@ -1740,18 +1684,16 @@
       2.6998176723718643
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hummingbird is the rightmost",
-          "The blue jay is the rightmost",
-          "The raven is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hummingbird is the rightmost",
+        "The blue jay is the rightmost",
+        "The raven is the rightmost"
+      ]
     }
   },
   {
@@ -1795,18 +1737,16 @@
       0.9008856788277626
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The purple book is the rightmost",
-          "The red book is the rightmost",
-          "The yellow book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The purple book is the rightmost",
+        "The red book is the rightmost",
+        "The yellow book is the rightmost"
+      ]
     }
   },
   {
@@ -1858,18 +1798,16 @@
       2.759289935231209
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The watermelons are the second-most expensive",
-          "The apples are the second-most expensive",
-          "The mangoes are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The watermelons are the second-most expensive",
+        "The apples are the second-most expensive",
+        "The mangoes are the second-most expensive"
+      ]
     }
   },
   {
@@ -1909,18 +1847,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Amy finished first",
-          "Dan finished first",
-          "Mel finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Amy finished first",
+        "Dan finished first",
+        "Mel finished first"
+      ]
     }
   },
   {
@@ -1964,18 +1900,16 @@
       0.8182982467114925
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The motorcyle is the second-newest",
-          "The bus is the second-newest",
-          "The tractor is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The motorcyle is the second-newest",
+        "The bus is the second-newest",
+        "The tractor is the second-newest"
+      ]
     }
   },
   {
@@ -2015,18 +1949,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The red book is the second from the left",
-          "The blue book is the second from the left",
-          "The orange book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The red book is the second from the left",
+        "The blue book is the second from the left",
+        "The orange book is the second from the left"
+      ]
     }
   },
   {
@@ -2078,18 +2010,16 @@
       2.5546538941562176
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The motorcyle is the newest",
-          "The minivan is the newest",
-          "The tractor is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The motorcyle is the newest",
+        "The minivan is the newest",
+        "The tractor is the newest"
+      ]
     }
   },
   {
@@ -2141,18 +2071,16 @@
       2.503703497350216
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The bus is the second-newest",
-          "The sedan is the second-newest",
-          "The truck is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The bus is the second-newest",
+        "The sedan is the second-newest",
+        "The truck is the second-newest"
+      ]
     }
   },
   {
@@ -2204,18 +2132,16 @@
       2.396571137011051
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The loquats are the most expensive",
-          "The mangoes are the most expensive",
-          "The apples are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The loquats are the most expensive",
+        "The mangoes are the most expensive",
+        "The apples are the most expensive"
+      ]
     }
   },
   {
@@ -2259,18 +2185,16 @@
       0.8818575441837311
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue jay is the rightmost",
-          "The quail is the rightmost",
-          "The falcon is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue jay is the rightmost",
+        "The quail is the rightmost",
+        "The falcon is the rightmost"
+      ]
     }
   },
   {
@@ -2318,18 +2242,16 @@
       1.804160948842764
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hawk is the second from the left",
-          "The crow is the second from the left",
-          "The raven is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hawk is the second from the left",
+        "The crow is the second from the left",
+        "The raven is the second from the left"
+      ]
     }
   },
   {
@@ -2373,18 +2295,16 @@
       0.9124775379896164
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The brown book is the leftmost",
-          "The yellow book is the leftmost",
-          "The orange book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The brown book is the leftmost",
+        "The yellow book is the leftmost",
+        "The orange book is the leftmost"
+      ]
     }
   },
   {
@@ -2436,18 +2356,16 @@
       2.553935371339321
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The loquats are the second-most expensive",
-          "The mangoes are the second-most expensive",
-          "The apples are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The loquats are the second-most expensive",
+        "The mangoes are the second-most expensive",
+        "The apples are the second-most expensive"
+      ]
     }
   },
   {
@@ -2499,18 +2417,16 @@
       2.2521085888147354
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The cantaloupes are the cheapest",
-          "The oranges are the cheapest",
-          "The watermelons are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The cantaloupes are the cheapest",
+        "The oranges are the cheapest",
+        "The watermelons are the cheapest"
+      ]
     }
   },
   {
@@ -2558,18 +2474,16 @@
       1.8336196318268776
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The apples are the most expensive",
-          "The peaches are the most expensive",
-          "The loquats are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The apples are the most expensive",
+        "The peaches are the most expensive",
+        "The loquats are the most expensive"
+      ]
     }
   },
   {
@@ -2617,18 +2531,16 @@
       1.7957530673593283
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The owl is the second from the left",
-          "The crow is the second from the left",
-          "The cardinal is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The owl is the second from the left",
+        "The crow is the second from the left",
+        "The cardinal is the second from the left"
+      ]
     }
   },
   {
@@ -2672,18 +2584,16 @@
       0.8993864730000496
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The oranges are the second-most expensive",
-          "The mangoes are the second-most expensive",
-          "The plums are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The oranges are the second-most expensive",
+        "The mangoes are the second-most expensive",
+        "The plums are the second-most expensive"
+      ]
     }
   },
   {
@@ -2723,18 +2633,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The quail is the second from the left",
-          "The owl is the second from the left",
-          "The hummingbird is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The quail is the second from the left",
+        "The owl is the second from the left",
+        "The hummingbird is the second from the left"
+      ]
     }
   },
   {
@@ -2782,18 +2690,16 @@
       1.8367476016283035
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The oranges are the most expensive",
-          "The watermelons are the most expensive",
-          "The pears are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The oranges are the most expensive",
+        "The watermelons are the most expensive",
+        "The pears are the most expensive"
+      ]
     }
   },
   {
@@ -2833,18 +2739,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished first",
-          "Mel finished first",
-          "Ada finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished first",
+        "Mel finished first",
+        "Ada finished first"
+      ]
     }
   },
   {
@@ -2888,18 +2792,16 @@
       0.8099722340703011
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The sedan is the second-newest",
-          "The tractor is the second-newest",
-          "The bus is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The sedan is the second-newest",
+        "The tractor is the second-newest",
+        "The bus is the second-newest"
+      ]
     }
   },
   {
@@ -2939,18 +2841,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The green book is the second from the left",
-          "The brown book is the second from the left",
-          "The orange book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The green book is the second from the left",
+        "The brown book is the second from the left",
+        "The orange book is the second from the left"
+      ]
     }
   },
   {
@@ -2998,18 +2898,16 @@
       1.7860709503293037
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The orange book is the leftmost",
-          "The blue book is the leftmost",
-          "The yellow book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The orange book is the leftmost",
+        "The blue book is the leftmost",
+        "The yellow book is the leftmost"
+      ]
     }
   },
   {
@@ -3069,18 +2967,16 @@
       4.245889440178871
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The oranges are the cheapest",
-          "The mangoes are the cheapest",
-          "The plums are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The oranges are the cheapest",
+        "The mangoes are the cheapest",
+        "The plums are the cheapest"
+      ]
     }
   },
   {
@@ -3124,18 +3020,16 @@
       0.877803985029459
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The gray book is the rightmost",
-          "The purple book is the rightmost",
-          "The red book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The gray book is the rightmost",
+        "The purple book is the rightmost",
+        "The red book is the rightmost"
+      ]
     }
   },
   {
@@ -3187,18 +3081,16 @@
       2.6959434524178505
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The motorcyle is the oldest",
-          "The minivan is the oldest",
-          "The tractor is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The motorcyle is the oldest",
+        "The minivan is the oldest",
+        "The tractor is the oldest"
+      ]
     }
   },
   {
@@ -3242,18 +3134,16 @@
       0.8665477409958839
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue jay is the rightmost",
-          "The cardinal is the rightmost",
-          "The quail is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue jay is the rightmost",
+        "The cardinal is the rightmost",
+        "The quail is the rightmost"
+      ]
     }
   },
   {
@@ -3305,18 +3195,16 @@
       2.3679532259702682
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Amy finished second",
-          "Eli finished second",
-          "Eve finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Amy finished second",
+        "Eli finished second",
+        "Eve finished second"
+      ]
     }
   },
   {
@@ -3364,18 +3252,16 @@
       1.6891463324427605
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Joe finished first",
-          "Dan finished first",
-          "Eve finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Joe finished first",
+        "Dan finished first",
+        "Eve finished first"
+      ]
     }
   },
   {
@@ -3419,18 +3305,16 @@
       0.870956115424633
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue jay is the leftmost",
-          "The quail is the leftmost",
-          "The falcon is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue jay is the leftmost",
+        "The quail is the leftmost",
+        "The falcon is the leftmost"
+      ]
     }
   },
   {
@@ -3474,18 +3358,16 @@
       0.8932884410023689
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The watermelons are the cheapest",
-          "The apples are the cheapest",
-          "The mangoes are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The watermelons are the cheapest",
+        "The apples are the cheapest",
+        "The mangoes are the cheapest"
+      ]
     }
   },
   {
@@ -3537,18 +3419,16 @@
       2.5059568658471107
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The motorcyle is the newest",
-          "The bus is the newest",
-          "The tractor is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The motorcyle is the newest",
+        "The bus is the newest",
+        "The tractor is the newest"
+      ]
     }
   },
   {
@@ -3600,18 +3480,16 @@
       2.3877157866954803
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The motorcyle is the second-newest",
-          "The minivan is the second-newest",
-          "The tractor is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The motorcyle is the second-newest",
+        "The minivan is the second-newest",
+        "The tractor is the second-newest"
+      ]
     }
   },
   {
@@ -3655,18 +3533,16 @@
       0.8658166527748108
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The plums are the most expensive",
-          "The apples are the most expensive",
-          "The loquats are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The plums are the most expensive",
+        "The apples are the most expensive",
+        "The loquats are the most expensive"
+      ]
     }
   },
   {
@@ -3710,18 +3586,16 @@
       0.8967497199773788
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The gray book is the second from the left",
-          "The orange book is the second from the left",
-          "The brown book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The gray book is the second from the left",
+        "The orange book is the second from the left",
+        "The brown book is the second from the left"
+      ]
     }
   },
   {
@@ -3769,18 +3643,16 @@
       1.4728709980845451
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The pears are the second-most expensive",
-          "The plums are the second-most expensive",
-          "The kiwis are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The pears are the second-most expensive",
+        "The plums are the second-most expensive",
+        "The kiwis are the second-most expensive"
+      ]
     }
   },
   {
@@ -3828,18 +3700,16 @@
       1.7708539590239525
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The convertible is the newest",
-          "The tractor is the newest",
-          "The hatchback is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The convertible is the newest",
+        "The tractor is the newest",
+        "The hatchback is the newest"
+      ]
     }
   },
   {
@@ -3903,18 +3773,16 @@
       5.030476704239845
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The tractor is the second-newest",
-          "The convertible is the second-newest",
-          "The minivan is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The tractor is the second-newest",
+        "The convertible is the second-newest",
+        "The minivan is the second-newest"
+      ]
     }
   },
   {
@@ -3966,18 +3834,16 @@
       2.6205191165208817
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The tractor is the oldest",
-          "The station wagon is the oldest",
-          "The limousine is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The tractor is the oldest",
+        "The station wagon is the oldest",
+        "The limousine is the oldest"
+      ]
     }
   },
   {
@@ -4021,18 +3887,16 @@
       0.8715292066335678
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eli finished first",
-          "Mya finished first",
-          "Eve finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eli finished first",
+        "Mya finished first",
+        "Eve finished first"
+      ]
     }
   },
   {
@@ -4076,18 +3940,16 @@
       0.8872492089867592
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The cardinal is the rightmost",
-          "The hawk is the rightmost",
-          "The hummingbird is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The cardinal is the rightmost",
+        "The hawk is the rightmost",
+        "The hummingbird is the rightmost"
+      ]
     }
   },
   {
@@ -4135,18 +3997,16 @@
       1.6682380586862564
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The sedan is the newest",
-          "The tractor is the newest",
-          "The bus is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The sedan is the newest",
+        "The tractor is the newest",
+        "The bus is the newest"
+      ]
     }
   },
   {
@@ -4190,18 +4050,16 @@
       0.8983621895313263
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue book is the leftmost",
-          "The orange book is the leftmost",
-          "The green book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue book is the leftmost",
+        "The orange book is the leftmost",
+        "The green book is the leftmost"
+      ]
     }
   },
   {
@@ -4245,18 +4103,16 @@
       0.8092732802033424
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Joe finished last",
-          "Eve finished last",
-          "Amy finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Joe finished last",
+        "Eve finished last",
+        "Amy finished last"
+      ]
     }
   },
   {
@@ -4296,18 +4152,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The kiwis are the most expensive",
-          "The loquats are the most expensive",
-          "The cantaloupes are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The kiwis are the most expensive",
+        "The loquats are the most expensive",
+        "The cantaloupes are the most expensive"
+      ]
     }
   },
   {
@@ -4363,18 +4217,16 @@
       3.2669839337468147
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The kiwis are the second-most expensive",
-          "The loquats are the second-most expensive",
-          "The cantaloupes are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The kiwis are the second-most expensive",
+        "The loquats are the second-most expensive",
+        "The cantaloupes are the second-most expensive"
+      ]
     }
   },
   {
@@ -4434,18 +4286,16 @@
       4.2329383715987206
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The station wagon is the oldest",
-          "The minivan is the oldest",
-          "The truck is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The station wagon is the oldest",
+        "The minivan is the oldest",
+        "The truck is the oldest"
+      ]
     }
   },
   {
@@ -4497,18 +4347,16 @@
       2.5673736333847046
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The white book is the leftmost",
-          "The black book is the leftmost",
-          "The purple book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The white book is the leftmost",
+        "The black book is the leftmost",
+        "The purple book is the leftmost"
+      ]
     }
   },
   {
@@ -4560,18 +4408,16 @@
       2.433322384953499
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eli finished last",
-          "Mya finished last",
-          "Eve finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eli finished last",
+        "Mya finished last",
+        "Eve finished last"
+      ]
     }
   },
   {
@@ -4615,18 +4461,16 @@
       0.8866784423589706
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The quail is the leftmost",
-          "The owl is the leftmost",
-          "The hummingbird is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The quail is the leftmost",
+        "The owl is the leftmost",
+        "The hummingbird is the leftmost"
+      ]
     }
   },
   {
@@ -4670,18 +4514,16 @@
       0.9174319207668304
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The apples are the cheapest",
-          "The pears are the cheapest",
-          "The plums are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The apples are the cheapest",
+        "The pears are the cheapest",
+        "The plums are the cheapest"
+      ]
     }
   },
   {
@@ -4725,18 +4567,16 @@
       0.8405891209840775
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ada finished first",
-          "Mel finished first",
-          "Mya finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ada finished first",
+        "Mel finished first",
+        "Mya finished first"
+      ]
     }
   },
   {
@@ -4780,18 +4620,16 @@
       0.8994916304945946
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The cantaloupes are the cheapest",
-          "The watermelons are the cheapest",
-          "The mangoes are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The cantaloupes are the cheapest",
+        "The watermelons are the cheapest",
+        "The mangoes are the cheapest"
+      ]
     }
   },
   {
@@ -4835,18 +4673,16 @@
       0.6785676628351212
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Amy finished second",
-          "Ana finished second",
-          "Joe finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Amy finished second",
+        "Ana finished second",
+        "Joe finished second"
+      ]
     }
   },
   {
@@ -4890,18 +4726,16 @@
       0.8665951937437057
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ada finished second",
-          "Mel finished second",
-          "Mya finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ada finished second",
+        "Mel finished second",
+        "Mya finished second"
+      ]
     }
   },
   {
@@ -4949,18 +4783,16 @@
       1.653509981930256
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The convertible is the newest",
-          "The motorcyle is the newest",
-          "The truck is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The convertible is the newest",
+        "The motorcyle is the newest",
+        "The truck is the newest"
+      ]
     }
   },
   {
@@ -5004,18 +4836,16 @@
       0.7210057005286217
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished second",
-          "Dan finished second",
-          "Mel finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished second",
+        "Dan finished second",
+        "Mel finished second"
+      ]
     }
   },
   {
@@ -5067,18 +4897,16 @@
       2.21310456097126
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The convertible is the newest",
-          "The limousine is the newest",
-          "The bus is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The convertible is the newest",
+        "The limousine is the newest",
+        "The bus is the newest"
+      ]
     }
   },
   {
@@ -5130,18 +4958,16 @@
       2.7018208615481853
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The green book is the second from the left",
-          "The red book is the second from the left",
-          "The blue book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The green book is the second from the left",
+        "The red book is the second from the left",
+        "The blue book is the second from the left"
+      ]
     }
   },
   {
@@ -5197,18 +5023,16 @@
       3.6324231773614883
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The peaches are the most expensive",
-          "The pears are the most expensive",
-          "The mangoes are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The peaches are the most expensive",
+        "The pears are the most expensive",
+        "The mangoes are the most expensive"
+      ]
     }
   },
   {
@@ -5256,18 +5080,16 @@
       1.7876950353384018
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The loquats are the cheapest",
-          "The watermelons are the cheapest",
-          "The cantaloupes are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The loquats are the cheapest",
+        "The watermelons are the cheapest",
+        "The cantaloupes are the cheapest"
+      ]
     }
   },
   {
@@ -5311,18 +5133,16 @@
       0.8929318189620972
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The robin is the leftmost",
-          "The owl is the leftmost",
-          "The hawk is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The robin is the leftmost",
+        "The owl is the leftmost",
+        "The hawk is the leftmost"
+      ]
     }
   },
   {
@@ -5374,18 +5194,16 @@
       2.3556997813284397
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eli finished first",
-          "Mya finished first",
-          "Eve finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eli finished first",
+        "Mya finished first",
+        "Eve finished first"
+      ]
     }
   },
   {
@@ -5437,18 +5255,16 @@
       2.245974250137806
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The oranges are the most expensive",
-          "The mangoes are the most expensive",
-          "The plums are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The oranges are the most expensive",
+        "The mangoes are the most expensive",
+        "The plums are the most expensive"
+      ]
     }
   },
   {
@@ -5508,18 +5324,16 @@
       4.1982938423752785
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The sedan is the oldest",
-          "The tractor is the oldest",
-          "The bus is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The sedan is the oldest",
+        "The tractor is the oldest",
+        "The bus is the oldest"
+      ]
     }
   },
   {
@@ -5567,18 +5381,16 @@
       1.7551799565553665
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hummingbird is the second from the left",
-          "The blue jay is the second from the left",
-          "The raven is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hummingbird is the second from the left",
+        "The blue jay is the second from the left",
+        "The raven is the second from the left"
+      ]
     }
   },
   {
@@ -5626,18 +5438,16 @@
       1.7070991322398186
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The orange book is the leftmost",
-          "The white book is the leftmost",
-          "The purple book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The orange book is the leftmost",
+        "The white book is the leftmost",
+        "The purple book is the leftmost"
+      ]
     }
   },
   {
@@ -5685,18 +5495,16 @@
       1.7248713001608849
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Amy finished first",
-          "Eli finished first",
-          "Eve finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Amy finished first",
+        "Eli finished first",
+        "Eve finished first"
+      ]
     }
   },
   {
@@ -5740,18 +5548,16 @@
       0.8577624037861824
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hawk is the second from the left",
-          "The cardinal is the second from the left",
-          "The falcon is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hawk is the second from the left",
+        "The cardinal is the second from the left",
+        "The falcon is the second from the left"
+      ]
     }
   },
   {
@@ -5803,18 +5609,16 @@
       2.6476647555828094
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The cantaloupes are the second-most expensive",
-          "The oranges are the second-most expensive",
-          "The watermelons are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The cantaloupes are the second-most expensive",
+        "The oranges are the second-most expensive",
+        "The watermelons are the second-most expensive"
+      ]
     }
   },
   {
@@ -5870,18 +5674,16 @@
       3.6379158049821854
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The robin is the second from the left",
-          "The blue jay is the second from the left",
-          "The crow is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The robin is the second from the left",
+        "The blue jay is the second from the left",
+        "The crow is the second from the left"
+      ]
     }
   },
   {
@@ -5921,18 +5723,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished last",
-          "Mel finished last",
-          "Ada finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished last",
+        "Mel finished last",
+        "Ada finished last"
+      ]
     }
   },
   {
@@ -5972,18 +5772,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hummingbird is the leftmost",
-          "The owl is the leftmost",
-          "The falcon is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hummingbird is the leftmost",
+        "The owl is the leftmost",
+        "The falcon is the leftmost"
+      ]
     }
   },
   {
@@ -6035,18 +5833,16 @@
       2.5831248462200165
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The sedan is the oldest",
-          "The minivan is the oldest",
-          "The motorcyle is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The sedan is the oldest",
+        "The minivan is the oldest",
+        "The motorcyle is the oldest"
+      ]
     }
   },
   {
@@ -6106,18 +5902,16 @@
       4.3645971938967705
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The convertible is the oldest",
-          "The limousine is the oldest",
-          "The bus is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The convertible is the oldest",
+        "The limousine is the oldest",
+        "The bus is the oldest"
+      ]
     }
   },
   {
@@ -6165,18 +5959,16 @@
       1.6996374428272247
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The truck is the newest",
-          "The minivan is the newest",
-          "The tractor is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The truck is the newest",
+        "The minivan is the newest",
+        "The tractor is the newest"
+      ]
     }
   },
   {
@@ -6216,18 +6008,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The owl is the rightmost",
-          "The crow is the rightmost",
-          "The cardinal is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The owl is the rightmost",
+        "The crow is the rightmost",
+        "The cardinal is the rightmost"
+      ]
     }
   },
   {
@@ -6275,18 +6065,16 @@
       1.6595438793301582
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eve finished last",
-          "Joe finished last",
-          "Amy finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eve finished last",
+        "Joe finished last",
+        "Amy finished last"
+      ]
     }
   },
   {
@@ -6330,18 +6118,16 @@
       0.8729259967803955
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The red book is the leftmost",
-          "The blue book is the leftmost",
-          "The orange book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The red book is the leftmost",
+        "The blue book is the leftmost",
+        "The orange book is the leftmost"
+      ]
     }
   },
   {
@@ -6385,18 +6171,16 @@
       0.9100767821073532
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The purple book is the leftmost",
-          "The black book is the leftmost",
-          "The blue book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The purple book is the leftmost",
+        "The black book is the leftmost",
+        "The blue book is the leftmost"
+      ]
     }
   },
   {
@@ -6452,18 +6236,16 @@
       2.99055477976799
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The raven is the second from the left",
-          "The quail is the second from the left",
-          "The crow is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The raven is the second from the left",
+        "The quail is the second from the left",
+        "The crow is the second from the left"
+      ]
     }
   },
   {
@@ -6515,18 +6297,16 @@
       2.394170619547367
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The robin is the leftmost",
-          "The raven is the leftmost",
-          "The quail is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The robin is the leftmost",
+        "The raven is the leftmost",
+        "The quail is the leftmost"
+      ]
     }
   },
   {
@@ -6582,18 +6362,16 @@
       2.660322144627571
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hummingbird is the leftmost",
-          "The blue jay is the leftmost",
-          "The raven is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hummingbird is the leftmost",
+        "The blue jay is the leftmost",
+        "The raven is the leftmost"
+      ]
     }
   },
   {
@@ -6641,18 +6419,16 @@
       1.6186236664652824
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Amy finished second",
-          "Dan finished second",
-          "Mel finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Amy finished second",
+        "Dan finished second",
+        "Mel finished second"
+      ]
     }
   },
   {
@@ -6704,18 +6480,16 @@
       2.554046832025051
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The station wagon is the second-newest",
-          "The minivan is the second-newest",
-          "The truck is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The station wagon is the second-newest",
+        "The minivan is the second-newest",
+        "The truck is the second-newest"
+      ]
     }
   },
   {
@@ -6767,18 +6541,16 @@
       2.6305086612701416
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The motorcyle is the oldest",
-          "The bus is the oldest",
-          "The tractor is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The motorcyle is the oldest",
+        "The bus is the oldest",
+        "The tractor is the oldest"
+      ]
     }
   },
   {
@@ -6826,18 +6598,16 @@
       1.5133317708969116
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Joe finished second",
-          "Dan finished second",
-          "Eve finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Joe finished second",
+        "Dan finished second",
+        "Eve finished second"
+      ]
     }
   },
   {
@@ -6881,18 +6651,16 @@
       0.8920715935528278
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The apples are the second-most expensive",
-          "The pears are the second-most expensive",
-          "The loquats are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The apples are the second-most expensive",
+        "The pears are the second-most expensive",
+        "The loquats are the second-most expensive"
+      ]
     }
   },
   {
@@ -6952,18 +6720,16 @@
       3.9503859132528305
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hatchback is the newest",
-          "The convertible is the newest",
-          "The tractor is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hatchback is the newest",
+        "The convertible is the newest",
+        "The tractor is the newest"
+      ]
     }
   },
   {
@@ -7003,18 +6769,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue jay is the rightmost",
-          "The falcon is the rightmost",
-          "The hummingbird is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue jay is the rightmost",
+        "The falcon is the rightmost",
+        "The hummingbird is the rightmost"
+      ]
     }
   },
   {
@@ -7070,18 +6834,16 @@
       3.3119293078780174
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The minivan is the newest",
-          "The bus is the newest",
-          "The sedan is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The minivan is the newest",
+        "The bus is the newest",
+        "The sedan is the newest"
+      ]
     }
   },
   {
@@ -7137,18 +6899,16 @@
       3.5879012383520603
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The cantaloupes are the cheapest",
-          "The apples are the cheapest",
-          "The loquats are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The cantaloupes are the cheapest",
+        "The apples are the cheapest",
+        "The loquats are the cheapest"
+      ]
     }
   },
   {
@@ -7192,18 +6952,16 @@
       0.8492751866579056
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eve finished last",
-          "Rob finished last",
-          "Mel finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eve finished last",
+        "Rob finished last",
+        "Mel finished last"
+      ]
     }
   },
   {
@@ -7247,18 +7005,16 @@
       0.8517744466662407
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The white book is the second from the left",
-          "The black book is the second from the left",
-          "The purple book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The white book is the second from the left",
+        "The black book is the second from the left",
+        "The purple book is the second from the left"
+      ]
     }
   },
   {
@@ -7298,18 +7054,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eve finished second",
-          "Rob finished second",
-          "Mel finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eve finished second",
+        "Rob finished second",
+        "Mel finished second"
+      ]
     }
   },
   {
@@ -7353,18 +7107,16 @@
       0.8662707507610321
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The owl is the leftmost",
-          "The crow is the leftmost",
-          "The cardinal is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The owl is the leftmost",
+        "The crow is the leftmost",
+        "The cardinal is the leftmost"
+      ]
     }
   },
   {
@@ -7420,18 +7172,16 @@
       2.618675172328949
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The apples are the cheapest",
-          "The pears are the cheapest",
-          "The loquats are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The apples are the cheapest",
+        "The pears are the cheapest",
+        "The loquats are the cheapest"
+      ]
     }
   },
   {
@@ -7479,18 +7229,16 @@
       1.8214238472282887
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The green book is the leftmost",
-          "The red book is the leftmost",
-          "The blue book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The green book is the leftmost",
+        "The red book is the leftmost",
+        "The blue book is the leftmost"
+      ]
     }
   },
   {
@@ -7546,18 +7294,16 @@
       3.4628250300884247
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The orange book is the second from the left",
-          "The blue book is the second from the left",
-          "The yellow book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The orange book is the second from the left",
+        "The blue book is the second from the left",
+        "The yellow book is the second from the left"
+      ]
     }
   },
   {
@@ -7605,18 +7351,16 @@
       1.732041034847498
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The robin is the second from the left",
-          "The raven is the second from the left",
-          "The quail is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The robin is the second from the left",
+        "The raven is the second from the left",
+        "The quail is the second from the left"
+      ]
     }
   },
   {
@@ -7664,18 +7408,16 @@
       1.8208557069301605
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The crow is the leftmost",
-          "The falcon is the leftmost",
-          "The raven is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The crow is the leftmost",
+        "The falcon is the leftmost",
+        "The raven is the leftmost"
+      ]
     }
   },
   {
@@ -7719,18 +7461,16 @@
       0.8624313622713089
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eli finished second",
-          "Mya finished second",
-          "Eve finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eli finished second",
+        "Mya finished second",
+        "Eve finished second"
+      ]
     }
   },
   {
@@ -7786,18 +7526,16 @@
       3.234290137887001
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The convertible is the second-newest",
-          "The motorcyle is the second-newest",
-          "The truck is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The convertible is the second-newest",
+        "The motorcyle is the second-newest",
+        "The truck is the second-newest"
+      ]
     }
   },
   {
@@ -7841,18 +7579,16 @@
       0.8676298633217812
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The purple book is the second from the left",
-          "The red book is the second from the left",
-          "The yellow book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The purple book is the second from the left",
+        "The red book is the second from the left",
+        "The yellow book is the second from the left"
+      ]
     }
   },
   {
@@ -7900,18 +7636,16 @@
       1.8426837660372257
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The peaches are the cheapest",
-          "The mangoes are the cheapest",
-          "The apples are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The peaches are the cheapest",
+        "The mangoes are the cheapest",
+        "The apples are the cheapest"
+      ]
     }
   },
   {
@@ -7959,18 +7693,16 @@
       1.5418891720473766
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue jay is the second from the left",
-          "The falcon is the second from the left",
-          "The raven is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue jay is the second from the left",
+        "The falcon is the second from the left",
+        "The raven is the second from the left"
+      ]
     }
   },
   {
@@ -8030,18 +7762,16 @@
       4.252441789954901
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The loquats are the cheapest",
-          "The mangoes are the cheapest",
-          "The apples are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The loquats are the cheapest",
+        "The mangoes are the cheapest",
+        "The apples are the cheapest"
+      ]
     }
   },
   {
@@ -8089,18 +7819,16 @@
       1.8073800951242447
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The apples are the most expensive",
-          "The peaches are the most expensive",
-          "The mangoes are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The apples are the most expensive",
+        "The peaches are the most expensive",
+        "The mangoes are the most expensive"
+      ]
     }
   },
   {
@@ -8144,18 +7872,16 @@
       0.8807274848222733
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The plums are the second-most expensive",
-          "The apples are the second-most expensive",
-          "The loquats are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The plums are the second-most expensive",
+        "The apples are the second-most expensive",
+        "The loquats are the second-most expensive"
+      ]
     }
   },
   {
@@ -8199,18 +7925,16 @@
       0.8307069912552834
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hummingbird is the rightmost",
-          "The quail is the rightmost",
-          "The crow is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hummingbird is the rightmost",
+        "The quail is the rightmost",
+        "The crow is the rightmost"
+      ]
     }
   },
   {
@@ -8254,18 +7978,16 @@
       0.8145795986056328
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished last",
-          "Rob finished last",
-          "Joe finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished last",
+        "Rob finished last",
+        "Joe finished last"
+      ]
     }
   },
   {
@@ -8309,18 +8031,16 @@
       0.8898165076971054
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The brown book is the rightmost",
-          "The yellow book is the rightmost",
-          "The orange book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The brown book is the rightmost",
+        "The yellow book is the rightmost",
+        "The orange book is the rightmost"
+      ]
     }
   },
   {
@@ -8364,18 +8084,16 @@
       0.8843252211809158
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The pears are the most expensive",
-          "The plums are the most expensive",
-          "The kiwis are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The pears are the most expensive",
+        "The plums are the most expensive",
+        "The kiwis are the most expensive"
+      ]
     }
   },
   {
@@ -8427,18 +8145,16 @@
       2.686565950512886
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The owl is the second from the left",
-          "The crow is the second from the left",
-          "The cardinal is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The owl is the second from the left",
+        "The crow is the second from the left",
+        "The cardinal is the second from the left"
+      ]
     }
   },
   {
@@ -8490,18 +8206,16 @@
       2.6716066747903824
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The yellow book is the leftmost",
-          "The brown book is the leftmost",
-          "The red book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The yellow book is the leftmost",
+        "The brown book is the leftmost",
+        "The red book is the leftmost"
+      ]
     }
   },
   {
@@ -8549,18 +8263,16 @@
       1.553408682346344
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Joe finished first",
-          "Eve finished first",
-          "Amy finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Joe finished first",
+        "Eve finished first",
+        "Amy finished first"
+      ]
     }
   },
   {
@@ -8612,18 +8324,16 @@
       2.5678705237805843
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The gray book is the leftmost",
-          "The orange book is the leftmost",
-          "The brown book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The gray book is the leftmost",
+        "The orange book is the leftmost",
+        "The brown book is the leftmost"
+      ]
     }
   },
   {
@@ -8671,18 +8381,16 @@
       1.7137616872787476
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Amy finished last",
-          "Ada finished last",
-          "Joe finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Amy finished last",
+        "Ada finished last",
+        "Joe finished last"
+      ]
     }
   },
   {
@@ -8722,18 +8430,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The peaches are the second-most expensive",
-          "The pears are the second-most expensive",
-          "The mangoes are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The peaches are the second-most expensive",
+        "The pears are the second-most expensive",
+        "The mangoes are the second-most expensive"
+      ]
     }
   },
   {
@@ -8777,18 +8483,16 @@
       0.8677117079496384
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The black book is the leftmost",
-          "The orange book is the leftmost",
-          "The blue book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The black book is the leftmost",
+        "The orange book is the leftmost",
+        "The blue book is the leftmost"
+      ]
     }
   },
   {
@@ -8840,18 +8544,16 @@
       2.558535650372505
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The motorcyle is the second-newest",
-          "The limousine is the second-newest",
-          "The convertible is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The motorcyle is the second-newest",
+        "The limousine is the second-newest",
+        "The convertible is the second-newest"
+      ]
     }
   },
   {
@@ -8895,18 +8597,16 @@
       0.8335010707378387
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished first",
-          "Rob finished first",
-          "Joe finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished first",
+        "Rob finished first",
+        "Joe finished first"
+      ]
     }
   },
   {
@@ -8962,18 +8662,16 @@
       3.4571185782551765
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The kiwis are the second-most expensive",
-          "The oranges are the second-most expensive",
-          "The watermelons are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The kiwis are the second-most expensive",
+        "The oranges are the second-most expensive",
+        "The watermelons are the second-most expensive"
+      ]
     }
   },
   {
@@ -9033,18 +8731,16 @@
       4.523224823176861
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The owl is the leftmost",
-          "The crow is the leftmost",
-          "The cardinal is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The owl is the leftmost",
+        "The crow is the leftmost",
+        "The cardinal is the leftmost"
+      ]
     }
   },
   {
@@ -9096,18 +8792,16 @@
       2.7130088955163956
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The convertible is the oldest",
-          "The tractor is the oldest",
-          "The hatchback is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The convertible is the oldest",
+        "The tractor is the oldest",
+        "The hatchback is the oldest"
+      ]
     }
   },
   {
@@ -9163,18 +8857,16 @@
       3.42313114926219
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The robin is the leftmost",
-          "The blue jay is the leftmost",
-          "The crow is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The robin is the leftmost",
+        "The blue jay is the leftmost",
+        "The crow is the leftmost"
+      ]
     }
   },
   {
@@ -9222,18 +8914,16 @@
       1.7428061813116074
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The limousine is the newest",
-          "The truck is the newest",
-          "The minivan is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The limousine is the newest",
+        "The truck is the newest",
+        "The minivan is the newest"
+      ]
     }
   },
   {
@@ -9289,18 +8979,16 @@
       3.489858329296112
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hatchback is the second-newest",
-          "The limousine is the second-newest",
-          "The station wagon is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hatchback is the second-newest",
+        "The limousine is the second-newest",
+        "The station wagon is the second-newest"
+      ]
     }
   },
   {
@@ -9352,18 +9040,16 @@
       2.719794064760208
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The yellow book is the rightmost",
-          "The brown book is the rightmost",
-          "The red book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The yellow book is the rightmost",
+        "The brown book is the rightmost",
+        "The red book is the rightmost"
+      ]
     }
   },
   {
@@ -9407,18 +9093,16 @@
       0.891337051987648
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The black book is the rightmost",
-          "The orange book is the rightmost",
-          "The blue book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The black book is the rightmost",
+        "The orange book is the rightmost",
+        "The blue book is the rightmost"
+      ]
     }
   },
   {
@@ -9458,18 +9142,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eve finished first",
-          "Amy finished first",
-          "Rob finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eve finished first",
+        "Amy finished first",
+        "Rob finished first"
+      ]
     }
   },
   {
@@ -9521,18 +9203,16 @@
       2.584752857685089
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The cardinal is the second from the left",
-          "The hawk is the second from the left",
-          "The hummingbird is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The cardinal is the second from the left",
+        "The hawk is the second from the left",
+        "The hummingbird is the second from the left"
+      ]
     }
   },
   {
@@ -9580,18 +9260,16 @@
       1.3658683449029922
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The oranges are the second-most expensive",
-          "The watermelons are the second-most expensive",
-          "The pears are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The oranges are the second-most expensive",
+        "The watermelons are the second-most expensive",
+        "The pears are the second-most expensive"
+      ]
     }
   },
   {
@@ -9639,18 +9317,16 @@
       1.7971848547458649
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The kiwis are the most expensive",
-          "The oranges are the most expensive",
-          "The watermelons are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The kiwis are the most expensive",
+        "The oranges are the most expensive",
+        "The watermelons are the most expensive"
+      ]
     }
   },
   {
@@ -9706,18 +9382,16 @@
       3.3233315497636795
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished second",
-          "Amy finished second",
-          "Eli finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished second",
+        "Amy finished second",
+        "Eli finished second"
+      ]
     }
   },
   {
@@ -9769,18 +9443,16 @@
       2.7105084247887135
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The apples are the second-most expensive",
-          "The pears are the second-most expensive",
-          "The plums are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The apples are the second-most expensive",
+        "The pears are the second-most expensive",
+        "The plums are the second-most expensive"
+      ]
     }
   },
   {
@@ -9832,18 +9504,16 @@
       2.49553032964468
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hummingbird is the rightmost",
-          "The owl is the rightmost",
-          "The falcon is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hummingbird is the rightmost",
+        "The owl is the rightmost",
+        "The falcon is the rightmost"
+      ]
     }
   },
   {
@@ -9895,18 +9565,16 @@
       2.668146029114723
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The sedan is the oldest",
-          "The convertible is the oldest",
-          "The truck is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The sedan is the oldest",
+        "The convertible is the oldest",
+        "The truck is the oldest"
+      ]
     }
   },
   {
@@ -9954,18 +9622,16 @@
       1.724832870066166
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Amy finished last",
-          "Ana finished last",
-          "Joe finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Amy finished last",
+        "Ana finished last",
+        "Joe finished last"
+      ]
     }
   },
   {
@@ -10013,18 +9679,16 @@
       1.7662146836519241
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The crow is the leftmost",
-          "The falcon is the leftmost",
-          "The hummingbird is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The crow is the leftmost",
+        "The falcon is the leftmost",
+        "The hummingbird is the leftmost"
+      ]
     }
   },
   {
@@ -10076,18 +9740,16 @@
       2.697067227214575
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The pears are the cheapest",
-          "The plums are the cheapest",
-          "The kiwis are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The pears are the cheapest",
+        "The plums are the cheapest",
+        "The kiwis are the cheapest"
+      ]
     }
   },
   {
@@ -10135,18 +9797,16 @@
       1.453498788177967
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished second",
-          "Mel finished second",
-          "Ada finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished second",
+        "Mel finished second",
+        "Ada finished second"
+      ]
     }
   },
   {
@@ -10194,18 +9854,16 @@
       1.7306035123765469
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The yellow book is the leftmost",
-          "The green book is the leftmost",
-          "The red book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The yellow book is the leftmost",
+        "The green book is the leftmost",
+        "The red book is the leftmost"
+      ]
     }
   },
   {
@@ -10249,18 +9907,16 @@
       0.8816210776567459
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The yellow book is the second from the left",
-          "The brown book is the second from the left",
-          "The red book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The yellow book is the second from the left",
+        "The brown book is the second from the left",
+        "The red book is the second from the left"
+      ]
     }
   },
   {
@@ -10312,18 +9968,16 @@
       2.4202557131648064
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The loquats are the second-most expensive",
-          "The watermelons are the second-most expensive",
-          "The cantaloupes are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The loquats are the second-most expensive",
+        "The watermelons are the second-most expensive",
+        "The cantaloupes are the second-most expensive"
+      ]
     }
   },
   {
@@ -10371,18 +10025,16 @@
       1.7955110967159271
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The purple book is the rightmost",
-          "The black book is the rightmost",
-          "The blue book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The purple book is the rightmost",
+        "The black book is the rightmost",
+        "The blue book is the rightmost"
+      ]
     }
   },
   {
@@ -10426,18 +10078,16 @@
       0.7280626818537712
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Amy finished first",
-          "Ada finished first",
-          "Joe finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Amy finished first",
+        "Ada finished first",
+        "Joe finished first"
+      ]
     }
   },
   {
@@ -10481,18 +10131,16 @@
       0.8803985863924026
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Joe finished second",
-          "Eve finished second",
-          "Amy finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Joe finished second",
+        "Eve finished second",
+        "Amy finished second"
+      ]
     }
   },
   {
@@ -10544,18 +10192,16 @@
       2.7216219753026962
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The station wagon is the second-newest",
-          "The truck is the second-newest",
-          "The motorcyle is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The station wagon is the second-newest",
+        "The truck is the second-newest",
+        "The motorcyle is the second-newest"
+      ]
     }
   },
   {
@@ -10611,18 +10257,16 @@
       3.2819003872573376
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The convertible is the second-newest",
-          "The limousine is the second-newest",
-          "The bus is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The convertible is the second-newest",
+        "The limousine is the second-newest",
+        "The bus is the second-newest"
+      ]
     }
   },
   {
@@ -10678,18 +10322,16 @@
       3.1907759495079517
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hawk is the rightmost",
-          "The cardinal is the rightmost",
-          "The falcon is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hawk is the rightmost",
+        "The cardinal is the rightmost",
+        "The falcon is the rightmost"
+      ]
     }
   },
   {
@@ -10749,18 +10391,16 @@
       4.342553839087486
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The limousine is the second-newest",
-          "The truck is the second-newest",
-          "The minivan is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The limousine is the second-newest",
+        "The truck is the second-newest",
+        "The minivan is the second-newest"
+      ]
     }
   },
   {
@@ -10816,18 +10456,16 @@
       3.41948788613081
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The bus is the oldest",
-          "The sedan is the oldest",
-          "The truck is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The bus is the oldest",
+        "The sedan is the oldest",
+        "The truck is the oldest"
+      ]
     }
   },
   {
@@ -10879,18 +10517,16 @@
       2.4116168171167374
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The crow is the second from the left",
-          "The falcon is the second from the left",
-          "The hummingbird is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The crow is the second from the left",
+        "The falcon is the second from the left",
+        "The hummingbird is the second from the left"
+      ]
     }
   },
   {
@@ -10934,18 +10570,16 @@
       0.8702094852924347
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished last",
-          "Dan finished last",
-          "Mel finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished last",
+        "Dan finished last",
+        "Mel finished last"
+      ]
     }
   },
   {
@@ -10997,18 +10631,16 @@
       2.6300666630268097
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The station wagon is the oldest",
-          "The truck is the oldest",
-          "The motorcyle is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The station wagon is the oldest",
+        "The truck is the oldest",
+        "The motorcyle is the oldest"
+      ]
     }
   },
   {
@@ -11052,18 +10684,16 @@
       0.8211326748132706
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Dan finished last",
-          "Mel finished last",
-          "Amy finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Dan finished last",
+        "Mel finished last",
+        "Amy finished last"
+      ]
     }
   },
   {
@@ -11103,18 +10733,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eve finished last",
-          "Amy finished last",
-          "Rob finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eve finished last",
+        "Amy finished last",
+        "Rob finished last"
+      ]
     }
   },
   {
@@ -11166,18 +10794,16 @@
       2.8060237020254135
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The cantaloupes are the second-most expensive",
-          "The apples are the second-most expensive",
-          "The loquats are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The cantaloupes are the second-most expensive",
+        "The apples are the second-most expensive",
+        "The loquats are the second-most expensive"
+      ]
     }
   },
   {
@@ -11225,18 +10851,16 @@
       1.802144080400467
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The red book is the rightmost",
-          "The blue book is the rightmost",
-          "The orange book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The red book is the rightmost",
+        "The blue book is the rightmost",
+        "The orange book is the rightmost"
+      ]
     }
   },
   {
@@ -11288,18 +10912,16 @@
       2.63819882273674
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The robin is the second from the left",
-          "The owl is the second from the left",
-          "The hawk is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The robin is the second from the left",
+        "The owl is the second from the left",
+        "The hawk is the second from the left"
+      ]
     }
   },
   {
@@ -11339,18 +10961,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue book is the leftmost",
-          "The orange book is the leftmost",
-          "The red book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue book is the leftmost",
+        "The orange book is the leftmost",
+        "The red book is the leftmost"
+      ]
     }
   },
   {
@@ -11390,18 +11010,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The falcon is the leftmost",
-          "The owl is the leftmost",
-          "The raven is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The falcon is the leftmost",
+        "The owl is the leftmost",
+        "The raven is the leftmost"
+      ]
     }
   },
   {
@@ -11449,18 +11067,16 @@
       1.7276384606957436
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Rob finished last",
-          "Mel finished last",
-          "Joe finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Rob finished last",
+        "Mel finished last",
+        "Joe finished last"
+      ]
     }
   },
   {
@@ -11504,18 +11120,16 @@
       0.8930485621094704
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The watermelons are the most expensive",
-          "The apples are the most expensive",
-          "The mangoes are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The watermelons are the most expensive",
+        "The apples are the most expensive",
+        "The mangoes are the most expensive"
+      ]
     }
   },
   {
@@ -11563,18 +11177,16 @@
       1.7564393728971481
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Amy finished second",
-          "Ada finished second",
-          "Joe finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Amy finished second",
+        "Ada finished second",
+        "Joe finished second"
+      ]
     }
   },
   {
@@ -11614,18 +11226,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished last",
-          "Amy finished last",
-          "Eli finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished last",
+        "Amy finished last",
+        "Eli finished last"
+      ]
     }
   },
   {
@@ -11673,18 +11283,16 @@
       1.7846877053380013
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The sedan is the second-newest",
-          "The convertible is the second-newest",
-          "The truck is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The sedan is the second-newest",
+        "The convertible is the second-newest",
+        "The truck is the second-newest"
+      ]
     }
   },
   {
@@ -11740,18 +11348,16 @@
       3.3969946056604385
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The limousine is the oldest",
-          "The truck is the oldest",
-          "The minivan is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The limousine is the oldest",
+        "The truck is the oldest",
+        "The minivan is the oldest"
+      ]
     }
   },
   {
@@ -11795,18 +11401,16 @@
       0.8109826073050499
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The cantaloupes are the most expensive",
-          "The watermelons are the most expensive",
-          "The mangoes are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The cantaloupes are the most expensive",
+        "The watermelons are the most expensive",
+        "The mangoes are the most expensive"
+      ]
     }
   },
   {
@@ -11846,18 +11450,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eve finished second",
-          "Joe finished second",
-          "Amy finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eve finished second",
+        "Joe finished second",
+        "Amy finished second"
+      ]
     }
   },
   {
@@ -11905,18 +11507,16 @@
       1.7518603466451168
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The green book is the leftmost",
-          "The brown book is the leftmost",
-          "The orange book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The green book is the leftmost",
+        "The brown book is the leftmost",
+        "The orange book is the leftmost"
+      ]
     }
   },
   {
@@ -11960,18 +11560,16 @@
       0.9156348630785942
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The peaches are the second-most expensive",
-          "The pears are the second-most expensive",
-          "The mangoes are the second-most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The peaches are the second-most expensive",
+        "The pears are the second-most expensive",
+        "The mangoes are the second-most expensive"
+      ]
     }
   },
   {
@@ -12027,18 +11625,16 @@
       3.608129896223545
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The apples are the cheapest",
-          "The peaches are the cheapest",
-          "The loquats are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The apples are the cheapest",
+        "The peaches are the cheapest",
+        "The loquats are the cheapest"
+      ]
     }
   },
   {
@@ -12086,18 +11682,16 @@
       1.6464053764939308
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue jay is the leftmost",
-          "The falcon is the leftmost",
-          "The hummingbird is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue jay is the leftmost",
+        "The falcon is the leftmost",
+        "The hummingbird is the leftmost"
+      ]
     }
   },
   {
@@ -12141,18 +11735,16 @@
       0.8357068970799446
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The crow is the rightmost",
-          "The falcon is the rightmost",
-          "The raven is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The crow is the rightmost",
+        "The falcon is the rightmost",
+        "The raven is the rightmost"
+      ]
     }
   },
   {
@@ -12196,18 +11788,16 @@
       0.9042804725468159
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The orange book is the rightmost",
-          "The blue book is the rightmost",
-          "The yellow book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The orange book is the rightmost",
+        "The blue book is the rightmost",
+        "The yellow book is the rightmost"
+      ]
     }
   },
   {
@@ -12263,18 +11853,16 @@
       3.4946930930018425
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The peaches are the cheapest",
-          "The pears are the cheapest",
-          "The mangoes are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The peaches are the cheapest",
+        "The pears are the cheapest",
+        "The mangoes are the cheapest"
+      ]
     }
   },
   {
@@ -12314,18 +11902,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The white book is the rightmost",
-          "The green book is the rightmost",
-          "The orange book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The white book is the rightmost",
+        "The green book is the rightmost",
+        "The orange book is the rightmost"
+      ]
     }
   },
   {
@@ -12373,18 +11959,16 @@
       1.8136519119143486
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The sedan is the newest",
-          "The convertible is the newest",
-          "The truck is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The sedan is the newest",
+        "The convertible is the newest",
+        "The truck is the newest"
+      ]
     }
   },
   {
@@ -12440,18 +12024,16 @@
       3.3747571781277657
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The truck is the second-newest",
-          "The minivan is the second-newest",
-          "The tractor is the second-newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The truck is the second-newest",
+        "The minivan is the second-newest",
+        "The tractor is the second-newest"
+      ]
     }
   },
   {
@@ -12507,18 +12089,16 @@
       3.5530945286154747
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue jay is the rightmost",
-          "The falcon is the rightmost",
-          "The raven is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue jay is the rightmost",
+        "The falcon is the rightmost",
+        "The raven is the rightmost"
+      ]
     }
   },
   {
@@ -12566,18 +12146,16 @@
       1.7487007081508636
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished second",
-          "Rob finished second",
-          "Joe finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished second",
+        "Rob finished second",
+        "Joe finished second"
+      ]
     }
   },
   {
@@ -12617,18 +12195,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The green book is the rightmost",
-          "The brown book is the rightmost",
-          "The orange book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The green book is the rightmost",
+        "The brown book is the rightmost",
+        "The orange book is the rightmost"
+      ]
     }
   },
   {
@@ -12680,18 +12256,16 @@
       2.7322413735091686
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The kiwis are the cheapest",
-          "The loquats are the cheapest",
-          "The cantaloupes are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The kiwis are the cheapest",
+        "The loquats are the cheapest",
+        "The cantaloupes are the cheapest"
+      ]
     }
   },
   {
@@ -12743,18 +12317,16 @@
       2.2457903996109962
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The oranges are the cheapest",
-          "The watermelons are the cheapest",
-          "The pears are the cheapest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The oranges are the cheapest",
+        "The watermelons are the cheapest",
+        "The pears are the cheapest"
+      ]
     }
   },
   {
@@ -12798,18 +12370,16 @@
       0.890660248696804
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Rob finished second",
-          "Mel finished second",
-          "Joe finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Rob finished second",
+        "Mel finished second",
+        "Joe finished second"
+      ]
     }
   },
   {
@@ -12853,18 +12423,16 @@
       0.8772952072322369
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The raven is the leftmost",
-          "The quail is the leftmost",
-          "The crow is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The raven is the leftmost",
+        "The quail is the leftmost",
+        "The crow is the leftmost"
+      ]
     }
   },
   {
@@ -12916,18 +12484,16 @@
       2.5598576366901398
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The cantaloupes are the most expensive",
-          "The oranges are the most expensive",
-          "The watermelons are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The cantaloupes are the most expensive",
+        "The oranges are the most expensive",
+        "The watermelons are the most expensive"
+      ]
     }
   },
   {
@@ -12979,18 +12545,16 @@
       2.5829012356698513
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The falcon is the second from the left",
-          "The owl is the second from the left",
-          "The raven is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The falcon is the second from the left",
+        "The owl is the second from the left",
+        "The raven is the second from the left"
+      ]
     }
   },
   {
@@ -13034,18 +12598,16 @@
       0.7789287902414799
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The tractor is the newest",
-          "The station wagon is the newest",
-          "The limousine is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The tractor is the newest",
+        "The station wagon is the newest",
+        "The limousine is the newest"
+      ]
     }
   },
   {
@@ -13093,18 +12655,16 @@
       1.5825630500912666
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The robin is the rightmost",
-          "The raven is the rightmost",
-          "The quail is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The robin is the rightmost",
+        "The raven is the rightmost",
+        "The quail is the rightmost"
+      ]
     }
   },
   {
@@ -13152,18 +12712,16 @@
       1.7904020920395851
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The station wagon is the newest",
-          "The truck is the newest",
-          "The motorcyle is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The station wagon is the newest",
+        "The truck is the newest",
+        "The motorcyle is the newest"
+      ]
     }
   },
   {
@@ -13211,18 +12769,16 @@
       1.3902020044624805
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Dan finished second",
-          "Mel finished second",
-          "Amy finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Dan finished second",
+        "Mel finished second",
+        "Amy finished second"
+      ]
     }
   },
   {
@@ -13266,18 +12822,16 @@
       0.8852846026420593
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The blue book is the second from the left",
-          "The orange book is the second from the left",
-          "The green book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The blue book is the second from the left",
+        "The orange book is the second from the left",
+        "The green book is the second from the left"
+      ]
     }
   },
   {
@@ -13325,18 +12879,16 @@
       1.770046591758728
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The motorcyle is the newest",
-          "The limousine is the newest",
-          "The convertible is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The motorcyle is the newest",
+        "The limousine is the newest",
+        "The convertible is the newest"
+      ]
     }
   },
   {
@@ -13376,18 +12928,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Joe finished last",
-          "Dan finished last",
-          "Eve finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Joe finished last",
+        "Dan finished last",
+        "Eve finished last"
+      ]
     }
   },
   {
@@ -13431,18 +12981,16 @@
       0.8714889548718929
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The orange book is the leftmost",
-          "The yellow book is the leftmost",
-          "The blue book is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The orange book is the leftmost",
+        "The yellow book is the leftmost",
+        "The blue book is the leftmost"
+      ]
     }
   },
   {
@@ -13486,18 +13034,16 @@
       0.8596859648823738
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished first",
-          "Amy finished first",
-          "Eli finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished first",
+        "Amy finished first",
+        "Eli finished first"
+      ]
     }
   },
   {
@@ -13545,18 +13091,16 @@
       1.6479361299425364
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The apples are the most expensive",
-          "The pears are the most expensive",
-          "The plums are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The apples are the most expensive",
+        "The pears are the most expensive",
+        "The plums are the most expensive"
+      ]
     }
   },
   {
@@ -13600,18 +13144,16 @@
       0.8654571026563644
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Eli finished last",
-          "Mya finished last",
-          "Eve finished last"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Eli finished last",
+        "Mya finished last",
+        "Eve finished last"
+      ]
     }
   },
   {
@@ -13659,18 +13201,16 @@
       1.7499568462371826
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The robin is the rightmost",
-          "The owl is the rightmost",
-          "The hawk is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The robin is the rightmost",
+        "The owl is the rightmost",
+        "The hawk is the rightmost"
+      ]
     }
   },
   {
@@ -13718,18 +13258,16 @@
       1.7964069247245789
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Mel finished first",
-          "Ada finished first",
-          "Ana finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Mel finished first",
+        "Ada finished first",
+        "Ana finished first"
+      ]
     }
   },
   {
@@ -13777,18 +13315,16 @@
       1.6986049581319094
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The orange book is the rightmost",
-          "The white book is the rightmost",
-          "The purple book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The orange book is the rightmost",
+        "The white book is the rightmost",
+        "The purple book is the rightmost"
+      ]
     }
   },
   {
@@ -13840,18 +13376,16 @@
       2.3918556347489357
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hawk is the leftmost",
-          "The cardinal is the leftmost",
-          "The falcon is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hawk is the leftmost",
+        "The cardinal is the leftmost",
+        "The falcon is the leftmost"
+      ]
     }
   },
   {
@@ -13895,18 +13429,16 @@
       0.8531841486692429
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hummingbird is the second from the left",
-          "The quail is the second from the left",
-          "The crow is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hummingbird is the second from the left",
+        "The quail is the second from the left",
+        "The crow is the second from the left"
+      ]
     }
   },
   {
@@ -13950,18 +13482,16 @@
       0.899139292538166
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The yellow book is the rightmost",
-          "The green book is the rightmost",
-          "The red book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The yellow book is the rightmost",
+        "The green book is the rightmost",
+        "The red book is the rightmost"
+      ]
     }
   },
   {
@@ -14005,18 +13535,16 @@
       0.8535670340061188
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hummingbird is the leftmost",
-          "The quail is the leftmost",
-          "The crow is the leftmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hummingbird is the leftmost",
+        "The quail is the leftmost",
+        "The crow is the leftmost"
+      ]
     }
   },
   {
@@ -14072,18 +13600,16 @@
       3.583773009479046
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The sedan is the newest",
-          "The minivan is the newest",
-          "The motorcyle is the newest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The sedan is the newest",
+        "The minivan is the newest",
+        "The motorcyle is the newest"
+      ]
     }
   },
   {
@@ -14127,18 +13653,16 @@
       0.8544765487313271
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Rob finished first",
-          "Mel finished first",
-          "Joe finished first"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Rob finished first",
+        "Mel finished first",
+        "Joe finished first"
+      ]
     }
   },
   {
@@ -14182,18 +13706,16 @@
       0.8567872457206249
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hawk is the rightmost",
-          "The crow is the rightmost",
-          "The raven is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hawk is the rightmost",
+        "The crow is the rightmost",
+        "The raven is the rightmost"
+      ]
     }
   },
   {
@@ -14241,18 +13763,16 @@
       1.8220821097493172
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The peaches are the most expensive",
-          "The mangoes are the most expensive",
-          "The apples are the most expensive"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The peaches are the most expensive",
+        "The mangoes are the most expensive",
+        "The apples are the most expensive"
+      ]
     }
   },
   {
@@ -14296,18 +13816,16 @@
       0.8533663153648376
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The hummingbird is the second from the left",
-          "The owl is the second from the left",
-          "The falcon is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The hummingbird is the second from the left",
+        "The owl is the second from the left",
+        "The falcon is the second from the left"
+      ]
     }
   },
   {
@@ -14351,18 +13869,16 @@
       0.8994993045926094
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The gray book is the second from the left",
-          "The purple book is the second from the left",
-          "The red book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The gray book is the second from the left",
+        "The purple book is the second from the left",
+        "The red book is the second from the left"
+      ]
     }
   },
   {
@@ -14410,18 +13926,16 @@
       1.4947776682674885
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The minivan is the oldest",
-          "The bus is the oldest",
-          "The sedan is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The minivan is the oldest",
+        "The bus is the oldest",
+        "The sedan is the oldest"
+      ]
     }
   },
   {
@@ -14465,18 +13979,16 @@
       0.8338129669427872
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The red book is the rightmost",
-          "The gray book is the rightmost",
-          "The white book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The red book is the rightmost",
+        "The gray book is the rightmost",
+        "The white book is the rightmost"
+      ]
     }
   },
   {
@@ -14532,18 +14044,16 @@
       3.4396981336176395
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The tractor is the oldest",
-          "The convertible is the oldest",
-          "The minivan is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The tractor is the oldest",
+        "The convertible is the oldest",
+        "The minivan is the oldest"
+      ]
     }
   },
   {
@@ -14583,18 +14093,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The orange book is the rightmost",
-          "The yellow book is the rightmost",
-          "The blue book is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The orange book is the rightmost",
+        "The yellow book is the rightmost",
+        "The blue book is the rightmost"
+      ]
     }
   },
   {
@@ -14646,18 +14154,16 @@
       2.5122154355049133
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The owl is the rightmost",
-          "The crow is the rightmost",
-          "The cardinal is the rightmost"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The owl is the rightmost",
+        "The crow is the rightmost",
+        "The cardinal is the rightmost"
+      ]
     }
   },
   {
@@ -14713,18 +14219,16 @@
       3.320995584130287
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The truck is the oldest",
-          "The minivan is the oldest",
-          "The tractor is the oldest"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The truck is the oldest",
+        "The minivan is the oldest",
+        "The tractor is the oldest"
+      ]
     }
   },
   {
@@ -14772,18 +14276,16 @@
       1.8183104917407036
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "The red book is the second from the left",
-          "The gray book is the second from the left",
-          "The white book is the second from the left"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "The red book is the second from the left",
+        "The gray book is the second from the left",
+        "The white book is the second from the left"
+      ]
     }
   },
   {
@@ -14823,18 +14325,16 @@
       0.0
     ],
     "choices": {
-      "choices": {
-        "label": [
-          "A",
-          "B",
-          "C"
-        ],
-        "text": [
-          "Ana finished second",
-          "Rob finished second",
-          "Joe finished second"
-        ]
-      }
+      "label": [
+        "A",
+        "B",
+        "C"
+      ],
+      "text": [
+        "Ana finished second",
+        "Rob finished second",
+        "Joe finished second"
+      ]
     }
   }
 ]
