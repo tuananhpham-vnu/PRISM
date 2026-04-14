@@ -90,6 +90,9 @@ Answer: """
 
 prompt_template_bbh_yes_no = """
 Answer the following question.
+Think carefully and reason step by step internally before answering.
+Do NOT show your reasoning.
+
 
 Return ONLY one word: Yes or No.
 Do NOT output anything else.
@@ -99,6 +102,9 @@ Answer:"""
 
 prompt_template_bbh_true_false = """
 Answer the following question.
+Think carefully and reason step by step internally before answering.
+Do NOT show your reasoning.
+
 
 Return ONLY one word: True or False.
 Do NOT output anything else.
@@ -108,6 +114,9 @@ Answer:"""
 
 prompt_template_bbh_valid = """
 Answer the following question.
+Think carefully and reason step by step internally before answering.
+Do NOT show your reasoning.
+
 
 Return ONLY one word: Valid or Invalid.
 Do NOT output anything else.
