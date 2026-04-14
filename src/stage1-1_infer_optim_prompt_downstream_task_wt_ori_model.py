@@ -6,7 +6,7 @@ from datasets import load_dataset
 from dotenv import load_dotenv
 from config import MODEL_CACHE_PATH
 from tqdm import tqdm
-from helper import (MEPO_MODEL, METHOD, downstream_task_datasets, downstream_folder_name)
+from helper import (MEPO_MODEL, METHOD, downstream_tasks, downstream_folder_name)
 
 load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")    
@@ -224,7 +224,7 @@ print("Loading PO model...")
 model2, tokenizer2 = load_model_and_tokenizer(MEPO_MODEL)
 
 for method_key in METHOD:
-    for task in downstream_task_datasets:
+    for task in downstream_tasks:
         print('='*80)
         print(f"\nProcessing task: {task} with method: {method_key}")
         

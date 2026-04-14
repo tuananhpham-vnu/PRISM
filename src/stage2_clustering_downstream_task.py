@@ -9,7 +9,7 @@ import torch
 from config import MODEL_CACHE_PATH
 from helper import (IMP_ENC, MINILM_EMBEDDING_MODEL, RMEPO, clean_name, experiment_file_name,
     eval_folder_name, device, M, embedding_models, distance_thresholds, METHOD, 
-    GEMMA_EMBEDDING_MODEL, downstream_folder_name, downstream_task_datasets, RBPO)
+    GEMMA_EMBEDDING_MODEL, downstream_folder_name, downstream_tasks, RBPO)
 
 def prompt_clustering(key,
     item,
@@ -146,7 +146,7 @@ for model_name in embedding_models:
     
     assert distance_threshold is not None, f"Distance threshold not found for embedding model '{model_name}'"
     for method_key in METHOD:
-        for task in downstream_task_datasets:
+        for task in downstream_tasks:
             save_path = None
             objs = None
             import torch, gc

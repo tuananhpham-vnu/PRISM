@@ -2,7 +2,7 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from dotenv import load_dotenv
 from config import MODEL_CACHE_PATH
-from helper import (LLAMA2_7B, clean_name, downstream_folder_name, downstream_task_datasets, RBPO, RMEPO, GEMMA_EMBEDDING_MODEL, MINILM_EMBEDDING_MODEL, base_llm_models, BBH, device, embedding_models)
+from helper import (LLAMA2_7B, clean_name, downstream_folder_name, downstream_tasks, RBPO, RMEPO, GEMMA_EMBEDDING_MODEL, MINILM_EMBEDDING_MODEL, base_llm_models, BBH, device, embedding_models)
 import json, os
 
 from config import prompt_template_gsm8k, prompt_template_piqa, prompt_template_multiple_choice
@@ -41,7 +41,7 @@ for method in METHOD:
                 token = hf_token,
                 legacy=False
             )
-            for task in downstream_task_datasets:
+            for task in downstream_tasks:
                 if task == "demo":
                     continue
                 if task == BBH:

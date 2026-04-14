@@ -270,7 +270,7 @@ def inspect_dataset(name, dataset, n=2):
 print("Loading PO model...")
 model2, tokenizer2 = load_model_and_tokenizer(MEPO_MODEL)
 
-# downstream_task_datasets = ["demo"]
+# downstream_tasks = ["demo"]
 METHOD = [RMEPO]
 
 for method_key in METHOD:
