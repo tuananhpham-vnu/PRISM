@@ -60,7 +60,7 @@ for method in METHOD:
                         data_path = f"{downstream_folder_name}/{method}/{clean_name(embed_model_name)}/{task}/{subtask}.json"
                         with open(data_path, "r", encoding="utf-8") as f:
                             data = json.load(f)[:5] # NOTE: chỉ lấy 5 sample đầu để test
-                        print(f"\nBase model: {base_model} | Task: {subtask} | Dataset: {data_path} | Loaded {len(data)} samples")                        
+                        print(f"\nBase model: {base_model} | Task: {subtask} | Embedding: {clean_name(embed_model_name)} | Dataset: {data_path} | Loaded {len(data)} samples")                        
                         
                         prompts = []
                         indices = []
@@ -91,7 +91,7 @@ for method in METHOD:
 
                     with open(data_path, "r", encoding="utf-8") as f:
                         data = json.load(f)[:5] # NOTE: chỉ lấy 5 sample đầu để test
-                    print(f"\nBase model: {base_model} | Task: {task} | Dataset: {data_path} | Loaded {len(data)} samples")
+                    print(f"\nBase model: {base_model} | Task: {task} | Embedding: {clean_name(embed_model_name)} | Loaded {len(data)} samples")
                     
                     prompts = []
                     indices = []

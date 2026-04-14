@@ -89,33 +89,54 @@ Options: {options_block}
 Answer: """
 # Output format: (A) or (B) or (C), etc. (no explanation)
 
+# prompt_template_bbh_yes_no = """
+# Answer the following question.
+# Think carefully and reason step by step internally before answering.
+# Return ONLY one word: Yes or No.
+
+# After giving the final answer, STOP immediately. Do not generate any new question. Examples: Yes, No.
+
+# Question: {Q}
+# Answer:"""
+
+# prompt_template_bbh_true_false = """
+# Answer the following question.
+# Think carefully and reason step by step internally before answering.
+
+# Return ONLY one word: True or False.
+
+# Question: {Q}
+# Answer:"""
+
+# prompt_template_bbh_valid = """
+# Answer the following question.
+# Think carefully and reason step by step internally before answering.
+# Return ONLY one word: Valid or Invalid.
+
+# After giving the final answer, STOP immediately. Do not generate any new question. Examples: Valid, Invalid.
+
+# Question: {Q}
+
+# Answer:"""
+# # Output only: Valid or Invalid (no explanation)
+
 prompt_template_bbh_yes_no = """
-Answer the following question.
-Think carefully and reason step by step internally before answering.
-Return ONLY one word: Yes or No.
-
-After giving the final answer, STOP immediately. Do not generate any new question. Examples: Yes, No.
-
-Question: {Q}
+Question:
+{Q}
+Reply me with the option of the answer like Yes or No.
 Answer:"""
 
 prompt_template_bbh_true_false = """
-Answer the following question.
-Think carefully and reason step by step internally before answering.
-
-Return ONLY one word: True or False.
-
-Question: {Q}
+Question:
+{Q}
+Reply me with the option of the answer like True or False.
 Answer:"""
+
+
+
 
 prompt_template_bbh_valid = """
-Answer the following question.
-Think carefully and reason step by step internally before answering.
-Return ONLY one word: Valid or Invalid.
-
-After giving the final answer, STOP immediately. Do not generate any new question. Examples: Valid, Invalid.
-
-Question: {Q}
-
+Question:
+{Q}
+Reply me with the option of the answer like Valid or Invalid.
 Answer:"""
-# Output only: Valid or Invalid (no explanation)
