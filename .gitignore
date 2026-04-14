@@ -62,6 +62,7 @@ src/mepo/api.txt
 src/analysis/
 src/evaluation/
 src/rbpo_mepo/
+src/downstream/demo/
 src/testset/dataset_process.py
 *.parquet
 *piqa.py

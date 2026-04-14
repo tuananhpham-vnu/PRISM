@@ -100,3 +100,23 @@ def format_prompt_template(
         )
         
     return prompt
+
+def extract_brackets(obj: str):
+    import re
+    pattern = r'\((.*?)\)'
+    match = re.search(pattern, obj)
+    if match:
+        return match.group(1).strip()
+    else:
+        return None
+
+def format_piqa_response(response: str, item: dict):
+    sol1 = item.get("sol1").lower()
+    sol2 = item.get("sol2").lower()
+    response = extract_brackets(response).lower()
+    if response == "a" or response == "(a)":
+        return sol1
+    elif response == "b" or response == "(b)":
+        return sol2
+
+# def verify_piqa(item:dict):
