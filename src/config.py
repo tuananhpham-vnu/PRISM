@@ -16,8 +16,6 @@ ASSISTANT: """
 prompt_template_gsm8k = """
 You are an expert of math problem solver.
 Solve the problem step by step.
-Return ONLY the final numerical answer in the format:
-#### <number>
 
 After giving the final answer, STOP immediately.
 Do not generate any new question.
@@ -82,9 +80,9 @@ Answer the following question. No explanation.
 Your answer MUST be exactly one of: {label_instruction}
 
 Return ONLY the correct option label in the format: (<label>)
-Do NOT return anything else.
+Examples: (A), (B), (C)
 
-After giving the final answer, STOP immediately. Do not generate any new question. Examples: (A), (B), (C)
+After giving the final answer, STOP immediately. Do not generate any new question. 
 
 Question: {Q}
 Options: {options_block}
@@ -93,36 +91,29 @@ Answer: """
 
 prompt_template_bbh_yes_no = """
 Answer the following question.
-Think carefully and reason step by step internally before answering. Do NOT show your reasoning.
+Think carefully and reason step by step internally before answering.
+Return ONLY one word: Yes or No.
 
 After giving the final answer, STOP immediately. Do not generate any new question. Examples: Yes, No.
-
-Return ONLY one word: Yes or No.
-Do NOT output anything else.
 
 Question: {Q}
 Answer:"""
 
 prompt_template_bbh_true_false = """
 Answer the following question.
-Think carefully and reason step by step internally before answering. Do NOT show your reasoning.
-
-After giving the final answer, STOP immediately. Do not generate any new question. Examples: True, False.
+Think carefully and reason step by step internally before answering.
 
 Return ONLY one word: True or False.
-Do NOT output anything else.
 
 Question: {Q}
 Answer:"""
 
 prompt_template_bbh_valid = """
 Answer the following question.
-Think carefully and reason step by step internally before answering. Do NOT show your reasoning.
+Think carefully and reason step by step internally before answering.
+Return ONLY one word: Valid or Invalid.
 
 After giving the final answer, STOP immediately. Do not generate any new question. Examples: Valid, Invalid.
-
-Return ONLY one word: Valid or Invalid.
-Do NOT output anything else.
 
 Question: {Q}
 

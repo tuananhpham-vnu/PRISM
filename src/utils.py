@@ -77,6 +77,7 @@ def generate(model, tokenizer, prompt, max_new_tokens=1024, apply_chat_template=
         **inputs,
         max_new_tokens=max_new_tokens,
         do_sample=do_sample,
+        max_length=None,
         **kwargs
     )
 
@@ -127,6 +128,7 @@ def generate_batch(model, tokenizer, prompts, context=None, max_new_tokens=1024,
         max_new_tokens=max_new_tokens,
         do_sample=do_sample,
         pad_token_id=tokenizer.pad_token_id,
+        max_length=None,
         **kwargs
     )
 
@@ -191,6 +193,7 @@ def generate_batch_with_logprob(model, tokenizer, prompts,context=None, max_new_
         max_new_tokens=max_new_tokens,
         do_sample=do_sample,
         pad_token_id=tokenizer.pad_token_id,
+        max_length=None,
         output_scores=True,
         return_dict_in_generate=True,
         **kwargs
