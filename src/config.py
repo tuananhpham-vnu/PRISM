@@ -77,8 +77,6 @@ Answer:"""
 # arc, bbh-multiple choice
 prompt_template_multiple_choice = """
 Answer the following question. No explanation. 
-Your answer MUST be exactly one of: {label_instruction}
-
 Return ONLY the correct option label in the format: (<label>)
 Examples: (A), (B), (C)
 
@@ -86,6 +84,7 @@ After giving the final answer, STOP immediately. Do not generate any new questio
 
 Question: {Q}
 Options: {options_block}
+Reply me with the option of the answer like {label_instruction}
 Answer: """
 # Output format: (A) or (B) or (C), etc. (no explanation)
 
@@ -123,20 +122,26 @@ Answer: """
 prompt_template_bbh_yes_no = """
 Question:
 {Q}
+Options:
+- Yes
+- No
 Reply me with the option of the answer like Yes or No.
 Answer:"""
 
 prompt_template_bbh_true_false = """
 Question:
 {Q}
+Options:
+- True
+- False
 Reply me with the option of the answer like True or False.
 Answer:"""
-
-
-
 
 prompt_template_bbh_valid = """
 Question:
 {Q}
+Options:
+- Valid
+- Invalid
 Reply me with the option of the answer like Valid or Invalid.
 Answer:"""
