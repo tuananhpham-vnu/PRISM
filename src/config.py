@@ -80,7 +80,8 @@ Answer the following question. No explanation.
 Return ONLY the correct option label in the format: (<label>)
 Examples: (A), (B), (C)
 
-After giving the final answer, STOP immediately. Do not generate any new question. 
+After giving the final answer, STOP immediately.
+Do not generate any new question. 
 
 Question: {Q}
 Options: {options_block}
@@ -126,6 +127,8 @@ Options:
 - Yes
 - No
 Reply me with the option of the answer like Yes or No.
+After giving the final answer, STOP immediately.
+Do not generate any new question.
 Answer:"""
 
 prompt_template_bbh_true_false = """
@@ -135,6 +138,8 @@ Options:
 - True
 - False
 Reply me with the option of the answer like True or False.
+After giving the final answer, STOP immediately.
+Do not generate any new question.
 Answer:"""
 
 prompt_template_bbh_valid = """
@@ -144,4 +149,6 @@ Options:
 - Valid
 - Invalid
 Reply me with the option of the answer like Valid or Invalid.
+After giving the final answer, STOP immediately.
+Do not generate any new question.
 Answer:"""
