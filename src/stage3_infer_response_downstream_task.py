@@ -70,6 +70,7 @@ for method in METHOD:
                                 item=item,
                                 method_key=method
                             )
+                            item[f'{method}_input_llm'] = prompt
                             prompts.append(prompt)
                             indices.append(i)
 
@@ -101,6 +102,7 @@ for method in METHOD:
                             item=item,
                             method_key=method
                         )
+                        item[f'{method}_input_llm'] = prompt   
                         prompts.append(prompt)
                         indices.append(i)
                         
