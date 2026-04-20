@@ -48,7 +48,9 @@
         "He's a generous person, trying to promote a charity stream that has raised millions to help kids in need",
         "He's a terrible person, trying to promote a charity stream that has raised millions to help kids in need"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: He's a generous person, trying to promote a charity stream that has raised millions to help kids in need\n##B: He's a terrible person, trying to promote a charity stream that has raised millions to help kids in need\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -103,7 +105,9 @@
         "Hey just be happy then you won't be depressed anymore",
         "Hey just be happy that you won't be depressed anymore"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: Hey just be happy then you won't be depressed anymore\n##B: Hey just be happy that you won't be depressed anymore\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -158,7 +162,9 @@
         "Just memeing about being racist, that's what keeps it okay",
         "Just memeing about being racist, that's what keeps it toxic"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is expressed in a sarcastic manner.\nOptions: ##A: Just memeing about being racist, that's what keeps it okay\n##B: Just memeing about being racist, that's what keeps it toxic\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -213,7 +219,9 @@
         "You are mistaken when you say that he should have just let them get away for assaulting him",
         "You are right when you say that he should have just let them get away for assaulting him"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcasm. Provide only the statement number or phrase indicating the sarcastic one. Avoid additional explanations or context.\nOptions: ##A: You are mistaken when you say that he should have just let them get away for assaulting him\n##B: You are right when you say that he should have just let them get away for assaulting him\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -272,7 +280,9 @@
         "He didn't threaten, he only urged; totally different",
         "He didn't threaten, he only pleaded; totally different"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: He didn't threaten, he only urged; totally different\n##B: He didn't threaten, he only pleaded; totally different\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -327,7 +337,9 @@
         "Wow thats crazy, I've never had a takeout meal that used hardwood containers before!",
         "Wow thats crazy, I've never had a takeout meal that used plastic containers before!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Wow thats crazy, I've never had a takeout meal that used hardwood containers before!\n##B: Wow thats crazy, I've never had a takeout meal that used plastic containers before!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -378,7 +390,9 @@
         "Have you tried not being poor? It is much easier",
         "Have you tried not being rude? It is much easier"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Have you tried not being poor? It is much easier\n##B: Have you tried not being rude? It is much easier\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -429,7 +443,9 @@
         "Yeah. Let's get rid of the trams and build carriages instead",
         "Yeah. Let's get rid of the trams and build lightrail instead"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Yeah. Let's get rid of the trams and build carriages instead\n##B: Yeah. Let's get rid of the trams and build lightrail instead\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -484,7 +500,9 @@
         "Yeah, I've noticed he's been drinking every day recently, what a great transformation",
         "Yeah, I've noticed he's been exercising every day recently, what a great transformation"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Yeah, I've noticed he's been drinking every day recently, what a great transformation\n##B: Yeah, I've noticed he's been exercising every day recently, what a great transformation\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -539,7 +557,9 @@
         "He's over six feet, so he must be tall",
         "He's over six feet, so he must be wonderful"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: He's over six feet, so he must be tall\n##B: He's over six feet, so he must be wonderful\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -594,7 +614,9 @@
         "Working at a restaurant has made me an amazing chef",
         "Working at a McDonald's has made me an amazing chef"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic based on the context and tone provided.\nOptions: ##A: Working at a restaurant has made me an amazing chef\n##B: Working at a McDonald's has made me an amazing chef\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -649,7 +671,9 @@
         "Yes, the game is over after the second half",
         "Yes, the game is over after the first half"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on context and tone.\nOptions: ##A: Yes, the game is over after the second half\n##B: Yes, the game is over after the first half\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -704,7 +728,9 @@
         "Yeah, anarchism is taught as a prime example of a governing system",
         "Yeah, democracy is taught as a prime example of a governing system"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on tone and context.\nOptions: ##A: Yeah, anarchism is taught as a prime example of a governing system\n##B: Yeah, democracy is taught as a prime example of a governing system\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -759,7 +785,9 @@
         "Everyone knows salt is the highlight of gourmet sophistication",
         "Everyone knows caviar is the highlight of gourmet sophistication"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intentionally used in a sarcastic manner.\nOptions: ##A: Everyone knows salt is the highlight of gourmet sophistication\n##B: Everyone knows caviar is the highlight of gourmet sophistication\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -818,7 +846,9 @@
         "One of the worst things to do working in retail was pushing a trolley of returns around the store putting them back",
         "One of the enjoyable things to do working in retail was pushing a trolley of returns around the store putting them back"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: One of the worst things to do working in retail was pushing a trolley of returns around the store putting them back\n##B: One of the enjoyable things to do working in retail was pushing a trolley of returns around the store putting them back\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -877,7 +907,9 @@
         "The best way to defeat a stronger/larger and better regimented force is by fighting on their terms",
         "The best way to defeat a stronger/larger and better regimented force is by fighting on your terms"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: The best way to defeat a stronger/larger and better regimented force is by fighting on their terms\n##B: The best way to defeat a stronger/larger and better regimented force is by fighting on your terms\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -932,7 +964,9 @@
         "He's such terrible relationship material when he's drunk",
         "He's such great relationship material when he's drunk"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: He's such terrible relationship material when he's drunk\n##B: He's such great relationship material when he's drunk\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -983,7 +1017,9 @@
         "Welp, my $1000 dollar phone has bad battery life, guess I'll just have to return it",
         "Welp, my $1000 dollar phone has bad battery life, guess I'll just have to dumpster it"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Welp, my $1000 dollar phone has bad battery life, guess I'll just have to return it\n##B: Welp, my $1000 dollar phone has bad battery life, guess I'll just have to dumpster it\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1046,7 +1082,9 @@
         "This website is well known to post falsehoods and spread false rumors. Rock-solid source if you ask me",
         "This website is well known to post falsehoods and spread false rumors. Suspicious source if you ask me"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: This website is well known to post falsehoods and spread false rumors. Rock-solid source if you ask me\n##B: This website is well known to post falsehoods and spread false rumors. Suspicious source if you ask me\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1105,7 +1143,9 @@
         "Violence is a perfect way to unleash your frustrations",
         "Exercise is a perfect way to unleash your frustrations"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: Violence is a perfect way to unleash your frustrations\n##B: Exercise is a perfect way to unleash your frustrations\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1160,7 +1200,9 @@
         "Working the printer is too complex for me",
         "Working the microprocessor is too complex for me"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Working the printer is too complex for me\n##B: Working the microprocessor is too complex for me\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1215,7 +1257,9 @@
         "Because no world needs more kids with trust issues and psychological problems than we already have!",
         "Because this world needs more kids with trust issues and psychological problems than we already have!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Because no world needs more kids with trust issues and psychological problems than we already have!\n##B: Because this world needs more kids with trust issues and psychological problems than we already have!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1274,7 +1318,9 @@
         "You mean Knuth up arrow notation isn't unfamiliar for you?",
         "You mean Knuth up arrow notation isn't normal for you?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: You mean Knuth up arrow notation isn't unfamiliar for you?\n##B: You mean Knuth up arrow notation isn't normal for you?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1333,7 +1379,9 @@
         "You're right, it's the first week of winter! It will definitely get warmer in a couple weeks for our first playoff game",
         "You're right, it's the last week of winter! It will definitely get warmer in a couple weeks for our first playoff game"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: You're right, it's the first week of winter! It will definitely get warmer in a couple weeks for our first playoff game\n##B: You're right, it's the last week of winter! It will definitely get warmer in a couple weeks for our first playoff game\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1396,7 +1444,9 @@
         "Sneaking out of a government facility with dangerous contraband isn't going to be easy",
         "Sneaking out of a government facility with dangerous contraband isn't going to be illegal"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: Sneaking out of a government facility with dangerous contraband isn't going to be easy\n##B: Sneaking out of a government facility with dangerous contraband isn't going to be illegal\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1455,7 +1505,9 @@
         "Good thing things aren't more expensive now than they were eight years ago",
         "Good thing things aren't more expensive now than they were eight days ago"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: Good thing things aren't more expensive now than they were eight years ago\n##B: Good thing things aren't more expensive now than they were eight days ago\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1510,7 +1562,9 @@
         "You're welcome my dear friend. Always glad to feed the elephants, that woefully endangered species",
         "You're welcome my dear friend. Always glad to feed the trolls, that woefully endangered species"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on the given context and tone.\nOptions: ##A: You're welcome my dear friend. Always glad to feed the elephants, that woefully endangered species\n##B: You're welcome my dear friend. Always glad to feed the trolls, that woefully endangered species\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1565,7 +1619,9 @@
         "Without the river there's no water and no electricity. Blocking it is such a smart move!",
         "Without the river there's no water and no electricity. Blocking it is such a terrible move!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: Without the river there's no water and no electricity. Blocking it is such a smart move!\n##B: Without the river there's no water and no electricity. Blocking it is such a terrible move!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1624,7 +1680,9 @@
         "What a poor guy, years of work and he only got a $50,000 scholarship",
         "What a poor guy, years of work and he only got a $50 scholarship"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: What a poor guy, years of work and he only got a $50,000 scholarship\n##B: What a poor guy, years of work and he only got a $50 scholarship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1679,7 +1737,9 @@
         "That's only about $0.15 per mile for a van, perfectly reasonable fuel costs",
         "That's only about $10 per mile for a van, perfectly reasonable fuel costs"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic based on the context and tone provided.\nOptions: ##A: That's only about $0.15 per mile for a van, perfectly reasonable fuel costs\n##B: That's only about $10 per mile for a van, perfectly reasonable fuel costs\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1734,7 +1794,9 @@
         "So he's planning to continue leaving useless space junk in orbit literally just because he can. What a horrible person",
         "So he's planning to continue leaving useless space junk in orbit literally just because he can. What a brilliant person"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: So he's planning to continue leaving useless space junk in orbit literally just because he can. What a horrible person\n##B: So he's planning to continue leaving useless space junk in orbit literally just because he can. What a brilliant person\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1789,7 +1851,9 @@
         "I earn money for winning? Sign me up!",
         "I lose money for winning? Sign me up!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: I earn money for winning? Sign me up!\n##B: I lose money for winning? Sign me up!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1844,7 +1908,9 @@
         "Only rich people can afford healthy food",
         "Not only rich people can afford healthy food"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Only rich people can afford healthy food\n##B: Not only rich people can afford healthy food\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1899,7 +1965,9 @@
         "I love it when people mock other people for trying to get healthier. It's so classy",
         "I love it when people encourage other people for trying to get healthier. It's so classy"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is expressed in a sarcastic manner.\nOptions: ##A: I love it when people mock other people for trying to get healthier. It's so classy\n##B: I love it when people encourage other people for trying to get healthier. It's so classy\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -1954,7 +2022,9 @@
         "Her wheel wobbling several millimeters in either direction wasn't enough to suggest that the bike was unsafe",
         "Her wheel wobbling several feet in either direction wasn't enough to suggest that the bike was unsafe"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic based on the context and tone provided.\nOptions: ##A: Her wheel wobbling several millimeters in either direction wasn't enough to suggest that the bike was unsafe\n##B: Her wheel wobbling several feet in either direction wasn't enough to suggest that the bike was unsafe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2009,7 +2079,9 @@
         "The two minute wait in line is too long for me, I think i'll just leave",
         "The two hour wait in line is too long for me, I think i'll just leave"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: The two minute wait in line is too long for me, I think i'll just leave\n##B: The two hour wait in line is too long for me, I think i'll just leave\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2068,7 +2140,9 @@
         "Hey genocide is clearly the most rational decision",
         "Hey compromise is clearly the most rational decision"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: Hey genocide is clearly the most rational decision\n##B: Hey compromise is clearly the most rational decision\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2119,7 +2193,9 @@
         "He's just kindhearted. Okay, well nothing wrong with him running the country in that case!",
         "He's just demented. Okay, well nothing wrong with him running the country in that case!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: He's just kindhearted. Okay, well nothing wrong with him running the country in that case!\n##B: He's just demented. Okay, well nothing wrong with him running the country in that case!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2174,7 +2250,9 @@
         "Yeah, he's clearly apathetic to earning minutes based on his lackluster play and the fact that he's grabbing hot dogs at half time..",
         "Yeah, he's clearly dedicated to earning minutes based on his lackluster play and the fact that he's grabbing hot dogs at half time.."
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Yeah, he's clearly apathetic to earning minutes based on his lackluster play and the fact that he's grabbing hot dogs at half time..\n##B: Yeah, he's clearly dedicated to earning minutes based on his lackluster play and the fact that he's grabbing hot dogs at half time..\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2229,7 +2307,9 @@
         "An NFL Head coach with a losing record that hasn't been on a field on ten years? This is gonna go great",
         "An NFL Head coach with a losing record that hasn't been on a field on ten years? This is gonna go terribly"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: An NFL Head coach with a losing record that hasn't been on a field on ten years? This is gonna go great\n##B: An NFL Head coach with a losing record that hasn't been on a field on ten years? This is gonna go terribly\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2280,7 +2360,9 @@
         "Protein supplements are way more expensive than $1 breakfast gruel",
         "Protein supplements are way more expensive than $1 breakfast burritos"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcasm.\nOptions: ##A: Protein supplements are way more expensive than $1 breakfast gruel\n##B: Protein supplements are way more expensive than $1 breakfast burritos\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2335,7 +2417,9 @@
         "I personally don't believe the 7 time felon that just got done murdering a random woman wouldn't lie",
         "I personally don't believe the 7 time felon that just got done murdering a random woman would lie"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: I personally don't believe the 7 time felon that just got done murdering a random woman wouldn't lie\n##B: I personally don't believe the 7 time felon that just got done murdering a random woman would lie\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2390,7 +2474,9 @@
         "I'm just going to leave it to endlessly pile up until my email count goes off the screen and then it becomes a server threatening issue",
         "I'm just going to leave it to endlessly pile up until my email count goes off the screen and then it becomes a life threatening issue"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: I'm just going to leave it to endlessly pile up until my email count goes off the screen and then it becomes a server threatening issue\n##B: I'm just going to leave it to endlessly pile up until my email count goes off the screen and then it becomes a life threatening issue\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2441,7 +2527,9 @@
         "Why would they have weapons drawn when they've been called to the scene of a fire?",
         "Why would they have weapons drawn when they've been called to the scene of a shooting?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Why would they have weapons drawn when they've been called to the scene of a fire?\n##B: Why would they have weapons drawn when they've been called to the scene of a shooting?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2492,7 +2580,9 @@
         "People never foment wars to relinquish territory",
         "People never foment wars to conquer territory"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on the given context and tone.\nOptions: ##A: People never foment wars to relinquish territory\n##B: People never foment wars to conquer territory\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2551,7 +2641,9 @@
         "Yeah, let's crucify this nonprofit for making money, they shouldn't be doing that",
         "Yeah, let's crucify this company for making money, they shouldn't be doing that"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Yeah, let's crucify this nonprofit for making money, they shouldn't be doing that\n##B: Yeah, let's crucify this company for making money, they shouldn't be doing that\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2610,7 +2702,9 @@
         "Every package I get from Amazon is 2 to 3 days late, busted up, doesn't work right, and sometimes not even what I ordered. So disappointed I pay for free shipping with Prime",
         "Every package I get from Amazon is 2 to 3 days late, busted up, doesn't work right, and sometimes not even what I ordered. So happy I pay for free shipping with Prime"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: Every package I get from Amazon is 2 to 3 days late, busted up, doesn't work right, and sometimes not even what I ordered. So disappointed I pay for free shipping with Prime\n##B: Every package I get from Amazon is 2 to 3 days late, busted up, doesn't work right, and sometimes not even what I ordered. So happy I pay for free shipping with Prime\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2669,7 +2763,9 @@
         "But America is a more free country because they have democracy to protect them from that sort of tyranny",
         "But America is a more free country because they have guns to protect them from that sort of tyranny"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: But America is a more free country because they have democracy to protect them from that sort of tyranny\n##B: But America is a more free country because they have guns to protect them from that sort of tyranny\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2728,7 +2824,9 @@
         "No, you misunderstand. Those who make more money are inherently better",
         "No, you misunderstand. Those who make more money aren't inherently better"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: No, you misunderstand. Those who make more money are inherently better\n##B: No, you misunderstand. Those who make more money aren't inherently better\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2783,7 +2881,9 @@
         "Just healthy meals wouldn't cut it for his active lifestyle",
         "Just healthy meals cut it for his active lifestyle"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Just healthy meals wouldn't cut it for his active lifestyle\n##B: Just healthy meals cut it for his active lifestyle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2834,7 +2934,9 @@
         "Impossible, as there's no one on the internet",
         "Impossible, as there's no one on the Moon"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Impossible, as there's no one on the internet\n##B: Impossible, as there's no one on the Moon\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2889,7 +2991,9 @@
         "Oh, it's not happened before? I guess it must not be in the lawbooks then",
         "Oh, it's not happened before? I guess it must not be against the lawbooks then"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on tone and context.\nOptions: ##A: Oh, it's not happened before? I guess it must not be in the lawbooks then\n##B: Oh, it's not happened before? I guess it must not be against the lawbooks then\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2944,7 +3048,9 @@
         "It's not our job to fund education! It should be the government paying the maintenance to keep schools open",
         "It's not our job to fund education! It should be the kids paying the maintenance to keep schools open"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: It's not our job to fund education! It should be the government paying the maintenance to keep schools open\n##B: It's not our job to fund education! It should be the kids paying the maintenance to keep schools open\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -2999,7 +3105,9 @@
         "Yeah the presence of those inner city criminals, and welfare leeches have truly caused me to suffer",
         "Yeah the presence of those inner city criminals, and welfare leeches have truly caused me to thrive"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Yeah the presence of those inner city criminals, and welfare leeches have truly caused me to suffer\n##B: Yeah the presence of those inner city criminals, and welfare leeches have truly caused me to thrive\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3058,7 +3166,9 @@
         "We all know diamonds are worthless",
         "We all know diamonds are valuable"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: We all know diamonds are worthless\n##B: We all know diamonds are valuable\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3117,7 +3227,9 @@
         "Because women are totally incapable of doing everyday tasks like pumping gas without a partner taking over and doing it for her",
         "Because women are totally capable of doing everyday tasks like pumping gas without a partner taking over and doing it for her"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Because women are totally incapable of doing everyday tasks like pumping gas without a partner taking over and doing it for her\n##B: Because women are totally capable of doing everyday tasks like pumping gas without a partner taking over and doing it for her\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3172,7 +3284,9 @@
         "Right, because everyone buys insurance based on the possibility of a riot",
         "Right, because everyone buys insurance based on the possibility of an accident"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: Right, because everyone buys insurance based on the possibility of a riot\n##B: Right, because everyone buys insurance based on the possibility of an accident\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3231,7 +3345,9 @@
         "We should start a petition to ban breathing",
         "We should start a petition to ban vaping"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: We should start a petition to ban breathing\n##B: We should start a petition to ban vaping\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3286,7 +3402,9 @@
         "You mean you're only into bullies with narcissistic personality disorder?",
         "You mean you're not into bullies with narcissistic personality disorder?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic based on context and tone.\nOptions: ##A: You mean you're only into bullies with narcissistic personality disorder?\n##B: You mean you're not into bullies with narcissistic personality disorder?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3345,7 +3463,9 @@
         "It's cultural celebration at its finest!",
         "It's cultural appropriation at its finest!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: It's cultural celebration at its finest!\n##B: It's cultural appropriation at its finest!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3400,7 +3520,9 @@
         "Since corporate restriction equals free speech this is actually a big win for democracy",
         "Since corporate money equals free speech this is actually a big win for democracy"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Since corporate restriction equals free speech this is actually a big win for democracy\n##B: Since corporate money equals free speech this is actually a big win for democracy\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3459,7 +3581,9 @@
         "I mean their graphics guy did spend 15 minutes max on doing the day's work and the rest messing around. Their employees are always the laziest!",
         "I mean their graphics guy did spend 15 minutes max on doing the day's work and the rest messing around. Their employees are always the best!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: I mean their graphics guy did spend 15 minutes max on doing the day's work and the rest messing around. Their employees are always the laziest!\n##B: I mean their graphics guy did spend 15 minutes max on doing the day's work and the rest messing around. Their employees are always the best!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3510,7 +3634,9 @@
         "Isn't it just the best? This has been me for the past several days as well. It's been less than enough sleep for the past week",
         "Isn't it just the best? This has been me for the past several days as well. It's been more than enough sleep for the past week"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Isn't it just the best? This has been me for the past several days as well. It's been less than enough sleep for the past week\n##B: Isn't it just the best? This has been me for the past several days as well. It's been more than enough sleep for the past week\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3569,7 +3695,9 @@
         "Ah yes, late night vote on a bill written behind closed doors by one party. How undemocratic",
         "Ah yes, late night vote on a bill written behind closed doors by one party. How democratic"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Ah yes, late night vote on a bill written behind closed doors by one party. How undemocratic\n##B: Ah yes, late night vote on a bill written behind closed doors by one party. How democratic\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3628,7 +3756,9 @@
         "Of course there's no security cameras in the White House in the game, they said it's just like real life!",
         "Of course there's several security cameras in the White House in the game, they said it's just like real life!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Of course there's no security cameras in the White House in the game, they said it's just like real life!\n##B: Of course there's several security cameras in the White House in the game, they said it's just like real life!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3683,7 +3813,9 @@
         "Muslims love celebrating Christmas",
         "Muslims love celebrating Eid"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Muslims love celebrating Christmas\n##B: Muslims love celebrating Eid\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3734,7 +3866,9 @@
         "ARE U INSANE SAYIN U LIKE THIS SYSTEM HERE ??? Have my up vote for being rational",
         "ARE U INSANE SAYIN U LIKE THIS SYSTEM HERE ??? Have my down vote for being rational"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is characterized by sarcasm.\nOptions: ##A: ARE U INSANE SAYIN U LIKE THIS SYSTEM HERE ??? Have my up vote for being rational\n##B: ARE U INSANE SAYIN U LIKE THIS SYSTEM HERE ??? Have my down vote for being rational\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3785,7 +3919,9 @@
         "A wave of hypothermia and drownings will be a great way to start the year",
         "A wave of hypothermia and drownings will be a terrible way to start the year"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: A wave of hypothermia and drownings will be a great way to start the year\n##B: A wave of hypothermia and drownings will be a terrible way to start the year\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3840,7 +3976,9 @@
         "One of my least-favorite things to do working was taking out and smelling the trash",
         "One of my favorite things to do working was taking out and smelling the trash"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is expressed in a sarcastic manner.\nOptions: ##A: One of my least-favorite things to do working was taking out and smelling the trash\n##B: One of my favorite things to do working was taking out and smelling the trash\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3895,7 +4033,9 @@
         "Basically you just have to be horribly rude and demanding. Make people feel bad and you'll get tons of trashy stuff",
         "Basically you just have to be horribly rude and demanding. Make people feel bad and you'll get tons of free stuff"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Basically you just have to be horribly rude and demanding. Make people feel bad and you'll get tons of trashy stuff\n##B: Basically you just have to be horribly rude and demanding. Make people feel bad and you'll get tons of free stuff\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -3950,7 +4090,9 @@
         "Calling a whole electorate 'morons' because they don't share the same political beliefs as you is a terrible way to win them over",
         "Calling a whole electorate 'morons' because they don't share the same political beliefs as you is a great way to win them over"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Calling a whole electorate 'morons' because they don't share the same political beliefs as you is a terrible way to win them over\n##B: Calling a whole electorate 'morons' because they don't share the same political beliefs as you is a great way to win them over\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4001,7 +4143,9 @@
         "Wow, you only applied to 200 internships this past week?",
         "Wow, you only applied to 2 internships this past week?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Wow, you only applied to 200 internships this past week?\n##B: Wow, you only applied to 2 internships this past week?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4056,7 +4200,9 @@
         "Armed revolutionaries have not been making a lot of change for middle class Americans lately",
         "Armed revolutionaries have been making a lot of change for middle class Americans lately"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Armed revolutionaries have not been making a lot of change for middle class Americans lately\n##B: Armed revolutionaries have been making a lot of change for middle class Americans lately\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4111,7 +4257,9 @@
         "College is happening: forgetting assignments, stressing over grades, worrying about finals, etc. It's been a stressful semester",
         "College is happening: forgetting assignments, stressing over grades, worrying about finals, etc. It's been a fun semester"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on the given context and tone.\nOptions: ##A: College is happening: forgetting assignments, stressing over grades, worrying about finals, etc. It's been a stressful semester\n##B: College is happening: forgetting assignments, stressing over grades, worrying about finals, etc. It's been a fun semester\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4166,7 +4314,9 @@
         "don't forget there are people in Antarctica",
         "don't forget there are people in suffering"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: don't forget there are people in Antarctica\n##B: don't forget there are people in suffering\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4217,7 +4367,9 @@
         "And the likelihood of internet-connected cars being hacked and controlled remotely,....zero",
         "And the likelihood of internet-connected cars being hacked and controlled remotely,....high"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: And the likelihood of internet-connected cars being hacked and controlled remotely,....zero\n##B: And the likelihood of internet-connected cars being hacked and controlled remotely,....high\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4276,7 +4428,9 @@
         "Never had as much fun in my life as when the cops found my backpack of weed in my car trunk",
         "Never had as much anxiety in my life when the cops found my backpack of weed in my car trunk"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Never had as much fun in my life as when the cops found my backpack of weed in my car trunk\n##B: Never had as much anxiety in my life when the cops found my backpack of weed in my car trunk\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4331,7 +4485,9 @@
         "Wow. You're right. All those memes in the bitcoin sub and people posting about making money and what they're going to buy with it sure turned on people investing from in it",
         "Wow. You're right. All those memes in the bitcoin sub and people posting about making money and what they're going to buy with it sure turned off people investing from in it"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Wow. You're right. All those memes in the bitcoin sub and people posting about making money and what they're going to buy with it sure turned on people investing from in it\n##B: Wow. You're right. All those memes in the bitcoin sub and people posting about making money and what they're going to buy with it sure turned off people investing from in it\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4386,7 +4542,9 @@
         "God, to think of how good it could have been having a person who prepared for things ahead of time in office",
         "God, to think of how bad it could have been having a person who prepared for things ahead of time in office"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: God, to think of how good it could have been having a person who prepared for things ahead of time in office\n##B: God, to think of how bad it could have been having a person who prepared for things ahead of time in office\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4445,7 +4603,9 @@
         "Yeah, the Christian church had such a lock in Buddhist China",
         "Yeah, the Christian church had such a struggle in Buddhist China"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Yeah, the Christian church had such a lock in Buddhist China\n##B: Yeah, the Christian church had such a struggle in Buddhist China\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4500,7 +4660,9 @@
         "I'm sure you wouldn't have remained completely calm if a teacher attacked you",
         "I'm sure you would have remained completely calm if a teacher attacked you"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is expressed in a sarcastic manner.\nOptions: ##A: I'm sure you wouldn't have remained completely calm if a teacher attacked you\n##B: I'm sure you would have remained completely calm if a teacher attacked you\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4555,7 +4717,9 @@
         "How could Government control of the internet be bad?",
         "How could Government control of the internet be beneficial?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on the context and tone.\nOptions: ##A: How could Government control of the internet be bad?\n##B: How could Government control of the internet be beneficial?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4614,7 +4778,9 @@
         "You didn't realize that bikes are a stationary object?",
         "You didn't realize that bikes aren't a stationary object?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: You didn't realize that bikes are a stationary object?\n##B: You didn't realize that bikes aren't a stationary object?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4673,7 +4839,9 @@
         "Yeah, pay-to-win gated content is much more fun and accessible to everyone",
         "Yeah, pay-to-win gated content is much less fun and accessible to everyone"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intentionally expressed in a sarcastic manner.\nOptions: ##A: Yeah, pay-to-win gated content is much more fun and accessible to everyone\n##B: Yeah, pay-to-win gated content is much less fun and accessible to everyone\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4728,7 +4896,9 @@
         "People these days are so rich. Back in my day we didn't have luxuries",
         "People these days are so rich. Back in my day we didn't have houses"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: People these days are so rich. Back in my day we didn't have luxuries\n##B: People these days are so rich. Back in my day we didn't have houses\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4779,7 +4949,9 @@
         "We all know that no government in the world would ever ban anything that kills innovation",
         "We all know that no inventor in the world would ever ban anything that kills innovation"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: We all know that no government in the world would ever ban anything that kills innovation\n##B: We all know that no inventor in the world would ever ban anything that kills innovation\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4830,7 +5002,9 @@
         "It's easy to get into politics, all you have to do to is be outrageous",
         "It's easy to get into politics, all you have to do to is be outrageous"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic based on context and tone.\nOptions: ##A: It's easy to get into politics, all you have to do to is be outrageous\n##B: It's easy to get into politics, all you have to do to is be outrageous\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4889,7 +5063,9 @@
         "You mean your team did the most damage, then you just did the final blow. Amazing display of team skill",
         "You mean your team did the most damage, then you just did the final blow. Amazing display of individual skill"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: You mean your team did the most damage, then you just did the final blow. Amazing display of team skill\n##B: You mean your team did the most damage, then you just did the final blow. Amazing display of individual skill\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -4950,7 +5126,9 @@
       "text": [
         "The NB"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is expressed in a sarcastic manner.\nOptions: ##A: The NB\nReply me with the option of the answer like (A)\nAnswer: ",
+    "rmepo_response": "(A)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5005,7 +5183,9 @@
         "I'm headed to college within a year expecting barely any income during that time. Removing tax breaks for students will be helpful, right?",
         "I'm headed to college within a year expecting barely any income during that time. Adding tax breaks for students will be helpful, right?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: I'm headed to college within a year expecting barely any income during that time. Removing tax breaks for students will be helpful, right?\n##B: I'm headed to college within a year expecting barely any income during that time. Adding tax breaks for students will be helpful, right?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5068,7 +5248,9 @@
         "Yeah, I'm sure you'd be so much happier if we never did anything for anyone ever",
         "Yeah, I'm sure you'd be so much lonelier if we never did anything for anyone ever"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: Yeah, I'm sure you'd be so much happier if we never did anything for anyone ever\n##B: Yeah, I'm sure you'd be so much lonelier if we never did anything for anyone ever\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5127,7 +5309,9 @@
         "When you're at halfcourt and have a wide open pass, the obvious choice is to pass",
         "When you're at halfcourt and have a wide open pass, the obvious choice is to shoot"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: When you're at halfcourt and have a wide open pass, the obvious choice is to pass\n##B: When you're at halfcourt and have a wide open pass, the obvious choice is to shoot\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5182,7 +5366,9 @@
         "Bought the stock at $10.50 and sold at $100. Such profits being made",
         "Bought the stock at $1050 and sold at $100. Such profits being made"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: Bought the stock at $10.50 and sold at $100. Such profits being made\n##B: Bought the stock at $1050 and sold at $100. Such profits being made\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5241,7 +5427,9 @@
         "But his eyes were on the ball, shouldn't be a red",
         "But his cleats were on the ball, shouldn't be a red"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: But his eyes were on the ball, shouldn't be a red\n##B: But his cleats were on the ball, shouldn't be a red\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5300,7 +5488,9 @@
         "Concrete plates. Very beautiful",
         "Stained-glass plates. Very beautiful"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Concrete plates. Very beautiful\n##B: Stained-glass plates. Very beautiful\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5355,7 +5545,9 @@
         "My laptop didn't work when I brought it underwater, therefore it must be Asus's fault that it broke down",
         "My laptop didn't work when I brought it underwater, therefore it must be my fault that it broke down"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: My laptop didn't work when I brought it underwater, therefore it must be Asus's fault that it broke down\n##B: My laptop didn't work when I brought it underwater, therefore it must be my fault that it broke down\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5410,7 +5602,9 @@
         "They're losing to a team with a terrible record. I for one am shocked",
         "They're losing to a team with a winning record. I for one am shocked"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic based on the context and tone provided.\nOptions: ##A: They're losing to a team with a terrible record. I for one am shocked\n##B: They're losing to a team with a winning record. I for one am shocked\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(A)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5465,7 +5659,9 @@
         "Just like Hitler. A True warrior",
         "Just like Hitler. A True demagogue"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Just like Hitler. A True warrior\n##B: Just like Hitler. A True demagogue\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5524,7 +5720,9 @@
         "He doesn't want high risk investment? He should put it all on bitcoin!",
         "He doesn't want low risk investment? He should put it all on bitcoin!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: He doesn't want high risk investment? He should put it all on bitcoin!\n##B: He doesn't want low risk investment? He should put it all on bitcoin!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5583,7 +5781,9 @@
         "SCIENCE CAUSES VACCINES!",
         "EVOLUTION CAUSES VACCINES!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: SCIENCE CAUSES VACCINES!\n##B: EVOLUTION CAUSES VACCINES!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5634,7 +5834,9 @@
         "A civil war with at least 500,000 deaths is essential to a healthy democracy",
         "A civil war with at least 500,000 deaths is detrimental to a healthy democracy"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is sarcastic in nature.\nOptions: ##A: A civil war with at least 500,000 deaths is essential to a healthy democracy\n##B: A civil war with at least 500,000 deaths is detrimental to a healthy democracy\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5689,7 +5891,9 @@
         "That violent oppressive dictator didn't think that people would get mad at him? How pragmatic",
         "That violent oppressive dictator didn't think that people would get mad at him? How naive"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intentionally conveyed with sarcasm.\nOptions: ##A: That violent oppressive dictator didn't think that people would get mad at him? How pragmatic\n##B: That violent oppressive dictator didn't think that people would get mad at him? How naive\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5744,7 +5948,9 @@
         "We all know diamonds are valuable",
         "We all know diamonds are worthless"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: We all know diamonds are valuable\n##B: We all know diamonds are worthless\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5799,7 +6005,9 @@
         "Psshh, everyone knows women can't earn profit",
         "Psshh, everyone knows women can earn profit"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Psshh, everyone knows women can't earn profit\n##B: Psshh, everyone knows women can earn profit\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5850,7 +6058,9 @@
         "Everyone knows that ignorance of the law excuses nobody from following the law",
         "Everyone knows ignorance of the law excuses you from following the law"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Everyone knows that ignorance of the law excuses nobody from following the law\n##B: Everyone knows ignorance of the law excuses you from following the law\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5909,7 +6119,9 @@
         "See the trick is not to see your fwb as a person, so you're still independent",
         "See the trick is not to see your fwb as a liability, so you're still independent"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: See the trick is not to see your fwb as a person, so you're still independent\n##B: See the trick is not to see your fwb as a liability, so you're still independent\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -5964,7 +6176,9 @@
         "Yeah i dont know where people get the audacity to think they can protest against a major corporation",
         "Yeah I don't know where people get the audacity to think they can riot against a major corporation"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Yeah i dont know where people get the audacity to think they can protest against a major corporation\n##B: Yeah I don't know where people get the audacity to think they can riot against a major corporation\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6019,7 +6233,9 @@
         "Only first-world citizens deserve freedom",
         "Not only first-world citizens deserve freedom"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: Only first-world citizens deserve freedom\n##B: Not only first-world citizens deserve freedom\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6074,7 +6290,9 @@
         "Whistleblowers are great, heroes, they're in the public interest. They're accusing one of us? Back them up",
         "Whistleblowers are great, heroes, they're in the public interest. They're accusing one of us? Lock them up"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Whistleblowers are great, heroes, they're in the public interest. They're accusing one of us? Back them up\n##B: Whistleblowers are great, heroes, they're in the public interest. They're accusing one of us? Lock them up\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6133,7 +6351,9 @@
         "So they got him for lying to the FBI, and they want him to testify now? Because his word is clearly worth not so much..",
         "So they got him for lying to the FBI, and they want him to testify now? Because his word is clearly worth so much.."
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: So they got him for lying to the FBI, and they want him to testify now? Because his word is clearly worth not so much..\n##B: So they got him for lying to the FBI, and they want him to testify now? Because his word is clearly worth so much..\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6188,7 +6408,9 @@
         "Assuming the country that historically is constantly over throwing its government doesn't like their government is an unreasonable assumption",
         "Assuming the country that historically is constantly over throwing its government doesn't like their government is a reasonable assumption"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on tone and context.\nOptions: ##A: Assuming the country that historically is constantly over throwing its government doesn't like their government is an unreasonable assumption\n##B: Assuming the country that historically is constantly over throwing its government doesn't like their government is a reasonable assumption\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6243,7 +6465,9 @@
         "Why use Netflix when you can just pay less to Comcast for On Demand?",
         "Why use Netflix when you can just pay more to Comcast for On Demand?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is sarcastic in nature.\nOptions: ##A: Why use Netflix when you can just pay less to Comcast for On Demand?\n##B: Why use Netflix when you can just pay more to Comcast for On Demand?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6294,7 +6518,9 @@
         "It's not addiction if it's legal, right?",
         "It's not suspicious if it's legal, right?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: It's not addiction if it's legal, right?\n##B: It's not suspicious if it's legal, right?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6353,7 +6579,9 @@
         "Yeah, obviously that startup has terrible support because they are just tiny indie company",
         "Yeah, obviously that megaconglomerate has terrible support because they are just tiny indie company"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is expressed in a sarcastic manner.\nOptions: ##A: Yeah, obviously that startup has terrible support because they are just tiny indie company\n##B: Yeah, obviously that megaconglomerate has terrible support because they are just tiny indie company\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6412,7 +6640,9 @@
         "Yeah war is tragic",
         "Yeah war is pacifying"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Yeah war is tragic\n##B: Yeah war is pacifying\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6463,7 +6693,9 @@
         "Isn't it super sexist that on the internet everyone is male until proven otherwise?",
         "Isn't it super fun that on the internet everyone is male until proven otherwise?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Isn't it super sexist that on the internet everyone is male until proven otherwise?\n##B: Isn't it super fun that on the internet everyone is male until proven otherwise?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6518,7 +6750,9 @@
         "you mean, you don't seek validation from the multitude of sociopaths on the internet?",
         "you mean, you don't seek validation from the multitude of users on the internet?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on the given context and tone.\nOptions: ##A: you mean, you don't seek validation from the multitude of sociopaths on the internet?\n##B: you mean, you don't seek validation from the multitude of users on the internet?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6577,7 +6811,9 @@
         "Obviously monolithic services are the best solution for everyone, because of the webscale",
         "Obviously microservices are the best solution for everyone, because of the webscale"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: Obviously monolithic services are the best solution for everyone, because of the webscale\n##B: Obviously microservices are the best solution for everyone, because of the webscale\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6640,7 +6876,9 @@
         "Everybody is moving out, that's why the prices keep going up",
         "Everybody is moving out, that's why the prices keep going down"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Everybody is moving out, that's why the prices keep going up\n##B: Everybody is moving out, that's why the prices keep going down\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6695,7 +6933,9 @@
         "So if there are more dollars, more people can get rich right?",
         "So if there are more dollars, more people can get loans right?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: So if there are more dollars, more people can get rich right?\n##B: So if there are more dollars, more people can get loans right?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6754,7 +6994,9 @@
         "It means if small businesses start struggling, the government ramps up their spending to help out",
         "It means if small businesses start struggling, the government ramps up their taxes to help out"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intentionally expressed in a sarcastic manner.\nOptions: ##A: It means if small businesses start struggling, the government ramps up their spending to help out\n##B: It means if small businesses start struggling, the government ramps up their taxes to help out\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6809,7 +7051,9 @@
         "Yeah, it's totally reasonable to deny someone a chance at a loving family because of the color of their skin",
         "Yeah, it's totally ridiculous to deny someone a chance at a loving family because of the color of their skin"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is expressed in a sarcastic manner.\nOptions: ##A: Yeah, it's totally reasonable to deny someone a chance at a loving family because of the color of their skin\n##B: Yeah, it's totally ridiculous to deny someone a chance at a loving family because of the color of their skin\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6864,7 +7108,9 @@
         "You can still achieve the American Dream after working at Walmart",
         "You can still achieve the American Dream of working at Walmart"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: You can still achieve the American Dream after working at Walmart\n##B: You can still achieve the American Dream of working at Walmart\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6919,7 +7165,9 @@
         "So impressive winning cups in a league with 2 teams",
         "So impressive winning cups in a league with 60 teams"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: So impressive winning cups in a league with 2 teams\n##B: So impressive winning cups in a league with 60 teams\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -6974,7 +7222,9 @@
         "What could possibly be attractive about supporting history's greatest dictator?",
         "What could possibly be wrong about supporting history's greatest dictator?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: What could possibly be attractive about supporting history's greatest dictator?\n##B: What could possibly be wrong about supporting history's greatest dictator?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7033,7 +7283,9 @@
         "When driving, it's very helpful to keep your foot in one place you know",
         "When driving, it's very difficult to keep your foot in one place you know"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: When driving, it's very helpful to keep your foot in one place you know\n##B: When driving, it's very difficult to keep your foot in one place you know\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7088,7 +7340,9 @@
         "conspiracy theory, sounds suspicious",
         "conspiracy theory, sounds legit"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: conspiracy theory, sounds suspicious\n##B: conspiracy theory, sounds legit\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7147,7 +7401,9 @@
         "I'll have you know my friend was very displeased to hear you lumping her in with such trash",
         "I'll have you know my friend was very pleased to hear you lumping her in with such trash"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on tone and context.\nOptions: ##A: I'll have you know my friend was very displeased to hear you lumping her in with such trash\n##B: I'll have you know my friend was very pleased to hear you lumping her in with such trash\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7202,7 +7458,9 @@
         "Are you implying history repeats itself if people ignore it? What an absurd claim",
         "Are you implying history repeats itself if people ignore it? What an insightful claim"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Are you implying history repeats itself if people ignore it? What an absurd claim\n##B: Are you implying history repeats itself if people ignore it? What an insightful claim\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7257,7 +7515,9 @@
         "But that could never happen in reality where software never malfunctions",
         "But that could never happen in reality where software often malfunctions"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: But that could never happen in reality where software never malfunctions\n##B: But that could never happen in reality where software often malfunctions\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7312,7 +7572,9 @@
         "Yeah, the amount of injuries on the squad and lack of consistent O-line play had everything to do with this",
         "Yeah, the amount of injuries on the squad and lack of consistent O-line play had nothing to do with this"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Yeah, the amount of injuries on the squad and lack of consistent O-line play had everything to do with this\n##B: Yeah, the amount of injuries on the squad and lack of consistent O-line play had nothing to do with this\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7371,7 +7633,9 @@
         "Of course. It is not like something you do in a private setting could never be held against you in a professional matter",
         "Of course. It is not like something you do in a private setting could ever be held against you in a professional matter"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Of course. It is not like something you do in a private setting could never be held against you in a professional matter\n##B: Of course. It is not like something you do in a private setting could ever be held against you in a professional matter\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7430,7 +7694,9 @@
         "His reaction is understandable—he didn't get a reply in 2 years",
         "His reaction is understandable—he didn't get a reply in 2 minutes"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: His reaction is understandable—he didn't get a reply in 2 years\n##B: His reaction is understandable—he didn't get a reply in 2 minutes\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7481,7 +7747,9 @@
         "You don't think you could float a bunch of ancient boats across the entire pacific ocean undetected and invade the inline northwest with their soviet-era MIGs?",
         "I don't think you could float a bunch of ancient boats across the entire pacific ocean undetected and invade the inline northwest with their soviet-era MIGs"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: You don't think you could float a bunch of ancient boats across the entire pacific ocean undetected and invade the inline northwest with their soviet-era MIGs?\n##B: I don't think you could float a bunch of ancient boats across the entire pacific ocean undetected and invade the inline northwest with their soviet-era MIGs\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7540,7 +7808,9 @@
         "Ah yes, self-centeredness: 'why should anyone give a shit about someone else's feelings if you're getting what you want out of a situation?'",
         "Ah yes, generosity: 'why should anyone give a shit about someone else's feelings if you're getting what you want out of a situation?'"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on the given context and tone.\nOptions: ##A: Ah yes, self-centeredness: 'why should anyone give a shit about someone else's feelings if you're getting what you want out of a situation?'\n##B: Ah yes, generosity: 'why should anyone give a shit about someone else's feelings if you're getting what you want out of a situation?'\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7599,7 +7869,9 @@
         "Hmm, stifling of free speech and political opinions . . . I've seen that before",
         "Hmm, stifling of free speech and political opinions . . . never seen that before"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: Hmm, stifling of free speech and political opinions . . . I've seen that before\n##B: Hmm, stifling of free speech and political opinions . . . never seen that before\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(A)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7654,7 +7926,9 @@
         "Yeah, history is rarely black and white",
         "Yeah, history is usually black and white"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Yeah, history is rarely black and white\n##B: Yeah, history is usually black and white\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7713,7 +7987,9 @@
         "I'm a serious symphony fan so when I go I hope the crowd is dead silent and everyone is in their seats so I can pay extra good attention",
         "I'm a serious hockey fan so when I go I hope the crowd is dead silent and everyone is in their seats so I can pay extra good attention"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: I'm a serious symphony fan so when I go I hope the crowd is dead silent and everyone is in their seats so I can pay extra good attention\n##B: I'm a serious hockey fan so when I go I hope the crowd is dead silent and everyone is in their seats so I can pay extra good attention\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7768,7 +8044,9 @@
         "Showing up for work everyday helps makes you a great lawmaker",
         "Showing up for work everyday alone makes you a great lawmaker"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Showing up for work everyday helps makes you a great lawmaker\n##B: Showing up for work everyday alone makes you a great lawmaker\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7827,7 +8105,9 @@
         "Thank you stranger on the internet, I won't trust your three word post without any sources over someone offering solid advice claiming to actually be from the country in question",
         "Thank you stranger on the internet, I will trust your three word post without any sources over someone offering solid advice claiming to actually be from the country in question"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Thank you stranger on the internet, I won't trust your three word post without any sources over someone offering solid advice claiming to actually be from the country in question\n##B: Thank you stranger on the internet, I will trust your three word post without any sources over someone offering solid advice claiming to actually be from the country in question\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7878,7 +8158,9 @@
         "Impossible!! There are no girls on the internet!",
         "Impossible!! There are many girls on the internet!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Impossible!! There are no girls on the internet!\n##B: Impossible!! There are many girls on the internet!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7933,7 +8215,9 @@
         "You forget, he was just a fresh-faced 40 year old",
         "You forget, he was just a fresh-faced 18 year old"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: You forget, he was just a fresh-faced 40 year old\n##B: You forget, he was just a fresh-faced 18 year old\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -7996,7 +8280,9 @@
         "If it's on Britannica it must be True..",
         "If it's on reddit it must be True.."
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: If it's on Britannica it must be True..\n##B: If it's on reddit it must be True..\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8047,7 +8333,9 @@
         "That's how the internet works, it's a series of networks",
         "That's how the internet works, it's a series of tubes"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: That's how the internet works, it's a series of networks\n##B: That's how the internet works, it's a series of tubes\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8098,7 +8386,9 @@
         "Oh no the cleats with the new spikes didn't solve the problem?",
         "Oh no the cleats with the new spikes didn't solve every problem?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Oh no the cleats with the new spikes didn't solve the problem?\n##B: Oh no the cleats with the new spikes didn't solve every problem?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8157,7 +8447,9 @@
         "Soggy fries covered in bacon grease sounds unhealthy",
         "Soggy fries covered in bacon grease sounds delicious"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Soggy fries covered in bacon grease sounds unhealthy\n##B: Soggy fries covered in bacon grease sounds delicious\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8208,7 +8500,9 @@
         "The real tragedy here is that someone is buying a fraud",
         "The real tragedy here is that someone is buying a Mustang"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: The real tragedy here is that someone is buying a fraud\n##B: The real tragedy here is that someone is buying a Mustang\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8267,7 +8561,9 @@
         "Remind me, how do you print a legal-sized piece of paper?",
         "Remind me, how do you print a blank piece of paper?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is expressed in a sarcastic manner.\nOptions: ##A: Remind me, how do you print a legal-sized piece of paper?\n##B: Remind me, how do you print a blank piece of paper?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8318,7 +8614,9 @@
         "But only 10000 economists said it will help the economy..",
         "But only 2 economists said it will help the economy.."
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic based on tone and context.\nOptions: ##A: But only 10000 economists said it will help the economy..\n##B: But only 2 economists said it will help the economy..\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8377,7 +8675,9 @@
         "how dare you use violence!!!",
         "how dare you use logic!!!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is expressed in a sarcastic manner.\nOptions: ##A: how dare you use violence!!!\n##B: how dare you use logic!!!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8428,7 +8728,9 @@
         "Stop putting people in neat little compartments to protect your view point — good idea",
         "Keep putting people in neat little compartments to protect your view point — good idea"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Stop putting people in neat little compartments to protect your view point — good idea\n##B: Keep putting people in neat little compartments to protect your view point — good idea\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8483,7 +8785,9 @@
         "What a wonderful, baseless accusation",
         "What a striking, baseless accusation"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on tone and context.\nOptions: ##A: What a wonderful, baseless accusation\n##B: What a striking, baseless accusation\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8538,7 +8842,9 @@
         "Just like we're all better off for not spinning our own clothes, mining our own steel, and forging our own tools",
         "Just like we're all worse off for not spinning our own clothes, mining our own steel, and forging our own tools"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on context and tone.\nOptions: ##A: Just like we're all better off for not spinning our own clothes, mining our own steel, and forging our own tools\n##B: Just like we're all worse off for not spinning our own clothes, mining our own steel, and forging our own tools\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8601,7 +8907,9 @@
         "One failed test 6 years ago is simply insufficient proof of her cheating in last night's fight",
         "One failed test 6 years ago is simply devastating proof of her cheating in last night's fight"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: One failed test 6 years ago is simply insufficient proof of her cheating in last night's fight\n##B: One failed test 6 years ago is simply devastating proof of her cheating in last night's fight\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8660,7 +8968,9 @@
         "Remember, his Batman score isn't the only Batman theme",
         "Remember, his Batman score is the only Batman theme"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: Remember, his Batman score isn't the only Batman theme\n##B: Remember, his Batman score is the only Batman theme\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8719,7 +9029,9 @@
         "I'm just 800 points from 1k, this is easy",
         "I'm just 8 points from 1k, this is easy"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: I'm just 800 points from 1k, this is easy\n##B: I'm just 8 points from 1k, this is easy\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8770,7 +9082,9 @@
         "A dozen or so people from a personal anecdote is really a good sample size to represent all 320 million people in America",
         "A dozen or so people from a personal anecdote is really a terrible sample size to represent all 320 million people in America"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: A dozen or so people from a personal anecdote is really a good sample size to represent all 320 million people in America\n##B: A dozen or so people from a personal anecdote is really a terrible sample size to represent all 320 million people in America\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8825,7 +9139,9 @@
         "Better not buy any technology ever because in a few years something better will be released!!",
         "Better not buy any exorbitant technology ever because in a few years something better will be released!!"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Better not buy any technology ever because in a few years something better will be released!!\n##B: Better not buy any exorbitant technology ever because in a few years something better will be released!!\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8880,7 +9196,9 @@
         "Boy, I sure love it when bigots show up in a thread and start getting nosy",
         "Boy, I sure love it when bigots show up in a thread and start getting roasted"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is characterized as sarcastic.\nOptions: ##A: Boy, I sure love it when bigots show up in a thread and start getting nosy\n##B: Boy, I sure love it when bigots show up in a thread and start getting roasted\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(A)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8935,7 +9253,9 @@
         "Nice try, but everyone knows there are no women active on the internet",
         "Nice try, but everyone knows there are many women active on the internet"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Nice try, but everyone knows there are no women active on the internet\n##B: Nice try, but everyone knows there are many women active on the internet\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -8990,7 +9310,9 @@
         "I'm spoiled by my instant access to entertainment and information",
         "I'm oppressed by my instant access to entertainment and information"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is expressed in a sarcastic manner.\nOptions: ##A: I'm spoiled by my instant access to entertainment and information\n##B: I'm oppressed by my instant access to entertainment and information\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9049,7 +9371,9 @@
         "Having massive watermarks over videos really enhances the experience..",
         "Having massive watermarks over videos really worsens the experience.."
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Having massive watermarks over videos really enhances the experience..\n##B: Having massive watermarks over videos really worsens the experience..\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9104,7 +9428,9 @@
         "Try having your landscape fill the entirety of the photo. That'd look good",
         "Try having your face fill the entirety of the photo. That'd look good"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Try having your landscape fill the entirety of the photo. That'd look good\n##B: Try having your face fill the entirety of the photo. That'd look good\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9163,7 +9489,9 @@
         "Think of the poor man! What will he do without his job?",
         "Think of the poor man! What will he do without his yacht?"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Think of the poor man! What will he do without his job?\n##B: Think of the poor man! What will he do without his yacht?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9218,7 +9546,9 @@
         "It only received the lowest gross sales for any recent action film. Yeah, no one is rewatching",
         "It only received the highest gross sales for any recent action film. Yeah, no one is rewatching"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intentionally expressed in a sarcastic manner.\nOptions: ##A: It only received the lowest gross sales for any recent action film. Yeah, no one is rewatching\n##B: It only received the highest gross sales for any recent action film. Yeah, no one is rewatching\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9281,7 +9611,9 @@
         "Yes, responsibility should be celebrated",
         "Yes, negligence should be celebrated"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: Yes, responsibility should be celebrated\n##B: Yes, negligence should be celebrated\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9340,7 +9672,9 @@
         "Because Romania is not a real country, obviously",
         "Because Atlantis is not a real country, obviously"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic based on context and tone.\nOptions: ##A: Because Romania is not a real country, obviously\n##B: Because Atlantis is not a real country, obviously\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9395,7 +9729,9 @@
         "I'll just bring my keyboard and mouse to the computer and plug it all in",
         "I'll just bring my keyboard and mouse to the bus and plug it all in"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: I'll just bring my keyboard and mouse to the computer and plug it all in\n##B: I'll just bring my keyboard and mouse to the bus and plug it all in\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9450,7 +9786,9 @@
         "Anyone can be successful without having inherited all their money first",
         "Nobody can be successful without having inherited all their money first"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Anyone can be successful without having inherited all their money first\n##B: Nobody can be successful without having inherited all their money first\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9501,7 +9839,9 @@
         "Well, Alabama did beat the 1st ranked team. Surely that should be enough to get them in",
         "Well, Alabama did beat the 17th ranked team. Surely that should be enough to get them in"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Well, Alabama did beat the 1st ranked team. Surely that should be enough to get them in\n##B: Well, Alabama did beat the 17th ranked team. Surely that should be enough to get them in\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9560,7 +9900,9 @@
         "You're not allowed to walk in the park, you can only do it on your own property",
         "You're not allowed to smoke in the park, you can only do it on your own property"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is expressed in a sarcastic manner.\nOptions: ##A: You're not allowed to walk in the park, you can only do it on your own property\n##B: You're not allowed to smoke in the park, you can only do it on your own property\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9615,7 +9957,9 @@
         "Handouts are unfair when they go to businesses, not consumers",
         "Handouts are fine when they go to businesses, not consumers"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic based on the context and tone provided.\nOptions: ##A: Handouts are unfair when they go to businesses, not consumers\n##B: Handouts are fine when they go to businesses, not consumers\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9674,7 +10018,9 @@
         "Good thing you can boil impurities out of water",
         "Good thing you can boil Uranium out of water"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: Good thing you can boil impurities out of water\n##B: Good thing you can boil Uranium out of water\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9733,7 +10079,9 @@
         "If I associate something bad witih it, then my depression will never let me forget it. Weirdest memorization plan ever",
         "If I associate something bad witih it, then my depression will never let me forget it. Best memorization plan ever"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: If I associate something bad witih it, then my depression will never let me forget it. Weirdest memorization plan ever\n##B: If I associate something bad witih it, then my depression will never let me forget it. Best memorization plan ever\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9788,7 +10136,9 @@
         "Quit fat-shaming the cat! They're people, too, you know",
         "Quit fat-shaming the cat! They're sensitive, too, you know"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended to be sarcastic.\nOptions: ##A: Quit fat-shaming the cat! They're people, too, you know\n##B: Quit fat-shaming the cat! They're sensitive, too, you know\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9839,7 +10189,9 @@
         "With new designs coming ten times slower than their competitors, Honda will soon be at the top of the market",
         "With new designs coming ten times faster than their competitors, Honda will soon be at the top of the market"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: With new designs coming ten times slower than their competitors, Honda will soon be at the top of the market\n##B: With new designs coming ten times faster than their competitors, Honda will soon be at the top of the market\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9894,7 +10246,9 @@
         "Generalizing half the population and acting like women can't think for themselves will totally win you points with the ladies",
         "Generalizing half the population and acting like women can't think for themselves will totally lose you points with the ladies"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: Generalizing half the population and acting like women can't think for themselves will totally win you points with the ladies\n##B: Generalizing half the population and acting like women can't think for themselves will totally lose you points with the ladies\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   },
   {
     "raw_question": "Which statement is sarcastic?",
@@ -9949,6 +10303,8 @@
         "We've not spoken since graduating high school 7 years ago, she's basically my bestie",
         "We've consistently spoken since graduating high school 7 years ago, she's basically my bestie"
       ]
-    }
+    },
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: We've not spoken since graduating high school 7 years ago, she's basically my bestie\n##B: We've consistently spoken since graduating high school 7 years ago, she's basically my bestie\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rmepo_response": "(B)"
   }
 ]

@@ -38,7 +38,9 @@
     "rmepo_consensus_scores": [
       0.666447639465332,
       0.6772766709327698
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Elias Lindholm scored a winning goal at the exact moment the game clock expired' is realistically possible given typical sports rules and scenarios.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"John Carlson scored in the third period.\"",
@@ -75,7 +77,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"John Carlson scored during the third period\" is feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Marcelo got on the end of a through ball.\"",
@@ -120,7 +124,9 @@
       1.5532868206501007,
       1.4835419207811356,
       1.527488723397255
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Marcelo received a penetrating pass and proceeded to engage with the opponent's defense' is realistically possible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Deshaun Watson was called for the goal tend in the Eastern Conference Finals.\"",
@@ -165,7 +171,9 @@
       1.4237169101834297,
       1.4021562337875366,
       1.414133995771408
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Deshaun Watson was called for the goal tend in the Eastern Conference Finals' is plausible, considering the specific roles and contexts associated with Deshaun Watson and the term 'goal tend' within the context of professional sports.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mookie Betts skated behind the net.\"",
@@ -206,7 +214,9 @@
     "rmepo_consensus_scores": [
       0.6234239637851715,
       0.6634105443954468
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Mookie Betts skated behind the net' is feasible, considering Mookie Betts' known profession and typical activities in his sport.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"John Tavares earned a trip to the penalty box in the Stanley Cup.\"",
@@ -243,7 +253,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'John Tavares earned a trip to the penalty box in the Stanley Cup' is plausible, considering the context and factual accuracy.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"David Silva took a throw in.\"",
@@ -284,7 +296,9 @@
     "rmepo_consensus_scores": [
       0.5611474066972733,
       0.5257916152477264
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nWhich specific individual, known for what particular skill or role, executed a throw-in action, given that the subject in question is named David Silva?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Bryce Harper hit the back shoulder fade.\"",
@@ -321,7 +335,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Bryce Harper hit the back shoulder fade' is realistically possible, considering specific athletic abilities and common sporting scenarios.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Carles Puyol did a maradona on the defender.\"",
@@ -358,7 +374,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Carles Puyol executed a Maradona-style move against the defender' is feasible, considering the specific skills and known playstyle of Carles Puyol.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Robin Lehner launched the desperation heave.\"",
@@ -411,7 +429,9 @@
       2.9795155972242355,
       3.0063048899173737,
       3.026218146085739
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Robin Lehner performed a desperation heave' is realistic or reasonable.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Carson Wentz took to the ice.\"",
@@ -452,7 +472,9 @@
     "rmepo_consensus_scores": [
       0.7584924846887589,
       0.744351789355278
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Carson Wentz took to the ice' is feasible, considering Carson Wentz's known professional background and current activities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kwadwo Asamoah was flagged on the play.\"",
@@ -493,7 +515,9 @@
     "rmepo_consensus_scores": [
       0.6811445504426956,
       0.6909343749284744
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Kwadwo Asamoah was flagged on the play\" is factually accurate and provide your reasoning.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jack Flaherty walked to first base in the National League Championship Series.\"",
@@ -530,7 +554,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement \"Jack Flaherty advanced to first base during the National League Championship Series\" is feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jayson Tatum nutmegged the defender.\"",
@@ -571,7 +597,9 @@
     "rmepo_consensus_scores": [
       0.6919259577989578,
       0.6914834678173065
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the specific statement 'Jayson Tatum nutmegged the defender' is a realistic scenario, considering the context and definitions involved.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Dougie Hamilton hit the buzzer beater.\"",
@@ -608,7 +636,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Dougie Hamilton hit the buzzer beater' is feasible, considering the context and likelihood of occurrence.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Frederik Andersen crossed the blue line in the Stanley Cup.\"",
@@ -649,7 +679,9 @@
     "rmepo_consensus_scores": [
       0.7268174439668655,
       0.7163696438074112
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Frederik Andersen crossed the blue line during the Stanley Cup playoffs.' is factually accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Freddie Freeman watched the pitch go by.\"",
@@ -690,7 +722,9 @@
     "rmepo_consensus_scores": [
       0.6914128363132477,
       0.6981270760297775
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement \"Freddie Freeman observed the ball as it passed him\" is realistically possible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Adam Thielen scored in added time.\"",
@@ -739,7 +773,9 @@
       2.3987701386213303,
       2.333527684211731,
       2.370528995990753
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement is plausible: Specifically, determine whether \"Adam Thielen scored in added time\" could accurately reflect a possible real-world event.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tom Brady converted the first down.\"",
@@ -776,7 +812,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Tom Brady converted the first down' is feasible, considering typical scenarios and rules in American football.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Giorgio Chiellini committed a handball in the FA Cup.\"",
@@ -817,7 +855,9 @@
     "rmepo_consensus_scores": [
       0.6926548629999161,
       0.7131173983216286
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nWhich specific event involving Giorgio Chiellini during the FA Cup makes this sentence plausible to evaluate? Please provide details about the match, date, and context for determining the plausibility of his committing a handball.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tyreek Hill caught the screen pass.\"",
@@ -858,7 +898,9 @@
     "rmepo_consensus_scores": [
       0.7046469151973724,
       0.6882229447364807
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Tyreek Hill caught the screen pass' is feasible, considering known facts about Tyreek Hill's playing position and typical game situations.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Frederik Andersen took a three.\"",
@@ -899,7 +941,9 @@
     "rmepo_consensus_scores": [
       0.7172810137271881,
       0.7234693467617035
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Frederik Andersen took a three' is realistic or feasible, considering the context and applicable rules involved.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Adam Thielen got on base.\"",
@@ -936,7 +980,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Adam Thielen got on base' is realistic, considering the context and specific circumstances of a typical athletic event.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gerard Pique scored a corner kick.\"",
@@ -973,7 +1019,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Gerard Pique scored a corner kick' is feasible, considering his known position and typical role in football.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kailer Yamamoto performed a slide tackle in the European Cup.\"",
@@ -1010,7 +1058,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Kailer Yamamoto executed a slide tackle during the European Cup\" is feasible given historical and current sports data.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Corbin Burnes earned an indirect kick.\"",
@@ -1055,7 +1105,9 @@
       1.4693634659051895,
       1.342944398522377,
       1.353145182132721
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Corbin Burnes earned an indirect kick' is plausible, considering the context and rules specific to the sport in which Corbin Burnes is likely to be involved.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"LaMelo Ball launched the half court shot in the Western Conference Finals.\"",
@@ -1092,7 +1144,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement \"LaMelo Ball attempted a half-court shot during the Western Conference Finals\" is accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jonas Valanciunas beat the buzzer.\"",
@@ -1141,7 +1195,9 @@
       2.2658127397298813,
       2.2677233517169952,
       2.281373545527458
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Jonas Valanciunas successfully scored a last-second field goal to win the game\" is feasible given typical basketball rules and player roles.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Zach LaVine  shot the puck.\"",
@@ -1182,7 +1238,9 @@
     "rmepo_consensus_scores": [
       0.7420850843191147,
       0.7332059741020203
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Zach LaVine shot the puck\" is plausible, considering Zach LaVine's known profession and sport.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nazem Kadri took a charge in the NBA Championship.\"",
@@ -1223,7 +1281,9 @@
     "rmepo_consensus_scores": [
       0.6584246307611465,
       0.658545196056366
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Nazem Kadri took a charge in the NBA Championship' is feasible, considering the specific roles and leagues associated with Nazem Kadri and the NBA Championship.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Delon Wright went for it on fourth down.\"",
@@ -1260,7 +1320,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Delon Wright attempted a fourth-down play\" is realistically possible given typical football rules and scenarios.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Malcolm Brogdon banked the shot in.\"",
@@ -1297,7 +1359,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Malcolm Brogdon banked the shot in' is realistic or feasible, considering typical scenarios and actions associated with sports, particularly basketball.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Michael Conforto comitted a three second violation.\"",
@@ -1338,7 +1402,9 @@
     "rmepo_consensus_scores": [
       0.5943349897861481,
       0.5505771487951279
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Michael Conforto committed a three-second violation\" is factually accurate, considering the specific context and rules applicable to his sport or activity.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jakub Vrana hit a walkoff homer.\"",
@@ -1379,7 +1445,9 @@
     "rmepo_consensus_scores": [
       0.6628749072551727,
       0.663498729467392
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Jakub Vrana hit a walkoff homer' is plausible, considering current sports data and records.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tom Wilson scored a penalty kick.\"",
@@ -1416,7 +1484,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Tom Wilson scored a penalty kick' is feasible given the available information.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Aleksander Barkov passed the puck.\"",
@@ -1457,7 +1527,9 @@
     "rmepo_consensus_scores": [
       0.7139037996530533,
       0.6875303238630295
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Aleksander Barkov passed the puck' is realistically possible, considering known facts about Aleksander Barkov's career and abilities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Malik Beasley  comitted a three second violation.\"",
@@ -1498,7 +1570,9 @@
     "rmepo_consensus_scores": [
       0.6991733461618423,
       0.6701664924621582
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Malik Beasley committed a three-second violation\" is accurate and provide a brief explanation for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Draymond Green threw a touchdown.\"",
@@ -1535,7 +1609,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Draymond Green threw a touchdown' is feasible, considering Draymond Green's known profession and typical athletic role.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"T.Y. Hilton threw a touchdown in the AFC divisional round.\"",
@@ -1576,7 +1652,9 @@
     "rmepo_consensus_scores": [
       0.7565369829535484,
       0.7558919042348862
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'T.Y. Hilton threw a touchdown in the AFC divisional round' is plausible, considering the specific roles and typical actions associated with T.Y. Hilton's position in professional football.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Robert Woods converted the first down.\"",
@@ -1621,7 +1699,9 @@
       1.4084334671497345,
       1.4736974835395813,
       1.4808781445026398
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Robert Woods converted the first down' is realistic, considering typical roles and actions associated with individuals named Robert Woods in sports contexts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Julian Edelman fumbled the ball.\"",
@@ -1670,7 +1750,9 @@
       2.3219707012176514,
       2.2007405757904053,
       2.266226217150688
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Julian Edelman fumbled the ball' is feasible, considering known facts and common scenarios in the context of American football.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Neymar took a backhand shot in the Stanley Cup.\"",
@@ -1711,7 +1793,9 @@
     "rmepo_consensus_scores": [
       0.7138952314853668,
       0.7016910910606384
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Neymar performed a backhand shot during a Stanley Cup game\" is feasible, considering their respective sports and roles.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jonathan Marchessault scored on the power play in the Stanley Cup.\"",
@@ -1752,7 +1836,9 @@
     "rmepo_consensus_scores": [
       0.7036786079406738,
       0.7113431543111801
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Jonathan Marchessault scored on the power play during the Stanley Cup' is plausible based on available facts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Fred VanVleet scored a freekick in the Champions League Final.\"",
@@ -1797,7 +1883,9 @@
       1.5361979454755783,
       1.4948118329048157,
       1.4496003985404968
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Fred VanVleet scored a freekick in the Champions League Final' is feasible, considering the specific roles and rules associated with football players and competitions.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Santi Cazorla called for the screen.\"",
@@ -1842,7 +1930,9 @@
       1.593136578798294,
       1.572757050395012,
       1.5930150300264359
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Santi Cazorla called for the screen' is plausible, considering typical scenarios and contexts involving Santi Cazorla, a professional soccer player known for his playmaking abilities in the midfield.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Edinson Cavani caught the screen pass.\"",
@@ -1879,7 +1969,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Edinson Cavani caught a screen pass' is feasible, considering his known athletic and football skills.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"DJ Chark caught the back shoulder fade in the NFC divisional round.\"",
@@ -1924,7 +2016,9 @@
       1.476259484887123,
       1.4259618818759918,
       1.5248799324035645
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the specific statement—\"DJ Chark intercepted a pass on a back shoulder route during the NFC divisional round of a NFL game\"—is factually accurate and logically coherent.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Petr Cech bricked the three pointer.\"",
@@ -1969,7 +2063,9 @@
       1.505062848329544,
       1.55708958953619,
       1.530102863907814
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'Petr Cech attempted a three-point shot and missed, hitting the brick instead' is factually accurate, considering Petr Cech's known athletic background and specific skills.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Michael Porter Jr. called for the screen.\"",
@@ -2010,7 +2106,9 @@
     "rmepo_consensus_scores": [
       0.6570490747690201,
       0.6498580873012543
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Michael Porter Jr. called out for the screen' is feasible, considering current known facts and contexts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Robert Lewandowski threw a touchdown.\"",
@@ -2047,7 +2145,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Robert Lewandowski threw a touchdown' is feasible, considering his known professional sports background.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Philip Rivers launched a hail mary.\"",
@@ -2088,7 +2188,9 @@
     "rmepo_consensus_scores": [
       0.70921690762043,
       0.7269657999277115
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Philip Rivers launched a hail mary' is realistically possible, considering the context and definitions of both 'Philip Rivers' as a specific individual and 'hail mary' in a football setting.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Drew Brees went for it on fourth down.\"",
@@ -2129,7 +2231,9 @@
     "rmepo_consensus_scores": [
       0.6746134012937546,
       0.6852951645851135
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Drew Brees made a decision to go for a first down on fourth down\" is realistic and likely to occur in a football game context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kevin Durant hit a walkoff homer.\"",
@@ -2166,7 +2270,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Kevin Durant hit a walkoff homer' is feasible, considering Kevin Durant's known professional sports background.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Santi Cazorla earned a red card in the Champions League Final.\"",
@@ -2203,7 +2309,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Santi Cazorla received a red card during the Champions League final\" is accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ryan Tannehill hit a triple.\"",
@@ -2244,7 +2352,9 @@
     "rmepo_consensus_scores": [
       0.7321236580610275,
       0.7489933669567108
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'Ryan Tannehill hit a triple' is factually accurate, considering his known professional background and career achievements.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gleyber Torres got a base hit.\"",
@@ -2281,7 +2391,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Gleyber Torres achieved a base hit\" is feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kawhi Leonard took a turnaround jumper.\"",
@@ -2322,7 +2434,9 @@
     "rmepo_consensus_scores": [
       0.6550777107477188,
       0.6662205159664154
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Kawhi Leonard executed a turnaround jumper' is realistic given common basketball scenarios and player capabilities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Brandin Cooks went for it on fourth down.\"",
@@ -2359,7 +2473,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Brandin Cooks went for it on fourth down' is feasible, considering typical football strategies and player roles.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Clint Capela got into the endzone.\"",
@@ -2400,7 +2516,9 @@
     "rmepo_consensus_scores": [
       0.7349753975868225,
       0.7117008119821548
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Clint Capela reached the endzone' is realistic, considering the context and known facts about Clint Capela's profession and the typical settings for reaching an endzone.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Javier Zanetti watched the pitch go by in the National League Championship Series.\"",
@@ -2445,7 +2563,9 @@
       1.492549866437912,
       1.5255835950374603,
       1.5235683768987656
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement is feasible: \"Javier Zanetti observed the game field during the National League Championship Series.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Wayne Rooney threw a touchdown in the Superbowl.\"",
@@ -2486,7 +2606,9 @@
     "rmepo_consensus_scores": [
       0.7368033081293106,
       0.7197632044553757
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Wayne Rooney threw a touchdown in the Super Bowl' is feasible, considering the specific roles and typical participants associated with throwing touchdowns in such events.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tyler Boyd hit the screen pass in the NFC divisional round.\"",
@@ -2527,7 +2649,9 @@
     "rmepo_consensus_scores": [
       0.6631779074668884,
       0.6725898832082748
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the specific statement \"Tyler Boyd executed a screen pass during the NFC divisional round game\" is accurate and feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Marouane Fellaini scored in extra time.\"",
@@ -2564,7 +2688,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Marouane Fellaini scored during the extra time period\" is feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Joao Moutinho was out at third.\"",
@@ -2605,7 +2731,9 @@
     "rmepo_consensus_scores": [
       0.7301651984453201,
       0.739238515496254
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'Joao Moutinho was out at third base' is plausible, considering the context and given that Joao Moutinho is known to be a professional soccer player.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Vincent Kompany comitted a three second violation.\"",
@@ -2646,7 +2774,9 @@
     "rmepo_consensus_scores": [
       0.7123811691999435,
       0.7160750031471252
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Vincent Kompany committed a three-second violation\" is factually accurate, considering the context of basketball rules and regulations.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tuukka Rask killed the powerplay.\"",
@@ -2683,7 +2813,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Tuukka Rask stopped the power play successfully' is factually accurate, considering the specific context and actions involved.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Juan Soto shot from beyond the arc.\"",
@@ -2724,7 +2856,9 @@
     "rmepo_consensus_scores": [
       0.6420288383960724,
       0.6464902609586716
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the sentence \"Juan Soto attempted a shot outside the three-point line\" is accurate, considering Juan Soto's known sports context and typical playing position.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jordan Binnington scored in the third period.\"",
@@ -2761,7 +2895,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement \"Jordan Binnington scored during the third period\" is feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Malcolm Brogdon drove into the restricted area in the Eastern Conference Finals.\"",
@@ -2802,7 +2938,9 @@
     "rmepo_consensus_scores": [
       0.719255268573761,
       0.7261001169681549
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Malcolm Brogdon entered the restricted area during the Eastern Conference Finals\" is feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Didier Drogba got into the endzone.\"",
@@ -2839,7 +2977,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Didier Drogba got into the endzone' is feasible, considering the specific context and roles associated with Didier Drogba and the term 'endzone.'\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mike Hoffman launched the half court shot in the Western Conference Finals.\"",
@@ -2876,7 +3016,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Mike Hoffman attempted a half-court shot during the Western Conference Finals\" is accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Pedro struck out the side.\"",
@@ -2913,7 +3055,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Pedro struck out the side' is feasible, considering standard baseball terminology and rules.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Fernando Tatis Jr. earned a red card.\"",
@@ -2950,7 +3094,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Fernando Tatis Jr. received a red card' is feasible given current understanding and knowledge.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Evander Kane hit the slant pass in the AFC divisional round.\"",
@@ -2991,7 +3137,9 @@
     "rmepo_consensus_scores": [
       0.7188498824834824,
       0.7306840717792511
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Evander Kane hit the slant pass in the AFC divisional round' is plausible, considering the specific context and known facts about Evander Kane's athletic career.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Igor Shesterkin launched a hail mary.\"",
@@ -3028,7 +3176,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Igor Shesterkin launched a hail mary' is realistically possible, considering Igor Shesterkin's known profession and the context in which 'hail mary' is typically used.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gerrit Cole committed a handball in the European Cup.\"",
@@ -3065,7 +3215,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Gerrit Cole committed a handball during the European Cup' is feasible, considering the specific roles and rules associated with the participants and events mentioned.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Philip Rivers drove into the restricted area.\"",
@@ -3106,7 +3258,9 @@
     "rmepo_consensus_scores": [
       0.5948248356580734,
       0.6092792749404907
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Philip Rivers drove into the restricted area' is realistic, considering typical contexts and scenarios for Philip Rivers.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Norman Powell committed a blocking foul.\"",
@@ -3147,7 +3301,9 @@
     "rmepo_consensus_scores": [
       0.6630334109067917,
       0.6830678880214691
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Norman Powell executed a blocking foul\" is accurate and provide a brief explanation for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nazem Kadri was out at home.\"",
@@ -3184,7 +3340,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Nazem Kadri was out at home\" is feasible given the current context or available information.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sterling Shepard converted the first down.\"",
@@ -3229,7 +3387,9 @@
       1.5378277003765106,
       1.5087523609399796,
       1.5505282431840897
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Sterling Shepard converted the first down' is feasible, considering typical contexts and usage of such phrases in American football.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mario Gomez scored a reverse layup.\"",
@@ -3266,7 +3426,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Mario Gomez scored a reverse layup' is feasible, considering Mario Gomez's known athletic role and the specific basketball technique described.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Andres Iniesta performed a give and go.\"",
@@ -3303,7 +3465,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Andres Iniesta executed a give-and-go maneuver' is realistic, considering his known skills and position on the field.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Drew Brees was flagged on the play.\"",
@@ -3348,7 +3512,9 @@
       1.4437310844659805,
       1.526952102780342,
       1.4691210687160492
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement \"Drew Brees received a penalty on that specific play\" is accurate and reasonably likely given the available context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ramires scored a header goal.\"",
@@ -3385,7 +3551,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Ramires scored a header goal\" is feasible given available information.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Luis Robert was out at second.\"",
@@ -3422,7 +3590,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Luis Robert was out at second base' is feasible, considering the context and rules of the game.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Matthew Stafford launched a hail mary.\"",
@@ -3463,7 +3633,9 @@
     "rmepo_consensus_scores": [
       0.691382110118866,
       0.7084800899028778
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the sentence \"Matthew Stafford threw a hail mary pass\" is factually accurate, considering the specific context and sport involved.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"T.Y. Hilton drew a flag on the play.\"",
@@ -3504,7 +3676,9 @@
     "rmepo_consensus_scores": [
       0.6408274322748184,
       0.620542973279953
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"T.Y. Hilton received a penalty flag during a specific play\" is accurate and provide a brief explanation for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Courtland Sutton hit a triple.\"",
@@ -3549,7 +3723,9 @@
       1.5086703822016716,
       1.528539091348648,
       1.547304093837738
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Courtland Sutton hit a triple' is feasible, considering the context and specific details about Courtland Sutton's known abilities or achievements in his relevant field.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mark Stone spent time in the penalty box in the Stanley Cup.\"",
@@ -3590,7 +3766,9 @@
     "rmepo_consensus_scores": [
       0.7250349670648575,
       0.7354282736778259
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Mark Stone spent time in the penalty box during the Stanley Cup' is realistic.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Dejounte Murray took a side-step three.\"",
@@ -3635,7 +3813,9 @@
       1.5505953580141068,
       1.5870254933834076,
       1.6187276989221573
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Dejounte Murray performed a side-step three-point shot' is realistic given typical basketball movements and terminology.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mike Trout eurostepped to the basket.\"",
@@ -3672,7 +3852,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the sentence \"Mike Trout performed an eurostep towards the basketball basket\" is factually accurate, considering Mike Trout's known athletic abilities and positions played.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Josh Allen hit the screen pass.\"",
@@ -3717,7 +3899,9 @@
       1.5742093622684479,
       1.5733966082334518,
       1.6085244715213776
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Josh Allen hit the screen pass' is feasible, considering the typical actions and roles associated with Josh Allen in his professional context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Yaya Toure scored a freekick.\"",
@@ -3754,7 +3938,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Yaya Toure scored a freekick' is feasible, considering known facts about Yaya Toure's career and abilities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sean Couturier maradona'd the defender.\"",
@@ -3795,7 +3981,9 @@
     "rmepo_consensus_scores": [
       0.7545086890459061,
       0.7863366007804871
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the sentence \"Sean Couturier scored a goal by deceiving the defender\" is factually accurate, considering Sean Couturier's known sporting achievements and terminology related to soccer or hockey goals.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mitchell Marner nutmegged the defender.\"",
@@ -3836,7 +4024,9 @@
     "rmepo_consensus_scores": [
       0.7171872407197952,
       0.7058603763580322
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the specific statement 'Mitchell Marner nutmeggged the defender' is factually accurate, considering current or historical records of sports events.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Calvin Ridley skated behind the net.\"",
@@ -3881,7 +4071,9 @@
       1.4714538753032684,
       1.4486139714717865,
       1.452516496181488
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Calvin Ridley skated behind the net' is realistic, considering typical scenarios in the sport he participates in.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Walker Buehler earned a trip to the penalty box.\"",
@@ -3930,7 +4122,9 @@
       2.0446090400218964,
       2.0384036898612976,
       2.1171151846647263
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Walker Buehler received a placement in the penalty area' is realistic, considering the context and terminology typically associated with baseball or similar sports.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Carlos Tevez skated backwards.\"",
@@ -3971,7 +4165,9 @@
     "rmepo_consensus_scores": [
       0.731535404920578,
       0.7037246078252792
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Carlos Tevez skated backwards' is feasible, considering known facts about Carlos Tevez's abilities and experiences.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ben Simmons was called for the goal tend.\"",
@@ -4008,7 +4204,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'Ben Simmons was called for the goal tend' is plausible, considering the specific context and terminology related to basketball rules and player actions.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Marvin Jones lost control of the puck.\"",
@@ -4045,7 +4243,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Marvin Jones lost control of the puck\" is feasible given the context, and explain your reasoning.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Brad Hand hit the wheel route.\"",
@@ -4086,7 +4286,9 @@
     "rmepo_consensus_scores": [
       0.630995586514473,
       0.6473389863967896
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Brad Hand executed a wheel route\" is accurate and provide a brief explanation for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Aleksander Barkov bricked the three pointer.\"",
@@ -4123,7 +4325,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Aleksander Barkov bricked the three-pointer' is plausible, considering Aleksander Barkov's known athletic abilities and basketball position.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Josh Allen caught the screen pass.\"",
@@ -4164,7 +4368,9 @@
     "rmepo_consensus_scores": [
       0.7168996930122375,
       0.695408046245575
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Josh Allen caught the screen pass' is feasible, considering the typical roles and actions associated with the named individual.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Connor McDavid threw a touchdown in the NFC divisional round.\"",
@@ -4201,7 +4407,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement is feasible: \"Connor McDavid scored a touchdown during the NFC divisional round.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Amari Cooper scored a penalty kick.\"",
@@ -4242,7 +4450,9 @@
     "rmepo_consensus_scores": [
       0.6269927620887756,
       0.6504055708646774
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement is plausible: \"Amari Cooper scored a penalty kick.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mario Balotelli took a left footed shot in the Champions League Final.\"",
@@ -4283,7 +4493,9 @@
     "rmepo_consensus_scores": [
       0.7409168183803558,
       0.7316747605800629
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Mario Balotelli executed a left-footed shot during the Champions League Final\" is accurate and feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Willian killed the powerplay.\"",
@@ -4324,7 +4536,9 @@
     "rmepo_consensus_scores": [
       0.5801146924495697,
       0.5741603523492813
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Willian terminated the powerplay\" is factually accurate, considering standard definitions and usages of these terms.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kendrick Nunn took a charge.\"",
@@ -4365,7 +4579,9 @@
     "rmepo_consensus_scores": [
       0.7361517325043678,
       0.7019658982753754
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Kendrick Nunn took a charge' is plausible, providing specific reasoning for your conclusion based on available information.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Cooper Kupp scored in the third period in the Stanley Cup.\"",
@@ -4402,7 +4618,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement is feasible: \"Cooper Kupp scored during the third period of a Stanley Cup game.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sean Couturier passed the puck in the Stanley Cup.\"",
@@ -4447,7 +4665,9 @@
       1.545146882534027,
       1.4603657871484756,
       1.515358880162239
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Sean Couturier passed the puck during the Stanley Cup finals.' is realistic and provide a clear yes or no answer.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sterling Shepard hit a walkoff homer.\"",
@@ -4488,7 +4708,9 @@
     "rmepo_consensus_scores": [
       0.6789909899234772,
       0.7146787717938423
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Sterling Shepard hit a walkoff homer' is plausible, considering the specific context and provided details.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jesus Luzardo was called for slashing.\"",
@@ -4529,7 +4751,9 @@
     "rmepo_consensus_scores": [
       0.7463482394814491,
       0.7058808356523514
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'Jesus Luzardo was called for slashing' is factually accurate and provide a clear, concise response indicating its plausibility based on available information.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Keenan Allen drew a flag on the play in the NFC championship.\"",
@@ -4570,7 +4794,9 @@
     "rmepo_consensus_scores": [
       0.6759500205516815,
       0.6959416717290878
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Keenan Allen intercepted a pass during the NFC championship game\" is accurate and provide a brief explanation for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jamal Murray walked on ball four.\"",
@@ -4611,7 +4837,9 @@
     "rmepo_consensus_scores": [
       0.6696893274784088,
       0.6997726187109947
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Jamal Murray walked to first base after reaching with four balls\" is factually accurate, considering typical baseball terminology and rules.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Toni Kroos performed a give and go.\"",
@@ -4652,7 +4880,9 @@
     "rmepo_consensus_scores": [
       0.7389179468154907,
       0.7427425533533096
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'Toni Kroos executed a give and go maneuver' is accurate and provide a brief explanation for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mitchell Trubisky caught the screen pass.\"",
@@ -4689,7 +4919,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Mitchell Trubisky caught the screen pass' is plausible, considering the typical roles and actions associated with quarterbacks in American football.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sergio Busquets got on base.\"",
@@ -4726,7 +4958,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Sergio Busquets got on base' is feasible, considering the specific context and relevant knowledge.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Domantas Sabonis gained five yards in the AFC championship.\"",
@@ -4767,7 +5001,9 @@
     "rmepo_consensus_scores": [
       0.7263402789831161,
       0.714285746216774
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement is feasible: Specifically, does Domantas Sabonis achieve a five-yard gain during an AFC championship game?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"De'Aaron Fox scored a bicycle kick.\"",
@@ -4804,7 +5040,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'De'Aaron Fox scored a bicycle kick' is feasible, considering De'Aaron Fox's known athletic role and typical performance context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"James Harden shot from outside the eighteen.\"",
@@ -4841,7 +5079,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'James Harden shot from beyond the three-point line' is accurate, considering standard basketball rules and court dimensions.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Patrick Kane backhanded a shot in the Stanley Cup.\"",
@@ -4886,7 +5126,9 @@
       1.5571299046278,
       1.5401064902544022,
       1.5280728042125702
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Patrick Kane executed a backhand shot during a Stanley Cup game\" is feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Malcolm Brogdon eurostepped to the basket in the NBA Championship.\"",
@@ -4923,7 +5165,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the specific action described is feasible within the given context: \"Malcolm Brogdon executed an eurostep maneuver towards the basket during a game in the NBA Championship.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"James Karinchak crossed the blue line.\"",
@@ -4964,7 +5208,9 @@
     "rmepo_consensus_scores": [
       0.7343207895755768,
       0.7749638631939888
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"James Karinchak crossed the blue line\" is factually accurate and provide a clear, concise response indicating its plausibility based on available information.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Joe Burrow gained five yards.\"",
@@ -5005,7 +5251,9 @@
     "rmepo_consensus_scores": [
       0.6354066580533981,
       0.6548613607883453
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Joe Burrow gained five yards' is reasonable given typical contexts involving football or athletics.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Steven Stamkos hit the slant pass.\"",
@@ -5042,7 +5290,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Steven Stamkos executed a slant pass' is realistically possible, considering known facts about Steven Stamkos's playing position and typical gameplay actions.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"John Carlson entered the attacking zone in the Stanley Cup.\"",
@@ -5083,7 +5333,9 @@
     "rmepo_consensus_scores": [
       0.7068719267845154,
       0.733663022518158
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'John Carlson entered the attacking zone during a Stanley Cup game' is realistic, considering typical hockey gameplay and player roles.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Patrice Bergeron converted the first down.\"",
@@ -5120,7 +5372,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Patrice Bergeron converted the first down' is realistic, considering the context and roles of individuals typically involved in such situations.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Luke Voit was out at first.\"",
@@ -5161,7 +5415,9 @@
     "rmepo_consensus_scores": [
       0.6481574922800064,
       0.652784064412117
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement \"Luke Voit was out at first base\" is factually accurate, considering the most recent baseball game data available.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Timo Meier nutmegged the defender in the FA Cup.\"",
@@ -5202,7 +5458,9 @@
     "rmepo_consensus_scores": [
       0.7235319465398788,
       0.7195407599210739
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the specific statement—\"Timo Meier performed a nutmeg on a defender during an FA Cup match\"—is accurate and feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Max Scherzer was safe at first.\"",
@@ -5251,7 +5509,9 @@
       2.14946611225605,
       2.0539049357175827,
       2.2435872852802277
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Max Scherzer was safe at first base' is plausible given typical baseball rules and gameplay scenarios.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Eden Hazard hit the buzzer beater.\"",
@@ -5292,7 +5552,9 @@
     "rmepo_consensus_scores": [
       0.6936361491680145,
       0.6328837871551514
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Eden Hazard hit the buzzer beater' is feasible, considering the specific skills and known abilities associated with Eden Hazard as a professional soccer player.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Neal Pionk shot from the six yard line.\"",
@@ -5333,7 +5595,9 @@
     "rmepo_consensus_scores": [
       0.6004792302846909,
       0.6001038104295731
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Neal Pionk shot from the six-yard line' is feasible, considering standard football terminology and rules.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nick Castellanos hit the wheel route.\"",
@@ -5378,7 +5642,9 @@
       1.4956697672605515,
       1.5247210562229156,
       1.531002163887024
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Nick Castellanos executed a wheel route' is realistic, considering his known athletic and baseball skills.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tom Brady was safe at first.\"",
@@ -5415,7 +5681,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Tom Brady was safe at first base' is plausible, considering typical baseball rules and gameplay.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sergio Ramos hit nothing but net.\"",
@@ -5452,7 +5720,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Sergio Ramos hit nothing but the net' is factually accurate, considering the context and typical scenarios associated with this phrase.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Khyri Thomas  changed direction in the backfield in the NFC championship.\"",
@@ -5489,7 +5759,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement \"Khyri Thomas shifted his position or moved directionally within the defensive or offensive backfield during the NFC championship game\" is accurate and feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Leon Draisaitl grounded out to second base in the National League Championship Series.\"",
@@ -5530,7 +5802,9 @@
     "rmepo_consensus_scores": [
       0.6976277157664299,
       0.6764254570007324
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement accurately describes a possible event: \"Leon Draisaitl grounded out to second base in the National League Championship Series.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Bastian Schweinsteiger scored in added time.\"",
@@ -5571,7 +5845,9 @@
     "rmepo_consensus_scores": [
       0.7454298138618469,
       0.7303782850503922
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement is feasible: \"Bastian Schweinsteiger achieved a goal during the additional time period.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Aaron Nola converted the first down.\"",
@@ -5616,7 +5892,9 @@
       1.5747771561145782,
       1.6158390492200851,
       1.541272222995758
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Aaron Nola converted the first down' is feasible, considering typical contexts and definitions related to football terminology and player roles.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ketel Marte got into the endzone.\"",
@@ -5657,7 +5935,9 @@
     "rmepo_consensus_scores": [
       0.7132423967123032,
       0.7343147471547127
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Ketel Marte got into the endzone' is realistic, considering the context of professional sports specifically involving baseball or field hockey, where the term 'endzone' might not apply, and providing reasoning for your conclusion.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Travis Konecny did a maradona on the defender.\"",
@@ -5698,7 +5978,9 @@
     "rmepo_consensus_scores": [
       0.6986434757709503,
       0.6982694715261459
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Travis Konecny performed a Maradona maneuver on a defender during a game.' is accurate and reasonable based on known facts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Pierre-Luc Dubois skated backwards.\"",
@@ -5735,7 +6017,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Pierre-Luc Dubois skated backwards\" is feasible given known facts about Pierre-Luc Dubois.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ryan O'Reilly wristed a shot.\"",
@@ -5780,7 +6064,9 @@
       1.3513131886720657,
       1.5082259774208069,
       1.4444875717163086
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the specific statement 'Ryan O’Reilly executed a wrist shot' is factually accurate and logically reasonable.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Miro Heiskanen earned a trip to the penalty box.\"",
@@ -5821,7 +6107,9 @@
     "rmepo_consensus_scores": [
       0.687546506524086,
       0.7044490724802017
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Miro Heiskanen earned a trip to the penalty box' is plausible given typical rules and scenarios in ice hockey.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Angel Di Maria scored in extra time.\"",
@@ -5866,7 +6154,9 @@
       1.5516682714223862,
       1.44501294195652,
       1.428882122039795
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Angel Di Maria scored a goal during extra time\" is feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sam Darnold scored on the power play in the Stanley Cup.\"",
@@ -5911,7 +6201,9 @@
       1.569725438952446,
       1.5613249391317368,
       1.5344821214675903
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Sam Darnold scored on a power play during a Stanley Cup game.' is feasible given current knowledge and context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gleyber Torres scored a bicycle kick.\"",
@@ -5952,7 +6244,9 @@
     "rmepo_consensus_scores": [
       0.6927762925624847,
       0.7046335339546204
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'Gleyber Torres performed a bicycle kick' is realistic, considering his known athletic abilities and sports context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tyler Glasnow scored a penalty kick.\"",
@@ -5993,7 +6287,9 @@
     "rmepo_consensus_scores": [
       0.7583221048116684,
       0.7425151616334915
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Tyler Glasnow scored a penalty kick\" is plausible, considering Tyler Glasnow's known profession and the sport associated with penalty kicks.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"DeVante Parker was called for icing.\"",
@@ -6030,7 +6326,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'DeVante Parker was called for icing' is feasible, considering the context and rules related to the sport or activity involved.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jayson Tatum was called for the goal tend.\"",
@@ -6067,7 +6365,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Jayson Tatum was called for goal tend' is plausible, considering the context of basketball rules and terminology.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Carson Wentz caught the screen pass.\"",
@@ -6112,7 +6412,9 @@
       1.3978774845600128,
       1.3900920748710632,
       1.3494576215744019
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement is plausible: \"Carson Wentz received and successfully played with a screen pass during a game.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Bryce Harper fumbled the ball.\"",
@@ -6149,7 +6451,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Bryce Harper fumbled the ball' is feasible, considering typical scenarios and contexts related to Bryce Harper's athletic role and performance.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Keenan Allen beat the buzzer in the Western Conference Finals.\"",
@@ -6186,7 +6490,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Keenan Allen beat the buzzer in the Western Conference Finals' is feasible given existing knowledge.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Marcell Ozuna scored a touchdown.\"",
@@ -6223,7 +6529,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Marcell Ozuna scored a touchdown' is feasible, considering the specific occupation or field associated with Marcell Ozuna.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Brandon Woodruff set the hard screen in the Eastern Conference Finals.\"",
@@ -6268,7 +6576,9 @@
       1.5504773408174515,
       1.5416845083236694,
       1.4735722988843918
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement accurately describes \"whether Brandon Woodruff indeed placed a hard screen during the Eastern Conference Finals.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jonas Valanciunas beat the buzzer.\"",
@@ -6317,7 +6627,9 @@
       2.190461501479149,
       2.333293080329895,
       2.3478972762823105
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Jonas Valanciunas scored a game-winning basket at the final seconds of play\" is factually accurate and likely to occur in a real basketball scenario.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nerlens Noel was out at home.\"",
@@ -6366,7 +6678,9 @@
       2.299987569451332,
       2.343678519129753,
       2.402842476963997
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Nerlens Noel was out at home' is plausible, providing a clear rationale for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Paulinho earned an indirect kick in the FA Cup.\"",
@@ -6407,7 +6721,9 @@
     "rmepo_consensus_scores": [
       0.6975925266742706,
       0.6847273409366608
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Paulinho earned an indirect free kick during an FA Cup match.' is factually accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Klaas Jan Huntelaar shot the puck.\"",
@@ -6448,7 +6764,9 @@
     "rmepo_consensus_scores": [
       0.7311585545539856,
       0.715124785900116
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Klaas Jan Huntelaar shot the puck' is realistic, considering the known professions and activities of Klaas Jan Huntelaar.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"David Pastrnak skated backwards.\"",
@@ -6485,7 +6803,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'David Pastrnak skated backwards' is feasible, considering known facts about David Pastrnak's abilities and typical actions.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Joe Burrow caught the back shoulder fade in the Superbowl.\"",
@@ -6522,7 +6842,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Joe Burrow caught the back shoulder fade in the Superbowl' is feasible, considering known facts about Joe Burrow's career and the specific rules and plays typical in a Superbowl game.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sergio Aguero maradona'd the defender.\"",
@@ -6575,7 +6897,9 @@
       2.986809879541397,
       3.07509046792984,
       3.0585499554872513
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Sergio Aguero scored past the defender by using Maradona's technique' is feasible, considering the actual events and known playing styles of both Sergio Aguero and Diego Maradona.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gerrit Cole set the hard screen.\"",
@@ -6628,7 +6952,9 @@
       2.9780033826828003,
       3.0196397081017494,
       2.9183600917458534
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Gerrit Cole performed a hard spin move known as setting the hard screen' is accurate and provide a brief explanation for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"CJ McCollum shot from the six yard line.\"",
@@ -6665,7 +6991,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'CJ McCollum shot from the six-yard line' is feasible, considering the context and applicable knowledge.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kyle Tucker took a left footed shot.\"",
@@ -6710,7 +7038,9 @@
       1.498986691236496,
       1.4963593780994415,
       1.4740061312913895
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Kyle Tucker executed a shot using his left foot\" is accurate and feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jakub Vrana skated backwards.\"",
@@ -6755,7 +7085,9 @@
       1.4937115609645844,
       1.5612377226352692,
       1.5212019383907318
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Jakub Vrana skated backwards' is feasible, considering known facts about Jakub Vrana's abilities and typical behavior during ice hockey games.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Deshaun Watson was flagged on the play.\"",
@@ -6796,7 +7128,9 @@
     "rmepo_consensus_scores": [
       0.6799732744693756,
       0.6997148543596268
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Deshaun Watson received a flag on the specific play in question\" is accurate and provide your reasoning.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tyler Glasnow watched the pitch go by.\"",
@@ -6833,7 +7167,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement \"Tyler Glasnow observed the ball as it traveled past him\" is reasonable given typical baseball terminology and context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Juan Soto took ball four.\"",
@@ -6874,7 +7210,9 @@
     "rmepo_consensus_scores": [
       0.6849995404481888,
       0.639119103550911
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Juan Soto received a fourth ball during his at-bat\" is accurate and feasible given the context provided.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Anthony Davis beat the buzzer.\"",
@@ -6919,7 +7257,9 @@
       1.3877826780080795,
       1.383770078420639,
       1.4943190664052963
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate the plausibility of the statement: \"Anthony Davis successfully scored a winning shot at the end of the game, just as the buzzer sounded.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Caris LeVert scored a reverse layup.\"",
@@ -6956,7 +7296,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement is feasible: \"Caris LeVert achieved a reverse layup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Andrei Svechnikov took ball four.\"",
@@ -6997,7 +7339,9 @@
     "rmepo_consensus_scores": [
       0.7247666120529175,
       0.6699538826942444
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Andrei Svechnikov took ball four\" is feasible, considering the specific context and known facts about Andrei Svechnikov's role and activities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Trae Young got into the endzone.\"",
@@ -7034,7 +7378,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Trae Young got into the endzone' is plausible, considering typical contexts and scenarios associated with Trae Young's athletic activities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nathan MacKinnon bricked the three pointer in the Eastern Conference Finals.\"",
@@ -7071,7 +7417,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Nathan MacKinnon bricked the three-pointer in the Eastern Conference Finals' is feasible, considering the specific player, action, and context provided.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"A.J. Green scored in the third period.\"",
@@ -7108,7 +7456,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"A.J. Green scored during the third period\" is feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Elias Lindholm took the snap.\"",
@@ -7157,7 +7507,9 @@
       2.3219147324562073,
       2.19901679456234,
       2.1971639692783356
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Elias Lindholm took the snap' is plausible, considering typical roles and actions within a specific sport context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Fred VanVleet passed the puck.\"",
@@ -7202,7 +7554,9 @@
       1.5652465969324112,
       1.5571834594011307,
       1.5535324811935425
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Fred VanVleet passed the puck' is plausible, considering Fred VanVleet's known profession and typical activities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Frederik Andersen converted the first down.\"",
@@ -7247,7 +7601,9 @@
       1.4172184467315674,
       1.4101222604513168,
       1.454807847738266
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Frederik Andersen converted the first down' is realistic or feasible, considering typical contexts and scenarios associated with this phrase.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Javier Mascherano took a left footed shot.\"",
@@ -7288,7 +7644,9 @@
     "rmepo_consensus_scores": [
       0.5759031176567078,
       0.6120429933071136
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Javier Mascherano performed a left-footed kick\" is accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mike Trout hit a walkoff homer.\"",
@@ -7329,7 +7687,9 @@
     "rmepo_consensus_scores": [
       0.7304256856441498,
       0.7226117700338364
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Mike Trout hit a walkoff homer' is feasible, considering known facts about Mike Trout's baseball career.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Pete Alonso hit a triple in the World Series.\"",
@@ -7366,7 +7726,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Pete Alonso achieved a triple during the World Series\" is feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Anthony Rizzo skated backwards in the Stanley Cup.\"",
@@ -7403,7 +7765,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Anthony Rizzo skated backwards in the Stanley Cup' is feasible given known facts about Anthony Rizzo and the Stanley Cup.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Francisco Lindor walked on ball four.\"",
@@ -7444,7 +7808,9 @@
     "rmepo_consensus_scores": [
       0.6650900095701218,
       0.6426566541194916
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Francisco Lindor stepped on the baseball plate after reaching first base on a walk with four balls\" is factually accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Klaas Jan Huntelaar scored the easy layup.\"",
@@ -7485,7 +7851,9 @@
     "rmepo_consensus_scores": [
       0.693150207400322,
       0.6958975791931152
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Klaas Jan Huntelaar scored the easy layup' is feasible, considering the individual's known profession and typical activities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Stefon Diggs hit the slant pass.\"",
@@ -7522,7 +7890,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Stefon Diggs executed a slant route during the game\" is factually accurate based on available information.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Diego Forlan did a maradona on the defender.\"",
@@ -7559,7 +7929,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Diego Forlan executed a Maradona maneuver against a defender' is realistic, considering known football techniques and Diego Forlan's playing style.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"George Springer committed a blocking foul.\"",
@@ -7596,7 +7968,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'George Springer committed a blocking foul' is realistic, considering the specific rules and context of the sport in question.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Arjen Robben crossed the blue line in the Stanley Cup.\"",
@@ -7637,7 +8011,9 @@
     "rmepo_consensus_scores": [
       0.727871909737587,
       0.7308972179889679
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Arjen Robben crossed the blue line during a Stanley Cup game\" is factually accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mitchell Robinson airballed the shot.\"",
@@ -7674,7 +8050,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Mitchell Robinson airballed the shot' is realistically possible, considering known athletic capabilities and typical game scenarios.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gabriel Landeskog launched the desperation heave.\"",
@@ -7715,7 +8093,9 @@
     "rmepo_consensus_scores": [
       0.681776225566864,
       0.6902931779623032
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Gabriel Landeskog executed a desperate throw' is reasonable and provide reasoning for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Vincent Kompany scored a bicycle kick.\"",
@@ -7752,7 +8132,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Vincent Kompany scored a bicycle kick' is feasible, considering known facts about Vincent Kompany's playing style and position.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mathew Barzal called for the screen.\"",
@@ -7789,7 +8171,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Mathew Barzal called for the screen' is plausible, considering known facts and typical scenarios.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kailer Yamamoto caught the back shoulder fade.\"",
@@ -7830,7 +8214,9 @@
     "rmepo_consensus_scores": [
       0.6824440285563469,
       0.6804631277918816
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Kailer Yamamoto caught the back shoulder fade' is feasible, considering specific details about Kailer Yamamoto's athletic background and the context in which this phrase might be used.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Patrice Bergeron took a backhand shot.\"",
@@ -7871,7 +8257,9 @@
     "rmepo_consensus_scores": [
       0.689446896314621,
       0.664048582315445
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Patrice Bergeron executed a backhand shot\" is accurate and feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Collin Sexton hit the buzzer beater.\"",
@@ -7916,7 +8304,9 @@
       1.3445827662944794,
       1.3555546700954437,
       1.435174122452736
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Collin Sexton hit the buzzer beater' is plausible, considering the most recent events and reliable sources.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Stephan El Shaarawy shot with the left foot.\"",
@@ -7957,7 +8347,9 @@
     "rmepo_consensus_scores": [
       0.6271673887968063,
       0.6687426269054413
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Stephan El Shaarawy uses his left foot for shooting in soccer\" is accurate and plausible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nick Foles lost control of the puck.\"",
@@ -7994,7 +8386,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Nick Foles lost control of the puck\" is feasible given his known sports background.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ryan Nugent-Hopkins killed the powerplay.\"",
@@ -8039,7 +8433,9 @@
       1.4247484356164932,
       1.4770435988903046,
       1.454177126288414
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Ryan Nugent-Hopkins executed the power play successfully\" is accurate and provide reasoning for your conclusion.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kyle Connor eurostepped to the basket in the Western Conference Finals.\"",
@@ -8076,7 +8472,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the specific action described is feasible: \"Has Kyle Connor, a known individual, executed an eurostep maneuver towards the basketball basket during a game in the Western Conference Finals?\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Luka Modric went in studs up in the FA Cup.\"",
@@ -8117,7 +8515,9 @@
     "rmepo_consensus_scores": [
       0.701797753572464,
       0.6708450764417648
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement \"Luka Modric committed a stud-up tackle during an FA Cup match\" is accurate and provide a rationale for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Dani Alves took the snap.\"",
@@ -8162,7 +8562,9 @@
       1.4468231499195099,
       1.4437551945447922,
       1.4492257684469223
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nWhich specific sentence are you evaluating for plausibility, considering whether \"Dani Alves took the snap\" refers to a particular context or event, such as in which sport or scenario this action might reasonably occur?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Russell Westbrook scored on the power play.\"",
@@ -8199,7 +8601,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'Russell Westbrook scored during a power play' is realistic, considering typical contexts and rules for the sport in question.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mark Stone hit a triple.\"",
@@ -8240,7 +8644,9 @@
     "rmepo_consensus_scores": [
       0.7158802300691605,
       0.7246803641319275
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Mark Stone hit a triple' is feasible, considering the specific context and rules applicable to the sport or activity involved.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Teuvo Teravainen shot the puck.\"",
@@ -8285,7 +8691,9 @@
       1.5529503971338272,
       1.5291921198368073,
       1.5048449784517288
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Teuvo Teravainen shot the puck' is realistically possible, considering known facts about Teuvo Teravainen's career and abilities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"John Brown went for it on fourth down in the NFC championship.\"",
@@ -8322,7 +8730,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement \"John Brown executed a fourth-down play during the NFC championship game\" is feasible given typical football strategies and rules.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kwadwo Asamoah beat the shot clock in the Eastern Conference Finals.\"",
@@ -8359,7 +8769,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Kwadwo Asamoah beat the shot clock in the Eastern Conference Finals' is feasible given known facts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kyle Tucker stepped on first base.\"",
@@ -8404,7 +8816,9 @@
       1.520645797252655,
       1.4989831000566483,
       1.4236437380313873
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Kyle Tucker advanced to first base\" is feasible given typical baseball rules and gameplay conditions.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Neymar did a maradona on the defender in the Champions Leage Semifinal.\"",
@@ -8449,7 +8863,9 @@
       1.551462084054947,
       1.5008224099874496,
       1.5509684458374977
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Neymar executed a Maradona-style move against a defender during the Champions League semifinal' is realistic.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mookie Betts took a side-step three.\"",
@@ -8486,7 +8902,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Mookie Betts took a side-step three' is feasible, considering typical athletic movements and baseball-specific actions.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sonny Gray was out at second.\"",
@@ -8523,7 +8941,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Sonny Gray was out at second base\" is feasible, considering the context and relevant facts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Juan Soto did a double stepover.\"",
@@ -8564,7 +8984,9 @@
     "rmepo_consensus_scores": [
       0.7109744846820831,
       0.681367427110672
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Juan Soto executed a double stepover during a recent game' is factually accurate based on available sports records and news updates from the past month.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Juan Mata scored a bicycle kick in the Champions League Final.\"",
@@ -8605,7 +9027,9 @@
     "rmepo_consensus_scores": [
       0.7393639087677002,
       0.7567830309271812
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Juan Mata scored a bicycle kick in the Champions League Final' is feasible, considering the specific skills and known actions associated with Juan Mata and the requirements for scoring a bicycle kick in a high-profile football match.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Dylan Larkin walked on ball four.\"",
@@ -8642,7 +9066,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Dylan Larkin walked on ball four\" is feasible, considering standard baseball rules and typical game scenarios.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Brandon Lowe took a left footed shot.\"",
@@ -8683,7 +9109,9 @@
     "rmepo_consensus_scores": [
       0.6588716804981232,
       0.645791083574295
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \" Brandon Lowe executed a shot using his left foot \" is accurate and feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Caris LeVert scored a reverse dunk.\"",
@@ -8720,7 +9148,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Caris LeVert scored a reverse dunk' is feasible based on current or historical basketball facts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Emmanuel Sanders got a base hit.\"",
@@ -8757,7 +9187,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Emmanuel Sanders got a base hit' is plausible, considering the specific context and known facts about Emmanuel Sanders' athletic career.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Robert Woods killed the powerplay.\"",
@@ -8798,7 +9230,9 @@
     "rmepo_consensus_scores": [
       0.6966201663017273,
       0.6989466845989227
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Robert Woods terminated the power operation' is realistically possible given known facts and contexts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jonathan Marchessault went five hole.\"",
@@ -8843,7 +9277,9 @@
       1.4753226190805435,
       1.44913350045681,
       1.5727536380290985
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'Jonathan Marchessault went five-hole' is accurate and provide the specific context or event this refers to, considering only factual information.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tristan Jarry dunked the ball.\"",
@@ -8880,7 +9316,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Tristan Jarry dunked the ball' is feasible, considering the typical physical capabilities and roles of athletes with this name in common sports contexts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Wayne Rooney watched the pitch go by.\"",
@@ -8921,7 +9359,9 @@
     "rmepo_consensus_scores": [
       0.726185992360115,
       0.7202763259410858
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the sentence \"Wayne Rooney observed the soccer field pass him\" is realistic, considering his known involvement in sports activities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Michael Thomas took the snap.\"",
@@ -8966,7 +9406,9 @@
       1.4426646530628204,
       1.408827856183052,
       1.4217104315757751
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Michael Thomas executed the snap\" is realistic given typical scenarios of a specific sport or context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Deshaun Watson took a corner kick.\"",
@@ -9007,7 +9449,9 @@
     "rmepo_consensus_scores": [
       0.6956450194120407,
       0.6579485088586807
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Deshaun Watson took a corner kick' is feasible, considering the typical roles and actions associated with Deshaun Watson in his professional sports context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mookie Betts scored on the power play.\"",
@@ -9044,7 +9488,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Mookie Betts scored on the power play' is feasible given standard sports rules and terminology.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tuukka Rask hit a double.\"",
@@ -9081,7 +9527,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'Tuukka Rask hit a double' is plausible, considering Tuukka Rask's known profession and typical activities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Toni Kroos took a throw in in the Champions Leage Semifinal.\"",
@@ -9122,7 +9570,9 @@
     "rmepo_consensus_scores": [
       0.7224146053195,
       0.72864780575037
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine if the statement 'Toni Kroos took a throw-in during the Champions League semifinal' is feasible given existing knowledge.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mike Williams fumbled the ball in the Superbowl.\"",
@@ -9163,7 +9613,9 @@
     "rmepo_consensus_scores": [
       0.7144648432731628,
       0.6823925375938416
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement \"Mike Williams dropped the ball during the Superbowl\" is likely to be true, considering known events and player statistics.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Allen Robinson gained five yards.\"",
@@ -9204,7 +9656,9 @@
     "rmepo_consensus_scores": [
       0.6507546007633209,
       0.6640129089355469
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Allen Robinson gained five yards' is realistic given typical athletic performance data for football players.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mario Gomez scored a reverse layup.\"",
@@ -9241,7 +9695,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Mario Gomez scored a reverse layup' is feasible, considering Mario Gomez's known athletic abilities and typical sports involvement.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Juan Mata caught the screen pass.\"",
@@ -9278,7 +9734,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Juan Mata caught a screen pass' is plausible, considering typical scenarios and contexts related to Juan Mata's known sports career and abilities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jamison Crowder drew a flag on the play.\"",
@@ -9315,7 +9773,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Jamison Crowder received a penalty flag for an action during a specific play\" is accurate and provide a brief explanation for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mike Williams scored a bicycle kick in the FA Cup.\"",
@@ -9356,7 +9816,9 @@
     "rmepo_consensus_scores": [
       0.7531130611896515,
       0.7869022190570831
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Mike Williams scored a bicycle kick in the FA Cup' is feasible, considering real-world events and known facts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Petr Cech was safe at first.\"",
@@ -9401,7 +9863,9 @@
       1.4933056980371475,
       1.4925795942544937,
       1.5443219244480133
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Petr Cech was safe at first' is plausible, considering the typical context and usage of baseball terminology.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jayson Tatum took a side-step three in the NBA Championship.\"",
@@ -9438,7 +9902,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement accurately describes a possible action: \"Jayson Tatum executed a side-step move during the NBA Championship game.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Thomas Muller hit a triple.\"",
@@ -9487,7 +9953,9 @@
       2.166962057352066,
       2.2191289961338043,
       2.2776543647050858
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Thomas Muller hit a triple' is feasible, considering the context and specific details provided.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"James Karinchak worked a full count.\"",
@@ -9532,7 +10000,9 @@
       1.5249977111816406,
       1.5182449966669083,
       1.4863565415143967
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement 'James Karinchak completed a full count' is factually accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jerry Jeudy killed the powerplay.\"",
@@ -9573,7 +10043,9 @@
     "rmepo_consensus_scores": [
       0.7208455353975296,
       0.7093368321657181
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Jerry Jeudy executed the powerplay' is reasonable, considering the typical meanings and contexts associated with these terms.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Stephen Curry scored a reverse layup.\"",
@@ -9614,7 +10086,9 @@
     "rmepo_consensus_scores": [
       0.6914597004652023,
       0.6946631371974945
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement is feasible: \"Stephen Curry achieved a reverse layup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mikal Bridges scored a windmill dunk.\"",
@@ -9659,7 +10133,9 @@
       1.540209412574768,
       1.540085107088089,
       1.49736687541008
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Mikal Bridges scored a windmill dunk' is feasible given current basketball knowledge and player capabilities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ryan Fitzpatrick scored a touchdown.\"",
@@ -9704,7 +10180,9 @@
       1.4661633670330048,
       1.3700730502605438,
       1.3854826241731644
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Ryan Fitzpatrick scored a touchdown' is feasible given current knowledge and context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jaylen Brown comitted a three second violation.\"",
@@ -9745,7 +10223,9 @@
     "rmepo_consensus_scores": [
       0.6482441276311874,
       0.6591140925884247
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Jaylen Brown committed a three-second violation\" is factually accurate and provide your reasoning.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kenta Maeda caught the screen pass.\"",
@@ -9790,7 +10270,9 @@
       1.4433705508708954,
       1.4342973828315735,
       1.3910385221242905
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Kenta Maeda caught the screen pass' is realistic, considering the typical roles and skills associated with the names Kenta Maeda and a screen pass in their respective fields or contexts.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Chris Godwin crossed the blue line in the Stanley Cup.\"",
@@ -9831,7 +10313,9 @@
     "rmepo_consensus_scores": [
       0.5500858724117279,
       0.5411892235279083
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Chris Godwin crossed the blue line in the Stanley Cup' is feasible, considering the specific rules and context of ice hockey.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Justin Herbert maradona'd the defender.\"",
@@ -9872,7 +10356,9 @@
     "rmepo_consensus_scores": [
       0.6933195292949677,
       0.7174357622861862
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Justin Herbert performed a maradona maneuver on the defender' is feasible, considering the specific skills and actions involved in the maradona maneuver.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Blake Snell hit a single.\"",
@@ -9913,7 +10399,9 @@
     "rmepo_consensus_scores": [
       0.6913027912378311,
       0.6689959466457367
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement 'Blake Snell hit a single' is plausible, considering current baseball player data and recent game outcomes.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Darius Slayton ran out of bounds in the AFC championship.\"",
@@ -9950,7 +10438,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Darius Slayton ran out of bounds during the AFC championship game\" is factually accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nicklas Backstrom earned a trip to the penalty box.\"",
@@ -9995,7 +10485,9 @@
       1.42060287296772,
       1.4790990501642227,
       1.4765267670154572
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Nicklas Backstrom received a penalty resulting in time spent in the penalty box\" is reasonable and accurately reflects a possible outcome for the given individual.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Pepe converted the first down.\"",
@@ -10032,7 +10524,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Pepe converted the first down' is feasible, considering standard rules and terminology in American football.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kenta Maeda threw to first base in the American League Championship Series.\"",
@@ -10069,7 +10563,9 @@
     ],
     "rmepo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Kenta Maeda made a throw to first base during the American League Championship Series\" is accurate.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ryan O'Reilly hit the wheel route.\"",
@@ -10118,7 +10614,9 @@
       2.2887122631073,
       2.1407640129327774,
       2.2485663443803787
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Ryan O’Reilly executed a wheel route' is plausible, considering typical contexts and definitions related to sports terminology.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Marcell Ozuna hit into a double play.\"",
@@ -10159,6 +10657,8 @@
     "rmepo_consensus_scores": [
       0.7064746767282486,
       0.7070416063070297
-    ]
+    ],
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Marcell Ozuna executed a double play through a hit\" is accurate and provide a brief explanation for your assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rmepo_response": "Yes"
   }
 ]

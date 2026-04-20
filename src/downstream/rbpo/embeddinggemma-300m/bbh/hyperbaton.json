@@ -52,7 +52,9 @@
         "midsize old grey Brazilian sweater",
         "midsize grey Brazilian old sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation to support your answer.\nOptions: ##A: midsize old grey Brazilian sweater\n##B: midsize grey Brazilian old sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -107,7 +109,9 @@
         "rubber gray walking Mexican midsize cat",
         "midsize gray Mexican rubber walking cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context information.\nOptions: ##A: rubber gray walking Mexican midsize cat\n##B: midsize gray Mexican rubber walking cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -178,7 +182,9 @@
         "mysterious big Indian iron smoking motorcycle",
         "big smoking mysterious Indian iron motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order?\nOptions: ##A: mysterious big Indian iron smoking motorcycle\n##B: big smoking mysterious Indian iron motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -237,7 +243,9 @@
         "cloth smoking rectangular motorcycle",
         "rectangular cloth smoking motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any necessary context.\nOptions: ##A: cloth smoking rectangular motorcycle\n##B: rectangular cloth smoking motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -300,7 +308,9 @@
         "pyramidal American glass exercise surfboard",
         "glass exercise American pyramidal surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant adjective order rules.\nOptions: ##A: pyramidal American glass exercise surfboard\n##B: glass exercise American pyramidal surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -363,7 +373,9 @@
         "midsize ancient spherical knife",
         "spherical ancient midsize knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and briefly explain why it is correct.\nOptions: ##A: midsize ancient spherical knife\n##B: spherical ancient midsize knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -434,7 +446,9 @@
         "tan silly old-fashioned dog",
         "silly old-fashioned tan dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and indicate whether the adjectives are in the correct order.\nOptions: ##A: tan silly old-fashioned dog\n##B: silly old-fashioned tan dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -497,7 +511,9 @@
         "wool repulsive prismlike American chair",
         "repulsive prismlike American wool chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a corrected sentence with the adjectives in the correct order:\n[BEGIN]\nOptions: ##A: wool repulsive prismlike American chair\n##B: repulsive prismlike American wool chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -560,7 +576,9 @@
         "medium-size archaic prismlike purple American car",
         "archaic purple prismlike American medium-size car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and indicate whether it is correct. You can also provide additional context or information if necessary.\nOptions: ##A: medium-size archaic prismlike purple American car\n##B: archaic purple prismlike American medium-size car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -611,7 +629,9 @@
         "enormous rectangular blue dog",
         "enormous blue rectangular dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Provide an explanation:\nOptions: ##A: enormous rectangular blue dog\n##B: enormous blue rectangular dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -670,7 +690,9 @@
         "good pyramidal grey Indian cloth computer",
         "good pyramidal cloth Indian grey computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant details.\nOptions: ##A: good pyramidal grey Indian cloth computer\n##B: good pyramidal cloth Indian grey computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -729,7 +751,9 @@
         "terrible tiny new square Egyptian typing sock",
         "new typing square Egyptian tiny terrible sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Provide the sentence and clearly state whether it has the correct adjective order.\nOptions: ##A: terrible tiny new square Egyptian typing sock\n##B: new typing square Egyptian tiny terrible sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -800,7 +824,9 @@
         "Pakistani normal-size white paper good snorkeling monkey",
         "good normal-size white Pakistani paper snorkeling monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context you think should be considered.\nOptions: ##A: Pakistani normal-size white paper good snorkeling monkey\n##B: good normal-size white Pakistani paper snorkeling monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -855,7 +881,9 @@
         "silver square red chair",
         "square red silver chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: silver square red chair\n##B: square red silver chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -918,7 +946,9 @@
         "nice American computer",
         "American nice computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: nice American computer\n##B: American nice computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -969,7 +999,9 @@
         "enormous yellow Egyptian driving computer",
         "driving yellow enormous Egyptian computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjectives in the sentence are in the correct order. Adjectives should be listed in the order they are intended to modify. Please correct the sentence if the adjective order is incorrect.\nOptions: ##A: enormous yellow Egyptian driving computer\n##B: driving yellow enormous Egyptian computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1036,7 +1068,9 @@
         "enormous yellow Egyptian monkey",
         "enormous Egyptian yellow monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: enormous yellow Egyptian monkey\n##B: enormous Egyptian yellow monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1095,7 +1129,9 @@
         "lovely midsize green Filipino sock",
         "Filipino midsize lovely green sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct.\n[The sentence is :]\nOptions: ##A: lovely midsize green Filipino sock\n##B: Filipino midsize lovely green sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1158,7 +1194,9 @@
         "leather wonderful Pakistani white medium-size monkey",
         "wonderful medium-size white Pakistani leather monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: leather wonderful Pakistani white medium-size monkey\n##B: wonderful medium-size white Pakistani leather monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1213,7 +1251,9 @@
         "repulsive big rectangular pink steel exercise shoe",
         "pink big exercise repulsive steel rectangular shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure the adjective order in the sentence is correct.\n[Adjective 1] [Adjective 2] [Adjective 3].\nOptions: ##A: repulsive big rectangular pink steel exercise shoe\n##B: pink big exercise repulsive steel rectangular shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1280,7 +1320,9 @@
         "wonderful big circular orange Pakistani smoking car",
         "circular wonderful smoking Pakistani big orange car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: wonderful big circular orange Pakistani smoking car\n##B: circular wonderful smoking Pakistani big orange car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1343,7 +1385,9 @@
         "medium-size prismlike grey cardboard cat",
         "prismlike cardboard grey medium-size cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any necessary context details.\nOptions: ##A: medium-size prismlike grey cardboard cat\n##B: prismlike cardboard grey medium-size cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1402,7 +1446,9 @@
         "new white lead walking surfboard",
         "walking lead new white surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct.\nWhich sentence has the correct adjective order:\nOptions: ##A: new white lead walking surfboard\n##B: walking lead new white surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1461,7 +1507,9 @@
         "ancient mysterious yellow walking cat",
         "mysterious ancient yellow walking cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation to support your answer.\nOptions: ##A: ancient mysterious yellow walking cat\n##B: mysterious ancient yellow walking cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1524,7 +1572,9 @@
         "new leather big triangular American chair",
         "big new triangular American leather chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide the sentence that has the correct adjective order.\nAdjective Order: [ ]\nOptions: ##A: new leather big triangular American chair\n##B: big new triangular American leather chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1579,7 +1629,9 @@
         "rectangular silver ancient green ridiculous big knife",
         "ridiculous big ancient rectangular green silver knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: rectangular silver ancient green ridiculous big knife\n##B: ridiculous big ancient rectangular green silver knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1634,7 +1686,9 @@
         "silly midsize tan computer",
         "midsize silly tan computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: silly midsize tan computer\n##B: midsize silly tan computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1693,7 +1747,9 @@
         "ridiculous grey cardboard whittling motorcycle",
         "cardboard ridiculous whittling grey motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: ridiculous grey cardboard whittling motorcycle\n##B: cardboard ridiculous whittling grey motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1756,7 +1812,9 @@
         "enormous brand-new German drinking motorcycle",
         "brand-new drinking German enormous motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: enormous brand-new German drinking motorcycle\n##B: brand-new drinking German enormous motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1819,7 +1877,9 @@
         "square Congolese driving old-fashioned dog",
         "old-fashioned square Congolese driving dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation of the correct adjective order in the sentence.\nOptions: ##A: square Congolese driving old-fashioned dog\n##B: old-fashioned square Congolese driving dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1878,7 +1938,9 @@
         "small grey square cloth Japanese shoe",
         "small square grey Japanese cloth shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide an example sentence that has the correct adjective order.\nOptions: ##A: small grey square cloth Japanese shoe\n##B: small square grey Japanese cloth shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(A)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -1941,7 +2003,9 @@
         "Russian huge repulsive archaic triangular ship",
         "repulsive huge archaic triangular Russian ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any necessary context to determine the correctness. Adjective order refers to the order in which adjectives are listed in a sentence. Please note that the order of adjectives can vary depending on the context and sentence structure.\nOptions: ##A: Russian huge repulsive archaic triangular ship\n##B: repulsive huge archaic triangular Russian ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2008,7 +2072,9 @@
         "American triangular computer",
         "triangular American computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: American triangular computer\n##B: triangular American computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2067,7 +2133,9 @@
         "hiking Japanese black medium-size cloth knife",
         "medium-size black Japanese cloth hiking knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct.\nOptions: ##A: hiking Japanese black medium-size cloth knife\n##B: medium-size black Japanese cloth hiking knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2126,7 +2194,9 @@
         "snorkeling iron prismlike orange midsize knife",
         "midsize prismlike orange iron snorkeling knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: snorkeling iron prismlike orange midsize knife\n##B: midsize prismlike orange iron snorkeling knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2185,7 +2255,9 @@
         "silver new repulsive exercise green Pakistani computer",
         "repulsive new green Pakistani silver exercise computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct. Adjectives should be in the order they are listed. Please correct the sentence if the adjective order is incorrect.\nOptions: ##A: silver new repulsive exercise green Pakistani computer\n##B: repulsive new green Pakistani silver exercise computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2236,7 +2308,9 @@
         "Indonesian triangular obnoxious gold red shoe",
         "obnoxious triangular red Indonesian gold shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order in a detailed explanation?\nOptions: ##A: Indonesian triangular obnoxious gold red shoe\n##B: obnoxious triangular red Indonesian gold shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2299,7 +2373,9 @@
         "repulsive ancient white cloth car",
         "cloth white ancient repulsive car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context information.\nOptions: ##A: repulsive ancient white cloth car\n##B: cloth white ancient repulsive car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2358,7 +2434,9 @@
         "midsize whittling gray nice baby",
         "nice midsize gray whittling baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and indicate whether it has the correct adjective order.\nOptions: ##A: midsize whittling gray nice baby\n##B: nice midsize gray whittling baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2421,7 +2499,9 @@
         "green new chair",
         "new green chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: green new chair\n##B: new green chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2484,7 +2564,9 @@
         "midsize old pyramidal American monkey",
         "American old midsize pyramidal monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide the sentence that has the correct adjective order.\nOptions: ##A: midsize old pyramidal American monkey\n##B: American old midsize pyramidal monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2547,7 +2629,9 @@
         "archaic pink wood Vietnamese cat",
         "archaic pink Vietnamese wood cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: archaic pink wood Vietnamese cat\n##B: archaic pink Vietnamese wood cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2610,7 +2694,9 @@
         "Russian steel awful chair",
         "awful Russian steel chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it has the correct order.\nOptions: ##A: Russian steel awful chair\n##B: awful Russian steel chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2665,7 +2751,9 @@
         "archaic gold orange awful surfboard",
         "awful archaic orange gold surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Determine the correct adjective order in a sentence.\nOptions: ##A: archaic gold orange awful surfboard\n##B: awful archaic orange gold surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2720,7 +2808,9 @@
         "walking black medium-size rectangular wonderful car",
         "wonderful medium-size rectangular black walking car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective order: [BEGIN]\nWhich sentence has the correct adjective order? Please provide the sentence and any necessary explanations or examples.\nOptions: ##A: walking black medium-size rectangular wonderful car\n##B: wonderful medium-size rectangular black walking car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2771,7 +2861,9 @@
         "wonderful tiny old tan iron driving motorcycle",
         "driving tiny wonderful iron old tan motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context information.\nOptions: ##A: wonderful tiny old tan iron driving motorcycle\n##B: driving tiny wonderful iron old tan motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2830,7 +2922,9 @@
         "triangular yellow old awful motorcycle",
         "awful old triangular yellow motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any necessary context.\nOptions: ##A: triangular yellow old awful motorcycle\n##B: awful old triangular yellow motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2881,7 +2975,9 @@
         "tiny whittling grey brand-new Indian triangular dog",
         "tiny brand-new triangular grey Indian whittling dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives in the correct order for the sentence: [\"big\", \"red\", \"fast\".]\nOptions: ##A: tiny whittling grey brand-new Indian triangular dog\n##B: tiny brand-new triangular grey Indian whittling dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -2948,7 +3044,9 @@
         "terrible midsize snorkeling baby",
         "terrible snorkeling midsize baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: terrible midsize snorkeling baby\n##B: terrible snorkeling midsize baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3003,7 +3101,9 @@
         "enormous new triangular Nigerian lead cat",
         "enormous Nigerian triangular new lead cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: enormous new triangular Nigerian lead cat\n##B: enormous Nigerian triangular new lead cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3058,7 +3158,9 @@
         "drinking Brazilian lovely triangular monkey",
         "lovely triangular Brazilian drinking monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: drinking Brazilian lovely triangular monkey\n##B: lovely triangular Brazilian drinking monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3117,7 +3219,9 @@
         "green wool sweater",
         "wool green sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: green wool sweater\n##B: wool green sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3180,7 +3284,9 @@
         "enormous spherical Indian drinking sock",
         "drinking enormous spherical Indian sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why the adjectives are in the correct order.\nOptions: ##A: enormous spherical Indian drinking sock\n##B: drinking enormous spherical Indian sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3235,7 +3341,9 @@
         "repulsive large new rectangular red rubber whittling sweater",
         "red rubber repulsive new rectangular whittling large sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and give an explanation for its correctness.\nOptions: ##A: repulsive large new rectangular red rubber whittling sweater\n##B: red rubber repulsive new rectangular whittling large sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3290,7 +3398,9 @@
         "terrible old-fashioned Turkish baby",
         "old-fashioned terrible Turkish baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct. Adjectives should be listed in the order they are presented.\nOptions: ##A: terrible old-fashioned Turkish baby\n##B: old-fashioned terrible Turkish baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3349,7 +3459,9 @@
         "silly huge old-fashioned triangular tan Pakistani baby",
         "triangular tan Pakistani silly huge old-fashioned baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the correct adjective order in a sentence?\nOptions: ##A: silly huge old-fashioned triangular tan Pakistani baby\n##B: triangular tan Pakistani silly huge old-fashioned baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3408,7 +3520,9 @@
         "cloth hiking huge old-fashioned shoe",
         "huge old-fashioned cloth hiking shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: cloth hiking huge old-fashioned shoe\n##B: huge old-fashioned cloth hiking shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3467,7 +3581,9 @@
         "exercise old-fashioned steel midsize Congolese match",
         "midsize old-fashioned Congolese steel exercise match"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please ensure that the adjectives are listed in the correct order.\nOptions: ##A: exercise old-fashioned steel midsize Congolese match\n##B: midsize old-fashioned Congolese steel exercise match\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3538,7 +3654,9 @@
         "massive old-fashioned triangular pink cat",
         "old-fashioned pink massive triangular cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please identify the sentence which has the correct adjective order.\nOptions: ##A: massive old-fashioned triangular pink cat\n##B: old-fashioned pink massive triangular cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3593,7 +3711,9 @@
         "Iranian nice lead old-fashioned monkey",
         "nice old-fashioned Iranian lead monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant explanations or examples.\nOptions: ##A: Iranian nice lead old-fashioned monkey\n##B: nice old-fashioned Iranian lead monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3660,7 +3780,9 @@
         "old-fashioned white Russian iron computer",
         "old-fashioned Russian white iron computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a list of adjective orders that are grammatically correct. Adjective order is a term used to describe the way adjectives are ordered in a sentence.\nOptions: ##A: old-fashioned white Russian iron computer\n##B: old-fashioned Russian white iron computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3719,7 +3841,9 @@
         "cloth pink prismlike wonderful exercise large shoe",
         "wonderful large prismlike pink cloth exercise shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it has the correct order.\nOptions: ##A: cloth pink prismlike wonderful exercise large shoe\n##B: wonderful large prismlike pink cloth exercise shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3774,7 +3898,9 @@
         "fiberglass large tan car",
         "large tan fiberglass car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any necessary context.\nOptions: ##A: fiberglass large tan car\n##B: large tan fiberglass car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3833,7 +3959,9 @@
         "old silver lovely monkey",
         "lovely old silver monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: old silver lovely monkey\n##B: lovely old silver monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3896,7 +4024,9 @@
         "mysterious midsize old-fashioned purple chair",
         "mysterious purple midsize old-fashioned chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please capitalize the adjectives in the sentence.\nOptions: ##A: mysterious midsize old-fashioned purple chair\n##B: mysterious purple midsize old-fashioned chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -3963,7 +4093,9 @@
         "Chinese drinking grey motorcycle",
         "grey Chinese drinking motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives correctly in the sentence[Sentence with the correct adjective order]:\nOptions: ##A: Chinese drinking grey motorcycle\n##B: grey Chinese drinking motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4022,7 +4154,9 @@
         "big circular pink Thai silver driving car",
         "silver circular driving big Thai pink car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order, and can you provide an explanation?\nOptions: ##A: big circular pink Thai silver driving car\n##B: silver circular driving big Thai pink car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4073,7 +4207,9 @@
         "big ancient square red American cardboard eating shoe",
         "red ancient big cardboard American square eating shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please determine whether the adjectives in the sentence are in the correct order.\nOptions: ##A: big ancient square red American cardboard eating shoe\n##B: red ancient big cardboard American square eating shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4128,7 +4264,9 @@
         "rectangular tiny purple fiberglass dog",
         "tiny rectangular purple fiberglass dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that demonstrates the correct adjective order.\nOptions: ##A: rectangular tiny purple fiberglass dog\n##B: tiny rectangular purple fiberglass dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4183,7 +4321,9 @@
         "ridiculous midsize old-fashioned pyramidal gray wool driving sock",
         "old-fashioned wool midsize pyramidal gray ridiculous driving sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the full sentence and any necessary context.\nOptions: ##A: ridiculous midsize old-fashioned pyramidal gray wool driving sock\n##B: old-fashioned wool midsize pyramidal gray ridiculous driving sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4242,7 +4382,9 @@
         "Turkish square terrible chair",
         "terrible square Turkish chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order?\nAdjective order: [specific order of adjectives]\nOptions: ##A: Turkish square terrible chair\n##B: terrible square Turkish chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4301,7 +4443,9 @@
         "whittling Nigerian computer",
         "Nigerian whittling computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please arrange the adjectives in the sentence to correctly describe their order.\nOptions: ##A: whittling Nigerian computer\n##B: Nigerian whittling computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4352,7 +4496,9 @@
         "driving blue car",
         "blue driving car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and give a brief explanation of why it is correct.\nOptions: ##A: driving blue car\n##B: blue driving car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4411,7 +4557,9 @@
         "drinking old monkey",
         "old drinking monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: drinking old monkey\n##B: old drinking monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B) old drinking monkey"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4466,7 +4614,9 @@
         "circular Pakistani exercise steel mysterious black old surfboard",
         "mysterious old circular black Pakistani steel exercise surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide the sentence that correctly orders the adjectives: [Adjective 1 - Adjective n.]\nOptions: ##A: circular Pakistani exercise steel mysterious black old surfboard\n##B: mysterious old circular black Pakistani steel exercise surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4525,7 +4675,9 @@
         "snorkeling awful silver sweater",
         "awful silver snorkeling sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please identify the sentence that has the correct adjective order.\nOptions: ##A: snorkeling awful silver sweater\n##B: awful silver snorkeling sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4580,7 +4732,9 @@
         "mysterious medium-size red Indonesian monkey",
         "mysterious Indonesian medium-size red monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide the sentence that correctly orders the adjectives.\nOptions: ##A: mysterious medium-size red Indonesian monkey\n##B: mysterious Indonesian medium-size red monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4635,7 +4789,9 @@
         "terrible archaic pyramidal white Nigerian match",
         "pyramidal Nigerian terrible white archaic match"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order according to the traditional rules of English grammar? Please provide an explanation or sentence diagram to support your answer.\nOptions: ##A: terrible archaic pyramidal white Nigerian match\n##B: pyramidal Nigerian terrible white archaic match\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4690,7 +4846,9 @@
         "old purple Congolese rectangular sweater",
         "old rectangular purple Congolese sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order in terms of the order of the adjectives?\nOptions: ##A: old purple Congolese rectangular sweater\n##B: old rectangular purple Congolese sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4749,7 +4907,9 @@
         "midsize purple Russian gold snorkeling sock",
         "gold Russian midsize purple snorkeling sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: midsize purple Russian gold snorkeling sock\n##B: gold Russian midsize purple snorkeling sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4796,7 +4956,9 @@
         "enormous triangular American walking car",
         "enormous walking American triangular car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain the correct adjective order.\nOptions: ##A: enormous triangular American walking car\n##B: enormous walking American triangular car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4859,7 +5021,9 @@
         "enormous smoking square Russian car",
         "enormous square Russian smoking car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please identify the sentence and provide an explanation of why it is correct.\nOptions: ##A: enormous smoking square Russian car\n##B: enormous square Russian smoking car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4918,7 +5082,9 @@
         "lovely ancient triangular orange Turkish wood smoking shoe",
         "Turkish wood smoking lovely orange ancient triangular shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and its original order.\nOptions: ##A: lovely ancient triangular orange Turkish wood smoking shoe\n##B: Turkish wood smoking lovely orange ancient triangular shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -4965,7 +5131,9 @@
         "old-fashioned huge obnoxious prismlike smoking motorcycle",
         "obnoxious huge old-fashioned prismlike smoking motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context information.\nOptions: ##A: old-fashioned huge obnoxious prismlike smoking motorcycle\n##B: obnoxious huge old-fashioned prismlike smoking motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5024,7 +5192,9 @@
         "walking archaic terrible Vietnamese tan baby",
         "terrible archaic tan Vietnamese walking baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that correctly orders the adjectives.\nOptions: ##A: walking archaic terrible Vietnamese tan baby\n##B: terrible archaic tan Vietnamese walking baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5083,7 +5253,9 @@
         "brand-new pink ridiculous wood massive baby",
         "ridiculous massive brand-new pink wood baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant information about the adjectives.\nOptions: ##A: brand-new pink ridiculous wood massive baby\n##B: ridiculous massive brand-new pink wood baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5138,7 +5310,9 @@
         "enormous pyramidal white Indonesian glass smoking cat",
         "pyramidal Indonesian enormous smoking white glass cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it has the correct order.\nOptions: ##A: enormous pyramidal white Indonesian glass smoking cat\n##B: pyramidal Indonesian enormous smoking white glass cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5197,7 +5371,9 @@
         "little pink Indonesian drinking repulsive dog",
         "repulsive little pink Indonesian drinking dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective order is important in sentence structure. Please identify the sentence that correctly orders its adjectives.\nOptions: ##A: little pink Indonesian drinking repulsive dog\n##B: repulsive little pink Indonesian drinking dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5256,7 +5432,9 @@
         "medium-size ancient rectangular Congolese whittling ship",
         "medium-size whittling rectangular ancient Congolese ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives in the correct order in the sentence: [The sentence is correct].\nOptions: ##A: medium-size ancient rectangular Congolese whittling ship\n##B: medium-size whittling rectangular ancient Congolese ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5315,7 +5493,9 @@
         "lovely tiny triangular black knife",
         "black triangular tiny lovely knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any additional context if needed.\nOptions: ##A: lovely tiny triangular black knife\n##B: black triangular tiny lovely knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5374,7 +5554,9 @@
         "nice midsize brand-new drinking surfboard",
         "drinking nice brand-new midsize surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: nice midsize brand-new drinking surfboard\n##B: drinking nice brand-new midsize surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(A)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5441,7 +5623,9 @@
         "obnoxious big prismlike orange Filipino glass knife",
         "obnoxious big prismlike Filipino orange glass knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that correctly orders the adjectives.\nOptions: ##A: obnoxious big prismlike orange Filipino glass knife\n##B: obnoxious big prismlike Filipino orange glass knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5500,7 +5684,9 @@
         "medium-size Filipino old-fashioned ship",
         "medium-size old-fashioned Filipino ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation or correction if necessary.\nOptions: ##A: medium-size Filipino old-fashioned ship\n##B: medium-size old-fashioned Filipino ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5559,7 +5745,9 @@
         "huge snorkeling tan cloth spherical ship",
         "huge spherical tan cloth snorkeling ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: huge snorkeling tan cloth spherical ship\n##B: huge spherical tan cloth snorkeling ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5610,7 +5798,9 @@
         "driving pyramidal small chair",
         "small pyramidal driving chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: driving pyramidal small chair\n##B: small pyramidal driving chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5673,7 +5863,9 @@
         "nice little brand-new spherical purple lead chair",
         "little brand-new lead nice spherical purple chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please identify the sentence and provide an explanation for the correct adjective order.\nOptions: ##A: nice little brand-new spherical purple lead chair\n##B: little brand-new lead nice spherical purple chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5736,7 +5928,9 @@
         "archaic nice snorkeling rectangular grey baby",
         "nice archaic rectangular grey snorkeling baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context information.\nOptions: ##A: archaic nice snorkeling rectangular grey baby\n##B: nice archaic rectangular grey snorkeling baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5803,7 +5997,9 @@
         "big cloth typing Russian terrible computer",
         "terrible big Russian cloth typing computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please identify the sentence and provide a detailed explanation of why the adjectives are in the correct order.\nOptions: ##A: big cloth typing Russian terrible computer\n##B: terrible big Russian cloth typing computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5858,7 +6054,9 @@
         "big square ship",
         "square big ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation of the adjective order in the sentence.\nOptions: ##A: big square ship\n##B: square big ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5921,7 +6119,9 @@
         "nice enormous blue Bangladeshi dog",
         "Bangladeshi nice blue enormous dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant details, such as the number of adjectives and their order. You can also suggest a resource or technique for checking adjective order.\nOptions: ##A: nice enormous blue Bangladeshi dog\n##B: Bangladeshi nice blue enormous dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -5984,7 +6184,9 @@
         "glass brown circular walking baby",
         "circular brown glass walking baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context.\nOptions: ##A: glass brown circular walking baby\n##B: circular brown glass walking baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6043,7 +6245,9 @@
         "brand-new circular Pakistani surfboard",
         "Pakistani circular brand-new surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide the sentence that correctly orders the adjectives in a specific way.\nOptions: ##A: brand-new circular Pakistani surfboard\n##B: Pakistani circular brand-new surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6106,7 +6310,9 @@
         "lovely purple Pakistani rectangular new typing sweater",
         "lovely new rectangular purple Pakistani typing sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: lovely purple Pakistani rectangular new typing sweater\n##B: lovely new rectangular purple Pakistani typing sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6157,7 +6363,9 @@
         "archaic square orange wool dog",
         "archaic wool square orange dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives in the correct order for the sentence \"The cat is grey and white.\"\nOptions: ##A: archaic square orange wool dog\n##B: archaic wool square orange dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6212,7 +6420,9 @@
         "repulsive normal-size green old-fashioned cardboard surfboard",
         "repulsive normal-size old-fashioned green cardboard surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: repulsive normal-size green old-fashioned cardboard surfboard\n##B: repulsive normal-size old-fashioned green cardboard surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6263,7 +6473,9 @@
         "midsize prismlike Japanese rubber exercise shoe",
         "prismlike exercise Japanese rubber midsize shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives in the correct order: [OPINION], [ALWAYS], [NEVER], [Sometimes], and [ALWAYS NOT].\nOptions: ##A: midsize prismlike Japanese rubber exercise shoe\n##B: prismlike exercise Japanese rubber midsize shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6318,7 +6530,9 @@
         "repulsive old-fashioned rectangular green Japanese exercise ship",
         "rectangular exercise green old-fashioned Japanese repulsive ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: repulsive old-fashioned rectangular green Japanese exercise ship\n##B: rectangular exercise green old-fashioned Japanese repulsive ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6381,7 +6595,9 @@
         "tiny rubber archaic smoking ship",
         "tiny archaic rubber smoking ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: tiny rubber archaic smoking ship\n##B: tiny archaic rubber smoking ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6436,7 +6652,9 @@
         "large red good chair",
         "good large red chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order is correct in the sentence. Adjectives should be listed in the order they are used.\nOptions: ##A: large red good chair\n##B: good large red chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6495,7 +6713,9 @@
         "new walking Turkish green sock",
         "new green Turkish walking sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjectives in the sentence \"The [adjective 1], [adjective 2], and [adjective 3] are in the correct order.\"\nOptions: ##A: new walking Turkish green sock\n##B: new green Turkish walking sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6550,7 +6770,9 @@
         "little black driving ship",
         "driving little black ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why the adjective order is correct.\nOptions: ##A: little black driving ship\n##B: driving little black ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6605,7 +6827,9 @@
         "lovely archaic cardboard cat",
         "cardboard archaic lovely cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: lovely archaic cardboard cat\n##B: cardboard archaic lovely cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6664,7 +6888,9 @@
         "brand-new terrible large cat",
         "terrible large brand-new cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please check the sentence and provide the correct adjective order.\nOptions: ##A: brand-new terrible large cat\n##B: terrible large brand-new cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6723,7 +6949,9 @@
         "rectangular American orange little shoe",
         "little rectangular orange American shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: rectangular American orange little shoe\n##B: little rectangular orange American shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6790,7 +7018,9 @@
         "black typing awful computer",
         "awful black typing computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide an explanation or clarification if necessary.\nOptions: ##A: black typing awful computer\n##B: awful black typing computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6853,7 +7083,9 @@
         "paper Indian ancient pink pyramidal ship",
         "ancient pyramidal pink Indian paper ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context information.\nOptions: ##A: paper Indian ancient pink pyramidal ship\n##B: ancient pyramidal pink Indian paper ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6908,7 +7140,9 @@
         "mysterious ancient Indonesian paper cat",
         "paper mysterious ancient Indonesian cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation or correction if necessary.\nOptions: ##A: mysterious ancient Indonesian paper cat\n##B: paper mysterious ancient Indonesian cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -6971,7 +7205,9 @@
         "big brand-new orange fiberglass snorkeling knife",
         "snorkeling fiberglass brand-new orange big knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please analyze the adjective order in the sentence and provide the correct adjective order.\nOptions: ##A: big brand-new orange fiberglass snorkeling knife\n##B: snorkeling fiberglass brand-new orange big knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7030,7 +7266,9 @@
         "obnoxious midsize wood computer",
         "obnoxious wood midsize computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: obnoxious midsize wood computer\n##B: obnoxious wood midsize computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7089,7 +7327,9 @@
         "mysterious little Bangladeshi silver baby",
         "silver mysterious little Bangladeshi baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation or correction if necessary.\nOptions: ##A: mysterious little Bangladeshi silver baby\n##B: silver mysterious little Bangladeshi baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7152,7 +7392,9 @@
         "fiberglass old surfboard",
         "old fiberglass surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that correctly orders the adjectives: [Adjective 1], [Adjective 2], [Adjective 3].\nOptions: ##A: fiberglass old surfboard\n##B: old fiberglass surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7223,7 +7465,9 @@
         "massive cardboard good Thai sweater",
         "good massive Thai cardboard sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and indicate whether it has the correct adjective order.\nOptions: ##A: massive cardboard good Thai sweater\n##B: good massive Thai cardboard sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7282,7 +7526,9 @@
         "Thai tiny fiberglass eating car",
         "tiny Thai fiberglass eating car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please identify the sentence that has the correct adjective order.\nOptions: ##A: Thai tiny fiberglass eating car\n##B: tiny Thai fiberglass eating car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7341,7 +7587,9 @@
         "nice little pyramidal red Nigerian drinking car",
         "little nice Nigerian red drinking pyramidal car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and indicate whether it is a positive or negative sentence.\nOptions: ##A: nice little pyramidal red Nigerian drinking car\n##B: little nice Nigerian red drinking pyramidal car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7404,7 +7652,9 @@
         "large archaic red Indonesian sock",
         "large red Indonesian archaic sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives in the correct order in the sentence. Adjective order: [optional]\nOptions: ##A: large archaic red Indonesian sock\n##B: large red Indonesian archaic sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7459,7 +7709,9 @@
         "good rubber cat",
         "rubber good cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: good rubber cat\n##B: rubber good cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7514,7 +7766,9 @@
         "brand-new square black wool eating motorcycle",
         "eating square wool brand-new black motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: brand-new square black wool eating motorcycle\n##B: eating square wool brand-new black motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(A)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7569,7 +7823,9 @@
         "glass spherical gray hiking ancient shoe",
         "ancient spherical gray glass hiking shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and clearly state whether it has the correct adjective order.\nOptions: ##A: glass spherical gray hiking ancient shoe\n##B: ancient spherical gray glass hiking shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7620,7 +7876,9 @@
         "square massive sweater",
         "massive square sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that correctly orders the adjectives: [adjective 1] [adjective 2] [adjective 3].\nOptions: ##A: square massive sweater\n##B: massive square sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7683,7 +7941,9 @@
         "Mexican paper baby",
         "paper Mexican baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please identify the sentence and provide the correct adjective order if you are confident in your answer.\nOptions: ##A: Mexican paper baby\n##B: paper Mexican baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7742,7 +8002,9 @@
         "Japanese silver square awful motorcycle",
         "awful square Japanese silver motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order: [Adjective 1] [Adjective 2] [Adjective 3].\nOptions: ##A: Japanese silver square awful motorcycle\n##B: awful square Japanese silver motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7809,7 +8071,9 @@
         "wonderful large triangular Bangladeshi eating computer",
         "triangular eating large wonderful Bangladeshi computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please identify the sentence with the correct adjective order.\nOptions: ##A: wonderful large triangular Bangladeshi eating computer\n##B: triangular eating large wonderful Bangladeshi computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7860,7 +8124,9 @@
         "good ancient square Indian motorcycle",
         "ancient Indian good square motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure the adjective order is correct in the sentence \"Orange, juicy, sweet, and tangy.\"\nOptions: ##A: good ancient square Indian motorcycle\n##B: ancient Indian good square motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7919,7 +8185,9 @@
         "orange large iron Iranian computer",
         "large orange Iranian iron computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and adjective order.\nAsk the assistant to order the adjectives correctly.\nOptions: ##A: orange large iron Iranian computer\n##B: large orange Iranian iron computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -7974,7 +8242,9 @@
         "lovely fiberglass archaic pyramidal Nigerian brown motorcycle",
         "lovely archaic pyramidal brown Nigerian fiberglass motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective order in a sentence: [Please provide the sentence with the correct adjective order.]\nOptions: ##A: lovely fiberglass archaic pyramidal Nigerian brown motorcycle\n##B: lovely archaic pyramidal brown Nigerian fiberglass motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8037,7 +8307,9 @@
         "iron midsize dog",
         "midsize iron dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: iron midsize dog\n##B: midsize iron dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8096,7 +8368,9 @@
         "Pakistani snorkeling large old ship",
         "large old Pakistani snorkeling ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives in the correct order in the sentence: [Adjective 1, Adjective 2, [Adjective 3].\"\nOptions: ##A: Pakistani snorkeling large old ship\n##B: large old Pakistani snorkeling ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8163,7 +8437,9 @@
         "good huge old black Iranian wood walking chair",
         "huge good black old walking Iranian wood chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order: [adjective1] [adjective2] [adjective3]\nOptions: ##A: good huge old black Iranian wood walking chair\n##B: huge good black old walking Iranian wood chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8226,7 +8502,9 @@
         "Nigerian silly old-fashioned hiking prismlike chair",
         "silly old-fashioned prismlike Nigerian hiking chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please capitalize the adjectives in the sentence.\nOptions: ##A: Nigerian silly old-fashioned hiking prismlike chair\n##B: silly old-fashioned prismlike Nigerian hiking chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8293,7 +8571,9 @@
         "new Turkish spherical silver obnoxious dog",
         "obnoxious new spherical Turkish silver dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: In a sentence, the adjectives should be in the correct order: [DESCRIBES SENTENCE].\nOptions: ##A: new Turkish spherical silver obnoxious dog\n##B: obnoxious new spherical Turkish silver dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8344,7 +8624,9 @@
         "brand-new grey paper sweater",
         "grey paper brand-new sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: brand-new grey paper sweater\n##B: grey paper brand-new sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8399,7 +8681,9 @@
         "old circular brown Turkish wool car",
         "brown circular Turkish wool old car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and specify whether it is a good order or not.\nOptions: ##A: old circular brown Turkish wool car\n##B: brown circular Turkish wool old car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8454,7 +8738,9 @@
         "brand-new green cloth typing knife",
         "cloth brand-new green typing knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjectives are in the correct order in the sentence: [Adjective 1 + Adjective 2 + Adjective 3].\nOptions: ##A: brand-new green cloth typing knife\n##B: cloth brand-new green typing knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8505,7 +8791,9 @@
         "purple new enormous drinking awful motorcycle",
         "awful enormous new purple drinking motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Determine whether the sentence \"The cat is brown\" has the correct adjective order.\nOptions: ##A: purple new enormous drinking awful motorcycle\n##B: awful enormous new purple drinking motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8564,7 +8852,9 @@
         "small archaic square leather sock",
         "archaic small leather square sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: small archaic square leather sock\n##B: archaic small leather square sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8623,7 +8913,9 @@
         "terrible old prismlike Mexican hiking knife",
         "old hiking terrible prismlike Mexican knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and, if necessary, any additional context.\nOptions: ##A: terrible old prismlike Mexican hiking knife\n##B: old hiking terrible prismlike Mexican knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8686,7 +8978,9 @@
         "silly grey silver chair",
         "silver grey silly chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it has the correct order. You can also suggest ways to improve the sentence.\nOptions: ##A: silly grey silver chair\n##B: silver grey silly chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8753,7 +9047,9 @@
         "Russian whittling lovely enormous motorcycle",
         "lovely enormous Russian whittling motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and indicate whether it has the correct adjective order.\nOptions: ##A: Russian whittling lovely enormous motorcycle\n##B: lovely enormous Russian whittling motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8812,7 +9108,9 @@
         "cardboard ridiculous old-fashioned cat",
         "ridiculous old-fashioned cardboard cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: cardboard ridiculous old-fashioned cat\n##B: ridiculous old-fashioned cardboard cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8863,7 +9161,9 @@
         "massive prismlike smoking chair",
         "massive smoking prismlike chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence demonstrates the correct adjective order?\nOptions: ##A: massive prismlike smoking chair\n##B: massive smoking prismlike chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8922,7 +9222,9 @@
         "nice old Bangladeshi red hiking shoe",
         "nice old red Bangladeshi hiking shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: nice old Bangladeshi red hiking shoe\n##B: nice old red Bangladeshi hiking shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -8977,7 +9279,9 @@
         "midsize triangular Congolese drinking car",
         "Congolese triangular midsize drinking car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: midsize triangular Congolese drinking car\n##B: Congolese triangular midsize drinking car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9036,7 +9340,9 @@
         "repulsive massive ancient eating shoe",
         "massive repulsive eating ancient shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation to support your answer.\nOptions: ##A: repulsive massive ancient eating shoe\n##B: massive repulsive eating ancient shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9095,7 +9401,9 @@
         "tan snorkeling little match",
         "little tan snorkeling match"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjectives in the sentence are in the correct order. Adjectives should be listed in the order they appear.\nOptions: ##A: tan snorkeling little match\n##B: little tan snorkeling match\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9154,7 +9462,9 @@
         "tiny new triangular gray walking car",
         "triangular new gray tiny walking car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please review the sentence and ensure that the adjectives are in the correct order.\nOptions: ##A: tiny new triangular gray walking car\n##B: triangular new gray tiny walking car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9213,7 +9523,9 @@
         "square cardboard old-fashioned Japanese exercise white motorcycle",
         "old-fashioned square white Japanese cardboard exercise motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation of the correct adjective order in the sentence.\nOptions: ##A: square cardboard old-fashioned Japanese exercise white motorcycle\n##B: old-fashioned square white Japanese cardboard exercise motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9268,7 +9580,9 @@
         "mysterious Indian pyramidal sock",
         "mysterious pyramidal Indian sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant explanations or examples.\nOptions: ##A: mysterious Indian pyramidal sock\n##B: mysterious pyramidal Indian sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9335,7 +9649,9 @@
         "wonderful fiberglass small new walking sock",
         "wonderful small new fiberglass walking sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please identify the sentence that correctly orders the adjectives.\nOptions: ##A: wonderful fiberglass small new walking sock\n##B: wonderful small new fiberglass walking sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9402,7 +9718,9 @@
         "driving paper old-fashioned brown Bangladeshi good spherical shoe",
         "good old-fashioned spherical brown Bangladeshi paper driving shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: driving paper old-fashioned brown Bangladeshi good spherical shoe\n##B: good old-fashioned spherical brown Bangladeshi paper driving shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9473,7 +9791,9 @@
         "nice enormous gold sock",
         "enormous nice gold sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant adjectives.\nOptions: ##A: nice enormous gold sock\n##B: enormous nice gold sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9532,7 +9852,9 @@
         "little ridiculous match",
         "ridiculous little match"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: little ridiculous match\n##B: ridiculous little match\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9595,7 +9917,9 @@
         "tiny old-fashioned prismlike pink Chinese surfboard",
         "tiny old-fashioned pink prismlike Chinese surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order. Adjectives should be in the order they are listed.\nOptions: ##A: tiny old-fashioned prismlike pink Chinese surfboard\n##B: tiny old-fashioned pink prismlike Chinese surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9658,7 +9982,9 @@
         "archaic spherical hiking match",
         "archaic hiking spherical match"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: archaic spherical hiking match\n##B: archaic hiking spherical match\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9721,7 +10047,9 @@
         "little prismlike Russian nice knife",
         "nice little prismlike Russian knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order. Adjectives should be ordered based on their importance and relevance to the sentence. Please ensure that the adjective order is correct and provides a detailed and coherent description.\nOptions: ##A: little prismlike Russian nice knife\n##B: nice little prismlike Russian knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9780,7 +10108,9 @@
         "rectangular plastic drinking new tan computer",
         "new rectangular tan plastic drinking computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: rectangular plastic drinking new tan computer\n##B: new rectangular tan plastic drinking computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9839,7 +10169,9 @@
         "red Ethiopian match",
         "Ethiopian red match"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and give an explanation of why it is correct.\nOptions: ##A: red Ethiopian match\n##B: Ethiopian red match\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9890,7 +10222,9 @@
         "small obnoxious American spherical leather red ship",
         "obnoxious small spherical red American leather ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the adjectives in the correct order? Please provide the sentence and any necessary context.\nOptions: ##A: small obnoxious American spherical leather red ship\n##B: obnoxious small spherical red American leather ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -9949,7 +10283,9 @@
         "good square Ethiopian snorkeling motorcycle",
         "Ethiopian square snorkeling good motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: good square Ethiopian snorkeling motorcycle\n##B: Ethiopian square snorkeling good motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10008,7 +10344,9 @@
         "eating small circular nice chair",
         "nice small circular eating chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: eating small circular nice chair\n##B: nice small circular eating chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10059,7 +10397,9 @@
         "Indian huge new tan dog",
         "huge new tan Indian dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please correctly order the adjectives in the sentence:\n\"The big red car.\"\nOptions: ##A: Indian huge new tan dog\n##B: huge new tan Indian dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10126,7 +10466,9 @@
         "mysterious lead orange walking surfboard",
         "mysterious orange lead walking surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please identify the sentence that has the correct adjective order.\nOptions: ##A: mysterious lead orange walking surfboard\n##B: mysterious orange lead walking surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10185,7 +10527,9 @@
         "awful huge iron walking sock",
         "huge awful iron walking sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: awful huge iron walking sock\n##B: huge awful iron walking sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10244,7 +10588,9 @@
         "massive Congolese cloth smoking surfboard",
         "cloth smoking massive Congolese surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation to support your answer.\nOptions: ##A: massive Congolese cloth smoking surfboard\n##B: cloth smoking massive Congolese surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10303,7 +10649,9 @@
         "old Congolese fiberglass snorkeling sweater",
         "snorkeling Congolese fiberglass old sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and make sure to explain why it is correct.\nOptions: ##A: old Congolese fiberglass snorkeling sweater\n##B: snorkeling Congolese fiberglass old sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10366,7 +10714,9 @@
         "tiny new circular cloth sweater",
         "circular tiny new cloth sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: tiny new circular cloth sweater\n##B: circular tiny new cloth sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10425,7 +10775,9 @@
         "mysterious massive brown Nigerian fiberglass whittling ship",
         "whittling brown Nigerian fiberglass massive mysterious ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: mysterious massive brown Nigerian fiberglass whittling ship\n##B: whittling brown Nigerian fiberglass massive mysterious ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10484,7 +10836,9 @@
         "tan wool huge awful car",
         "awful huge tan wool car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjectives in the sentence are in the correct order.\nOptions: ##A: tan wool huge awful car\n##B: awful huge tan wool car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10547,7 +10901,9 @@
         "archaic ridiculous prismlike tiny cardboard Thai sock",
         "ridiculous tiny archaic prismlike Thai cardboard sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: archaic ridiculous prismlike tiny cardboard Thai sock\n##B: ridiculous tiny archaic prismlike Thai cardboard sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10610,7 +10966,9 @@
         "exercise rectangular brand-new lovely dog",
         "lovely brand-new rectangular exercise dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any necessary contextual information.\nOptions: ##A: exercise rectangular brand-new lovely dog\n##B: lovely brand-new rectangular exercise dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10661,7 +11019,9 @@
         "smoking plastic blue ship",
         "blue plastic smoking ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please identify the sentence and provide a detailed explanation to support your answer.\nOptions: ##A: smoking plastic blue ship\n##B: blue plastic smoking ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10716,7 +11076,9 @@
         "good old prismlike monkey",
         "prismlike good old monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: good old prismlike monkey\n##B: prismlike good old monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(A)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10767,7 +11129,9 @@
         "green typing Brazilian archaic normal-size car",
         "normal-size archaic green Brazilian typing car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives correctly in the sentence: \"Adjectives: [adjective 1], [adjective 2], [adjective 3], [adjective 4].\"\nOptions: ##A: green typing Brazilian archaic normal-size car\n##B: normal-size archaic green Brazilian typing car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10822,7 +11186,9 @@
         "old snorkeling little green sweater",
         "little old green snorkeling sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a response that not only identifies the correct sentence but also explains the adjective order in the sentence.\nOptions: ##A: old snorkeling little green sweater\n##B: little old green snorkeling sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10873,7 +11239,9 @@
         "terrible normal-size circular red fiberglass baby",
         "red normal-size circular fiberglass terrible baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective order in the sentence:\n[BEGIN]\"\nWhich sentence has the correct adjective order:\n[END]\"\nOptions: ##A: terrible normal-size circular red fiberglass baby\n##B: red normal-size circular fiberglass terrible baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10928,7 +11296,9 @@
         "repulsive rectangular black huge lead match",
         "repulsive huge rectangular black lead match"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective order is important in sentences. Which sentence has the correct adjective order?\nOptions: ##A: repulsive rectangular black huge lead match\n##B: repulsive huge rectangular black lead match\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -10987,7 +11357,9 @@
         "tiny rubber pyramidal knife",
         "tiny pyramidal rubber knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: tiny rubber pyramidal knife\n##B: tiny pyramidal rubber knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11050,7 +11422,9 @@
         "enormous circular Pakistani snorkeling gold yellow baby",
         "enormous circular yellow Pakistani gold snorkeling baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order is correct in the sentence.\nOptions: ##A: enormous circular Pakistani snorkeling gold yellow baby\n##B: enormous circular yellow Pakistani gold snorkeling baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11109,7 +11483,9 @@
         "old-fashioned rectangular Nigerian rubber snorkeling monkey",
         "Nigerian rectangular old-fashioned rubber snorkeling monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: old-fashioned rectangular Nigerian rubber snorkeling monkey\n##B: Nigerian rectangular old-fashioned rubber snorkeling monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11160,7 +11536,9 @@
         "midsize circular fiberglass knife",
         "circular fiberglass midsize knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please capitalize the adjectives correctly.\nOptions: ##A: midsize circular fiberglass knife\n##B: circular fiberglass midsize knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11215,7 +11593,9 @@
         "lovely massive Russian baby",
         "massive lovely Russian baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct.\nOptions: ##A: lovely massive Russian baby\n##B: massive lovely Russian baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11282,7 +11662,9 @@
         "awful small paper ship",
         "paper awful small ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective order in a sentence:\n[Adjective 1, Adjective 2, Adjective 3]\nWhich sentence has the correct adjective order?\nOptions: ##A: awful small paper ship\n##B: paper awful small ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11345,7 +11727,9 @@
         "enormous tan chair",
         "tan enormous chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context.\nOptions: ##A: enormous tan chair\n##B: tan enormous chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11400,7 +11784,9 @@
         "circular small brand-new car",
         "small brand-new circular car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant details.\nOptions: ##A: circular small brand-new car\n##B: small brand-new circular car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11463,7 +11849,9 @@
         "spherical terrible pink typing chair",
         "terrible spherical pink typing chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct. Adjectives should be listed in the order they are mentioned. For example, if a sentence mentions multiple adjectives, they should be listed in the order they are mentioned. Please make sure to follow the correct adjective order.\nOptions: ##A: spherical terrible pink typing chair\n##B: terrible spherical pink typing chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(A)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11530,7 +11918,9 @@
         "German gray lovely ship",
         "lovely gray German ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any additional information if necessary.\nOptions: ##A: German gray lovely ship\n##B: lovely gray German ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11585,7 +11975,9 @@
         "triangular purple exercise cloth silly sweater",
         "silly triangular purple cloth exercise sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please note that adjective order can vary in writing, but the sentence should still convey the intended meaning.\nOptions: ##A: triangular purple exercise cloth silly sweater\n##B: silly triangular purple cloth exercise sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11640,7 +12032,9 @@
         "ridiculous pyramidal big leather sock",
         "ridiculous big pyramidal leather sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any necessary context.\nOptions: ##A: ridiculous pyramidal big leather sock\n##B: ridiculous big pyramidal leather sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11695,7 +12089,9 @@
         "awful little triangular paper motorcycle",
         "triangular awful paper little motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: awful little triangular paper motorcycle\n##B: triangular awful paper little motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(A)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11758,7 +12154,9 @@
         "triangular new Vietnamese steel tiny awful pink match",
         "awful tiny new triangular pink Vietnamese steel match"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence that has the correct adjective order.\nOptions: ##A: triangular new Vietnamese steel tiny awful pink match\n##B: awful tiny new triangular pink Vietnamese steel match\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11813,7 +12211,9 @@
         "blue Indian repulsive wool normal-size dog",
         "repulsive normal-size blue Indian wool dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Provide a detailed explanation to support your answer.\nOptions: ##A: blue Indian repulsive wool normal-size dog\n##B: repulsive normal-size blue Indian wool dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11880,7 +12280,9 @@
         "silly midsize rectangular Thai paper dog",
         "midsize Thai silly paper rectangular dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context.\nOptions: ##A: silly midsize rectangular Thai paper dog\n##B: midsize Thai silly paper rectangular dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -11947,7 +12349,9 @@
         "good spherical shoe",
         "spherical good shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: good spherical shoe\n##B: spherical good shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12002,7 +12406,9 @@
         "large brand-new spherical red Congolese plastic chair",
         "spherical Congolese brand-new red plastic large chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: large brand-new spherical red Congolese plastic chair\n##B: spherical Congolese brand-new red plastic large chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12065,7 +12471,9 @@
         "lovely tiny old-fashioned pyramidal Pakistani glass eating cat",
         "pyramidal lovely old-fashioned Pakistani tiny eating glass cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation of the adjective order in the sentence.\nOptions: ##A: lovely tiny old-fashioned pyramidal Pakistani glass eating cat\n##B: pyramidal lovely old-fashioned Pakistani tiny eating glass cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12124,7 +12532,9 @@
         "silly ancient brown smoking shoe",
         "brown silly smoking ancient shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide the sentence that has the correct adjective order.\nOptions: ##A: silly ancient brown smoking shoe\n##B: brown silly smoking ancient shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12183,7 +12593,9 @@
         "plastic grey old-fashioned small sock",
         "small old-fashioned grey plastic sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: plastic grey old-fashioned small sock\n##B: small old-fashioned grey plastic sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12242,7 +12654,9 @@
         "lovely little archaic prismlike black smoking motorcycle",
         "little lovely smoking archaic black prismlike motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant adjective order rules or conventions.\nOptions: ##A: lovely little archaic prismlike black smoking motorcycle\n##B: little lovely smoking archaic black prismlike motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12309,7 +12723,9 @@
         "old-fashioned circular rubber hiking cat",
         "rubber old-fashioned hiking circular cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives in the correct order: [sentence].\nOptions: ##A: old-fashioned circular rubber hiking cat\n##B: rubber old-fashioned hiking circular cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12368,7 +12784,9 @@
         "awful purple normal-size eating knife",
         "awful normal-size purple eating knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct.\nOptions: ##A: awful purple normal-size eating knife\n##B: awful normal-size purple eating knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12419,7 +12837,9 @@
         "lovely pink shoe",
         "pink lovely shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective order is important in a sentence. Please ensure that the adjectives in the sentence are in the correct order. For example, if the sentence is \"The big brown dog chased the little white cat,\" please make sure that the adjectives are \"big brown dog\" and \"little white cat.\" Please provide a sentence with the correct adjective order.\nOptions: ##A: lovely pink shoe\n##B: pink lovely shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12482,7 +12902,9 @@
         "yellow hiking brand-new Turkish rubber repulsive knife",
         "repulsive brand-new yellow Turkish rubber hiking knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and emphasize the importance of adjective order.\nOptions: ##A: yellow hiking brand-new Turkish rubber repulsive knife\n##B: repulsive brand-new yellow Turkish rubber hiking knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12541,7 +12963,9 @@
         "terrible archaic paper knife",
         "archaic paper terrible knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective order: Which sentence has the correct adjective order?\nOptions: ##A: terrible archaic paper knife\n##B: archaic paper terrible knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12592,7 +13016,9 @@
         "repulsive prismlike glass shoe",
         "glass repulsive prismlike shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives in the correct order for the sentence:\n\"He is a tall man with blue eyes.\"\nOptions: ##A: repulsive prismlike glass shoe\n##B: glass repulsive prismlike shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12651,7 +13077,9 @@
         "driving Thai wool enormous circular dog",
         "enormous circular Thai wool driving dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any additional information you think is relevant.\nOptions: ##A: driving Thai wool enormous circular dog\n##B: enormous circular Thai wool driving dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12702,7 +13130,9 @@
         "black hiking cardboard ancient spherical match",
         "ancient spherical black cardboard hiking match"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please rephrase the sentence to emphasize the importance of the adjective order in a positive sentence: \"Which sentence has the correct adjective order?\"\nOptions: ##A: black hiking cardboard ancient spherical match\n##B: ancient spherical black cardboard hiking match\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12757,7 +13187,9 @@
         "silver prismlike hiking brown shoe",
         "prismlike brown silver hiking shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context information.\nOptions: ##A: silver prismlike hiking brown shoe\n##B: prismlike brown silver hiking shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12820,7 +13252,9 @@
         "cloth Vietnamese little ancient sweater",
         "little ancient Vietnamese cloth sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant context.\nOptions: ##A: cloth Vietnamese little ancient sweater\n##B: little ancient Vietnamese cloth sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12875,7 +13309,9 @@
         "large spherical purple smoking new sweater",
         "large new spherical purple smoking sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: large spherical purple smoking new sweater\n##B: large new spherical purple smoking sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12938,7 +13374,9 @@
         "normal-size spherical Nigerian lovely exercise green ship",
         "lovely normal-size spherical green Nigerian exercise ship"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order when describing someone's personality?\nOptions: ##A: normal-size spherical Nigerian lovely exercise green ship\n##B: lovely normal-size spherical green Nigerian exercise ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -12997,7 +13435,9 @@
         "massive ancient triangular orange silver hiking computer",
         "hiking ancient triangular silver massive orange computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any necessary context.\nOptions: ##A: massive ancient triangular orange silver hiking computer\n##B: hiking ancient triangular silver massive orange computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13060,7 +13500,9 @@
         "silver medium-size dog",
         "medium-size silver dog"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: silver medium-size dog\n##B: medium-size silver dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13111,7 +13553,9 @@
         "ridiculous paper shoe",
         "paper ridiculous shoe"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and explain why it is correct.\nOptions: ##A: ridiculous paper shoe\n##B: paper ridiculous shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13166,7 +13610,9 @@
         "old-fashioned rectangular brown Russian baby",
         "Russian brown old-fashioned rectangular baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and adjective order.\nOptions: ##A: old-fashioned rectangular brown Russian baby\n##B: Russian brown old-fashioned rectangular baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13229,7 +13675,9 @@
         "small ancient spherical brown Russian fiberglass sock",
         "Russian spherical ancient fiberglass small brown sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order?\nOptions: ##A: small ancient spherical brown Russian fiberglass sock\n##B: Russian spherical ancient fiberglass small brown sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13292,7 +13740,9 @@
         "repulsive Ethiopian large red smoking pyramidal chair",
         "repulsive large pyramidal red Ethiopian smoking chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the adjectives in the correct order?\nOptions: ##A: repulsive Ethiopian large red smoking pyramidal chair\n##B: repulsive large pyramidal red Ethiopian smoking chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13359,7 +13809,9 @@
         "midsize brand-new purple Vietnamese fiberglass sweater",
         "fiberglass midsize brand-new Vietnamese purple sweater"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a list of sentences with the correct adjective order. Adjectives should be listed in the order they are usually found. Please ensure that the sentences are correct and provide an example for further clarity. Thank you!\nOptions: ##A: midsize brand-new purple Vietnamese fiberglass sweater\n##B: fiberglass midsize brand-new Vietnamese purple sweater\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(A)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13414,7 +13866,9 @@
         "old-fashioned circular green cardboard exercise computer",
         "old-fashioned green exercise circular cardboard computer"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective ordering in a sentence:\nAdjective 1\nAdjective 2\n...\nAdjective n.\nPlease ensure that the adjectives are in the correct order.\nOptions: ##A: old-fashioned circular green cardboard exercise computer\n##B: old-fashioned green exercise circular cardboard computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13469,7 +13923,9 @@
         "lead nice spherical little chair",
         "nice little spherical lead chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives in the correct order for the sentence: [Adjective 1, Adjective 2, ... Adjective n].\nOptions: ##A: lead nice spherical little chair\n##B: nice little spherical lead chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13532,7 +13988,9 @@
         "tiny rectangular pink driving surfboard",
         "pink driving tiny rectangular surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: tiny rectangular pink driving surfboard\n##B: pink driving tiny rectangular surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13583,7 +14041,9 @@
         "drinking good Bangladeshi tan paper monkey",
         "good tan Bangladeshi paper drinking monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order in the phrase \"The Big Sale\"?\nOptions: ##A: drinking good Bangladeshi tan paper monkey\n##B: good tan Bangladeshi paper drinking monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13646,7 +14106,9 @@
         "old drinking pyramidal brown monkey",
         "old pyramidal brown drinking monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please identify the sentence and provide an explanation for the correct adjective order.\nOptions: ##A: old drinking pyramidal brown monkey\n##B: old pyramidal brown drinking monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13705,7 +14167,9 @@
         "nice small square white steel motorcycle",
         "nice steel square white small motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide the sentence with the correct adjective order.\nOptions: ##A: nice small square white steel motorcycle\n##B: nice steel square white small motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13768,7 +14232,9 @@
         "brand-new Turkish iron monkey",
         "Turkish iron brand-new monkey"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant information about the order of the adjectives.\nOptions: ##A: brand-new Turkish iron monkey\n##B: Turkish iron brand-new monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13823,7 +14289,9 @@
         "lovely old gray motorcycle",
         "gray lovely old motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Determine the correct adjective order in the sentence.\nOptions: ##A: lovely old gray motorcycle\n##B: gray lovely old motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(A)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13882,7 +14350,9 @@
         "ridiculous triangular pink surfboard",
         "triangular pink ridiculous surfboard"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a sentence that correctly orders the adjectives. Provide an example.\nOptions: ##A: ridiculous triangular pink surfboard\n##B: triangular pink ridiculous surfboard\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -13949,7 +14419,9 @@
         "awful Mexican rubber tan car",
         "awful tan Mexican rubber car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence adheres to the correct adjective order? Please provide a detailed explanation to support your answer.\nOptions: ##A: awful Mexican rubber tan car\n##B: awful tan Mexican rubber car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14000,7 +14472,9 @@
         "huge purple motorcycle",
         "purple huge motorcycle"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives in this sentence correctly: \"The tall, dark, and handsome stranger walked into the room.\"\nOptions: ##A: huge purple motorcycle\n##B: purple huge motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14055,7 +14529,9 @@
         "archaic enormous awful exercise sock",
         "awful enormous archaic exercise sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide the sentence with the correct adjective order.\nOptions: ##A: archaic enormous awful exercise sock\n##B: awful enormous archaic exercise sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14118,7 +14594,9 @@
         "Turkish rectangular large knife",
         "large rectangular Turkish knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective order: Which sentence has the correct adjective order?\nOptions: ##A: Turkish rectangular large knife\n##B: large rectangular Turkish knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14169,7 +14647,9 @@
         "yellow huge typing square ancient car",
         "huge ancient square yellow typing car"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a list of sentences with the adjective order correct or incorrect. State the correct adjective order in the first sentence.\nAdjective Order: [B]\n[B]\nOptions: ##A: yellow huge typing square ancient car\n##B: huge ancient square yellow typing car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14236,7 +14716,9 @@
         "red little silly cloth eating rectangular sock",
         "silly little rectangular red cloth eating sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: red little silly cloth eating rectangular sock\n##B: silly little rectangular red cloth eating sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14295,7 +14777,9 @@
         "massive brand-new spherical Egyptian cat",
         "spherical massive Egyptian brand-new cat"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Determine the correct adjective order in the sentence:\nOptions: ##A: massive brand-new spherical Egyptian cat\n##B: spherical massive Egyptian brand-new cat\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14358,7 +14842,9 @@
         "repulsive prismlike Brazilian exercise baby",
         "exercise repulsive Brazilian prismlike baby"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: repulsive prismlike Brazilian exercise baby\n##B: exercise repulsive Brazilian prismlike baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14421,7 +14907,9 @@
         "wool Iranian ancient big smoking sock",
         "big ancient Iranian wool smoking sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any additional context if necessary.\nOptions: ##A: wool Iranian ancient big smoking sock\n##B: big ancient Iranian wool smoking sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14484,7 +14972,9 @@
         "mysterious medium-size old prismlike red Vietnamese silver sock",
         "silver red Vietnamese prismlike mysterious old medium-size sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please review the sentence and provide the correct adjective order.\nOptions: ##A: mysterious medium-size old prismlike red Vietnamese silver sock\n##B: silver red Vietnamese prismlike mysterious old medium-size sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14543,7 +15033,9 @@
         "plastic tiny silly knife",
         "silly tiny plastic knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: plastic tiny silly knife\n##B: silly tiny plastic knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14598,7 +15090,9 @@
         "enormous terrible typing chair",
         "terrible enormous typing chair"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide a detailed explanation.\nOptions: ##A: enormous terrible typing chair\n##B: terrible enormous typing chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14657,7 +15151,9 @@
         "silly old-fashioned Indian driving knife",
         "old-fashioned silly Indian driving knife"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the sentence with the correct adjective order is highlighted. Adjectives should be in the correct order: positive, negative, and neutral.\n[Sentence 1]\n[Sentence 2]\n[Sentence 3]\nOptions: ##A: silly old-fashioned Indian driving knife\n##B: old-fashioned silly Indian driving knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14716,7 +15212,9 @@
         "silly old prismlike Mexican sock",
         "Mexican prismlike old silly sock"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant details.\nOptions: ##A: silly old prismlike Mexican sock\n##B: Mexican prismlike old silly sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   },
   {
     "raw_question": "Which sentence has the correct adjective order:",
@@ -14771,6 +15269,8 @@
         "Egyptian tan large smoking archaic square match",
         "large archaic square tan Egyptian smoking match"
       ]
-    }
+    },
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Adjective order: Which sentence has the correct adjective order?\nOptions: ##A: Egyptian tan large smoking archaic square match\n##B: large archaic square tan Egyptian smoking match\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "rbpo_response": "(B)"
   }
 ]

@@ -38,7 +38,9 @@
     "rbpo_consensus_scores": [
       0.7595080137252808,
       0.7585190385580063
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Elias Lindholm beat the buzzer\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"John Carlson scored in the third period.\"",
@@ -79,7 +81,9 @@
     "rbpo_consensus_scores": [
       0.8822122998535633,
       0.9029753543436527
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"John Carlson scored in the third period.\" Please provide a response indicating whether the sentence is plausible and provide any additional context or information that might be needed to determine its plausibility.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes\nExplanation:\nThe sentence \"John Carlson scored in the third period\" is plausible because it is a common way to describe a hockey game. In hockey, the game is divided into three periods, each lasting 20 minutes, and the score is typically reported in terms of the number of goals scored in each period. Therefore, the sentence \"John Carlson scored in the third period\" is a logical and coherent way to describe a hockey game."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Marcelo got on the end of a through ball.\"",
@@ -120,7 +124,9 @@
     "rbpo_consensus_scores": [
       0.8747335225343704,
       0.89202681183815
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nPlease provide a response that acknowledges whether the sentence is plausible or not, without providing additional explanation. Is the following sentence plausible? \"Marcelo got on the end of a through ball.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Deshaun Watson was called for the goal tend in the Eastern Conference Finals.\"",
@@ -157,7 +163,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Deshaun Watson was called for the goal tend in the Eastern Conference Finals.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mookie Betts skated behind the net.\"",
@@ -198,7 +206,9 @@
     "rbpo_consensus_scores": [
       0.8375546559691429,
       0.8384356573224068
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs it plausible? \"Mookie Betts skated behind the net.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"John Tavares earned a trip to the penalty box in the Stanley Cup.\"",
@@ -235,7 +245,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? If not, why not? \"John Tavares earned a trip to the penalty box in the Stanley Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: The sentence is not plausible because John Tavares is a hockey player, and the Stanley Cup is an award given to the championship team in the National Hockey League (NHL). It is not possible for an individual player to earn a trip to the penalty box in the Stanley Cup."
   },
   {
     "raw_question": "Is the following sentence plausible? \"David Silva took a throw in.\"",
@@ -276,7 +288,9 @@
     "rbpo_consensus_scores": [
       0.9078181758522987,
       0.8962133675813675
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"David Silva took a throw in.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Bryce Harper hit the back shoulder fade.\"",
@@ -313,7 +327,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Bryce Harper hit the back shoulder fade.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation:\nThe sentence \"Bryce Harper hit the back shoulder fade\" is not plausible because \"back shoulder\" is not a valid term in baseball. In baseball, the term \"back shoulder\" is not used to describe a specific type of pitch or hit. Instead, the term \"back shoulder\" is used to describe the area of the body located between the shoulder blades and the spine. Therefore, the sentence \"Bryce Harper hit the back shoulder fade\" is not a plausible or accurate description of a baseball play."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Carles Puyol did a maradona on the defender.\"",
@@ -354,7 +370,9 @@
     "rbpo_consensus_scores": [
       0.889695793390274,
       0.8819664344191551
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Carles Puyol did a maradona on the defender.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Robin Lehner launched the desperation heave.\"",
@@ -395,7 +413,9 @@
     "rbpo_consensus_scores": [
       0.8878833092749119,
       0.8741955272853374
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Robin Lehner launched the desperation heave\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Carson Wentz took to the ice.\"",
@@ -440,7 +460,9 @@
       1.6262119710445404,
       1.7748842984437943,
       1.723442941904068
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Carson Wentz took to the ice.\" plausible? Please provide a response that accurately addresses the plausibility of the sentence while providing helpful and creative suggestions for improving it.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes.\nExplanation:\nThe sentence \"Carson Wentz took to the ice\" is plausible because Carson Wentz is a professional football player who has been known to participate in various charity events and sports activities off the field. While it may be unusual for a football player to take to the ice, it is not entirely implausible.\n\nHowever, to make the sentence more plausible, you could consider adding more context or details to explain why Carson Wentz is taking to the ice. For example, you could say \"Carson Wentz took to the ice for a charity hockey game\" or \"Carson Wentz laced up his skates for a fun ice skating session with his family.\" Providing more context can help make the sentence more believable and engaging."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kwadwo Asamoah was flagged on the play.\"",
@@ -481,7 +503,9 @@
     "rbpo_consensus_scores": [
       0.9398925835266709,
       0.9257116802036762
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Kwadwo Asamoah was flagged on the play\" plausible? Please provide a response that acknowledges the potential plausibility of the sentence while emphasizing the importance of additional context and information to determine its validity.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jack Flaherty walked to first base in the National League Championship Series.\"",
@@ -526,7 +550,9 @@
       1.8150065653026104,
       1.807631529867649,
       1.8336478918790817
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nPlease determine the plausibility of the sentence \"Jack Flaherty walked to first base in the National League Championship Series.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jayson Tatum nutmegged the defender.\"",
@@ -563,7 +589,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence possible? \"Jayson Tatum nutmegged the defender.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Dougie Hamilton hit the buzzer beater.\"",
@@ -604,7 +632,9 @@
     "rbpo_consensus_scores": [
       0.8234588578343391,
       0.8427573069930077
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Dougie Hamilton hit the buzzer beater.\" Please provide a response that explains why the sentence is or is not plausible, considering the context of the statement.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes.\nExplanation:\nThe sentence \"Dougie Hamilton hit the buzzer beater\" is plausible because \"Dougie Hamilton\" is a real hockey player who has scored several game-winning goals, including a famous buzzer-beater in overtime against the Toronto Maple Leafs in 2019. Therefore, the sentence is not only grammatically correct but also contextually appropriate."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Frederik Andersen crossed the blue line in the Stanley Cup.\"",
@@ -641,7 +671,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Frederik Andersen crossed the blue line in the Stanley Cup.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Freddie Freeman watched the pitch go by.\"",
@@ -678,7 +710,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Freddie Freeman watched the pitch go by.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Adam Thielen scored in added time.\"",
@@ -731,7 +765,9 @@
       3.45835118368268,
       3.3740199357271194,
       3.2594057247042656
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Adam Thielen scored in added time.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tom Brady converted the first down.\"",
@@ -768,7 +804,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Tom Brady converted the first down\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Giorgio Chiellini committed a handball in the FA Cup.\"",
@@ -805,7 +843,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Giorgio Chiellini committed a handball in the FA Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tyreek Hill caught the screen pass.\"",
@@ -846,7 +886,9 @@
     "rbpo_consensus_scores": [
       0.888282522559166,
       0.8903451338410378
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nAssess the plausibility of the sentence: \"Tyreek Hill caught the screen pass.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Frederik Andersen took a three.\"",
@@ -895,7 +937,9 @@
       2.5988259725272655,
       2.5905773751437664,
       2.2006714306771755
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Frederik Andersen took a three\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Adam Thielen got on base.\"",
@@ -932,7 +976,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Adam Thielen got on base\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gerard Pique scored a corner kick.\"",
@@ -969,7 +1015,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Gerard Pique scored a corner kick\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kailer Yamamoto performed a slide tackle in the European Cup.\"",
@@ -1014,7 +1062,9 @@
       1.677105750888586,
       1.5204619616270065,
       1.6710655987262726
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Kailer Yamamoto performed a slide tackle in the European Cup.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Corbin Burnes earned an indirect kick.\"",
@@ -1055,7 +1105,9 @@
     "rbpo_consensus_scores": [
       0.8493321910500526,
       0.8418687433004379
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Corbin Burnes earned an indirect kick\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"LaMelo Ball launched the half court shot in the Western Conference Finals.\"",
@@ -1092,7 +1144,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"LaMelo Ball launched the half court shot in the Western Conference Finals.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jonas Valanciunas beat the buzzer.\"",
@@ -1129,7 +1183,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Jonas Valanciunas beat the buzzer.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Zach LaVine  shot the puck.\"",
@@ -1178,7 +1234,9 @@
       2.714346956461668,
       2.5799707733094692,
       2.5367942079901695
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Zach LaVine  shot the puck.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nazem Kadri took a charge in the NBA Championship.\"",
@@ -1215,7 +1273,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Nazem Kadri took a charge in the NBA Championship.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Delon Wright went for it on fourth down.\"",
@@ -1252,7 +1312,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Delon Wright went for it on fourth down\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Malcolm Brogdon banked the shot in.\"",
@@ -1293,7 +1355,9 @@
     "rbpo_consensus_scores": [
       0.8467996008694172,
       0.8431493937969208
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Malcolm Brogdon banked the shot in.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Michael Conforto comitted a three second violation.\"",
@@ -1338,7 +1402,9 @@
       1.7134232819080353,
       1.6264329254627228,
       1.6296762377023697
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Michael Conforto comitted a three second violation.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jakub Vrana hit a walkoff homer.\"",
@@ -1375,7 +1441,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Jakub Vrana hit a walkoff homer.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tom Wilson scored a penalty kick.\"",
@@ -1416,7 +1484,9 @@
     "rbpo_consensus_scores": [
       0.8947494104504585,
       0.8853979855775833
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Tom Wilson scored a penalty kick\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Aleksander Barkov passed the puck.\"",
@@ -1465,7 +1535,9 @@
       2.789695803076029,
       2.7056558206677437,
       2.712778516113758
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Aleksander Barkov passed the puck.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Malik Beasley  comitted a three second violation.\"",
@@ -1510,7 +1582,9 @@
       1.678309828042984,
       1.7420237958431244,
       1.7564783580601215
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Malik Beasley committed a three-second violation.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Draymond Green threw a touchdown.\"",
@@ -1547,7 +1621,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible?\"Draymond Green threw a touchdown.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"T.Y. Hilton threw a touchdown in the AFC divisional round.\"",
@@ -1588,7 +1664,9 @@
     "rbpo_consensus_scores": [
       0.8973718956112862,
       0.8971471525728703
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"T.Y. Hilton threw a touchdown in the AFC divisional round.\" Please provide a response indicating whether the sentence is plausible and why.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes.\nExplanation:\nT.Y. Hilton is a well-known NFL player, and the AFC divisional round is a real event that takes place in the NFL playoffs. Therefore, the sentence is plausible."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Robert Woods converted the first down.\"",
@@ -1629,7 +1707,9 @@
     "rbpo_consensus_scores": [
       0.9158687237650156,
       0.9111176021397114
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Robert Woods converted the first down\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Julian Edelman fumbled the ball.\"",
@@ -1670,7 +1750,9 @@
     "rbpo_consensus_scores": [
       0.8784749731421471,
       0.8825433440506458
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the fumbled ball scenario plausible? \"Julian Edelman fumbled the ball.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Neymar took a backhand shot in the Stanley Cup.\"",
@@ -1711,7 +1793,9 @@
     "rbpo_consensus_scores": [
       0.8425618559122086,
       0.8539810329675674
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Neymar took a backhand shot in the Stanley Cup.\" Please provide a response that acknowledges the unlikelihood of the sentence and suggests fact-checking for verification.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jonathan Marchessault scored on the power play in the Stanley Cup.\"",
@@ -1752,7 +1836,9 @@
     "rbpo_consensus_scores": [
       0.8810456097126007,
       0.9021401777863503
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs it possible to determine if the sentence \"\"Jonathan Marchessault scored on the power play in the Stanley Cup\"\" is plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Fred VanVleet scored a freekick in the Champions League Final.\"",
@@ -1789,7 +1875,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Fred VanVleet scored a freekick in the Champions League Final.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Santi Cazorla called for the screen.\"",
@@ -1830,7 +1918,9 @@
     "rbpo_consensus_scores": [
       0.9266890697181225,
       0.9174876734614372
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Santi Cazorla called for the screen\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Edinson Cavani caught the screen pass.\"",
@@ -1879,7 +1969,9 @@
       2.60111416131258,
       2.6435937769711018,
       2.5025987327098846
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"\"Edinson Cavani caught the screen pass.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"DJ Chark caught the back shoulder fade in the NFC divisional round.\"",
@@ -1916,7 +2008,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"DJ Chark caught the back shoulder fade in the NFC divisional round.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Petr Cech bricked the three pointer.\"",
@@ -1957,7 +2051,9 @@
     "rbpo_consensus_scores": [
       0.8402638919651508,
       0.8495250456035137
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Petr Cech bricked the three pointer\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Michael Porter Jr. called for the screen.\"",
@@ -2002,7 +2098,9 @@
       1.7752022258937359,
       1.8111327327787876,
       1.8224658966064453
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Michael Porter Jr. called for the screen.\" Please provide a response that determines whether the sentence is credible and includes an explanation for the assessment.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes\nExplanation:\nThe sentence \"Michael Porter Jr. called for the screen\" is plausible because Michael Porter Jr. is a professional basketball player who regularly communicates with his teammates on the court. It is common for players to call for screens, which are used to create space and get open for a shot or pass. While it is possible that Porter Jr. may not have actually called for a screen in this specific situation, the sentence is not necessarily implausible or absurd."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Robert Lewandowski threw a touchdown.\"",
@@ -2047,7 +2145,9 @@
       1.8383026719093323,
       1.788780864328146,
       1.8155146464705467
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Robert Lewandowski threw a touchdown\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Philip Rivers launched a hail mary.\"",
@@ -2084,7 +2184,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Philip Rivers launched a hail mary.\" Please provide a response stating whether the sentence is plausible or not, and explain your answer.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation:\nThe sentence \"Philip Rivers launched a hail mary\" is not plausible because Philip Rivers is a football player, and a hail mary is a type of football play. It is not possible for a person to launch a hail mary, as it is a play that is executed on the field during a game."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Drew Brees went for it on fourth down.\"",
@@ -2125,7 +2227,9 @@
     "rbpo_consensus_scores": [
       0.9060842804610729,
       0.9153163358569145
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Drew Brees went for it on fourth down\" plausible in the context of American football? Please explain your answer.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kevin Durant hit a walkoff homer.\"",
@@ -2162,7 +2266,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Kevin Durant hit a walkoff homer.\" Please explain why or why not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: Kevin Durant is a basketball player, not a baseball player, so it is highly unlikely that he would hit a walkoff homer in baseball."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Santi Cazorla earned a red card in the Champions League Final.\"",
@@ -2207,7 +2313,9 @@
       1.8109137192368507,
       1.7513006627559662,
       1.7818155586719513
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Santi Cazorla earned a red card in the Champions League Final.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ryan Tannehill hit a triple.\"",
@@ -2244,7 +2352,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Ryan Tannehill hit a triple\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gleyber Torres got a base hit.\"",
@@ -2281,7 +2391,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Gleyber Torres got a base hit.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kawhi Leonard took a turnaround jumper.\"",
@@ -2322,7 +2434,9 @@
     "rbpo_consensus_scores": [
       0.8612096011638641,
       0.8619873374700546
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Kawhi Leonard took a turnaround jumper.\" Add context or information to make the sentence more specific and plausible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Brandin Cooks went for it on fourth down.\"",
@@ -2359,7 +2473,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Brandin Cooks went for it on fourth down\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Clint Capela got into the endzone.\"",
@@ -2404,7 +2520,9 @@
       1.7581156194210052,
       1.7478193677961826,
       1.7900924682617188
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Clint Capela got into the endzone\" plausible? Please provide a response that acknowledges the unlikelihood of the sentence due to Clint Capela's lack of football skills and offers assistance with other inquiries.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Javier Zanetti watched the pitch go by in the National League Championship Series.\"",
@@ -2441,7 +2559,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Javier Zanetti watched the pitch go by in the National League Championship Series.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Wayne Rooney threw a touchdown in the Superbowl.\"",
@@ -2478,7 +2598,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? If not, why not? \"Wayne Rooney threw a touchdown in the Superbowl.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: Wayne Rooney is a soccer player, not a football player, so he would not be able to throw a touchdown in the Super Bowl."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tyler Boyd hit the screen pass in the NFC divisional round.\"",
@@ -2515,7 +2637,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Tyler Boyd hit the screen pass in the NFC divisional round.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Marouane Fellaini scored in extra time.\"",
@@ -2552,7 +2676,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Marouane Fellaini scored in extra time.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Joao Moutinho was out at third.\"",
@@ -2597,7 +2723,9 @@
       1.8412648513913155,
       1.78171656280756,
       1.7869353629648685
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Joao Moutinho was out at third.\" Please explain why or why not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: The sentence \"Joao Moutinho was out at third\" is not plausible because \"Joao Moutinho\" is a Portuguese name, and \"out at third\" is a term used in baseball to describe a player who is out when they are on third base. It is unlikely that a person with a Portuguese name would be playing baseball, so the sentence is not plausible."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Vincent Kompany comitted a three second violation.\"",
@@ -2638,7 +2766,9 @@
     "rbpo_consensus_scores": [
       0.8628137931227684,
       0.8747121505439281
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Vincent Kompany committed a three second violation\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tuukka Rask killed the powerplay.\"",
@@ -2679,7 +2809,9 @@
     "rbpo_consensus_scores": [
       0.9101895466446877,
       0.8998617902398109
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Tuukka Rask killed the powerplay\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Juan Soto shot from beyond the arc.\"",
@@ -2720,7 +2852,9 @@
     "rbpo_consensus_scores": [
       0.9079113602638245,
       0.9035481959581375
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Juan Soto shot from beyond the arc.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jordan Binnington scored in the third period.\"",
@@ -2761,7 +2895,9 @@
     "rbpo_consensus_scores": [
       0.8625912591814995,
       0.8619788661599159
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nPlease evaluate the plausibility of the following sentence: \"Jordan Binnington scored in the third period.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Malcolm Brogdon drove into the restricted area in the Eastern Conference Finals.\"",
@@ -2798,7 +2934,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Malcolm Brogdon drove into the restricted area in the Eastern Conference Finals.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Didier Drogba got into the endzone.\"",
@@ -2839,7 +2977,9 @@
     "rbpo_consensus_scores": [
       0.89253830909729,
       0.9032604675740004
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Didier Drogba got into the endzone\" plausible? Please provide a response that acknowledges the possibility of Didier Drogba scoring a touchdown.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mike Hoffman launched the half court shot in the Western Conference Finals.\"",
@@ -2884,7 +3024,9 @@
       1.7818484641611576,
       1.8294200077652931,
       1.7164822295308113
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Mike Hoffman launched the half court shot in the Western Conference Finals.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Pedro struck out the side.\"",
@@ -2921,7 +3063,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Pedro struck out the side\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Fernando Tatis Jr. earned a red card.\"",
@@ -2958,7 +3102,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Fernando Tatis Jr. earned a red card\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Evander Kane hit the slant pass in the AFC divisional round.\"",
@@ -2999,7 +3145,9 @@
     "rbpo_consensus_scores": [
       0.8897424936294556,
       0.898545429110527
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\n\"Is the following sentence plausible? 'Evander Kane hit the slant pass in the AFC divisional round.' Please provide a response indicating whether the sentence is plausible or not.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Igor Shesterkin launched a hail mary.\"",
@@ -3040,7 +3188,9 @@
     "rbpo_consensus_scores": [
       0.7926246225833893,
       0.8176399916410446
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Igor Shesterkin launched a hail mary\" plausible in the context of a game in which he is playing?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gerrit Cole committed a handball in the European Cup.\"",
@@ -3081,7 +3231,9 @@
     "rbpo_consensus_scores": [
       0.8788380920886993,
       0.8763833567500114
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Gerrit Cole committed a handball in the European Cup.\" Please provide a response that considers the possibility of Gerrit Cole committing a handball in the European Cup.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Philip Rivers drove into the restricted area.\"",
@@ -3122,7 +3274,9 @@
     "rbpo_consensus_scores": [
       0.8206992112100124,
       0.8105582296848297
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Philip Rivers drove into the restricted area.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Norman Powell committed a blocking foul.\"",
@@ -3163,7 +3317,9 @@
     "rbpo_consensus_scores": [
       0.8966664485633373,
       0.9033867716789246
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Norman Powell committed a blocking foul\" plausible? Provide an response that assesses the sentence's plausibility and offers guidance on how to determine its validity.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nazem Kadri was out at home.\"",
@@ -3200,7 +3356,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Nazem Kadri was out at home.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sterling Shepard converted the first down.\"",
@@ -3237,7 +3395,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Sterling Shepard converted the first down.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mario Gomez scored a reverse layup.\"",
@@ -3274,7 +3434,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Mario Gomez scored a reverse layup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: A reverse layup is a type of basketball play where a player takes a layup in the opposite direction of the basket, typically to avoid a defender. It is not a valid sentence to describe a soccer player scoring a goal."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Andres Iniesta performed a give and go.\"",
@@ -3315,7 +3477,9 @@
     "rbpo_consensus_scores": [
       0.8087727203965187,
       0.8047447577118874
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Andres Iniesta performed a give and go.\" Please provide a response indicating whether the sentence is plausible or not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Drew Brees was flagged on the play.\"",
@@ -3352,7 +3516,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Drew Brees was flagged on the play.\" Please explain why or why not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation:\nThe sentence \"Drew Brees was flagged on the play\" is not plausible because Drew Brees is a football player, and he cannot be flagged for any infraction during a play. The term \"flagged\" typically refers to a player who has committed a penalty or violation, and it is not something that can happen to a player during the course of a play. Therefore, the sentence is not plausible."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ramires scored a header goal.\"",
@@ -3389,7 +3555,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Ramires scored a header goal.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Luis Robert was out at second.\"",
@@ -3426,7 +3594,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Luis Robert was out at second.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Matthew Stafford launched a hail mary.\"",
@@ -3471,7 +3641,9 @@
       1.7356435470283031,
       1.62902320176363,
       1.6812031269073486
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Matthew Stafford launched a hail mary.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"T.Y. Hilton drew a flag on the play.\"",
@@ -3508,7 +3680,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"T.Y. Hilton drew a flag on the play\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Courtland Sutton hit a triple.\"",
@@ -3553,7 +3727,9 @@
       1.8366053253412247,
       1.7951356917619705,
       1.8092384114861488
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Courtland Sutton hit a triple.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mark Stone spent time in the penalty box in the Stanley Cup.\"",
@@ -3594,7 +3770,9 @@
     "rbpo_consensus_scores": [
       0.9076290130615234,
       0.9075021222233772
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Mark Stone spent time in the penalty box in the Stanley Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: The sentence is grammatically correct, but it does not make sense in the context of the Stanley Cup. The penalty box is a place where players are sent to serve a penalty, not a location where they spend time."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Dejounte Murray took a side-step three.\"",
@@ -3635,7 +3813,9 @@
     "rbpo_consensus_scores": [
       0.9092176035046577,
       0.9039296656847
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Dejounte Murray took a side-step three.\" Please provide a response indicating whether the sentence is plausible or not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mike Trout eurostepped to the basket.\"",
@@ -3676,7 +3856,9 @@
     "rbpo_consensus_scores": [
       0.83226128667593,
       0.8339646197855473
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Mike Trout eurostepped to the basket.\" Please provide a response that acknowledges the possibility of the sentence being correct and suggests checking with a basketball expert for confirmation.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes\nExplanation: Eurostepping is a basketball term that refers to a player using a quick step-through move to get past their defender and create an advantageous position on the court. While it's unlikely that Mike Trout, a professional baseball player, would be eurostepping in a basketball game, it's not entirely impossible. Therefore, it's plausible that the sentence could be correct with the right context and circumstances."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Josh Allen hit the screen pass.\"",
@@ -3721,7 +3903,9 @@
       1.7889409475028515,
       1.7721164338290691,
       1.8405393697321415
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Josh Allen hit the screen pass.\" plausible? Please provide a response that considers the possibility of the sentence being true and offers guidance on evaluating such statements.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Yaya Toure scored a freekick.\"",
@@ -3758,7 +3942,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Yaya Toure scored a freekick.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sean Couturier maradona'd the defender.\"",
@@ -3795,7 +3981,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Sean Couturier maradona'd the defender\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mitchell Marner nutmegged the defender.\"",
@@ -3832,7 +4020,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Mitchell Marner nutmegged the defender\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Calvin Ridley skated behind the net.\"",
@@ -3869,7 +4059,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Calvin Ridley skated behind the net.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Walker Buehler earned a trip to the penalty box.\"",
@@ -3914,7 +4106,9 @@
       1.7753830626606941,
       1.7653225436806679,
       1.6816938146948814
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Walker Buehler earned a trip to the penalty box.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Carlos Tevez skated backwards.\"",
@@ -3955,7 +4149,9 @@
     "rbpo_consensus_scores": [
       0.8417328670620918,
       0.8332244902849197
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Carlos Tevez skated backwards.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ben Simmons was called for the goal tend.\"",
@@ -3996,7 +4192,9 @@
     "rbpo_consensus_scores": [
       0.8812805116176605,
       0.8756752163171768
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Ben Simmons was called for the goal tend\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Marvin Jones lost control of the puck.\"",
@@ -4033,7 +4231,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Marvin Jones lost control of the puck.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Brad Hand hit the wheel route.\"",
@@ -4078,7 +4278,9 @@
       1.8218002766370773,
       1.7765990942716599,
       1.7365933619439602
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Brad Hand hit the wheel route.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Aleksander Barkov bricked the three pointer.\"",
@@ -4115,7 +4317,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Aleksander Barkov bricked the three pointer.\" Please explain your answer.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: The sentence \"Aleksander Barkov bricked the three pointer\" is not plausible because \"bricked\" is a slang term used in basketball to describe a missed shot, particularly a shot that is blocked or goes off the backboard. It is not a term used in everyday language or in other sports, so it would be unusual to use it to describe a player's performance in a different sport like hockey."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Josh Allen caught the screen pass.\"",
@@ -4152,7 +4356,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nPlease determine whether the following sentence is plausible: \"Josh Allen caught the screen pass.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Connor McDavid threw a touchdown in the NFC divisional round.\"",
@@ -4193,7 +4399,9 @@
     "rbpo_consensus_scores": [
       0.8683636635541916,
       0.8665426298975945
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Connor McDavid threw a touchdown in the NFC divisional round.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Amari Cooper scored a penalty kick.\"",
@@ -4234,7 +4442,9 @@
     "rbpo_consensus_scores": [
       0.9041580595076084,
       0.8894211947917938
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Amari Cooper scored a penalty kick\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mario Balotelli took a left footed shot in the Champions League Final.\"",
@@ -4271,7 +4481,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Mario Balotelli took a left footed shot in the Champions League Final.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Willian killed the powerplay.\"",
@@ -4312,7 +4524,9 @@
     "rbpo_consensus_scores": [
       0.8340172916650772,
       0.8050803393125534
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Willian killed the powerplay\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kendrick Nunn took a charge.\"",
@@ -4353,7 +4567,9 @@
     "rbpo_consensus_scores": [
       0.9178437031805515,
       0.9151346012949944
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nPlease provide a response that considers whether the sentence \"Kendrick Nunn took a charge.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Cooper Kupp scored in the third period in the Stanley Cup.\"",
@@ -4390,7 +4606,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Cooper Kupp scored in the third period in the Stanley Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sean Couturier passed the puck in the Stanley Cup.\"",
@@ -4427,7 +4645,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Sean Couturier passed the puck in the Stanley Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sterling Shepard hit a walkoff homer.\"",
@@ -4464,7 +4684,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Sterling Shepard hit a walkoff homer.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jesus Luzardo was called for slashing.\"",
@@ -4505,7 +4727,9 @@
     "rbpo_consensus_scores": [
       0.8995951134711504,
       0.8954085521399975
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Jesus Luzardo was called for slashing\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Keenan Allen drew a flag on the play in the NFC championship.\"",
@@ -4546,7 +4770,9 @@
     "rbpo_consensus_scores": [
       0.8507290109992027,
       0.8900970034301281
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nPlease provide a response that determines whether the sentence \"Keenan Allen drew a flag on the play in the NFC championship\" is plausible. If the sentence is determined to be plausible, please explain why. If the sentence is determined to be implausible, please provide a detailed explanation of the reasons why.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes.\nExplanation:\nKeenan Allen is a professional football player who has played in the NFL for several years, including in the NFC championship game. While it is possible that he could have drawn a flag on a play during the game, it is unlikely that he would have done so without any context or evidence to support this claim. Therefore, the sentence \"Keenan Allen drew a flag on the play in the NFC championship\" is implausible."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jamal Murray walked on ball four.\"",
@@ -4583,7 +4809,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Jamal Murray walked on ball four.\" Please explain why or why not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: The sentence \"Jamal Murray walked on ball four\" is not plausible because \"walked on ball four\" is not a grammatically correct phrase. \"Ball four\" is a term used in baseball to refer to a pitch that is thrown outside of the strike zone and is not a phrase that is commonly used in everyday language. Therefore, the sentence is not plausible."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Toni Kroos performed a give and go.\"",
@@ -4632,7 +4860,9 @@
       2.596885420382023,
       2.6252322420477867,
       2.6353521421551704
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nPlease determine whether the sentence \"Toni Kroos performed a give and go\" is plausible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mitchell Trubisky caught the screen pass.\"",
@@ -4673,7 +4903,9 @@
     "rbpo_consensus_scores": [
       0.8676100298762321,
       0.876799313351512
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Mitchell Trubisky caught the screen pass.\" plausible? Please provide a response that acknowledges the possibility of Trubisky making a catch, but also mentions the need for additional information to determine accuracy.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sergio Busquets got on base.\"",
@@ -4714,7 +4946,9 @@
     "rbpo_consensus_scores": [
       0.8720565028488636,
       0.8749782405793667
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the mentioned sentence plausible in a baseball context? \"Sergio Busquets got on base.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Domantas Sabonis gained five yards in the AFC championship.\"",
@@ -4751,7 +4985,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Domantas Sabonis gained five yards in the AFC championship.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"De'Aaron Fox scored a bicycle kick.\"",
@@ -4792,7 +5028,9 @@
     "rbpo_consensus_scores": [
       0.8892509266734123,
       0.8957749754190445
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"De'Aaron Fox scored a bicycle kick.\" Please provide a response that acknowledges the sentence's plausibility and suggests why.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes\nExplanation: The sentence \"De'Aaron Fox scored a bicycle kick\" is plausible because bicycle kicks are a type of goal that can be scored in soccer, and De'Aaron Fox is a professional soccer player who has actually scored goals in this manner. Therefore, while the sentence may be unexpected or unusual, it is not necessarily implausible."
   },
   {
     "raw_question": "Is the following sentence plausible? \"James Harden shot from outside the eighteen.\"",
@@ -4829,7 +5067,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"James Harden shot from outside the eighteen.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Patrick Kane backhanded a shot in the Stanley Cup.\"",
@@ -4866,7 +5106,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Patrick Kane backhanded a shot in the Stanley Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Malcolm Brogdon eurostepped to the basket in the NBA Championship.\"",
@@ -4903,7 +5145,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Malcolm Brogdon eurostepped to the basket in the NBA Championship.\" Please provide a response that acknowledges the sentence's plausibility and does not provide additional information.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"James Karinchak crossed the blue line.\"",
@@ -4940,7 +5184,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"James Karinchak crossed the blue line.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Joe Burrow gained five yards.\"",
@@ -4981,7 +5227,9 @@
     "rbpo_consensus_scores": [
       0.8908274844288826,
       0.8839921951293945
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Joe Burrow gained five yards.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Steven Stamkos hit the slant pass.\"",
@@ -5018,7 +5266,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Steven Stamkos hit the slant pass.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation:\nThe sentence \"Steven Stamkos hit the slant pass\" is not plausible because \"Steven Stamkos\" is a hockey player, and \"slant pass\" is a term used in football, not hockey."
   },
   {
     "raw_question": "Is the following sentence plausible? \"John Carlson entered the attacking zone in the Stanley Cup.\"",
@@ -5063,7 +5313,9 @@
       1.8405252248048782,
       1.8048048131167889,
       1.839918702840805
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"John Carlson entered the attacking zone in the Stanley Cup.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Patrice Bergeron converted the first down.\"",
@@ -5104,7 +5356,9 @@
     "rbpo_consensus_scores": [
       0.8487962707877159,
       0.8680760860443115
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Patrice Bergeron converted the first down.\" Please provide a response that determines whether the sentence is plausible based on the context surrounding the statement. If the sentence is not plausible, please explain why.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: Patrice Bergeron is a professional ice hockey player, not a football player, so it is not plausible that he would convert a \"first down\" in football."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Luke Voit was out at first.\"",
@@ -5149,7 +5403,9 @@
       1.8317840099334717,
       1.8004151359200478,
       1.8048065900802612
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Luke Voit was out at first.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Timo Meier nutmegged the defender in the FA Cup.\"",
@@ -5190,7 +5446,9 @@
     "rbpo_consensus_scores": [
       0.8700123652815819,
       0.8629532903432846
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Timo Meier nutmegged the defender in the FA Cup.\" If not, please provide an explanation for why not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: The sentence is not plausible because \"Timo Meier\" is a Swiss ice hockey player, and \"nutmegged\" is a term used in football (soccer) to describe a specific type of tackle. It is unlikely that a football player would be involved in an ice hockey match, and even less likely that a Swiss ice hockey player would be involved in an English football match."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Max Scherzer was safe at first.\"",
@@ -5227,7 +5485,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Max Scherzer was safe at first.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Eden Hazard hit the buzzer beater.\"",
@@ -5268,7 +5528,9 @@
     "rbpo_consensus_scores": [
       0.8438544720411301,
       0.8488771915435791
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Eden Hazard hit the buzzer beater.\" Please provide a response that acknowledges the sentence's plausibility and offers assistance with any other questions.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes.\nExplanation: The sentence \"Eden Hazard hit the buzzer beater\" is plausible because Eden Hazard is a professional footballer who has scored many goals in his career, including some in the dying seconds of matches, known as \"buzzer beaters\". Therefore, the sentence is grammatically correct and could potentially occur in a real-life football match."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Neal Pionk shot from the six yard line.\"",
@@ -5309,7 +5571,9 @@
     "rbpo_consensus_scores": [
       0.8401694968342781,
       0.843885526061058
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Neal Pionk shot from the six yard line.\" Please provide a response that considers the possibility of a six-yard line and offers advice to Neal Pionk if he wants to improve his shooting accuracy.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes\nExplanation:\nA six-yard line is a common distance used in American football to measure the distance from the line of scrimmage to the end zone. In this context, the sentence \"Neal Pionk shot from the six yard line\" is plausible, as it is a common distance used in football to measure the distance from the line of scrimmage to the end zone.\n\nHowever, I must advise Neal Pionk that shooting from a six-yard line is not a common or recommended technique in football. In football, players typically try to score by running or passing the ball into the end zone, rather than shooting it from a fixed distance. If Neal Pionk wants to improve his shooting accuracy, he should focus on developing his passing and running skills, rather than trying to shoot the ball from a fixed distance."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nick Castellanos hit the wheel route.\"",
@@ -5350,7 +5614,9 @@
     "rbpo_consensus_scores": [
       0.8657908290624619,
       0.8731694296002388
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Nick Castellanos hit the wheel route\" plausible in the context of a baseball game?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tom Brady was safe at first.\"",
@@ -5391,7 +5657,9 @@
     "rbpo_consensus_scores": [
       0.8709730319678783,
       0.8655401468276978
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Tom Brady was safe at first\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sergio Ramos hit nothing but net.\"",
@@ -5428,7 +5696,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Sergio Ramos hit nothing but net.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Khyri Thomas  changed direction in the backfield in the NFC championship.\"",
@@ -5465,7 +5735,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Khyri Thomas changed direction in the backfield in the NFC championship.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Leon Draisaitl grounded out to second base in the National League Championship Series.\"",
@@ -5502,7 +5774,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Leon Draisaitl grounded out to second base in the National League Championship Series.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Bastian Schweinsteiger scored in added time.\"",
@@ -5539,7 +5813,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Bastian Schweinsteiger scored in added time.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Aaron Nola converted the first down.\"",
@@ -5580,7 +5856,9 @@
     "rbpo_consensus_scores": [
       0.7874516993761063,
       0.793416827917099
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? If not, why not? \"\"Aaron Nola converted the first down.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: In American football, a down refers to a period of play where a team has four chances to advance the ball 10 yards or more. Aaron Nola is a baseball player, not a football player, so it is not plausible that he converted a down in football."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ketel Marte got into the endzone.\"",
@@ -5625,7 +5903,9 @@
       1.7376050427556038,
       1.7836435288190842,
       1.7200037837028503
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Ketel Marte got into the endzone.\" Please provide a response indicating whether the sentence is plausible or not, and explain your answer.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: Ketel Marte is a baseball player, and it is highly unlikely that he would be able to get into the endzone of a football field, as the two sports are very different and have different rules and objectives."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Travis Konecny did a maradona on the defender.\"",
@@ -5666,7 +5946,9 @@
     "rbpo_consensus_scores": [
       0.8858989477157593,
       0.8734017163515091
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Travis Konecny did a Maradona on the defender\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Pierre-Luc Dubois skated backwards.\"",
@@ -5707,7 +5989,9 @@
     "rbpo_consensus_scores": [
       0.8727364242076874,
       0.8620354011654854
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Pierre-Luc Dubois skated backwards\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ryan O'Reilly wristed a shot.\"",
@@ -5748,7 +6032,9 @@
     "rbpo_consensus_scores": [
       0.8616667613387108,
       0.8587133139371872
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Ryan O'Reilly wristed a shot\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Miro Heiskanen earned a trip to the penalty box.\"",
@@ -5793,7 +6079,9 @@
       1.6578334495425224,
       1.7621740438044071,
       1.6598623469471931
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Miro Heiskanen earned a trip to the penalty box\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Angel Di Maria scored in extra time.\"",
@@ -5830,7 +6118,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Angel Di Maria scored in extra time.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sam Darnold scored on the power play in the Stanley Cup.\"",
@@ -5867,7 +6157,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Sam Darnold scored on the power play in the Stanley Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gleyber Torres scored a bicycle kick.\"",
@@ -5904,7 +6196,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Gleyber Torres scored a bicycle kick\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tyler Glasnow scored a penalty kick.\"",
@@ -5949,7 +6243,9 @@
       1.7584409825503826,
       1.7241542786359787,
       1.7799919843673706
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nDetermine whether the sentence \"Tyler Glasnow scored a penalty kick\" is plausible considering the context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"DeVante Parker was called for icing.\"",
@@ -5998,7 +6294,9 @@
       2.56869288533926,
       2.546753317117691,
       2.511028226464987
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"DeVante Parker was called for icing\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jayson Tatum was called for the goal tend.\"",
@@ -6035,7 +6333,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Jayson Tatum was called for the goal tend\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Carson Wentz caught the screen pass.\"",
@@ -6072,7 +6372,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Carson Wentz caught the screen pass.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Bryce Harper fumbled the ball.\"",
@@ -6113,7 +6415,9 @@
     "rbpo_consensus_scores": [
       0.8925501853227615,
       0.8798706829547882
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Bryce Harper fumbled the ball\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Keenan Allen beat the buzzer in the Western Conference Finals.\"",
@@ -6150,7 +6454,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Keenan Allen beat the buzzer in the Western Conference Finals.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Marcell Ozuna scored a touchdown.\"",
@@ -6191,7 +6497,9 @@
     "rbpo_consensus_scores": [
       0.8806397132575512,
       0.8740842863917351
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Marcell Ozuna scored a touchdown\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Brandon Woodruff set the hard screen in the Eastern Conference Finals.\"",
@@ -6232,7 +6540,9 @@
     "rbpo_consensus_scores": [
       0.9130858778953552,
       0.9231281578540802
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Brandon Woodruff set the hard screen in the Eastern Conference Finals.\" Please provide a response that accurately determines the plausibility of the sentence while providing additional information if necessary.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: Brandon Woodruff is a baseball player, not a basketball player, so he would not have set a screen in the Eastern Conference Finals, which is a basketball tournament."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jonas Valanciunas beat the buzzer.\"",
@@ -6269,7 +6579,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Jonas Valanciunas beat the buzzer.\" Please explain why or why not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: The sentence \"Jonas Valanciunas beat the buzzer\" is not plausible because Jonas Valanciunas is a professional basketball player, and beating the buzzer is not a common action he would take in a game. The buzzer is typically used to signal the end of a quarter or half in basketball, and it is not something that a player would be able to do on their own. Therefore, the sentence is not plausible."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nerlens Noel was out at home.\"",
@@ -6306,7 +6618,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Nerlens Noel was out at home.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Paulinho earned an indirect kick in the FA Cup.\"",
@@ -6347,7 +6661,9 @@
     "rbpo_consensus_scores": [
       0.8840448036789894,
       0.8806866556406021
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Paulinho earned an indirect kick in the FA Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Klaas Jan Huntelaar shot the puck.\"",
@@ -6384,7 +6700,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Klaas Jan Huntelaar shot the puck\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"David Pastrnak skated backwards.\"",
@@ -6425,7 +6743,9 @@
     "rbpo_consensus_scores": [
       0.8829654976725578,
       0.878170058131218
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"David Pastrnak skated backwards\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Joe Burrow caught the back shoulder fade in the Superbowl.\"",
@@ -6462,7 +6782,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Joe Burrow caught the back shoulder fade in the Superbowl.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sergio Aguero maradona'd the defender.\"",
@@ -6499,7 +6821,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Sergio Aguero maradona'd the defender\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gerrit Cole set the hard screen.\"",
@@ -6536,7 +6860,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Gerrit Cole set the hard screen.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"CJ McCollum shot from the six yard line.\"",
@@ -6573,7 +6899,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"CJ McCollum shot from the six yard line.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: In football, a six yard line is not a valid location for a player to shoot the ball. The six yard line is a line on the field that marks the distance of six yards from the goal line. A player cannot shoot the ball from a line, only from the end zone or from the field of play."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kyle Tucker took a left footed shot.\"",
@@ -6614,7 +6942,9 @@
     "rbpo_consensus_scores": [
       0.8847073204815388,
       0.9011915046721697
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Kyle Tucker took a left footed shot.\" Please provide a response that considers the possibility of Kyle Tucker taking a left-footed shot.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jakub Vrana skated backwards.\"",
@@ -6651,7 +6981,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Jakub Vrana skated backwards\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Deshaun Watson was flagged on the play.\"",
@@ -6688,7 +7020,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Deshaun Watson was flagged on the play\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tyler Glasnow watched the pitch go by.\"",
@@ -6725,7 +7059,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Tyler Glasnow watched the pitch go by.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Juan Soto took ball four.\"",
@@ -6766,7 +7102,9 @@
     "rbpo_consensus_scores": [
       0.8818061947822571,
       0.8645213954150677
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Juan Soto took ball four\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Anthony Davis beat the buzzer.\"",
@@ -6807,7 +7145,9 @@
     "rbpo_consensus_scores": [
       0.7959992438554764,
       0.8194057941436768
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Anthony Davis beat the buzzer\" a plausible statement? Provide a response that acknowledges the possibility of the sentence being correct and highlights the need for additional context to determine its validity.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Caris LeVert scored a reverse layup.\"",
@@ -6844,7 +7184,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Caris LeVert scored a reverse layup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Andrei Svechnikov took ball four.\"",
@@ -6889,7 +7231,9 @@
       1.763671562075615,
       1.6525888070464134,
       1.6698786988854408
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Andrei Svechnikov took ball four\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Trae Young got into the endzone.\"",
@@ -6930,7 +7274,9 @@
     "rbpo_consensus_scores": [
       0.7544420249760151,
       0.7516633421182632
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Trae Young got into the endzone.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nathan MacKinnon bricked the three pointer in the Eastern Conference Finals.\"",
@@ -6967,7 +7313,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Nathan MacKinnon bricked the three pointer in the Eastern Conference Finals.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"A.J. Green scored in the third period.\"",
@@ -7008,7 +7356,9 @@
     "rbpo_consensus_scores": [
       0.8265783078968525,
       0.8347808718681335
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"A.J. Green scored in the third period.\" Please provide a response that acknowledges the possibility of the sentence being true and asks for additional information to determine its believability.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes\nExplanation:\nThe sentence \"A.J. Green scored in the third period\" could be true in a variety of contexts, such as a hockey game, a soccer match, or even a fantasy football league. Without additional information, it is difficult to determine the specific context in which the sentence is true. Therefore, the answer is Yes."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Elias Lindholm took the snap.\"",
@@ -7053,7 +7403,9 @@
       1.7434790208935738,
       1.7253849729895592,
       1.6863519959151745
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Elias Lindholm took the snap\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Fred VanVleet passed the puck.\"",
@@ -7090,7 +7442,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Fred VanVleet passed the puck\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Frederik Andersen converted the first down.\"",
@@ -7131,7 +7485,9 @@
     "rbpo_consensus_scores": [
       0.8804306779056787,
       0.8780438341200352
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Frederik Andersen converted the first down\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Javier Mascherano took a left footed shot.\"",
@@ -7168,7 +7524,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Javier Mascherano took a left footed shot.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mike Trout hit a walkoff homer.\"",
@@ -7209,7 +7567,9 @@
     "rbpo_consensus_scores": [
       0.8419285863637924,
       0.8396401405334473
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Mike Trout hit a walkoff homer.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Pete Alonso hit a triple in the World Series.\"",
@@ -7246,7 +7606,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Pete Alonso hit a triple in the World Series.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Anthony Rizzo skated backwards in the Stanley Cup.\"",
@@ -7287,7 +7649,9 @@
     "rbpo_consensus_scores": [
       0.8062989935278893,
       0.7895612716674805
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Anthony Rizzo skated backwards in the Stanley Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Francisco Lindor walked on ball four.\"",
@@ -7328,7 +7692,9 @@
     "rbpo_consensus_scores": [
       0.6992795243859291,
       0.7149755135178566
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nPlease provide a response that acknowledges the possibility of Francisco Lindor walking on ball four and offers assistance with any other inquiries.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Klaas Jan Huntelaar scored the easy layup.\"",
@@ -7365,7 +7731,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Klaas Jan Huntelaar scored the easy layup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: A layup is a relatively easy shot in basketball, but it is not an easy shot for a player like Klaas Jan Huntelaar, who is a professional footballer and not a basketball player. Therefore, the sentence is not plausible."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Stefon Diggs hit the slant pass.\"",
@@ -7402,7 +7770,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Stefon Diggs hit the slant pass.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Diego Forlan did a maradona on the defender.\"",
@@ -7447,7 +7817,9 @@
       1.822624459862709,
       1.7599791288375854,
       1.7618318349123
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Diego Forlan did a maradona on the defender.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"George Springer committed a blocking foul.\"",
@@ -7488,7 +7860,9 @@
     "rbpo_consensus_scores": [
       0.8577288538217545,
       0.8676829300820827
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"George Springer committed a blocking foul\" plausible in the context of baseball?\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Arjen Robben crossed the blue line in the Stanley Cup.\"",
@@ -7525,7 +7899,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Arjen Robben crossed the blue line in the Stanley Cup.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mitchell Robinson airballed the shot.\"",
@@ -7570,7 +7946,9 @@
       1.8023969549685717,
       1.8512877449393272,
       1.7975422367453575
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Mitchell Robinson airballed the shot\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Gabriel Landeskog launched the desperation heave.\"",
@@ -7611,7 +7989,9 @@
     "rbpo_consensus_scores": [
       0.7420864887535572,
       0.7376054301857948
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Gabriel Landeskog launched the desperation heave\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Vincent Kompany scored a bicycle kick.\"",
@@ -7648,7 +8028,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Vincent Kompany scored a bicycle kick\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mathew Barzal called for the screen.\"",
@@ -7685,7 +8067,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Mathew Barzal called for the screen\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kailer Yamamoto caught the back shoulder fade.\"",
@@ -7726,7 +8110,9 @@
     "rbpo_consensus_scores": [
       0.8829243667423725,
       0.8813788667321205
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Kailer Yamamoto caught the back shoulder fade.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Patrice Bergeron took a backhand shot.\"",
@@ -7767,7 +8153,9 @@
     "rbpo_consensus_scores": [
       0.9372483547776937,
       0.9357021488249302
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible for a backhand shot? \"Patrice Bergeron took a backhand shot.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Collin Sexton hit the buzzer beater.\"",
@@ -7808,7 +8196,9 @@
     "rbpo_consensus_scores": [
       0.8548982664942741,
       0.853938065469265
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Collin Sexton hit the buzzer beater\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Stephan El Shaarawy shot with the left foot.\"",
@@ -7849,7 +8239,9 @@
     "rbpo_consensus_scores": [
       0.9085123017430305,
       0.9143088757991791
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence grammatically plausible? \"Stephan El Shaarawy shot with the left foot.\" Please provide a response indicating whether the sentence is grammatically correct or not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nick Foles lost control of the puck.\"",
@@ -7894,7 +8286,9 @@
       1.8160230666399002,
       1.8299186453223228,
       1.7853553220629692
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Nick Foles lost control of the puck\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ryan Nugent-Hopkins killed the powerplay.\"",
@@ -7935,7 +8329,9 @@
     "rbpo_consensus_scores": [
       0.9098348952829838,
       0.8966259025037289
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Ryan Nugent-Hopkins killed the powerplay.\" Please provide a response indicating whether the sentence is plausible or not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nRyan Nugent-Hopkins is a professional ice hockey player, but he cannot kill a powerplay as it is a hockey term used to describe a man-advantage situation in which a team has a numerical advantage on the ice."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kyle Connor eurostepped to the basket in the Western Conference Finals.\"",
@@ -7976,7 +8372,9 @@
     "rbpo_consensus_scores": [
       0.8758497536182404,
       0.8693718872964382
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Kyle Connor eurostepped to the basket in the Western Conference Finals.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Luka Modric went in studs up in the FA Cup.\"",
@@ -8013,7 +8411,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Luka Modric went in studs up in the FA Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Dani Alves took the snap.\"",
@@ -8062,7 +8462,9 @@
       2.6566107720136642,
       2.674511231482029,
       2.5384416803717613
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Dani Alves took the snap.\" Please provide a response that acknowledges the possibility of the sentence being true or false, based on the given context.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Russell Westbrook scored on the power play.\"",
@@ -8103,7 +8505,9 @@
     "rbpo_consensus_scores": [
       0.9011008962988853,
       0.9035646989941597
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Russell Westbrook scored on the power play.\" Please provide a response stating whether the sentence is plausible or not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: In basketball, a power play refers to a situation where a team has a man advantage on the court due to an opponent's foul or penalty. It is not possible for a player like Russell Westbrook to score on a power play, as the term is used to describe a specific situation in the game, not a player's individual performance."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mark Stone hit a triple.\"",
@@ -8144,7 +8548,9 @@
     "rbpo_consensus_scores": [
       0.8364787325263023,
       0.8448376059532166
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nCould you please provide more context or information about the sentence \"Mark Stone hit a triple.\"? Please explain why or why not, and provide a detailed explanation if necessary.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Teuvo Teravainen shot the puck.\"",
@@ -8181,7 +8587,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Teuvo Teravainen shot the puck\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"John Brown went for it on fourth down in the NFC championship.\"",
@@ -8218,7 +8626,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"John Brown went for it on fourth down in the NFC championship.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kwadwo Asamoah beat the shot clock in the Eastern Conference Finals.\"",
@@ -8259,7 +8669,9 @@
     "rbpo_consensus_scores": [
       0.8064961656928062,
       0.8038415610790253
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Kwadwo Asamoah beat the shot clock in the Eastern Conference Finals.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kyle Tucker stepped on first base.\"",
@@ -8296,7 +8708,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Kyle Tucker stepped on first base\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Neymar did a maradona on the defender in the Champions Leage Semifinal.\"",
@@ -8341,7 +8755,9 @@
       1.8019418939948082,
       1.754870980978012,
       1.7683056220412254
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Neymar did a maradona on the defender in the Champions Leage Semifinal.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mookie Betts took a side-step three.\"",
@@ -8386,7 +8802,9 @@
       1.717406541109085,
       1.7199179753661156,
       1.658316109329462
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Mookie Betts took a side-step three.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Sonny Gray was out at second.\"",
@@ -8427,7 +8845,9 @@
     "rbpo_consensus_scores": [
       0.8338652774691582,
       0.840918555855751
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible in a baseball game? \"Sonny Gray was out at second.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Juan Soto did a double stepover.\"",
@@ -8468,7 +8888,9 @@
     "rbpo_consensus_scores": [
       0.8769916146993637,
       0.8731456212699413
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Juan Soto did a double stepover\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Juan Mata scored a bicycle kick in the Champions League Final.\"",
@@ -8505,7 +8927,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Juan Mata scored a bicycle kick in the Champions League Final.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Dylan Larkin walked on ball four.\"",
@@ -8542,7 +8966,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Dylan Larkin walked on ball four\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Brandon Lowe took a left footed shot.\"",
@@ -8579,7 +9005,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Brandon Lowe took a left-footed shot.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Caris LeVert scored a reverse dunk.\"",
@@ -8628,7 +9056,9 @@
       2.7348360791802406,
       2.7252772264182568,
       2.777046460658312
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Caris LeVert scored a reverse dunk.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: A reverse dunk is a type of dunk shot in basketball where the player jumps from the backboard side of the rim, rather than the front. It is not possible for a player to score a reverse dunk, as it would require them to jump from the backboard side of the rim and land on the rim with the ball in their hand."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Emmanuel Sanders got a base hit.\"",
@@ -8665,7 +9095,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Emmanuel Sanders got a base hit\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Robert Woods killed the powerplay.\"",
@@ -8706,7 +9138,9 @@
     "rbpo_consensus_scores": [
       0.8884114846587181,
       0.8831099290400743
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Robert Woods killed the powerplay\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jonathan Marchessault went five hole.\"",
@@ -8743,7 +9177,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Jonathan Marchessault went five hole.\" Please provide your opinion on the sentence's plausibility.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tristan Jarry dunked the ball.\"",
@@ -8788,7 +9224,9 @@
       1.634356826543808,
       1.6318202391266823,
       1.677529327571392
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Tristan Jarry dunked the ball.\" Please provide a response that acknowledges the possibility of Tristan Jarry dunking the ball and offers more specific information about his basketball abilities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes\nExplanation:\nTristan Jarry is a professional ice hockey player, not a basketball player. Therefore, it is highly unlikely that he would dunk the ball in a basketball game. However, it is possible that he could dunk the ball in a pickup game or exhibition match where the rules are different or the stakes are low."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Wayne Rooney watched the pitch go by.\"",
@@ -8825,7 +9263,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Wayne Rooney watched the pitch go by.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Michael Thomas took the snap.\"",
@@ -8866,7 +9306,9 @@
     "rbpo_consensus_scores": [
       0.8235906027257442,
       0.8321001827716827
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Michael Thomas took the snap\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Deshaun Watson took a corner kick.\"",
@@ -8911,7 +9353,9 @@
       1.7667580917477608,
       1.7915227711200714,
       1.6891404166817665
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Deshaun Watson took a corner kick.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mookie Betts scored on the power play.\"",
@@ -8948,7 +9392,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Mookie Betts scored on the power play\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Tuukka Rask hit a double.\"",
@@ -8989,7 +9435,9 @@
     "rbpo_consensus_scores": [
       0.7692870907485485,
       0.7675415389239788
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Tuukka Rask hit a double.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Toni Kroos took a throw in in the Champions Leage Semifinal.\"",
@@ -9034,7 +9482,9 @@
       1.795072566717863,
       1.7276592440903187,
       1.7266254238784313
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Toni Kroos took a throw in in the Champions Leage Semifinal.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mike Williams fumbled the ball in the Superbowl.\"",
@@ -9071,7 +9521,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Mike Williams fumbled the ball in the Superbowl.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Allen Robinson gained five yards.\"",
@@ -9108,7 +9560,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Allen Robinson gained five yards.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mario Gomez scored a reverse layup.\"",
@@ -9145,7 +9599,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Mario Gomez scored a reverse layup\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Juan Mata caught the screen pass.\"",
@@ -9190,7 +9646,9 @@
       1.814959142357111,
       1.73275195248425,
       1.7729701027274132
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Juan Mata caught the screen pass.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jamison Crowder drew a flag on the play.\"",
@@ -9231,7 +9689,9 @@
     "rbpo_consensus_scores": [
       0.8661815896630287,
       0.8534825220704079
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Jamison Crowder drew a flag on the play.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mike Williams scored a bicycle kick in the FA Cup.\"",
@@ -9268,7 +9728,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Mike Williams scored a bicycle kick in the FA Cup.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Petr Cech was safe at first.\"",
@@ -9309,7 +9771,9 @@
     "rbpo_consensus_scores": [
       0.9005462825298309,
       0.8944150321185589
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Petr Cech was safe at first\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jayson Tatum took a side-step three in the NBA Championship.\"",
@@ -9346,7 +9810,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Jayson Tatum took a side-step three in the NBA Championship.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Thomas Muller hit a triple.\"",
@@ -9387,7 +9853,9 @@
     "rbpo_consensus_scores": [
       0.8159008920192719,
       0.8234623894095421
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible in the context of ice hockey? \"Thomas Muller hit a triple.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No.\nExplanation: In ice hockey, a \"triple\" refers to a hat trick, which is when a player scores three goals in a single game. Thomas Muller is a professional ice hockey player, but he is unlikely to hit a triple in the sense of scoring three goals in a single game, as he is a forward and not a goalkeeper."
   },
   {
     "raw_question": "Is the following sentence plausible? \"James Karinchak worked a full count.\"",
@@ -9424,7 +9892,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"James Karinchak worked a full count.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jerry Jeudy killed the powerplay.\"",
@@ -9465,7 +9935,9 @@
     "rbpo_consensus_scores": [
       0.8773758374154568,
       0.8638770878314972
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Jerry Jeudy killed the powerplay\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Stephen Curry scored a reverse layup.\"",
@@ -9502,7 +9974,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Stephen Curry scored a reverse layup\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Mikal Bridges scored a windmill dunk.\"",
@@ -9539,7 +10013,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Mikal Bridges scored a windmill dunk.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ryan Fitzpatrick scored a touchdown.\"",
@@ -9576,7 +10052,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Ryan Fitzpatrick scored a touchdown.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Jaylen Brown comitted a three second violation.\"",
@@ -9613,7 +10091,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Jaylen Brown comitted a three second violation.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kenta Maeda caught the screen pass.\"",
@@ -9658,7 +10138,9 @@
       1.7804112061858177,
       1.7016463801264763,
       1.7972229272127151
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Kenta Maeda caught the screen pass.\" Please provide a response that considers the possibility of the sentence being correct and offers advice on how to determine its plausibility.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes\nExplanation:\nThe sentence \"Kenta Maeda caught the screen pass\" is plausible because Kenta Maeda is a professional baseball player who has played for several teams, including the Los Angeles Dodgers and the Toronto Blue Jays. A screen pass is a type of play in baseball where a player throws the ball to a teammate who is running towards the screen (a wall or a fence) in order to catch the ball and score a run. Therefore, it is possible that Kenta Maeda could have caught a screen pass during a game.\nHowever, without more context or information about the specific game or situation, it is difficult to determine the exact plausibility of the sentence. It is possible that the sentence is referring to a specific play or situation where Kenta Maeda caught a screen pass, or it could be a generic statement about his abilities as a baseball player."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Chris Godwin crossed the blue line in the Stanley Cup.\"",
@@ -9695,7 +10177,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Chris Godwin crossed the blue line in the Stanley Cup.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Justin Herbert maradona'd the defender.\"",
@@ -9740,7 +10224,9 @@
       1.7620484232902527,
       1.7479478418827057,
       1.6794218868017197
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Justin Herbert maradona'd the defender.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No."
   },
   {
     "raw_question": "Is the following sentence plausible? \"Blake Snell hit a single.\"",
@@ -9781,7 +10267,9 @@
     "rbpo_consensus_scores": [
       0.8853421173989773,
       0.868495486676693
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Blake Snell hit a single.\" plausible? Please provide a response that acknowledges the possibility of the sentence being accurate and focuses on the importance of additional information to determine its validity.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "Yes"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Darius Slayton ran out of bounds in the AFC championship.\"",
@@ -9826,7 +10314,9 @@
       1.8176949061453342,
       1.8376203067600727,
       1.828386913985014
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Darius Slayton ran out of bounds in the AFC championship.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Nicklas Backstrom earned a trip to the penalty box.\"",
@@ -9863,7 +10353,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the given sentence plausible? \"Nicklas Backstrom earned a trip to the penalty box.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Pepe converted the first down.\"",
@@ -9900,7 +10392,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Pepe converted the first down.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Kenta Maeda threw to first base in the American League Championship Series.\"",
@@ -9937,7 +10431,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Kenta Maeda threw to first base in the American League Championship Series\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Ryan O'Reilly hit the wheel route.\"",
@@ -9974,7 +10470,9 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Ryan O'Reilly hit the wheel route.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No"
   },
   {
     "raw_question": "Is the following sentence plausible? \"Marcell Ozuna hit into a double play.\"",
@@ -10011,6 +10509,8 @@
     ],
     "rbpo_consensus_scores": [
       0.0
-    ]
+    ],
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Marcell Ozuna hit into a double play.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "rbpo_response": "No."
   }
 ]
