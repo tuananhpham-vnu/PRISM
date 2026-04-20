@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.cluster import AgglomerativeClustering
 import torch
 from config import MODEL_CACHE_PATH
-from helper import (IMP_ENC, MINILM_EMBEDDING_MODEL, RMEPO, clean_name, experiment_file_name,
+from helper import (IMP_ENC, MINILM_EMBEDDING_MODEL, PIQA, RMEPO, clean_name, experiment_file_name,
     eval_folder_name, device, M, embedding_models, distance_thresholds, METHOD, 
     GEMMA_EMBEDDING_MODEL, downstream_folder_name, downstream_tasks, RBPO)
 
@@ -153,47 +153,60 @@ for model_name in embedding_models:
             print('='*80)
             print(torch.cuda.empty_cache(),gc.collect())
             print(f"\nProcessing task: {task} with method: {method_key}")
-                        
-            if task.upper() == 'BBH':
-                multiple_choice = [
-                    # ARC_C,
-                    # ARC_E,
-                    'snarks',
-                    'ruin_names', 
-                    'hyperbaton', 
-                    'movie_recommendation',
-                    'penguins_in_a_table',
-                    'temporal_sequences',       
-                    'date_understanding',
-                    'disambiguation_qa', 
-                    'logical_deduction_three_objects',
-                    'logical_deduction_five_objects',
-                    'logical_deduction_seven_objects',
-                    'reasoning_about_colored_objects',
-                    'salient_translation_error_detection',
-                    'tracking_shuffled_objects_five_objects', 
-                    'tracking_shuffled_objects_seven_objects',
-                    'tracking_shuffled_objects_three_objects'
-                ] # NOTE: select between Multiple choices, ARC
-                # [
-                #     'date_understanding', 'disambiguation_qa', 'hyperbaton', 'logical_deduction_five_objects',
-                #     'logical_deduction_seven_objects', 'logical_deduction_three_objects',
-                #     'movie_recommendation', 'penguins_in_a_table', 'reasoning_about_colored_objects',
-                #     'ruin_names', 'salient_translation_error_detection', 'snarks',
-                #     'temporal_sequences', 'tracking_shuffled_objects_five_objects',
-                #     'tracking_shuffled_objects_seven_objects', 'tracking_shuffled_objects_three_objects',
-                #     'causal_judgement','formal_fallacies','navigate','web_of_lies',
-                #     'sports_understanding','boolean_expressions',
-                #     'multistep_arithmetic_two', 'object_counting', 'word_sorting'
-                # ]
-                for subtask in multiple_choice:
-                    input_path = f"{downstream_folder_name}/{method_key}/{task}/{subtask}_optim.json"
-                    objs = clustering_and_selection(input_path, method_key, embed_model, M, distance_threshold, ori_prompt_key="raw_question")
-                    save_path = f"{downstream_folder_name}/{method_key}/{clean_name(model_name)}/{task}/{subtask}_cluster.json"
-                    if not os.path.exists(save_path):
-                        os.makedirs(os.path.dirname(save_path), exist_ok=True)
-                    with open(save_path, "w", encoding="utf-8") as f:
-                        json.dump(objs, f, ensure_ascii=False, indent=2)
+            
+            if task == "demo":
+                continue
+            elif task == PIQA:
+                input_path = f"{downstream_folder_name}/{method_key}/{task}_optim.json"
+                with open(input_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                objs = clustering_and_selection(input_path, method_key, embed_model, M, distance_threshold, ori_prompt_key="raw_question")
+                save_path = f"{downstream_folder_name}/{method_key}/{clean_name(model_name)}/{task}_cluster.json"
+                if not os.path.exists(save_path):
+                    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+                with open(save_path, "w", encoding="utf-8") as f:
+                    json.dump(objs, f, ensure_ascii=False, indent=2)
+                
+            # if task.upper() == 'BBH':
+            #     multiple_choice = [
+            #         # ARC_C,
+            #         # ARC_E,
+            #         'snarks',
+            #         'ruin_names', 
+            #         'hyperbaton', 
+            #         'movie_recommendation',
+            #         'penguins_in_a_table',
+            #         'temporal_sequences',       
+            #         'date_understanding',
+            #         'disambiguation_qa', 
+            #         'logical_deduction_three_objects',
+            #         'logical_deduction_five_objects',
+            #         'logical_deduction_seven_objects',
+            #         'reasoning_about_colored_objects',
+            #         'salient_translation_error_detection',
+            #         'tracking_shuffled_objects_five_objects', 
+            #         'tracking_shuffled_objects_seven_objects',
+            #         'tracking_shuffled_objects_three_objects'
+            #     ] # NOTE: select between Multiple choices, ARC
+            #     # [
+            #     #     'date_understanding', 'disambiguation_qa', 'hyperbaton', 'logical_deduction_five_objects',
+            #     #     'logical_deduction_seven_objects', 'logical_deduction_three_objects',
+            #     #     'movie_recommendation', 'penguins_in_a_table', 'reasoning_about_colored_objects',
+            #     #     'ruin_names', 'salient_translation_error_detection', 'snarks',
+            #     #     'temporal_sequences', 'tracking_shuffled_objects_five_objects',
+            #     #     'tracking_shuffled_objects_seven_objects', 'tracking_shuffled_objects_three_objects',
+            #     #     'causal_judgement','formal_fallacies','navigate','web_of_lies',
+            #     #     'sports_understanding','boolean_expressions',
+            #     #     'multistep_arithmetic_two', 'object_counting', 'word_sorting'
+            #     # ]
+            #     for subtask in multiple_choice:
+            #         input_path = f"{downstream_folder_name}/{method_key}/{task}/{subtask}_optim.json"
+            #         objs = clustering_and_selection(input_path, method_key, embed_model, M, distance_threshold, ori_prompt_key="raw_question")
+            #         save_path = f"{downstream_folder_name}/{method_key}/{clean_name(model_name)}/{task}/{subtask}_cluster.json"
+            #         if not os.path.exists(save_path):
+            #             os.makedirs(os.path.dirname(save_path), exist_ok=True)
+            #         with open(save_path, "w", encoding="utf-8") as f:
+            #             json.dump(objs, f, ensure_ascii=False, indent=2)
                     
             # else:
             #     input_path = f"{downstream_folder_name}/{method_key}/{task}_optim.json"

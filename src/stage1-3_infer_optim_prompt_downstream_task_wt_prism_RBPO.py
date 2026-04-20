@@ -316,53 +316,53 @@ for method_key in METHOD:
         # elif task.lower()=='gsm8k':
         #     downstream_dataset = load_dataset("gsm8k", "main")
         #     gsm8k(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
-        # elif task.lower() == 'piqa':
-        #     downstream_dataset = read_json( f'./testset/{task}.json')
-        #     piqa(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
-        elif task.upper() == 'BBH':
-            multiple_choice = [
-                # ARC_C,
-                # ARC_E,
-                'snarks',
-                'ruin_names', 
-                'hyperbaton', 
-                'movie_recommendation',
-                'penguins_in_a_table',
-                'temporal_sequences',       
-                'date_understanding',
-                'disambiguation_qa', 
-                'logical_deduction_three_objects',
-                'logical_deduction_five_objects',
-                'logical_deduction_seven_objects',
-                'reasoning_about_colored_objects',
-                'salient_translation_error_detection',
-                'tracking_shuffled_objects_five_objects', 
-                'tracking_shuffled_objects_seven_objects',
-                'tracking_shuffled_objects_three_objects'
-            ] # NOTE: select between Multiple choices, ARC
-            # [
-            #     'date_understanding', 'disambiguation_qa', 'hyperbaton', 'logical_deduction_five_objects',
-            #     'logical_deduction_seven_objects', 'logical_deduction_three_objects',
-            #     'movie_recommendation', 'penguins_in_a_table', 'reasoning_about_colored_objects',
-            #     'ruin_names', 'salient_translation_error_detection', 'snarks',
-            #     'temporal_sequences', 'tracking_shuffled_objects_five_objects',
-            #     'tracking_shuffled_objects_seven_objects', 'tracking_shuffled_objects_three_objects',
-            #     'causal_judgement','formal_fallacies','navigate','web_of_lies',
-            #     'sports_understanding','boolean_expressions',
-            #     'multistep_arithmetic_two', 'object_counting', 'word_sorting'
-            # ]
-            for subtask in multiple_choice:
-                save_file = f"{downstream_folder_name}/{method_key}/{task}/{subtask}_optim.json"
-                if not os.path.exists(save_file):
-                    os.makedirs(os.path.dirname(save_file), exist_ok=True)
+        elif task.lower() == 'piqa':
+            downstream_dataset = read_json( f'./testset/{task}.json')
+            piqa(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+        # elif task.upper() == 'BBH':
+        #     multiple_choice = [
+        #         # ARC_C,
+        #         # ARC_E,
+        #         'snarks',
+        #         'ruin_names', 
+        #         'hyperbaton', 
+        #         'movie_recommendation',
+        #         'penguins_in_a_table',
+        #         'temporal_sequences',       
+        #         'date_understanding',
+        #         'disambiguation_qa', 
+        #         'logical_deduction_three_objects',
+        #         'logical_deduction_five_objects',
+        #         'logical_deduction_seven_objects',
+        #         'reasoning_about_colored_objects',
+        #         'salient_translation_error_detection',
+        #         'tracking_shuffled_objects_five_objects', 
+        #         'tracking_shuffled_objects_seven_objects',
+        #         'tracking_shuffled_objects_three_objects'
+        #     ] # NOTE: select between Multiple choices, ARC
+        #     # [
+        #     #     'date_understanding', 'disambiguation_qa', 'hyperbaton', 'logical_deduction_five_objects',
+        #     #     'logical_deduction_seven_objects', 'logical_deduction_three_objects',
+        #     #     'movie_recommendation', 'penguins_in_a_table', 'reasoning_about_colored_objects',
+        #     #     'ruin_names', 'salient_translation_error_detection', 'snarks',
+        #     #     'temporal_sequences', 'tracking_shuffled_objects_five_objects',
+        #     #     'tracking_shuffled_objects_seven_objects', 'tracking_shuffled_objects_three_objects',
+        #     #     'causal_judgement','formal_fallacies','navigate','web_of_lies',
+        #     #     'sports_understanding','boolean_expressions',
+        #     #     'multistep_arithmetic_two', 'object_counting', 'word_sorting'
+        #     # ]
+        #     for subtask in multiple_choice:
+        #         save_file = f"{downstream_folder_name}/{method_key}/{task}/{subtask}_optim.json"
+        #         if not os.path.exists(save_file):
+        #             os.makedirs(os.path.dirname(save_file), exist_ok=True)
             
-                downstream_dataset =read_json(f'./testset/{task}/{subtask}.json')
-                if subtask == 'word_sorting':
-                    BBH_wordsorting(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
-                elif subtask in ['multistep_arithmetic_two', 'object_counting']:
-                    BBH_math(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
-                else:
-                    BBH(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+        #         downstream_dataset =read_json(f'./testset/{task}/{subtask}.json')
+        #         if subtask == 'word_sorting':
+        #             BBH_wordsorting(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+        #         elif subtask in ['multistep_arithmetic_two', 'object_counting']:
+        #             BBH_math(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
+        #         else:
+        #             BBH(model2, tokenizer2,downstream_dataset, method_key, save_file, M)
 
 
     
