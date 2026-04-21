@@ -89,7 +89,7 @@ for method in METHOD:
                 #             json.dump(data, f, ensure_ascii=False, indent=2)
                 # else:
                 elif task == PIQA:
-                    data_path= f"{downstream_folder_name}/{method}/{clean_name(embed_model_name)}/{task}.json"
+                    data_path= f"{downstream_folder_name}/{method}/{clean_name(embed_model_name)}/{task}_optim.json"
 
                     with open(data_path, "r", encoding="utf-8") as f:
                         data = json.load(f) # NOTE: chỉ lấy 5 sample đầu để test
