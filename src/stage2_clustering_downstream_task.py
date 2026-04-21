@@ -161,7 +161,7 @@ for model_name in embedding_models:
                 with open(input_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                 objs = clustering_and_selection(input_path, method_key, embed_model, M, distance_threshold, ori_prompt_key="raw_question")
-                save_path = f"{downstream_folder_name}/{method_key}/{clean_name(model_name)}/{task}_cluster.json"
+                save_path = f"{downstream_folder_name}/{method_key}/{clean_name(model_name)}/{task}.json"
                 if not os.path.exists(save_path):
                     os.makedirs(os.path.dirname(save_path), exist_ok=True)
                 with open(save_path, "w", encoding="utf-8") as f:
