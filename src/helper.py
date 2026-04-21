@@ -1,3 +1,4 @@
+import enum
 import json
 import os
 
@@ -70,7 +71,11 @@ IMP_ENC=0.5
 
 OPTIM_PROMPT_INSTRUCTION_PATH = "optimize_prompt_instruction.txt"
 
-
+class AnswerKey(enum.Enum):
+    BBH = "target"
+    PIQA = "label"
+    ARC = "answer"
+    GSM8K = "answer"
 
 def clean_name(path_or_id: str):
     name = path_or_id.split("/")[-1]        

@@ -1,29 +1,27 @@
-
+import requests
 from transformers import AutoModelForCausalLM, AutoTokenizer
-from dotenv import load_dotenv
 from config import MODEL_CACHE_PATH
-from helper import (LLAMA2_7B, clean_name, downstream_folder_name, downstream_tasks, RBPO, RMEPO, GEMMA_EMBEDDING_MODEL, MINILM_EMBEDDING_MODEL, base_llm_models, BBH, device, embedding_models)
+from helper import (ARC_C, ARC_E, GSM8K, LLAMA2_7B, PIQA, clean_name, downstream_folder_name,eval_folder_name, downstream_tasks, RBPO, RMEPO, GEMMA_EMBEDDING_MODEL, MINILM_EMBEDDING_MODEL, base_llm_models, BBH, device, embedding_models, DEEPSEEK)
 import json, os
 
 from config import prompt_template_gsm8k, prompt_template_piqa, prompt_template_multiple_choice
 from utils import generate, generate_batch
-from utils_downstream_task import format_prompt_template
+from utils_downstream_task import format_prompt_template, keyword_verify, llm_verify
 
-load_dotenv()
-hf_token = os.getenv("HF_TOKEN")    
-
-# embedding_models = [
-#     GEMMA_EMBEDDING_MODEL,
-#     MINILM_EMBEDDING_MODEL
-# ]
+folder_path = f"{eval_folder_name}/{downstream_folder_name}"
 
 base_llm_models = [LLAMA2_7B]
 
-METHOD = [
-    RBPO,
-    RMEPO
+embedding_models = [
+    GEMMA_EMBEDDING_MODEL,
+    # MINILM_EMBEDDING_MODEL
 ]
 
+METHOD = [
+    # RBPO,
+    RMEPO
+]
+        
 res = []
 for method in METHOD:
     for base_model in base_llm_models:
@@ -31,7 +29,10 @@ for method in METHOD:
             for task in downstream_tasks:
                 if task == "demo":
                     continue
-                if task == BBH:
+                elif task == PIQA:
+                    continue
+                elif task == BBH:
+                    # continue
                     multiple_choice = [
                     'date_understanding', 'disambiguation_qa', 'hyperbaton', 'logical_deduction_five_objects',
                     'logical_deduction_seven_objects', 'logical_deduction_three_objects',
@@ -44,19 +45,16 @@ for method in METHOD:
                     'multistep_arithmetic_two', 'object_counting', 'word_sorting'
                 ]
                     for subtask in multiple_choice:
-                        data_path = f"{downstream_folder_name}/{method}/{clean_name(embed_model_name)}/{task}/{subtask}.json"
-                        with open(data_path, "r", encoding="utf-8") as f:
-                            data = json.load(f)[:5] # NOTE: chỉ lấy 5 sample đầu để test
-                        print(f"\nBase model: {base_model} | Task: {subtask} | Embedding: {clean_name(embed_model_name)} | Dataset: {data_path} | Loaded {len(data)} samples")                        
+                        data_path = f"{folder_path}/{method}/{clean_name(embed_model_name)}/{task}/{subtask}_demo.json"
+                        print(f"\nBase model: {base_model} | Task: {subtask} | Embedding: {clean_name(embed_model_name)} | Dataset: {data_path}")                        
                         
-                        output_path = f"{downstream_folder_name}/{method}/{clean_name(embed_model_name)}/{task}/{subtask}_demo.json"
-                        with open(output_path, "w", encoding="utf-8") as f:
-                            json.dump(data, f, ensure_ascii=False, indent=2)
-                else:
-                    data_path= f"{downstream_folder_name}/{method}/{clean_name(embed_model_name)}/{task}.json"
-
-                    with open(data_path, "r", encoding="utf-8") as f:
-                        data = json.load(f)[:5] # NOTE: chỉ lấy 5 sample đầu để test
-                    output_path = f"{downstream_folder_name}/{method}/{clean_name(embed_model_name)}/{task}_demo.json"
-                    with open(output_path, "w", encoding="utf-8") as f:
-                        json.dump(data, f, ensure_ascii=False, indent=2)     
+                        # keyword_verify(data_path, subtask, method_key=method, is_bbh=True)
+                        llm_verify(data_path, subtask, method_key=method, is_bbh=True)
+                # else:
+                elif task == GSM8K:
+                    data_path= f"{folder_path}/{method}/{clean_name(embed_model_name)}/{task}_demo.json"
+                    print(f"\nBase model: {base_model} | Task: {task} | Embedding: {clean_name(embed_model_name)} | Dataset: {data_path}")
+                    
+                    # keyword_verify(data_path, task, method_key=method, is_bbh=False)
+                    llm_verify(data_path, task, method_key=method, is_bbh=False)
+                    
