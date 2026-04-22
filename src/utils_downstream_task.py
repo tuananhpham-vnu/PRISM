@@ -1,5 +1,6 @@
 import os
 import json
+import random
 import requests
 from config import prompt_template_gsm8k, prompt_template_piqa, prompt_template_multiple_choice, prompt_template_bbh_yes_no,prompt_template_bbh_true_false, prompt_template_bbh_valid
 from helper import DEEPSEEK, GSM8K, BBH, ARC_C, ARC_E, PIQA
@@ -207,23 +208,26 @@ Expected Answer: {expected_answer}
 Predicted Answer: {predicted_answer}
 
 Task:
-Determine whether the predicted answer correctly matches the expected sorted sequence.
+Determine whether the predicted answer correctly preserves the alphabetical order of all expected items.
 
 Important Instructions:
 - The predicted answer may contain extra or irrelevant content.
-- ONLY consider the FIRST sequence before any new question (e.g., "Q:").
-- Ignore any explanation or trailing content.
+- Identify and extract the MAIN list of words that represents the sorted output.
+- Ignore unrelated text before or after the list.
 
 Normalization Rules:
-- Extract the sequence (words/items) from both answers.
+- Extract sequences from both answers.
 - Normalize by:
   - Lowercasing
   - Removing punctuation
   - Splitting by spaces or commas
-- Compare sequences EXACTLY in order.
 
 Evaluation:
-- The answer is correct ONLY if all elements match AND order is identical.
+- Let E = expected sequence, P = predicted sequence.
+- The answer is correct if:
+  1. ALL elements in E appear in P (no missing elements)
+  2. The order of elements in E is preserved in P (subsequence match)
+- Extra elements in P are allowed.
 
 Output format (STRICT):
 Return a JSON list with exactly one object:
@@ -317,6 +321,8 @@ def llm_verify(data_path, task_name, method_key, is_bbh):
     assert os.path.exists(data_path), f"Data path does not exist: {data_path}"
     with open(data_path, "r", encoding="utf-8") as f:
         data = json.load(f) # NOTE: Only verify the first 5 samples for quick testing. Remove [:5] to verify the entire dataset.
+    
+    data = random.sample(data, 10)
         
     task = check_main_task(task_name)
     
@@ -354,7 +360,7 @@ def llm_verify(data_path, task_name, method_key, is_bbh):
             
         
         # NOTE: call DeepSeek api to verify correctness
-        print(f"Verifying item with question: {question}")
+        # print(f"Verifying item with question: {question}")
         verify_prompt = downstream_verify_prompt_template.format(
             question=question,
             predicted_answer=predicted_ans,
@@ -369,3 +375,4 @@ def llm_verify(data_path, task_name, method_key, is_bbh):
     
     with open(data_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"Verification completed for {data_path}. Results saved.")

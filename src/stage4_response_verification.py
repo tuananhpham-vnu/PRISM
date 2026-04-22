@@ -14,11 +14,11 @@ base_llm_models = [LLAMA2_7B]
 
 embedding_models = [
     GEMMA_EMBEDDING_MODEL,
-    # MINILM_EMBEDDING_MODEL
+    MINILM_EMBEDDING_MODEL
 ]
 
 METHOD = [
-    # RBPO,
+    RBPO,
     RMEPO
 ]
         
@@ -42,7 +42,8 @@ for method in METHOD:
                     'tracking_shuffled_objects_seven_objects', 'tracking_shuffled_objects_three_objects',
                     'causal_judgement','formal_fallacies','navigate','web_of_lies',
                     'sports_understanding','boolean_expressions',
-                    'multistep_arithmetic_two', 'object_counting', 'word_sorting'
+                    'multistep_arithmetic_two', 'object_counting', 
+                    'word_sorting'
                 ]
                     for subtask in multiple_choice:
                         data_path = f"{folder_path}/{method}/{clean_name(embed_model_name)}/{task}/{subtask}_demo.json"
@@ -50,9 +51,10 @@ for method in METHOD:
                         
                         # keyword_verify(data_path, subtask, method_key=method, is_bbh=True)
                         llm_verify(data_path, subtask, method_key=method, is_bbh=True)
-                # else:
-                elif task == GSM8K:
-                    data_path= f"{folder_path}/{method}/{clean_name(embed_model_name)}/{task}_demo.json"
+                else:
+                    # continue
+                # elif task == GSM8K:
+                    data_path= f"{folder_path}/{method}/{clean_name(embed_model_name)}/{task}demo.json"
                     print(f"\nBase model: {base_model} | Task: {task} | Embedding: {clean_name(embed_model_name)} | Dataset: {data_path}")
                     
                     # keyword_verify(data_path, task, method_key=method, is_bbh=False)
