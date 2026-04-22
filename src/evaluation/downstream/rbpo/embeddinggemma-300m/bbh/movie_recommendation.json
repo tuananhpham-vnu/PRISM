@@ -1,0 +1,115 @@
+[
+  {
+    "raw_question": "Find a movie similar to Dumb & Dumber, Jurassic Park, Schindler's List, Forrest Gump:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find a movie that is similar to Dumb & Dumber, Jurassic Park, Schindler's List, and Forrest Gump in terms of genre, theme, and overall tone.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find a movie that is similar to Dumb & Dumber, Jurassic Park, Schindler's List, and Forrest Gump in terms of genre, theme, and overall tone.\nOptions: ##A: The Counterfeiters\n##B: Gone with the Wind\n##C: Braveheart\n##D: Pitfall\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Forrest Gump, The Silence of the Lambs, Fargo, Seven:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find a movie that is similar to Forrest Gump, The Silence of the Lambs, Fargo, and Seven.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find a movie that is similar to Forrest Gump, The Silence of the Lambs, Fargo, and Seven.\nOptions: ##A: Schindler's List\n##B: The Diary of Anne Frank\n##C: Cleanskin\n##D: Boy\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Dances with Wolves, The Usual Suspects, Toy Story, Braveheart:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find movies that are similar to Dances with Wolves, The Usual Suspects, Toy Story, Braveheart in terms of genre and theme.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies that are similar to Dances with Wolves, The Usual Suspects, Toy Story, Braveheart in terms of genre and theme.\nOptions: ##A: Ashby\n##B: Groove\n##C: The Dinner Game\n##D: Schindler's List\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Pulp Fiction, Dances with Wolves, The Fugitive, The Shawshank Redemption:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find movies that are similar to Pulp Fiction, Dances with Wolves, The Fugitive, and The Shawshank Redemption in terms of genre, theme, and overall style.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies that are similar to Pulp Fiction, Dances with Wolves, The Fugitive, and The Shawshank Redemption in terms of genre, theme, and overall style.\nOptions: ##A: Baby Secret of the Lost Legend\n##B: The Care Bears Movie\n##C: The Fiendish Plot of Dr Fu Manchu\n##D: Forrest Gump\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to The Lord of the Rings The Two Towers, Raiders of the Lost Ark, The Lord of the Rings The Fellowship of the Ring, Inception:",
+    "rbpo_response": "(C)",
+    "rbpo_prompt": "Find movies that are similar to The Lord of the Rings The Two Towers, Raiders of the Lost Ark, The Lord of the Rings The Fellowship of the Ring, and Inception.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies that are similar to The Lord of the Rings The Two Towers, Raiders of the Lost Ark, The Lord of the Rings The Fellowship of the Ring, and Inception.\nOptions: ##A: Ladybugs\n##B: American Ultra\n##C: Saving Private Ryan\n##D: Siam Sunset\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies that are similar to The Lord of the Rings The Two Towers, Raiders of the Lost Ark, The Lord of the Rings The Fellowship of the Ring, and Inception.\nOptions: ##A: Ladybugs\n##B: American Ultra\n##C: Saving Private Ryan\n##D: Siam Sunset\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (C) does not match expected answer (c)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Find a movie similar to The Shawshank Redemption, Forrest Gump, Dances with Wolves, The Fugitive:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find movies similar to The Shawshank Redemption, Forrest Gump, Dances with Wolves, The Fugitive in terms of genre and theme.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies similar to The Shawshank Redemption, Forrest Gump, Dances with Wolves, The Fugitive in terms of genre and theme.\nOptions: ##A: Pulp Fiction\n##B: The Girl on the Bridge\n##C: Radioland Murders\n##D: Father of the Bride\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Stargate, The Shawshank Redemption, Dances with Wolves, The Fugitive:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find movies that are similar to Stargate, The Shawshank Redemption, Dances with Wolves, The Fugitive in terms of genre and plot.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies that are similar to Stargate, The Shawshank Redemption, Dances with Wolves, The Fugitive in terms of genre and plot.\nOptions: ##A: Angel at My Table\n##B: An\n##C: Beauty of the Day\n##D: Pulp Fiction\n##E: The Omega Man\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(D)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to The Fugitive, Willy Wonka & the Chocolate Factory, So I Married an Axe Murderer, Batman:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find movies that are similar to The Fugitive, Willy Wonka & the Chocolate Factory, So I Married an Axe Murderer, and Batman.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies that are similar to The Fugitive, Willy Wonka & the Chocolate Factory, So I Married an Axe Murderer, and Batman.\nOptions: ##A: Seven\n##B: Meet the Spartans\n##C: Leprechaun 4 In Space\n##D: Harlem Nights\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to The Fugitive, Schindler's List, Fargo, Braveheart:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find a movie that is similar to The Fugitive, Schindler's List, Fargo, Braveheart in terms of genre and plot.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find a movie that is similar to The Fugitive, Schindler's List, Fargo, Braveheart in terms of genre and plot.\nOptions: ##A: Dances with Wolves\n##B: Arachnophobia\n##C: The Good Son\n##D: Liam\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Inception, Pulp Fiction, Forrest Gump, Raiders of the Lost Ark:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find movies similar to Inception, Pulp Fiction, Forrest Gump, Raiders of the Lost Ark in terms of genre and theme.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies similar to Inception, Pulp Fiction, Forrest Gump, Raiders of the Lost Ark in terms of genre and theme.\nOptions: ##A: Who's Afraid of Virginia Woolf\n##B: Fantastic Mr Fox\n##C: Clash of the Titans\n##D: Independence Day\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  }
+]

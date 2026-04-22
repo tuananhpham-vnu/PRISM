@@ -1,0 +1,115 @@
+[
+  {
+    "raw_question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: an owl, a cardinal, a robin, a hummingbird, and a crow. The hummingbird is to the left of the owl. The hummingbird is to the right of the cardinal. The crow is to the left of the robin. The owl is to the left of the crow.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide a detailed description of five specific objects arranged in a predetermined sequence on a branch, ensuring each object—specifically an owl, a cardinal, a robin, a hummingbird, and a crow—is uniquely positioned relative to one another, with the conditions that the hummingbird is located both to the left of the owl and to the right of the cardinal, the crow is situated to the left of the robin, and the owl is positioned to the left of the crow.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide a detailed description of five specific objects arranged in a predetermined sequence on a branch, ensuring each object—specifically an owl, a cardinal, a robin, a hummingbird, and a crow—is uniquely positioned relative to one another, with the conditions that the hummingbird is located both to the left of the owl and to the right of the cardinal, the crow is situated to the left of the robin, and the owl is positioned to the left of the crow.\nOptions: ##A: The owl is the rightmost\n##B: The cardinal is the rightmost\n##C: The robin is the rightmost\n##D: The hummingbird is the rightmost\n##E: The crow is the rightmost\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a yellow book, a brown book, a gray book, a black book, and a purple book. The yellow book is to the right of the purple book. The black book is to the left of the purple book. The black book is the third from the left. The brown book is the leftmost.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide precise details about the arrangement of five specific books on a shelf: a yellow book, a brown book, a gray book, a black book, and a purple book. Each book must maintain a fixed order relative to the others as described. Specifically, ensure the yellow book is positioned to the right of the purple book, the black book is to the left of the purple book, the black book is the third from the left, and the brown book is the leftmost.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide precise details about the arrangement of five specific books on a shelf: a yellow book, a brown book, a gray book, a black book, and a purple book. Each book must maintain a fixed order relative to the others as described. Specifically, ensure the yellow book is positioned to the right of the purple book, the black book is to the left of the purple book, the black book is the third from the left, and the brown book is the leftmost.\nOptions: ##A: The yellow book is the third from the left\n##B: The brown book is the third from the left\n##C: The gray book is the third from the left\n##D: The black book is the third from the left\n##E: The purple book is the third from the left\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(D)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a crow, a robin, a quail, a blue jay, and a falcon. The robin is to the left of the quail. The falcon is the third from the left. The crow is to the left of the falcon. The blue jay is the leftmost.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide specific details about the arrangement of five distinct objects—identifying their exact positions relative to one another—where the objects are a crow, a robin, a quail, a blue jay, and a falcon, ensuring all given logical conditions are met: the robin is positioned to the left of the quail, the falcon occupies the third position from the left, the crow is situated to the left of the falcon, and the blue jay is positioned at the far left.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide specific details about the arrangement of five distinct objects—identifying their exact positions relative to one another—where the objects are a crow, a robin, a quail, a blue jay, and a falcon, ensuring all given logical conditions are met: the robin is positioned to the left of the quail, the falcon occupies the third position from the left, the crow is situated to the left of the falcon, and the blue jay is positioned at the far left.\nOptions: ##A: The crow is the second from the left\n##B: The robin is the second from the left\n##C: The quail is the second from the left\n##D: The blue jay is the second from the left\n##E: The falcon is the second from the left\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(A)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Rob, Ada, Dan, Joe, and Mel. Ada finished above Mel. Mel finished above Dan. Joe finished below Dan. Ada finished second.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify and list the specific positions of five golfers—Rob, Ada, Dan, Joe, and Mel—in a fixed order after completing a golf tournament, given the following conditions: Ada finished above Mel, Mel finished above Dan, Joe finished below Dan, and Ada specifically placed second.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify and list the specific positions of five golfers—Rob, Ada, Dan, Joe, and Mel—in a fixed order after completing a golf tournament, given the following conditions: Ada finished above Mel, Mel finished above Dan, Joe finished below Dan, and Ada specifically placed second.\nOptions: ##A: Rob finished second\n##B: Ada finished second\n##C: Dan finished second\n##D: Joe finished second\n##E: Mel finished second\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(B)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a brown book, a yellow book, an orange book, a green book, and a gray book. The green book is to the left of the gray book. The brown book is the third from the left. The gray book is the second from the right. The yellow book is to the left of the green book.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide specific details about the arrangement of five distinct books on a shelf, including their colors and positions relative to each other, ensuring that the descriptions in each paragraph are logically coherent and consistently ordered. The books available are a brown book, a yellow book, an orange book, a green book, and a gray book, with the following conditions: the green book must be positioned to the left of the gray book, the brown book must occupy the third position from the left, the gray book must be the second from the right, and the yellow book must be located to the left of the green book.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide specific details about the arrangement of five distinct books on a shelf, including their colors and positions relative to each other, ensuring that the descriptions in each paragraph are logically coherent and consistently ordered. The books available are a brown book, a yellow book, an orange book, a green book, and a gray book, with the following conditions: the green book must be positioned to the left of the gray book, the brown book must occupy the third position from the left, the gray book must be the second from the right, and the yellow book must be located to the left of the green book.\nOptions: ##A: The brown book is the leftmost\n##B: The yellow book is the leftmost\n##C: The orange book is the leftmost\n##D: The green book is the leftmost\n##E: The gray book is the leftmost\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(B)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were five golfers: Rob, Amy, Joe, Eve, and Dan. Rob finished below Dan. Joe finished second. Joe finished above Eve. Eve finished above Dan.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify and list the specific positions, from first to fifth, occupied by five golfers—Rob, Amy, Joe, Eve, and Dan—in a particular golf tournament, ensuring that all given relationships between their finishing orders are accurately reflected. Each provided statement must be logically consistent with the others. Relationships include: Rob finished behind Dan, Joe came in second, Joe finished ahead of Eve, and Eve placed before Dan.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify and list the specific positions, from first to fifth, occupied by five golfers—Rob, Amy, Joe, Eve, and Dan—in a particular golf tournament, ensuring that all given relationships between their finishing orders are accurately reflected. Each provided statement must be logically consistent with the others. Relationships include: Rob finished behind Dan, Joe came in second, Joe finished ahead of Eve, and Eve placed before Dan.\nOptions: ##A: Rob finished second-to-last\n##B: Amy finished second-to-last\n##C: Joe finished second-to-last\n##D: Eve finished second-to-last\n##E: Dan finished second-to-last\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(E)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: a quail, a hummingbird, a blue jay, a hawk, and a robin. The robin is the second from the left. The quail is the leftmost. The blue jay is to the left of the hummingbird. The hawk is the third from the left.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify and list the specific positions of five distinct birds—namely, a quail, a hummingbird, a blue jay, a hawk, and a robin—arranged in a fixed linear order on a branch, ensuring all provided descriptions about their relative positioning are accurately reflected. Specifically, note that the robin occupies the second position from the left, the quail is positioned at the far left, the blue jay is situated to the immediate left of the hummingbird, and the hawk is placed in the third position from the left.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify and list the specific positions of five distinct birds—namely, a quail, a hummingbird, a blue jay, a hawk, and a robin—arranged in a fixed linear order on a branch, ensuring all provided descriptions about their relative positioning are accurately reflected. Specifically, note that the robin occupies the second position from the left, the quail is positioned at the far left, the blue jay is situated to the immediate left of the hummingbird, and the hawk is placed in the third position from the left.\nOptions: ##A: The quail is the third from the left\n##B: The hummingbird is the third from the left\n##C: The blue jay is the third from the left\n##D: The hawk is the third from the left\n##E: The robin is the third from the left\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(D)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells five fruits: oranges, cantaloupes, peaches, loquats, and kiwis. The peaches are more expensive than the oranges. The cantaloupes are more expensive than the peaches. The kiwis are the third-most expensive. The loquats are the second-cheapest.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide a detailed description of five specific fruits arranged in a predetermined price order at a fruit stand, ensuring each fruit—namely oranges, cantaloupes, peaches, loquats, and kiwis—is distinctly identified by its relative pricing compared to the others, with the peaches being more expensive than the oranges, the cantaloupes more expensive than the peaches, the kiwis occupying the third position in terms of cost, and the loquats ranking as the second-cheapest among the group.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide a detailed description of five specific fruits arranged in a predetermined price order at a fruit stand, ensuring each fruit—namely oranges, cantaloupes, peaches, loquats, and kiwis—is distinctly identified by its relative pricing compared to the others, with the peaches being more expensive than the oranges, the cantaloupes more expensive than the peaches, the kiwis occupying the third position in terms of cost, and the loquats ranking as the second-cheapest among the group.\nOptions: ##A: The oranges are the cheapest\n##B: The cantaloupes are the cheapest\n##C: The peaches are the cheapest\n##D: The loquats are the cheapest\n##E: The kiwis are the cheapest\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(A)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a brown book, a yellow book, an orange book, a green book, and a gray book. The green book is to the left of the gray book. The brown book is the third from the left. The gray book is the second from the right. The yellow book is to the left of the green book.",
+    "rmepo_response": "Please let me know if you need anything else.",
+    "rmepo_prompt": "Provide a detailed description of five specific objects arranged in a precise order on a shelf, ensuring each object is distinctly identified by color, and include the exact positions of each object relative to one another, specifically noting the positioning of a green book to the left of a gray book, the brown book as the third from the left, the gray book as the second from the right, and the yellow book positioned to the left of the green book.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide a detailed description of five specific objects arranged in a precise order on a shelf, ensuring each object is distinctly identified by color, and include the exact positions of each object relative to one another, specifically noting the positioning of a green book to the left of a gray book, the brown book as the third from the left, the gray book as the second from the right, and the yellow book positioned to the left of the green book.\nOptions: ##A: The brown book is the rightmost\n##B: The yellow book is the rightmost\n##C: The orange book is the rightmost\n##D: The green book is the rightmost\n##E: The gray book is the rightmost\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide a detailed description of five specific objects arranged in a precise order on a shelf, ensuring each object is distinctly identified by color, and include the exact positions of each object relative to one another, specifically noting the positioning of a green book to the left of a gray book, the brown book as the third from the left, the gray book as the second from the right, and the yellow book positioned to the left of the green book.\nOptions: ##A: The brown book is the rightmost\n##B: The yellow book is the rightmost\n##C: The orange book is the rightmost\n##D: The green book is the rightmost\n##E: The gray book is the rightmost\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is not a valid option; expected (C)."
+      }
+    ]
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are five birds: an owl, a robin, a blue jay, a hawk, and a hummingbird. The owl is the second from the right. The robin is the second from the left. The robin is to the right of the blue jay. The hummingbird is to the right of the hawk.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide detailed descriptions for five specific objects arranged in a fixed order on a branch, ensuring each description includes its exact position relative to the others: an owl, a robin, a blue jay, a hawk, and a hummingbird. Specifically, state that the owl is positioned second from the right, the robin is second from the left, the robin is positioned to the right of the blue jay, and the hummingbird is to the right of the hawk.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide detailed descriptions for five specific objects arranged in a fixed order on a branch, ensuring each description includes its exact position relative to the others: an owl, a robin, a blue jay, a hawk, and a hummingbird. Specifically, state that the owl is positioned second from the right, the robin is second from the left, the robin is positioned to the right of the blue jay, and the hummingbird is to the right of the hawk.\nOptions: ##A: The owl is the second from the right\n##B: The robin is the second from the right\n##C: The blue jay is the second from the right\n##D: The hawk is the second from the right\n##E: The hummingbird is the second from the right\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(A)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  }
+]

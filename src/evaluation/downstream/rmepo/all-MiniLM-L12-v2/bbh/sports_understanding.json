@@ -1,0 +1,142 @@
+[
+  {
+    "raw_question": "Is the following sentence plausible? \"Ryan Nugent-Hopkins killed the powerplay.\"",
+    "rmepo_response": "Yes",
+    "rmepo_prompt": "Determine whether the statement \"Ryan Nugent-Hopkins executed the power play successfully\" is accurate, considering typical sports terminology and usage.",
+    "rmepo_input_llm": "\nQuestion:\nDetermine whether the statement \"Ryan Nugent-Hopkins executed the power play successfully\" is accurate, considering typical sports terminology and usage.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "yes",
+    "template": "\nQuestion: \nQuestion:\nDetermine whether the statement \"Ryan Nugent-Hopkins executed the power play successfully\" is accurate, considering typical sports terminology and usage.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: yes\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer exactly."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Juan Mata caught the screen pass.\"",
+    "rmepo_response": "Yes",
+    "rmepo_prompt": "Evaluate whether the statement 'Juan Mata caught a screen pass' is plausible, considering typical scenarios and contexts related to Juan Mata's known sports career and abilities.",
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Juan Mata caught a screen pass' is plausible, considering typical scenarios and contexts related to Juan Mata's known sports career and abilities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nEvaluate whether the statement 'Juan Mata caught a screen pass' is plausible, considering typical scenarios and contexts related to Juan Mata's known sports career and abilities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Juan Mata is a soccer player, not American football."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Santi Cazorla called for the screen.\"",
+    "rmepo_response": "Yes",
+    "rmepo_prompt": "Evaluate whether the statement 'Santi Cazorla called for the screen' is plausible, considering typical contexts and actions associated with Santi Cazorla's professional or public life.",
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Santi Cazorla called for the screen' is plausible, considering typical contexts and actions associated with Santi Cazorla's professional or public life.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nEvaluate whether the statement 'Santi Cazorla called for the screen' is plausible, considering typical contexts and actions associated with Santi Cazorla's professional or public life.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is Yes, but expected answer is No."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Evander Kane hit the slant pass in the AFC divisional round.\"",
+    "rmepo_response": "Yes",
+    "rmepo_prompt": "Verify if the statement \"Evander Kane executed a slant pass during the AFC divisional round of a specific sports event\" is accurate and feasible.",
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Evander Kane executed a slant pass during the AFC divisional round of a specific sports event\" is accurate and feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nVerify if the statement \"Evander Kane executed a slant pass during the AFC divisional round of a specific sports event\" is accurate and feasible.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is Yes, but expected answer is No."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Andrei Svechnikov took ball four.\"",
+    "rmepo_response": "Yes",
+    "rmepo_prompt": "Verify if the statement \"Andrei Svechnikov took ball four\" is feasible, considering the specific context and known facts about Andrei Svechnikov's role and activities.",
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Andrei Svechnikov took ball four\" is feasible, considering the specific context and known facts about Andrei Svechnikov's role and activities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nVerify if the statement \"Andrei Svechnikov took ball four\" is feasible, considering the specific context and known facts about Andrei Svechnikov's role and activities.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer Yes, but expected answer is No."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Diego Forlan did a maradona on the defender.\"",
+    "rmepo_response": "Yes",
+    "rmepo_prompt": "Evaluate whether the statement 'Diego Forlan executed a Maradona maneuver against a defender' is reasonable, considering known football techniques and Diego Forlan's playing style.",
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Diego Forlan executed a Maradona maneuver against a defender' is reasonable, considering known football techniques and Diego Forlan's playing style.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "yes",
+    "template": "\nQuestion: \nQuestion:\nEvaluate whether the statement 'Diego Forlan executed a Maradona maneuver against a defender' is reasonable, considering known football techniques and Diego Forlan's playing style.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: yes\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer exactly."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Nazem Kadri took a charge in the NBA Championship.\"",
+    "rmepo_response": "No",
+    "rmepo_prompt": "Verify whether the statement 'Nazem Kadri took a charge in the NBA Championship' is feasible, considering Nazem Kadri's professional league and the structure of the NBA playoffs.",
+    "rmepo_input_llm": "\nQuestion:\nVerify whether the statement 'Nazem Kadri took a charge in the NBA Championship' is feasible, considering Nazem Kadri's professional league and the structure of the NBA playoffs.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nVerify whether the statement 'Nazem Kadri took a charge in the NBA Championship' is feasible, considering Nazem Kadri's professional league and the structure of the NBA playoffs.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: No\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Nazem Kadri is an NHL player, not in NBA. NBA Championship is basketball."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Gerrit Cole committed a handball in the European Cup.\"",
+    "rmepo_response": "No",
+    "rmepo_prompt": "Verify if the statement \"Gerrit Cole performed a handball during the European Cup\" is feasible, considering the specific rules and context of the event.",
+    "rmepo_input_llm": "\nQuestion:\nVerify if the statement \"Gerrit Cole performed a handball during the European Cup\" is feasible, considering the specific rules and context of the event.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nVerify if the statement \"Gerrit Cole performed a handball during the European Cup\" is feasible, considering the specific rules and context of the event.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: No\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer: No."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Juan Soto did a double stepover.\"",
+    "rmepo_response": "No",
+    "rmepo_prompt": "Evaluate whether the statement 'Juan Soto performed a double stepover' is realistic, considering current sports data and known techniques.",
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Juan Soto performed a double stepover' is realistic, considering current sports data and known techniques.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nEvaluate whether the statement 'Juan Soto performed a double stepover' is realistic, considering current sports data and known techniques.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: No\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer exactly."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Sergio Ramos hit nothing but net.\"",
+    "rmepo_response": "Yes",
+    "rmepo_prompt": "Evaluate whether the statement 'Sergio Ramos hit nothing but net' is factually accurate, considering the context and specific actions associated with this phrase.",
+    "rmepo_input_llm": "\nQuestion:\nEvaluate whether the statement 'Sergio Ramos hit nothing but net' is factually accurate, considering the context and specific actions associated with this phrase.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nEvaluate whether the statement 'Sergio Ramos hit nothing but net' is factually accurate, considering the context and specific actions associated with this phrase.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer Yes, but expected answer is No."
+      }
+    ]
+  }
+]

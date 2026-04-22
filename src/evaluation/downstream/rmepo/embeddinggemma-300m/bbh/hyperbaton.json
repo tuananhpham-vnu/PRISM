@@ -1,0 +1,142 @@
+[
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specific sentence needs to be evaluated for its adherence to the correct adjective order convention in English grammar?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence needs to be evaluated for its adherence to the correct adjective order convention in English grammar?\nOptions: ##A: little pink Indonesian drinking repulsive dog\n##B: repulsive little pink Indonesian drinking dog\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence needs to be evaluated for its adherence to the correct adjective order convention in English grammar?\nOptions: ##A: little pink Indonesian drinking repulsive dog\n##B: repulsive little pink Indonesian drinking dog\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b) for correct adjective order."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specific sentence needs to be evaluated for its adherence to the correct adjective order convention in English grammar?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence needs to be evaluated for its adherence to the correct adjective order convention in English grammar?\nOptions: ##A: wonderful fiberglass small new walking sock\n##B: wonderful small new fiberglass walking sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence needs to be evaluated for its adherence to the correct adjective order convention in English grammar?\nOptions: ##A: wonderful fiberglass small new walking sock\n##B: wonderful small new fiberglass walking sock\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specific sentence should be evaluated for its adherence to the correct adjective order convention in English grammar?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence should be evaluated for its adherence to the correct adjective order convention in English grammar?\nOptions: ##A: nice enormous gold sock\n##B: enormous nice gold sock\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence should be evaluated for its adherence to the correct adjective order convention in English grammar?\nOptions: ##A: nice enormous gold sock\n##B: enormous nice gold sock\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct adjective order is (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specific sentence should be evaluated for adhering to the correct adjective order rules in English grammar?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence should be evaluated for adhering to the correct adjective order rules in English grammar?\nOptions: ##A: small grey square cloth Japanese shoe\n##B: small square grey Japanese cloth shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence should be evaluated for adhering to the correct adjective order rules in English grammar?\nOptions: ##A: small grey square cloth Japanese shoe\n##B: small square grey Japanese cloth shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specifically is the correct order of adjectives in the following sentence:",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specifically is the correct order of adjectives in the following sentence:\nOptions: ##A: midsize old pyramidal American monkey\n##B: American old midsize pyramidal monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specifically is the correct order of adjectives in the following sentence:\nOptions: ##A: midsize old pyramidal American monkey\n##B: American old midsize pyramidal monkey\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct order is (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specifically is the correct adjective order for determining which of these two sentences is properly structured:",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specifically is the correct adjective order for determining which of these two sentences is properly structured:\nOptions: ##A: wool repulsive prismlike American chair\n##B: repulsive prismlike American wool chair\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specifically is the correct adjective order for determining which of these two sentences is properly structured:\nOptions: ##A: wool repulsive prismlike American chair\n##B: repulsive prismlike American wool chair\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specific sentence should be evaluated for possessing the correct adjective order, considering standard English grammar rules?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence should be evaluated for possessing the correct adjective order, considering standard English grammar rules?\nOptions: ##A: Mexican paper baby\n##B: paper Mexican baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence should be evaluated for possessing the correct adjective order, considering standard English grammar rules?\nOptions: ##A: Mexican paper baby\n##B: paper Mexican baby\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct adjective order is (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specifically is the correct order of adjectives for the following sentence:",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specifically is the correct order of adjectives for the following sentence:\nOptions: ##A: tiny rubber pyramidal knife\n##B: tiny pyramidal rubber knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specifically is the correct order of adjectives for the following sentence:\nOptions: ##A: tiny rubber pyramidal knife\n##B: tiny pyramidal rubber knife\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specific sentence needs to be evaluated for its adherence to the correct adjective order rules in English grammar?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence needs to be evaluated for its adherence to the correct adjective order rules in English grammar?\nOptions: ##A: wonderful tiny old tan iron driving motorcycle\n##B: driving tiny wonderful iron old tan motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence needs to be evaluated for its adherence to the correct adjective order rules in English grammar?\nOptions: ##A: wonderful tiny old tan iron driving motorcycle\n##B: driving tiny wonderful iron old tan motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct answer is (A) for adjective order evaluation."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specific sentence should be evaluated for its adherence to the correct adjective order rules in English grammar?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence should be evaluated for its adherence to the correct adjective order rules in English grammar?\nOptions: ##A: Turkish rectangular large knife\n##B: large rectangular Turkish knife\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific sentence should be evaluated for its adherence to the correct adjective order rules in English grammar?\nOptions: ##A: Turkish rectangular large knife\n##B: large rectangular Turkish knife\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b) for correct adjective order."
+      }
+    ]
+  }
+]

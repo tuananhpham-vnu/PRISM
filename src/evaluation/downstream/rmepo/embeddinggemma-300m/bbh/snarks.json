@@ -1,0 +1,142 @@
+[
+  {
+    "raw_question": "Which statement is sarcastic?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "Identify which specific statement among the provided options contains sarcasm.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Why use Netflix when you can just pay less to Comcast for On Demand?\n##B: Why use Netflix when you can just pay more to Comcast for On Demand?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options contains sarcasm.\nOptions: ##A: Why use Netflix when you can just pay less to Comcast for On Demand?\n##B: Why use Netflix when you can just pay more to Comcast for On Demand?\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b) for sarcasm identification."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which statement is sarcastic?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "Identify which specific statement among the given options is sarcastic in nature.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is sarcastic in nature.\nOptions: ##A: Quit fat-shaming the cat! They're people, too, you know\n##B: Quit fat-shaming the cat! They're sensitive, too, you know\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is sarcastic in nature.\nOptions: ##A: Quit fat-shaming the cat! They're people, too, you know\n##B: Quit fat-shaming the cat! They're sensitive, too, you know\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct answer is (A) as it is sarcastic."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which statement is sarcastic?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "Identify which specific statement among the given options is sarcastic in nature.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is sarcastic in nature.\nOptions: ##A: Remind me, how do you print a legal-sized piece of paper?\n##B: Remind me, how do you print a blank piece of paper?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is sarcastic in nature.\nOptions: ##A: Remind me, how do you print a legal-sized piece of paper?\n##B: Remind me, how do you print a blank piece of paper?\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b) for sarcastic statement."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which statement is sarcastic?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "Identify which specific statement among the provided options is intended as sarcastic.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: People never foment wars to relinquish territory\n##B: People never foment wars to conquer territory\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended as sarcastic.\nOptions: ##A: People never foment wars to relinquish territory\n##B: People never foment wars to conquer territory\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b) for sarcastic statement."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which statement is sarcastic?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "Identify which specific statement among the provided options is intended to be sarcastic.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Only first-world citizens deserve freedom\n##B: Not only first-world citizens deserve freedom\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Only first-world citizens deserve freedom\n##B: Not only first-world citizens deserve freedom\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; expected answer is (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which statement is sarcastic?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "Identify which specific statement among the given options is sarcastic in nature.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is sarcastic in nature.\nOptions: ##A: I'm a serious symphony fan so when I go I hope the crowd is dead silent and everyone is in their seats so I can pay extra good attention\n##B: I'm a serious hockey fan so when I go I hope the crowd is dead silent and everyone is in their seats so I can pay extra good attention\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is sarcastic in nature.\nOptions: ##A: I'm a serious symphony fan so when I go I hope the crowd is dead silent and everyone is in their seats so I can pay extra good attention\n##B: I'm a serious hockey fan so when I go I hope the crowd is dead silent and everyone is in their seats so I can pay extra good attention\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b) for sarcastic statement."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which statement is sarcastic?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "Identify which specific statement among the given options is intended as sarcastic.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: Nice try, but everyone knows there are no women active on the internet\n##B: Nice try, but everyone knows there are many women active on the internet\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: Nice try, but everyone knows there are no women active on the internet\n##B: Nice try, but everyone knows there are many women active on the internet\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; sarcasm is in option (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which statement is sarcastic?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "Identify which specific statement among the provided options is expressed in a sarcastic manner.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is expressed in a sarcastic manner.\nOptions: ##A: I'm headed to college within a year expecting barely any income during that time. Removing tax breaks for students will be helpful, right?\n##B: I'm headed to college within a year expecting barely any income during that time. Adding tax breaks for students will be helpful, right?\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is expressed in a sarcastic manner.\nOptions: ##A: I'm headed to college within a year expecting barely any income during that time. Removing tax breaks for students will be helpful, right?\n##B: I'm headed to college within a year expecting barely any income during that time. Adding tax breaks for students will be helpful, right?\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; option A is sarcastic."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which statement is sarcastic?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "Identify which specific statement among the provided options is intended to be sarcastic.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Violence is a perfect way to unleash your frustrations\n##B: Exercise is a perfect way to unleash your frustrations\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the provided options is intended to be sarcastic.\nOptions: ##A: Violence is a perfect way to unleash your frustrations\n##B: Exercise is a perfect way to unleash your frustrations\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; sarcastic statement is (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which statement is sarcastic?",
+    "rmepo_response": "(A)",
+    "rmepo_prompt": "Identify which specific statement among the given options is intended as sarcastic.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: Hmm, stifling of free speech and political opinions . . . I've seen that before\n##B: Hmm, stifling of free speech and political opinions . . . never seen that before\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify which specific statement among the given options is intended as sarcastic.\nOptions: ##A: Hmm, stifling of free speech and political opinions . . . I've seen that before\n##B: Hmm, stifling of free speech and political opinions . . . never seen that before\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (A)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (A) is incorrect; sarcasm implies irony, so (B) is right."
+      }
+    ]
+  }
+]

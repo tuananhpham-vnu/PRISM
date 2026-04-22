@@ -1,0 +1,127 @@
+[
+  {
+    "raw_question": "Find a movie similar to Braveheart, Pulp Fiction, Saving Private Ryan, Gattaca:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find movies similar to Braveheart, Pulp Fiction, Saving Private Ryan, and Gattaca in terms of their genre, plot, and themes.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies similar to Braveheart, Pulp Fiction, Saving Private Ryan, and Gattaca in terms of their genre, plot, and themes.\nOptions: ##A: Brave\n##B: Dredd\n##C: When Worlds Collide\n##D: Go\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Batman, The Mask, The Fugitive, Pretty Woman:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find movies similar to Batman, The Mask, The Fugitive, and Pretty Woman, based on their genre and plot.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies similar to Batman, The Mask, The Fugitive, and Pretty Woman, based on their genre and plot.\nOptions: ##A: The Front Page\n##B: Maelstrom\n##C: The Lion King\n##D: Lamerica\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to The Shawshank Redemption, Forrest Gump, Dances with Wolves, Mr Holland's Opus:",
+    "rbpo_response": "(A)",
+    "rbpo_prompt": "Find movies that are similar to The Shawshank Redemption, Forrest Gump, Dances with Wolves, and Mr Holland's Opus in terms of their genre and theme.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies that are similar to The Shawshank Redemption, Forrest Gump, Dances with Wolves, and Mr Holland's Opus in terms of their genre and theme.\nOptions: ##A: PK\n##B: The Great Gatsby\n##C: Philadelphia\n##D: Casper Meets Wendy\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies that are similar to The Shawshank Redemption, Forrest Gump, Dances with Wolves, and Mr Holland's Opus in terms of their genre and theme.\nOptions: ##A: PK\n##B: The Great Gatsby\n##C: Philadelphia\n##D: Casper Meets Wendy\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: (A)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (A) does not match expected answer (C)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Find a movie similar to The Shawshank Redemption, Pulp Fiction, The Fugitive, Fargo:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find a movie that has a similar plot to The Shawshank Redemption, Pulp Fiction, The Fugitive, Fargo.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find a movie that has a similar plot to The Shawshank Redemption, Pulp Fiction, The Fugitive, Fargo.\nOptions: ##A: Blitz\n##B: Only Lovers Left Alive\n##C: The Chase\n##D: The Usual Suspects\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Schindler's List, Jurassic Park, The Silence of the Lambs, Forrest Gump:",
+    "rbpo_response": "(C)",
+    "rbpo_prompt": "Find a movie similar to Schindler's List, Jurassic Park, The Silence of the Lambs, Forrest Gump:",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find a movie similar to Schindler's List, Jurassic Park, The Silence of the Lambs, Forrest Gump:\nOptions: ##A: Batman\n##B: Alien Resurrection\n##C: A Tale of Two Cities\n##D: The Quiet American\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find a movie similar to Schindler's List, Jurassic Park, The Silence of the Lambs, Forrest Gump:\nOptions: ##A: Batman\n##B: Alien Resurrection\n##C: A Tale of Two Cities\n##D: The Quiet American\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (C) does not match expected answer (a)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Find a movie similar to Forrest Gump, The Shawshank Redemption, The Matrix, Star Wars Episode I - The Phantom Menace:",
+    "rbpo_response": "(C)",
+    "rbpo_prompt": "Find movies with similar themes of Forrest Gump, The Shawshank Redemption, The Matrix, Star Wars Episode I - The Phantom Menace.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies with similar themes of Forrest Gump, The Shawshank Redemption, The Matrix, Star Wars Episode I - The Phantom Menace.\nOptions: ##A: Fight Club\n##B: I Shot Jesse James\n##C: Out Cold\n##D: Blackrock\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies with similar themes of Forrest Gump, The Shawshank Redemption, The Matrix, Star Wars Episode I - The Phantom Menace.\nOptions: ##A: Fight Club\n##B: I Shot Jesse James\n##C: Out Cold\n##D: Blackrock\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (C) does not match expected answer (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Find a movie similar to The Matrix, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, Forrest Gump:",
+    "rbpo_response": "(A)",
+    "rbpo_prompt": "Find movies similar to The Matrix, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, Forrest Gump.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies similar to The Matrix, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, Forrest Gump.\nOptions: ##A: Pulp Fiction\n##B: Da geht noch was!\n##C: Hudson Hawk\n##D: The Brothers Grimm\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies similar to The Matrix, Star Wars Episode V - The Empire Strikes Back, Star Wars Episode IV - A New Hope, Forrest Gump.\nOptions: ##A: Pulp Fiction\n##B: Da geht noch was!\n##C: Hudson Hawk\n##D: The Brothers Grimm\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (A)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (A) matches expected answer (a)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Find a movie similar to The Sixth Sense, The Lord of the Rings The Two Towers, The Usual Suspects, Forrest Gump:",
+    "rbpo_response": "Please let me know if you need anything else.",
+    "rbpo_prompt": "Find movies with similar themes or elements to The Sixth Sense, The Lord of the Rings The Two Towers, The Usual Suspects, Forrest Gump. Please provide a list of recommendations.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies with similar themes or elements to The Sixth Sense, The Lord of the Rings The Two Towers, The Usual Suspects, Forrest Gump. Please provide a list of recommendations.\nOptions: ##A: Nothing to Declare\n##B: Crossfire\n##C: End of Days\n##D: Star Wars Episode IV - A New Hope\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies with similar themes or elements to The Sixth Sense, The Lord of the Rings The Two Towers, The Usual Suspects, Forrest Gump. Please provide a list of recommendations.\nOptions: ##A: Nothing to Declare\n##B: Crossfire\n##C: End of Days\n##D: Star Wars Episode IV - A New Hope\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (d)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer does not provide a valid option label."
+      }
+    ]
+  },
+  {
+    "raw_question": "Find a movie similar to Braveheart, Schindler's List, The Silence of the Lambs, Jurassic Park:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find a movie similar to Braveheart, Schindler's List, The Silence of the Lambs, Jurassic Park in terms of genre and plot.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find a movie similar to Braveheart, Schindler's List, The Silence of the Lambs, Jurassic Park in terms of genre and plot.\nOptions: ##A: Independence Day\n##B: Broken\n##C: Toy Story 2\n##D: Men of Honor\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Toy Story, The Mask, Batman, The Lion King:",
+    "rbpo_response": "",
+    "rbpo_prompt": "Find movies that are similar to Toy Story, The Mask, Batman, The Lion King in terms of genre and style.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Find movies that are similar to Toy Story, The Mask, Batman, The Lion King in terms of genre and style.\nOptions: ##A: Exit Wounds\n##B: Punch-Drunk Love\n##C: Seeking Justice\n##D: Pretty Woman\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  }
+]

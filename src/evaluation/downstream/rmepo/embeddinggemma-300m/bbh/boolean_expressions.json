@@ -1,0 +1,142 @@
+[
+  {
+    "raw_question": "False or False and False or not True is",
+    "rmepo_response": "False",
+    "rmepo_prompt": "What is the truth value of the logical expression \"False or False and False or not True\"? Please provide your answer in a single word: True or False.",
+    "rmepo_input_llm": "\nQuestion:\nWhat is the truth value of the logical expression \"False or False and False or not True\"? Please provide your answer in a single word: True or False.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nWhat is the truth value of the logical expression \"False or False and False or not True\"? Please provide your answer in a single word: True or False.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: False\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer: False."
+      }
+    ]
+  },
+  {
+    "raw_question": "not not not False and True and False is",
+    "rmepo_response": "False",
+    "rmepo_prompt": "Evaluate the logical expression 'not not not False and True and False' to determine its final boolean value.",
+    "rmepo_input_llm": "\nQuestion:\nEvaluate the logical expression 'not not not False and True and False' to determine its final boolean value.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nEvaluate the logical expression 'not not not False and True and False' to determine its final boolean value.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: False\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected boolean value."
+      }
+    ]
+  },
+  {
+    "raw_question": "not True and True or True and False is",
+    "rmepo_response": "False",
+    "rmepo_prompt": "Evaluate the logical expression 'not True and True or True and False' to determine its final boolean value.",
+    "rmepo_input_llm": "\nQuestion:\nEvaluate the logical expression 'not True and True or True and False' to determine its final boolean value.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nEvaluate the logical expression 'not True and True or True and False' to determine its final boolean value.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: False\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected boolean value."
+      }
+    ]
+  },
+  {
+    "raw_question": "False and not ( False or False ) is",
+    "rmepo_response": "False",
+    "rmepo_prompt": "What is the result of the logical expression \"False and not ( False or False )\"?",
+    "rmepo_input_llm": "\nQuestion:\nWhat is the result of the logical expression \"False and not ( False or False )\"?\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nWhat is the result of the logical expression \"False and not ( False or False )\"?\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: False\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer: False."
+      }
+    ]
+  },
+  {
+    "raw_question": "not True or False or ( False ) is",
+    "rmepo_response": "False",
+    "rmepo_prompt": "Determine the result of the logical expression 'not True or False or (False)', and clearly state whether the final output is True or False.",
+    "rmepo_input_llm": "\nQuestion:\nDetermine the result of the logical expression 'not True or False or (False)', and clearly state whether the final output is True or False.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nDetermine the result of the logical expression 'not True or False or (False)', and clearly state whether the final output is True or False.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: False\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer: False."
+      }
+    ]
+  },
+  {
+    "raw_question": "not True and True and not not False is",
+    "rmepo_response": "False.",
+    "rmepo_prompt": "Evaluate the logical expression 'not True and True and not not False' to determine its resulting boolean value. Your response should clearly state the outcome.",
+    "rmepo_input_llm": "\nQuestion:\nEvaluate the logical expression 'not True and True and not not False' to determine its resulting boolean value. Your response should clearly state the outcome.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nEvaluate the logical expression 'not True and True and not not False' to determine its resulting boolean value. Your response should clearly state the outcome.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: False.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer 'False' matches expected boolean value."
+      }
+    ]
+  },
+  {
+    "raw_question": "True and not not False and not False is",
+    "rmepo_response": "False",
+    "rmepo_prompt": "What is the result of the logical expression 'True and not not False and not False'?",
+    "rmepo_input_llm": "\nQuestion:\nWhat is the result of the logical expression 'True and not not False and not False'?\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nWhat is the result of the logical expression 'True and not not False and not False'?\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: False\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer: False."
+      }
+    ]
+  },
+  {
+    "raw_question": "True and False or ( not True ) is",
+    "rmepo_response": "False",
+    "rmepo_prompt": "What is the result of the logical expression 'True and False or not True'?",
+    "rmepo_input_llm": "\nQuestion:\nWhat is the result of the logical expression 'True and False or not True'?\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nWhat is the result of the logical expression 'True and False or not True'?\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: False\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer: False."
+      }
+    ]
+  },
+  {
+    "raw_question": "not True or not False and not True is",
+    "rmepo_response": "True",
+    "rmepo_prompt": "Clarify the logical expression you want evaluated: specifically, determine the result of 'not True or (not False and not True)'.",
+    "rmepo_input_llm": "\nQuestion:\nClarify the logical expression you want evaluated: specifically, determine the result of 'not True or (not False and not True)'.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nClarify the logical expression you want evaluated: specifically, determine the result of 'not True or (not False and not True)'.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: True\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is True, but correct answer is False."
+      }
+    ]
+  },
+  {
+    "raw_question": "( not False ) or True and False is",
+    "rmepo_response": "False",
+    "rmepo_prompt": "Evaluate the logical expression '(not False) or (True and False)' and provide the result.",
+    "rmepo_input_llm": "\nQuestion:\nEvaluate the logical expression '(not False) or (True and False)' and provide the result.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "True",
+    "template": "\nQuestion: \nQuestion:\nEvaluate the logical expression '(not False) or (True and False)' and provide the result.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: true\nPredicted Answer: False\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is False, but correct answer is True."
+      }
+    ]
+  }
+]

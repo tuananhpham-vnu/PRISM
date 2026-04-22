@@ -1,0 +1,142 @@
+[
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Which sentence has the correct adjective order? Please provide the sentence and any necessary context.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any necessary context.\nOptions: ##A: triangular yellow old awful motorcycle\n##B: awful old triangular yellow motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any necessary context.\nOptions: ##A: triangular yellow old awful motorcycle\n##B: awful old triangular yellow motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b) for correct adjective order."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Please ensure that the adjective order in the sentence is correct. Adjectives should be listed in the order they are presented.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct. Adjectives should be listed in the order they are presented.\nOptions: ##A: terrible old-fashioned Turkish baby\n##B: old-fashioned terrible Turkish baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct. Adjectives should be listed in the order they are presented.\nOptions: ##A: terrible old-fashioned Turkish baby\n##B: old-fashioned terrible Turkish baby\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) does not match expected answer (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Please ensure that the adjective order in the sentence is correct. Adjectives should be in the order they are listed. Please correct the sentence if the adjective order is incorrect.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct. Adjectives should be in the order they are listed. Please correct the sentence if the adjective order is incorrect.\nOptions: ##A: silver new repulsive exercise green Pakistani computer\n##B: repulsive new green Pakistani silver exercise computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjective order in the sentence is correct. Adjectives should be in the order they are listed. Please correct the sentence if the adjective order is incorrect.\nOptions: ##A: silver new repulsive exercise green Pakistani computer\n##B: repulsive new green Pakistani silver exercise computer\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Which sentence has the correct adjective order? Please provide the sentence and indicate whether it is a positive or negative sentence.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and indicate whether it is a positive or negative sentence.\nOptions: ##A: nice little pyramidal red Nigerian drinking car\n##B: little nice Nigerian red drinking pyramidal car\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and indicate whether it is a positive or negative sentence.\nOptions: ##A: nice little pyramidal red Nigerian drinking car\n##B: little nice Nigerian red drinking pyramidal car\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct adjective order is (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Please arrange the adjectives correctly in the sentence[Sentence with the correct adjective order]:",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives correctly in the sentence[Sentence with the correct adjective order]:\nOptions: ##A: Chinese drinking grey motorcycle\n##B: grey Chinese drinking motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please arrange the adjectives correctly in the sentence[Sentence with the correct adjective order]:\nOptions: ##A: Chinese drinking grey motorcycle\n##B: grey Chinese drinking motorcycle\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Please provide a sentence with the correct adjective order.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: repulsive prismlike Brazilian exercise baby\n##B: exercise repulsive Brazilian prismlike baby\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: repulsive prismlike Brazilian exercise baby\n##B: exercise repulsive Brazilian prismlike baby\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct adjective order is (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Please ensure that the adjectives in the sentence are in the correct order. Adjectives should be listed in the order they are intended to modify. Please correct the sentence if the adjective order is incorrect.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjectives in the sentence are in the correct order. Adjectives should be listed in the order they are intended to modify. Please correct the sentence if the adjective order is incorrect.\nOptions: ##A: enormous yellow Egyptian driving computer\n##B: driving yellow enormous Egyptian computer\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please ensure that the adjectives in the sentence are in the correct order. Adjectives should be listed in the order they are intended to modify. Please correct the sentence if the adjective order is incorrect.\nOptions: ##A: enormous yellow Egyptian driving computer\n##B: driving yellow enormous Egyptian computer\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct order is (A) per adjective rules."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Please provide a sentence with the correct adjective order.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: mysterious massive brown Nigerian fiberglass whittling ship\n##B: whittling brown Nigerian fiberglass massive mysterious ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please provide a sentence with the correct adjective order.\nOptions: ##A: mysterious massive brown Nigerian fiberglass whittling ship\n##B: whittling brown Nigerian fiberglass massive mysterious ship\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct adjective order is (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: cloth hiking huge old-fashioned shoe\n##B: huge old-fashioned cloth hiking shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please provide the sentence and any relevant contextual information.\nOptions: ##A: cloth hiking huge old-fashioned shoe\n##B: huge old-fashioned cloth hiking shoe\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which sentence has the correct adjective order:",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Which sentence has the correct adjective order? Please identify the sentence and provide a detailed explanation to support your answer.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please identify the sentence and provide a detailed explanation to support your answer.\nOptions: ##A: smoking plastic blue ship\n##B: blue plastic smoking ship\nReply me with the option of the answer like (A) or (B)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which sentence has the correct adjective order? Please identify the sentence and provide a detailed explanation to support your answer.\nOptions: ##A: smoking plastic blue ship\n##B: blue plastic smoking ship\nReply me with the option of the answer like (A) or (B)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer (b) for correct adjective order."
+      }
+    ]
+  }
+]

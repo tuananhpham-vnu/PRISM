@@ -1,0 +1,118 @@
+[
+  {
+    "raw_question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Rob, and Mel. Rob finished below Mel. Mel finished below Eve.",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "Identify and describe the specific arrangement of three golfers—named Eve, Rob, and Mel—in a golf tournament based on the given logical sequence: Rob finished behind Mel, and Mel finished behind Eve. Ensure each provided statement is logically coherent within its context.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify and describe the specific arrangement of three golfers—named Eve, Rob, and Mel—in a golf tournament based on the given logical sequence: Rob finished behind Mel, and Mel finished behind Eve. Ensure each provided statement is logically coherent within its context.\nOptions: ##A: Eve finished second\n##B: Rob finished second\n##C: Mel finished second\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify and describe the specific arrangement of three golfers—named Eve, Rob, and Mel—in a golf tournament based on the given logical sequence: Rob finished behind Mel, and Mel finished behind Eve. Ensure each provided statement is logically coherent within its context.\nOptions: ##A: Eve finished second\n##B: Rob finished second\n##C: Mel finished second\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Rob finished behind Mel and Mel behind Eve, so Eve first, Mel second, Rob third."
+      }
+    ]
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a yellow book, a brown book, and a red book. The red book is to the left of the brown book. The yellow book is to the right of the brown book.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide a detailed description of three specific objects arranged in a fixed order on a shelf, ensuring each object's position relative to the others is clearly stated: a yellow book, a brown book, and a red book, with the red book located to the left of the brown book and the yellow book positioned to the right of the brown book.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide a detailed description of three specific objects arranged in a fixed order on a shelf, ensuring each object's position relative to the others is clearly stated: a yellow book, a brown book, and a red book, with the red book located to the left of the brown book and the yellow book positioned to the right of the brown book.\nOptions: ##A: The yellow book is the leftmost\n##B: The brown book is the leftmost\n##C: The red book is the leftmost\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a hawk, a crow, and a raven. The raven is to the right of the hawk. The crow is the rightmost.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide detailed descriptions of three objects arranged in a specific order on a branch, ensuring logical consistency within each description: a hawk, a crow, and a raven, where the raven is positioned to the right of the hawk, and the crow occupies the far right position.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide detailed descriptions of three objects arranged in a specific order on a branch, ensuring logical consistency within each description: a hawk, a crow, and a raven, where the raven is positioned to the right of the hawk, and the crow occupies the far right position.\nOptions: ##A: The hawk is the rightmost\n##B: The crow is the rightmost\n##C: The raven is the rightmost\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: ",
+    "target": "(B)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a minivan, a bus, and a sedan. The minivan is newer than the sedan. The minivan is older than the bus.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide a detailed description of three specific vehicles—specifically identifying them as a minivan, a bus, and a sedan—in a fixed order observed at an antique car show, ensuring each statement regarding their relative ages is logically consistent within the context given.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide a detailed description of three specific vehicles—specifically identifying them as a minivan, a bus, and a sedan—in a fixed order observed at an antique car show, ensuring each statement regarding their relative ages is logically consistent within the context given.\nOptions: ##A: The minivan is the oldest\n##B: The bus is the oldest\n##C: The sedan is the oldest\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a blue book, an orange book, and a red book. The blue book is the rightmost. The orange book is the leftmost.",
+    "rmepo_response": "()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n()\n\n\n()\n\n\n\n()\n\n\n()\n\n\n()\n\n\n()\n\n()\n\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()",
+    "rmepo_prompt": "Provide detailed descriptions for each of the three objects arranged on a shelf in a specific order, ensuring logical consistency within each description: a blue book, an orange book, and a red book, where the blue book must be positioned to the right of both the orange and red books, and the orange book must be positioned to the left of both the blue and red books.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide detailed descriptions for each of the three objects arranged on a shelf in a specific order, ensuring logical consistency within each description: a blue book, an orange book, and a red book, where the blue book must be positioned to the right of both the orange and red books, and the orange book must be positioned to the left of both the blue and red books.\nOptions: ##A: The blue book is the second from the left\n##B: The orange book is the second from the left\n##C: The red book is the second from the left\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide detailed descriptions for each of the three objects arranged on a shelf in a specific order, ensuring logical consistency within each description: a blue book, an orange book, and a red book, where the blue book must be positioned to the right of both the orange and red books, and the orange book must be positioned to the left of both the blue and red books.\nOptions: ##A: The blue book is the second from the left\n##B: The orange book is the second from the left\n##C: The red book is the second from the left\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: ()\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n()\n\n\n()\n\n\n\n()\n\n\n()\n\n\n()\n\n\n()\n\n()\n\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n()\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is empty, but expected answer is (C)."
+      }
+    ]
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a purple book, a red book, and a yellow book. The purple book is to the right of the yellow book. The yellow book is to the right of the red book.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide a detailed description of three specific objects arranged in a predefined sequence on a shelf, ensuring each object's position relative to the others is clearly stated. Specifically, identify three distinct items—such as a purple book, a red book, and a yellow book—and specify their exact arrangement, noting which item is positioned to the right or left of another. For instance: \"On the shelf, from left to right, are a purple book, a red book, and a yellow book, with the purple book to the right of the yellow book, which in turn is to the right of the red book.\"",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide a detailed description of three specific objects arranged in a predefined sequence on a shelf, ensuring each object's position relative to the others is clearly stated. Specifically, identify three distinct items—such as a purple book, a red book, and a yellow book—and specify their exact arrangement, noting which item is positioned to the right or left of another. For instance: \"On the shelf, from left to right, are a purple book, a red book, and a yellow book, with the purple book to the right of the yellow book, which in turn is to the right of the red book.\"\nOptions: ##A: The purple book is the second from the left\n##B: The red book is the second from the left\n##C: The yellow book is the second from the left\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: an orange book, a white book, and a purple book. The orange book is to the left of the white book. The purple book is the rightmost.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide detailed descriptions of three specific objects arranged in a fixed order on a shelf, ensuring each description is logically consistent within its own paragraph. The objects are a colored book (specifically, an orange book), another colored book (a white book), and a third colored book (a purple book). Clearly state the positional relationship between these objects: the orange book must be positioned to the immediate left of the white book, with the purple book occupying the far right position on the shelf.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide detailed descriptions of three specific objects arranged in a fixed order on a shelf, ensuring each description is logically consistent within its own paragraph. The objects are a colored book (specifically, an orange book), another colored book (a white book), and a third colored book (a purple book). Clearly state the positional relationship between these objects: the orange book must be positioned to the immediate left of the white book, with the purple book occupying the far right position on the shelf.\nOptions: ##A: The orange book is the rightmost\n##B: The white book is the rightmost\n##C: The purple book is the rightmost\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, mangoes, and apples. The mangoes are more expensive than the apples. The loquats are more expensive than the mangoes.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide a detailed description of three specific fruits sold at a fruit stand, including their individual prices, ensuring each fruit has a distinct and logically ordered price point where the mangoes are priced higher than the apples, and the loquats are priced higher than the mangoes.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide a detailed description of three specific fruits sold at a fruit stand, including their individual prices, ensuring each fruit has a distinct and logically ordered price point where the mangoes are priced higher than the apples, and the loquats are priced higher than the mangoes.\nOptions: ##A: The loquats are the most expensive\n##B: The mangoes are the most expensive\n##C: The apples are the most expensive\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: ",
+    "target": "(A)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Amy, Eli, and Eve. Eve finished above Amy. Eli finished below Amy.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide detailed descriptions of three specific objects arranged in a predetermined sequence for each of the following paragraphs, ensuring logical consistency within each description. In a golf tournament, specifically identify the positions of three golfers—Amy, Eli, and Eve, where Eve ranked higher than Amy, and Eli ranked lower than Amy.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide detailed descriptions of three specific objects arranged in a predetermined sequence for each of the following paragraphs, ensuring logical consistency within each description. In a golf tournament, specifically identify the positions of three golfers—Amy, Eli, and Eve, where Eve ranked higher than Amy, and Eli ranked lower than Amy.\nOptions: ##A: Amy finished first\n##B: Eli finished first\n##C: Eve finished first\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a quail, an owl, and a hummingbird. The quail is to the left of the owl. The owl is to the left of the hummingbird.",
+    "rmepo_response": "",
+    "rmepo_prompt": "Provide detailed descriptions of three objects arranged in a specific order on a branch, ensuring logical consistency within each description: \"On a branch, place a quail to the left, followed by an owl to the right of the quail, and finally a hummingbird to the right of the owl.\"",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Provide detailed descriptions of three objects arranged in a specific order on a branch, ensuring logical consistency within each description: \"On a branch, place a quail to the left, followed by an owl to the right of the quail, and finally a hummingbird to the right of the owl.\"\nOptions: ##A: The quail is the leftmost\n##B: The owl is the leftmost\n##C: The hummingbird is the leftmost\nReply me with the option of the answer like (A) or (B) or (C)\nAnswer: ",
+    "target": "(A)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  }
+]

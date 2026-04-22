@@ -60,7 +60,8 @@ src/mepo/api.txt
 *demo_output.json
 
 src/analysis/
-src/evaluation/
+# src/evaluation/
+src/evaluation/embeddinggemma-300m
 src/rbpo_mepo/
 src/downstream/demo/
 src/testset/dataset_process.py

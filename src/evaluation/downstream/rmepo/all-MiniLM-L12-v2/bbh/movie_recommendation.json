@@ -1,0 +1,118 @@
+[
+  {
+    "raw_question": "Find a movie similar to Schindler's List, Braveheart, The Silence of the Lambs, Tombstone:",
+    "rmepo_response": "Please let me know if you need anything else.",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, style, or genre with Schindler's List, Braveheart, The Silence of the Lambs, and Tombstone, specifically focusing on historical drama or psychological thriller aspects.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, style, or genre with Schindler's List, Braveheart, The Silence of the Lambs, and Tombstone, specifically focusing on historical drama or psychological thriller aspects.\nOptions: ##A: Orlando\n##B: Guilty of Romance\n##C: Forrest Gump\n##D: All the Real Girls\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, style, or genre with Schindler's List, Braveheart, The Silence of the Lambs, and Tombstone, specifically focusing on historical drama or psychological thriller aspects.\nOptions: ##A: Orlando\n##B: Guilty of Romance\n##C: Forrest Gump\n##D: All the Real Girls\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer does not provide a valid option label."
+      }
+    ]
+  },
+  {
+    "raw_question": "Find a movie similar to Raiders of the Lost Ark, The Matrix, Star Wars Episode IV - A New Hope, Inception:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, visual style, or narrative structure with Raiders of the Lost Ark, The Matrix, Star Wars Episode IV: A New Hope, and Inception, specifically focusing on action, adventure, and complex plot elements.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, visual style, or narrative structure with Raiders of the Lost Ark, The Matrix, Star Wars Episode IV: A New Hope, and Inception, specifically focusing on action, adventure, and complex plot elements.\nOptions: ##A: Attack of the Killer Tomatoes!\n##B: Up\n##C: Ernest Rides Again\n##D: White Christmas\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(B)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Star Wars Episode V - The Empire Strikes Back, Groundhog Day, Mission Impossible, Star Wars Episode IV - A New Hope:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements or cinematic qualities with Star Wars Episode V: The Empire Strikes Back, Groundhog Day, and Mission Impossible, specifically including those from Star Wars Episode IV: A New Hope.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements or cinematic qualities with Star Wars Episode V: The Empire Strikes Back, Groundhog Day, and Mission Impossible, specifically including those from Star Wars Episode IV: A New Hope.\nOptions: ##A: View from the Top\n##B: The Doors\n##C: Raiders of the Lost Ark\n##D: Quick Change\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Batman, Independence Day, Forrest Gump, The Silence of the Lambs:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify specific movies similar in genre, tone, or thematic elements to Batman, Independence Day, Forrest Gump, and The Silence of the Lambs, considering factors such as plot, character development, and overall narrative style.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify specific movies similar in genre, tone, or thematic elements to Batman, Independence Day, Forrest Gump, and The Silence of the Lambs, considering factors such as plot, character development, and overall narrative style.\nOptions: ##A: Skyline\n##B: Jurassic Park\n##C: Dragon Ball Z Broly - The Legendary Super Saiyan\n##D: One Fine Day\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(B)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Pulp Fiction, Braveheart, The Shawshank Redemption, Crimson Tide:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, style, or genre with Pulp Fiction, Braveheart, The Shawshank Redemption, and Crimson Tide.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, style, or genre with Pulp Fiction, Braveheart, The Shawshank Redemption, and Crimson Tide.\nOptions: ##A: Goon Last of the Enforcers\n##B: A Very Harold & Kumar 3D Christmas\n##C: The Fugitive\n##D: A Separation\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Pulp Fiction, Fargo, Twelve Monkeys, Monty Python and the Holy Grail:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, style, or genre with Pulp Fiction, Fargo, Twelve Monkeys, and Monty Python and the Holy Grail.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, style, or genre with Pulp Fiction, Fargo, Twelve Monkeys, and Monty Python and the Holy Grail.\nOptions: ##A: Cloud Atlas\n##B: Friday Night Lights\n##C: The Godfather\n##D: Pride and Prejudice\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Star Wars Episode IV - A New Hope, The Usual Suspects, Star Wars Episode V - The Empire Strikes Back, Pulp Fiction:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, genre, and style with Star Wars Episode IV - A New Hope, specifically focusing on its plot structure and character development, as well as The Usual Suspects for its complex narrative and unexpected twists, Star Wars Episode V - The Empire Strikes Back for its exploration of character growth and moral complexity, and Pulp Fiction for its non-linear storytelling and iconic dialogue.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, genre, and style with Star Wars Episode IV - A New Hope, specifically focusing on its plot structure and character development, as well as The Usual Suspects for its complex narrative and unexpected twists, Star Wars Episode V - The Empire Strikes Back for its exploration of character growth and moral complexity, and Pulp Fiction for its non-linear storytelling and iconic dialogue.\nOptions: ##A: Fargo\n##B: Conan the Barbarian\n##C: Wisdom\n##D: The Crew\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Terminator 2 Judgment Day, Dead Man Walking, Braveheart, The Shawshank Redemption:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic or stylistic elements with Terminator 2: Judgment Day, Dead Man Walking, Braveheart, and The Shawshank Redemption.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic or stylistic elements with Terminator 2: Judgment Day, Dead Man Walking, Braveheart, and The Shawshank Redemption.\nOptions: ##A: The Fugitive\n##B: Music and Lyrics\n##C: Deuce Bigalow Male Gigolo\n##D: Louis CK Oh My God\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Braveheart, Pulp Fiction, Saving Private Ryan, Gattaca:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify specific movies similar to Braveheart, Pulp Fiction, Saving Private Ryan, and Gattaca, considering factors such as genre, thematic elements, narrative style, and directorial approach.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify specific movies similar to Braveheart, Pulp Fiction, Saving Private Ryan, and Gattaca, considering factors such as genre, thematic elements, narrative style, and directorial approach.\nOptions: ##A: Brave\n##B: Dredd\n##C: When Worlds Collide\n##D: Go\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to The Usual Suspects, Go, Pulp Fiction, Star Wars Episode VI - Return of the Jedi:",
+    "rmepo_response": "Please let me know if you need anything else.",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, narrative structure, or stylistic qualities with The Usual Suspects, Pulp Fiction, and Star Wars Episode VI - Return of the Jedi, specifically focusing on complex plot twists and character dynamics.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, narrative structure, or stylistic qualities with The Usual Suspects, Pulp Fiction, and Star Wars Episode VI - Return of the Jedi, specifically focusing on complex plot twists and character dynamics.\nOptions: ##A: The Sign of Four\n##B: The Hunt for Red October\n##C: Auto Focus\n##D: Marauders\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, narrative structure, or stylistic qualities with The Usual Suspects, Pulp Fiction, and Star Wars Episode VI - Return of the Jedi, specifically focusing on complex plot twists and character dynamics.\nOptions: ##A: The Sign of Four\n##B: The Hunt for Red October\n##C: Auto Focus\n##D: Marauders\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is not a valid option; expected (B)."
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "raw_question": "If your hands are cold, you can warm them by rubbing them together. The heat energy that you produce is caused by",
+    "rbpo_response": "(C)",
+    "rbpo_prompt": "If your hands are cold, you can warm them by rubbing them together. Explain the science behind how the heat energy produced by rubbing hands together is caused.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: If your hands are cold, you can warm them by rubbing them together. Explain the science behind how the heat energy produced by rubbing hands together is caused.\nOptions: ##A: insulation.\n##B: magnetism.\n##C: friction.\n##D: conduction.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "C",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: If your hands are cold, you can warm them by rubbing them together. Explain the science behind how the heat energy produced by rubbing hands together is caused.\nOptions: ##A: insulation.\n##B: magnetism.\n##C: friction.\n##D: conduction.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: c\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (C) matches expected answer c for friction."
+      }
+    ]
+  },
+  {
+    "raw_question": "The parts of plants that make seeds are the",
+    "rbpo_response": "",
+    "rbpo_prompt": "What are the parts of plants that make seeds?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What are the parts of plants that make seeds?\nOptions: ##A: roots.\n##B: stems.\n##C: flowers.\n##D: leaves.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "C",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Which theory about the origin of the universe states that a densely packed sphere exploded, forming clouds that condensed into galaxies?",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Which theory about the origin of the universe states that a densely packed sphere exploded, forming clouds that condensed into galaxies? Please provide a brief explanation.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which theory about the origin of the universe states that a densely packed sphere exploded, forming clouds that condensed into galaxies? Please provide a brief explanation.\nOptions: ##A: the Galaxy theory\n##B: the Big Bang theory\n##C: the Steady State theory\n##D: the Oscillating theory\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which theory about the origin of the universe states that a densely packed sphere exploded, forming clouds that condensed into galaxies? Please provide a brief explanation.\nOptions: ##A: the Galaxy theory\n##B: the Big Bang theory\n##C: the Steady State theory\n##D: the Oscillating theory\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: b\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer b for Big Bang theory."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which is true of a car that is accelerating along a horizontal roadway?",
+    "rbpo_response": "",
+    "rbpo_prompt": "Which is true of a car that is accelerating along a horizontal roadway? Please provide an accurate and detailed explanation.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which is true of a car that is accelerating along a horizontal roadway? Please provide an accurate and detailed explanation.\nOptions: ##A: Its kinetic energy is increasing\n##B: Its kinetic energy is decreasing.\n##C: Its potential energy is increasing.\n##D: Its potential energy is decreasing.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "A",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "When a conclusion is reached after an experiment, which is most likely the first step other scientists might take when checking the conclusion?",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "When a conclusion is reached after an experiment, what is the first step other scientists might take when checking the conclusion?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: When a conclusion is reached after an experiment, what is the first step other scientists might take when checking the conclusion?\nOptions: ##A: propose different conclusions from the same data\n##B: study the data to evaluate the conclusion\n##C: change current models to fit the conclusion\n##D: develop new technologies based on the conclusion\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: When a conclusion is reached after an experiment, what is the first step other scientists might take when checking the conclusion?\nOptions: ##A: propose different conclusions from the same data\n##B: study the data to evaluate the conclusion\n##C: change current models to fit the conclusion\n##D: develop new technologies based on the conclusion\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: b\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer b."
+      }
+    ]
+  },
+  {
+    "raw_question": "Maria Mitchell discovered a comet in 1847 that was later named after her. Maria Mitchell's discovery contributed to which branch of science?",
+    "rbpo_response": "",
+    "rbpo_prompt": "Maria Mitchell discovered a comet in 1847 that was later named after her. Maria Mitchell's discovery contributed to which branch of science?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Maria Mitchell discovered a comet in 1847 that was later named after her. Maria Mitchell's discovery contributed to which branch of science?\nOptions: ##A: biology\n##B: chemistry\n##C: geology\n##D: astronomy\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Where is water most likely to be brackish?",
+    "rbpo_response": "",
+    "rbpo_prompt": "Where is water most likely to be brackish? Please provide a detailed explanation and examples.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Where is water most likely to be brackish? Please provide a detailed explanation and examples.\nOptions: ##A: sea\n##B: lake\n##C: river\n##D: estuary\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Which occurs as a result of the rotation of Earth about its own axis?",
+    "rbpo_response": "",
+    "rbpo_prompt": "Please explain what occurs as a result of the rotation of Earth about its own axis.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please explain what occurs as a result of the rotation of Earth about its own axis.\nOptions: ##A: the water cycle\n##B: seasons of the year\n##C: sunrises and sunsets\n##D: global climate changes\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "C",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "When soil becomes saturated during rainfall, excess water begins to collect on the surface. Downslope movement of this excess water to rivers, lakes, and streams is called",
+    "rbpo_response": "(A)",
+    "rbpo_prompt": "When soil becomes saturated during rainfall, excess water begins to collect on the surface. Downslope movement of this excess water to rivers, lakes, and streams is called ________.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: When soil becomes saturated during rainfall, excess water begins to collect on the surface. Downslope movement of this excess water to rivers, lakes, and streams is called ________.\nOptions: ##A: runoff.\n##B: filtration.\n##C: groundwater.\n##D: condensation.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "A",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: When soil becomes saturated during rainfall, excess water begins to collect on the surface. Downslope movement of this excess water to rivers, lakes, and streams is called ________.\nOptions: ##A: runoff.\n##B: filtration.\n##C: groundwater.\n##D: condensation.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: a\nPredicted Answer: (A)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (A) matches expected answer a for runoff."
+      }
+    ]
+  },
+  {
+    "raw_question": "After a rain, a puddle of water remains on a sidewalk. After a day of sunshine, the puddle is gone. Which process is most responsible for the disappearance of the puddle?",
+    "rbpo_response": "",
+    "rbpo_prompt": "After a rain, a puddle of water remains on a sidewalk. After a day of sunshine, the puddle is gone. Which process is most responsible for the disappearance of the puddle? Please explain the process that occurs in the sunlight.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: After a rain, a puddle of water remains on a sidewalk. After a day of sunshine, the puddle is gone. Which process is most responsible for the disappearance of the puddle? Please explain the process that occurs in the sunlight.\nOptions: ##A: precipitation\n##B: transpiration\n##C: evaporation\n##D: condensation\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "C",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  }
+]

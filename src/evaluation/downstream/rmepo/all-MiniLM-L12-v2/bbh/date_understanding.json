@@ -1,0 +1,139 @@
+[
+  {
+    "raw_question": "Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date one week ago from today in MM/DD/YYYY?",
+    "rmepo_response": "(C)",
+    "rmepo_prompt": "What specific date is one week prior to the rescheduled meeting time of 11 am on October 16, 1924, formatted as MM/DD/YYYY?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific date is one week prior to the rescheduled meeting time of 11 am on October 16, 1924, formatted as MM/DD/YYYY?\nOptions: ##A: 08/08/1925\n##B: 10/08/2019\n##C: 11/06/1924\n##D: 04/08/1925\n##E: 10/08/1924\n##F: 10/07/1924\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(E)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific date is one week prior to the rescheduled meeting time of 11 am on October 16, 1924, formatted as MM/DD/YYYY?\nOptions: ##A: 08/08/1925\n##B: 10/08/2019\n##C: 11/06/1924\n##D: 04/08/1925\n##E: 10/08/1924\n##F: 10/07/1924\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (e)\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (C) is incorrect; correct date is 10/09/1924, not in options, but closest is (E) 10/08/1924."
+      }
+    ]
+  },
+  {
+    "raw_question": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date one year ago from today in MM/DD/YYYY?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What is the specific date, in the format MM/DD/YYYY, that corresponds to one year before today, given that Jane quit her job on March 20, 2020, and 176 days have elapsed since that date?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the specific date, in the format MM/DD/YYYY, that corresponds to one year before today, given that Jane quit her job on March 20, 2020, and 176 days have elapsed since that date?\nOptions: ##A: 09/20/2019\n##B: 10/01/2019\n##C: 10/24/2019\n##D: 09/12/1970\n##E: 09/12/2019\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(E)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the specific date, in the format MM/DD/YYYY, that corresponds to one year before today, given that Jane quit her job on March 20, 2020, and 176 days have elapsed since that date?\nOptions: ##A: 09/20/2019\n##B: 10/01/2019\n##C: 10/24/2019\n##D: 09/12/1970\n##E: 09/12/2019\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: \nExpected Answer: (e)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct answer is (E) based on calculation."
+      }
+    ]
+  },
+  {
+    "raw_question": "Today is the first day of 2007. What is the date today in MM/DD/YYYY?",
+    "rmepo_response": "",
+    "rmepo_prompt": "What is the specific date format (MM/DD/YYYY) for January 1, 2007?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the specific date format (MM/DD/YYYY) for January 1, 2007?\nOptions: ##A: 05/01/2007\n##B: 01/01/2007\n##C: 01/01/1951\n##D: 01/01/2096\n##E: 01/22/2007\n##F: 12/18/2006\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(B)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Today is Christmas Eve of 1937. What is the date yesterday in MM/DD/YYYY?",
+    "rmepo_response": "(C)",
+    "rmepo_prompt": "What specifically is the date for the day preceding Christmas Eve in the year 1937, formatted as MM/DD/YYYY?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specifically is the date for the day preceding Christmas Eve in the year 1937, formatted as MM/DD/YYYY?\nOptions: ##A: 09/23/1938\n##B: 12/23/1896\n##C: 12/24/1937\n##D: 01/06/1938\n##E: 12/31/1937\n##F: 12/23/1937\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(F)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specifically is the date for the day preceding Christmas Eve in the year 1937, formatted as MM/DD/YYYY?\nOptions: ##A: 09/23/1938\n##B: 12/23/1896\n##C: 12/24/1937\n##D: 01/06/1938\n##E: 12/31/1937\n##F: 12/23/1937\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (f)\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (C) is 12/24/1937, but correct date is 12/23/1937."
+      }
+    ]
+  },
+  {
+    "raw_question": "Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date a month ago in MM/DD/YYYY?",
+    "rmepo_response": "(C)",
+    "rmepo_prompt": "Please determine the specific date, in the format MM/DD/YYYY, that corresponds to one month prior to Jane's 16th birthday, given that she was born on the last day of February in 2001.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please determine the specific date, in the format MM/DD/YYYY, that corresponds to one month prior to Jane's 16th birthday, given that she was born on the last day of February in 2001.\nOptions: ##A: 11/12/2016\n##B: 01/21/2017\n##C: 01/14/2017\n##D: 01/28/2017\n##E: 02/03/2017\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(D)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please determine the specific date, in the format MM/DD/YYYY, that corresponds to one month prior to Jane's 16th birthday, given that she was born on the last day of February in 2001.\nOptions: ##A: 11/12/2016\n##B: 01/21/2017\n##C: 01/14/2017\n##D: 01/28/2017\n##E: 02/03/2017\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: \nExpected Answer: (d)\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (C) is incorrect; correct answer is (D) as per expected."
+      }
+    ]
+  },
+  {
+    "raw_question": "Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date 10 days ago in MM/DD/YYYY?",
+    "rmepo_response": "(C)",
+    "rmepo_prompt": "What specific date, exactly 10 days prior to Tuesday, July 9, 1972, should be formatted as MM/DD/YYYY, given that Jane scheduled three appointments with five people for this exact date?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific date, exactly 10 days prior to Tuesday, July 9, 1972, should be formatted as MM/DD/YYYY, given that Jane scheduled three appointments with five people for this exact date?\nOptions: ##A: 07/03/1972\n##B: 10/28/1971\n##C: 06/28/1972\n##D: 06/14/1972\n##E: 09/28/1972\n##F: 06/23/1972\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific date, exactly 10 days prior to Tuesday, July 9, 1972, should be formatted as MM/DD/YYYY, given that Jane scheduled three appointments with five people for this exact date?\nOptions: ##A: 07/03/1972\n##B: 10/28/1971\n##C: 06/28/1972\n##D: 06/14/1972\n##E: 09/28/1972\n##F: 06/23/1972\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "10 days before July 9, 1972 is June 29, 1972, matching option C."
+      }
+    ]
+  },
+  {
+    "raw_question": "Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one week from today in MM/DD/YYYY?",
+    "rmepo_response": "Please let me know if you need anything else.",
+    "rmepo_prompt": "What specific date, exactly one week from Tuesday, July 9, 1972, expressed in MM/DD/YYYY format, will occur when Jane schedules three appointments with five people?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific date, exactly one week from Tuesday, July 9, 1972, expressed in MM/DD/YYYY format, will occur when Jane schedules three appointments with five people?\nOptions: ##A: 06/24/1972\n##B: 07/16/1972\n##C: 07/15/1972\n##D: 06/18/1972\n##E: 07/29/1972\n##F: 07/15/2037\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific date, exactly one week from Tuesday, July 9, 1972, expressed in MM/DD/YYYY format, will occur when Jane schedules three appointments with five people?\nOptions: ##A: 06/24/1972\n##B: 07/16/1972\n##C: 07/15/1972\n##D: 06/18/1972\n##E: 07/29/1972\n##F: 07/15/2037\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is irrelevant; no valid option provided."
+      }
+    ]
+  },
+  {
+    "raw_question": "Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date 24 hours later in MM/DD/YYYY?",
+    "rmepo_response": "(C)",
+    "rmepo_prompt": "Determine the specific date, expressed in MM/DD/YYYY format, that is exactly 24 hours following Jane and John's golden wedding anniversary, which occurred on January 2, 1958.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Determine the specific date, expressed in MM/DD/YYYY format, that is exactly 24 hours following Jane and John's golden wedding anniversary, which occurred on January 2, 1958.\nOptions: ##A: 01/06/2008\n##B: 07/03/2007\n##C: 01/02/2008\n##D: 01/11/2008\n##E: 01/17/2008\n##F: 01/03/2008\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(F)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Determine the specific date, expressed in MM/DD/YYYY format, that is exactly 24 hours following Jane and John's golden wedding anniversary, which occurred on January 2, 1958.\nOptions: ##A: 01/06/2008\n##B: 07/03/2007\n##C: 01/02/2008\n##D: 01/11/2008\n##E: 01/17/2008\n##F: 01/03/2008\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (f)\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Golden anniversary is 50 years, so 1958 + 50 = 2008, plus 24 hours is 01/03/2008, not 01/02/2008."
+      }
+    ]
+  },
+  {
+    "raw_question": "Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date today in MM/DD/YYYY?",
+    "rmepo_response": "(B) 12/21/2009",
+    "rmepo_prompt": "What specific date corresponds to Jane's 5th visit to the bookstore, given she starts visiting every 16th of the month beginning in October 2009? Please provide the date in MM/DD/YYYY format.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific date corresponds to Jane's 5th visit to the bookstore, given she starts visiting every 16th of the month beginning in October 2009? Please provide the date in MM/DD/YYYY format.\nOptions: ##A: 02/06/2010\n##B: 12/21/2009\n##C: 02/16/1933\n##D: 02/16/2010\n##E: 11/30/2009\n##F: 05/24/2010\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(D)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific date corresponds to Jane's 5th visit to the bookstore, given she starts visiting every 16th of the month beginning in October 2009? Please provide the date in MM/DD/YYYY format.\nOptions: ##A: 02/06/2010\n##B: 12/21/2009\n##C: 02/16/1933\n##D: 02/16/2010\n##E: 11/30/2009\n##F: 05/24/2010\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (d)\nPredicted Answer: (B) 12/21/2009\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct date is 02/16/2010."
+      }
+    ]
+  },
+  {
+    "raw_question": "2015 is coming in 36 hours. What is the date a month ago in MM/DD/YYYY?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What is the specific date exactly one month prior to December 31, 2015, formatted as MM/DD/YYYY?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the specific date exactly one month prior to December 31, 2015, formatted as MM/DD/YYYY?\nOptions: ##A: 03/07/2015\n##B: 11/28/2014\n##C: 11/23/2014\n##D: 12/20/2014\n##E: 12/05/2014\n##F: 11/29/2014\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(F)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the specific date exactly one month prior to December 31, 2015, formatted as MM/DD/YYYY?\nOptions: ##A: 03/07/2015\n##B: 11/28/2014\n##C: 11/23/2014\n##D: 12/20/2014\n##E: 12/05/2014\n##F: 11/29/2014\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (f)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct answer is (F) for 11/29/2014."
+      }
+    ]
+  }
+]

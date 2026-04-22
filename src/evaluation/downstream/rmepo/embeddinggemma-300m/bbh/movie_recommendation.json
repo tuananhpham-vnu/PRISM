@@ -1,0 +1,121 @@
+[
+  {
+    "raw_question": "Find a movie similar to Dances with Wolves, Stargate, Pulp Fiction, The Shawshank Redemption:",
+    "rmepo_response": "Please let me know if you need anything else.",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements or genres with Dances with Wolves, Stargate, Pulp Fiction, and The Shawshank Redemption, specifically focusing on plot, characters, and overall narrative style.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements or genres with Dances with Wolves, Stargate, Pulp Fiction, and The Shawshank Redemption, specifically focusing on plot, characters, and overall narrative style.\nOptions: ##A: The Towering Inferno\n##B: The Collector\n##C: Diabolique\n##D: The Fugitive\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements or genres with Dances with Wolves, Stargate, Pulp Fiction, and The Shawshank Redemption, specifically focusing on plot, characters, and overall narrative style.\nOptions: ##A: The Towering Inferno\n##B: The Collector\n##C: Diabolique\n##D: The Fugitive\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (d)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is not a valid option; it ignores the question."
+      }
+    ]
+  },
+  {
+    "raw_question": "Find a movie similar to Pulp Fiction, The Shawshank Redemption, Dances with Wolves, Stargate:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, style, or genre with Pulp Fiction, The Shawshank Redemption, Dances with Wolves, and Stargate.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, style, or genre with Pulp Fiction, The Shawshank Redemption, Dances with Wolves, and Stargate.\nOptions: ##A: The Fugitive\n##B: The Boss of It All\n##C: Barb Wire\n##D: Basic Instinct 2\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(A)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Apollo 13, Pulp Fiction, Pretty Woman, Braveheart:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify specific movies similar to Apollo 13, Pulp Fiction, Pretty Woman, and Braveheart, considering genre, plot, and thematic elements.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify specific movies similar to Apollo 13, Pulp Fiction, Pretty Woman, and Braveheart, considering genre, plot, and thematic elements.\nOptions: ##A: In Good Company\n##B: A Summer's Tale\n##C: Phenomena\n##D: The Shawshank Redemption\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Pulp Fiction, The Fugitive, The Shawshank Redemption, Dances with Wolves:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, style, or genre with Pulp Fiction, The Fugitive, The Shawshank Redemption, and Dances with Wolves:",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, style, or genre with Pulp Fiction, The Fugitive, The Shawshank Redemption, and Dances with Wolves:\nOptions: ##A: All Over the Guy\n##B: Forrest Gump\n##C: Elizabethtown\n##D: The Bride of Frankenstein\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(B)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Star Wars Episode V - The Empire Strikes Back, Groundhog Day, Mission Impossible, Star Wars Episode IV - A New Hope:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements or genre characteristics with Star Wars Episode V: The Empire Strikes Back, Groundhog Day, and Mission Impossible, specifically including those from Star Wars Episode IV: A New Hope as well.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements or genre characteristics with Star Wars Episode V: The Empire Strikes Back, Groundhog Day, and Mission Impossible, specifically including those from Star Wars Episode IV: A New Hope as well.\nOptions: ##A: View from the Top\n##B: The Doors\n##C: Raiders of the Lost Ark\n##D: Quick Change\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Batman, Interview with the Vampire The Vampire Chronicles, The Mask, Pretty Woman:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify specific movies similar to Batman in terms of genre, tone, and thematic elements, as well as those akin to Interview with the Vampire, The Vampire Chronicles for their supernatural or Gothic themes, The Mask for its comedic and transformational aspects, and Pretty Woman for their romantic and character-driven narratives.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify specific movies similar to Batman in terms of genre, tone, and thematic elements, as well as those akin to Interview with the Vampire, The Vampire Chronicles for their supernatural or Gothic themes, The Mask for its comedic and transformational aspects, and Pretty Woman for their romantic and character-driven narratives.\nOptions: ##A: Bright\n##B: Babe\n##C: Unicorn City\n##D: Zoom\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(B)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Braveheart, Pulp Fiction, Schindler's List, The Usual Suspects:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, style, or genre with Braveheart, Pulp Fiction, Schindler's List, and The Usual Suspects.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, style, or genre with Braveheart, Pulp Fiction, Schindler's List, and The Usual Suspects.\nOptions: ##A: Kazaam\n##B: Eichmann\n##C: Children of the Night\n##D: Apollo 13\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(D)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Fight Club, The Shawshank Redemption, Kill Bill Vol 1, Kill Bill Vol 2:",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, genre, and style with Fight Club, The Shawshank Redemption, Kill Bill Volume 1, and Kill Bill Volume 2.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, genre, and style with Fight Club, The Shawshank Redemption, Kill Bill Volume 1, and Kill Bill Volume 2.\nOptions: ##A: Sorority House Massacre\n##B: Evolution\n##C: Memento\n##D: Scooby-Doo Goes Hollywood\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Find a movie similar to Pulp Fiction, Schindler's List, Apollo 13, Dances with Wolves:",
+    "rmepo_response": "Please let me know if you need anything else.",
+    "rmepo_prompt": "Identify a movie that shares similar thematic or stylistic elements with Pulp Fiction, Schindler's List, Apollo 13, and Dances with Wolves.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic or stylistic elements with Pulp Fiction, Schindler's List, Apollo 13, and Dances with Wolves.\nOptions: ##A: Iron Eagle IV\n##B: The Shawshank Redemption\n##C: Knockin' on Heaven's Door\n##D: Aguirre The Wrath of God\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic or stylistic elements with Pulp Fiction, Schindler's List, Apollo 13, and Dances with Wolves.\nOptions: ##A: Iron Eagle IV\n##B: The Shawshank Redemption\n##C: Knockin' on Heaven's Door\n##D: Aguirre The Wrath of God\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is irrelevant; no valid option provided."
+      }
+    ]
+  },
+  {
+    "raw_question": "Find a movie similar to The Shawshank Redemption, Saving Private Ryan, Braveheart, The Matrix:",
+    "rmepo_response": "Please let me know if you need anything else.",
+    "rmepo_prompt": "Identify a movie that shares similar thematic elements, style, or genre with The Shawshank Redemption, Saving Private Ryan, Braveheart, and The Matrix.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, style, or genre with The Shawshank Redemption, Saving Private Ryan, Braveheart, and The Matrix.\nOptions: ##A: Dracula 2000\n##B: 1492 Conquest of Paradise\n##C: Schindler's List\n##D: Auto Focus\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify a movie that shares similar thematic elements, style, or genre with The Shawshank Redemption, Saving Private Ryan, Braveheart, and The Matrix.\nOptions: ##A: Dracula 2000\n##B: 1492 Conquest of Paradise\n##C: Schindler's List\n##D: Auto Focus\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is irrelevant; no valid option provided."
+      }
+    ]
+  }
+]

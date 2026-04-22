@@ -1,0 +1,142 @@
+[
+  {
+    "raw_question": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date yesterday in MM/DD/YYYY?",
+    "rbpo_response": "(C)",
+    "rbpo_prompt": "Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date yesterday in MM/DD/YYYY?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date yesterday in MM/DD/YYYY?\nOptions: ##A: 02/18/2019\n##B: 06/18/2066\n##C: 06/18/2019\n##D: 06/18/1933\n##E: 05/28/2019\n##F: 11/18/2019\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date yesterday in MM/DD/YYYY?\nOptions: ##A: 02/18/2019\n##B: 06/18/2066\n##C: 06/18/2019\n##D: 06/18/1933\n##E: 05/28/2019\n##F: 11/18/2019\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (C) matches expected answer (c) for yesterday's date."
+      }
+    ]
+  },
+  {
+    "raw_question": "Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date one year ago from today in MM/DD/YYYY?",
+    "rbpo_response": "Please let me know if you need anything else.",
+    "rbpo_prompt": "Jane scheduled 3 appointments with 5 people for tomorrow (Tue, 7/9/1972). What is the date one year ago from today in MM/DD/YYYY?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Jane scheduled 3 appointments with 5 people for tomorrow (Tue, 7/9/1972). What is the date one year ago from today in MM/DD/YYYY?\nOptions: ##A: 07/08/1910\n##B: 07/08/1971\n##C: 07/09/1971\n##D: 07/15/1971\n##E: 07/01/1971\n##F: 07/07/1971\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(B)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Jane scheduled 3 appointments with 5 people for tomorrow (Tue, 7/9/1972). What is the date one year ago from today in MM/DD/YYYY?\nOptions: ##A: 07/08/1910\n##B: 07/08/1971\n##C: 07/09/1971\n##D: 07/15/1971\n##E: 07/01/1971\n##F: 07/07/1971\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (b)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is irrelevant; correct answer is (B)."
+      }
+    ]
+  },
+  {
+    "raw_question": "Today is 9/7. Jane is watching NFL 2003. What is the date 24 hours later in MM/DD/YYYY?",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date 24 hours later in MM/DD/YYYY?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Today is 9/7. Jane is watching NFL 2003. What is the date 24 hours later in MM/DD/YYYY?\nOptions: ##A: 09/08/2003\n##B: 09/10/2003\n##C: 09/08/1917\n##D: 09/07/2003\n##E: 08/29/2003\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Today is 9/7. Jane is watching NFL 2003. What is the date 24 hours later in MM/DD/YYYY?\nOptions: ##A: 09/08/2003\n##B: 09/10/2003\n##C: 09/08/1917\n##D: 09/07/2003\n##E: 08/29/2003\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct answer is (A) for 09/08/2003."
+      }
+    ]
+  },
+  {
+    "raw_question": "Today is the last day of the first quarter of 2008. What is the date tomorrow in MM/DD/YYYY?",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Today is the last day of the first quarter of 2008. What is the date tomorrow in MM/DD/YYYY?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Today is the last day of the first quarter of 2008. What is the date tomorrow in MM/DD/YYYY?\nOptions: ##A: 04/09/2008\n##B: 09/01/2008\n##C: 03/14/2008\n##D: 03/31/2008\n##E: 04/01/2058\n##F: 04/01/2008\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(F)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Today is the last day of the first quarter of 2008. What is the date tomorrow in MM/DD/YYYY?\nOptions: ##A: 04/09/2008\n##B: 09/01/2008\n##C: 03/14/2008\n##D: 03/31/2008\n##E: 04/01/2058\n##F: 04/01/2008\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (f)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct answer is (F) for 04/01/2008."
+      }
+    ]
+  },
+  {
+    "raw_question": "Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date a month ago in MM/DD/YYYY?",
+    "rbpo_response": "Please let me know if you need anything else.",
+    "rbpo_prompt": "Jane quit her job on Mar 20, 2020. It has been 176 days since then. What is the date a month ago in MM/DD/YYYY?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Jane quit her job on Mar 20, 2020. It has been 176 days since then. What is the date a month ago in MM/DD/YYYY?\nOptions: ##A: 08/12/2020\n##B: 07/29/2020\n##C: 09/06/2020\n##D: 08/20/2020\n##E: 08/12/2045\n##F: 08/12/2093\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(A)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Jane quit her job on Mar 20, 2020. It has been 176 days since then. What is the date a month ago in MM/DD/YYYY?\nOptions: ##A: 08/12/2020\n##B: 07/29/2020\n##C: 09/06/2020\n##D: 08/20/2020\n##E: 08/12/2045\n##F: 08/12/2093\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (a)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is irrelevant, no valid option provided."
+      }
+    ]
+  },
+  {
+    "raw_question": "It was Sept. 1st, 2021 a week ago. What is the date 24 hours later in MM/DD/YYYY?",
+    "rbpo_response": "Please let me know if you need anything else.",
+    "rbpo_prompt": "What is the date 24 hours later in MM/DD/YYYY format on September 1st, 2021? Please provide the response.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the date 24 hours later in MM/DD/YYYY format on September 1st, 2021? Please provide the response.\nOptions: ##A: 03/09/2022\n##B: 09/10/2021\n##C: 08/31/2021\n##D: 09/09/2021\n##E: 09/02/2021\n##F: 09/17/2021\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(D)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the date 24 hours later in MM/DD/YYYY format on September 1st, 2021? Please provide the response.\nOptions: ##A: 03/09/2022\n##B: 09/10/2021\n##C: 08/31/2021\n##D: 09/09/2021\n##E: 09/02/2021\n##F: 09/17/2021\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (d)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer does not provide a valid option label."
+      }
+    ]
+  },
+  {
+    "raw_question": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date a month ago in MM/DD/YYYY?",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date a month ago in MM/DD/YYYY?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date a month ago in MM/DD/YYYY?\nOptions: ##A: 05/04/2017\n##B: 05/19/2017\n##C: 06/24/2017\n##D: 05/11/2017\n##E: 10/18/2017\n##F: 05/18/2017\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(F)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date a month ago in MM/DD/YYYY?\nOptions: ##A: 05/04/2017\n##B: 05/19/2017\n##C: 06/24/2017\n##D: 05/11/2017\n##E: 10/18/2017\n##F: 05/18/2017\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (f)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct answer is (F) based on date calculation."
+      }
+    ]
+  },
+  {
+    "raw_question": "The day before yesterday was 11/23/1933. What is the date today in MM/DD/YYYY?",
+    "rbpo_response": "Please let me know if you need anything else.",
+    "rbpo_prompt": "The day before yesterday was 11/23/1933. What is the current date in MM/DD/YYYY format?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: The day before yesterday was 11/23/1933. What is the current date in MM/DD/YYYY format?\nOptions: ##A: 08/29/1933\n##B: 01/04/1934\n##C: 11/25/1967\n##D: 11/25/1933\n##E: 11/04/1933\n##F: 12/09/1933\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(D)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: The day before yesterday was 11/23/1933. What is the current date in MM/DD/YYYY format?\nOptions: ##A: 08/29/1933\n##B: 01/04/1934\n##C: 11/25/1967\n##D: 11/25/1933\n##E: 11/04/1933\n##F: 12/09/1933\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (d)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is irrelevant, no valid option provided."
+      }
+    ]
+  },
+  {
+    "raw_question": "Today is 9/7. Jane is watching NFL 2003. What is the date 10 days ago in MM/DD/YYYY?",
+    "rbpo_response": "Please let me know if you need anything else.",
+    "rbpo_prompt": "Today is 9/7. Jane is watching NFL 2003. What is the date 10 days ago in MM/DD/YYYY?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Today is 9/7. Jane is watching NFL 2003. What is the date 10 days ago in MM/DD/YYYY?\nOptions: ##A: 08/28/1959\n##B: 08/29/2003\n##C: 08/28/2003\n##D: 06/14/2003\n##E: 03/28/2003\n##F: 08/28/2043\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(C)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Today is 9/7. Jane is watching NFL 2003. What is the date 10 days ago in MM/DD/YYYY?\nOptions: ##A: 08/28/1959\n##B: 08/29/2003\n##C: 08/28/2003\n##D: 06/14/2003\n##E: 03/28/2003\n##F: 08/28/2043\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (c)\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is irrelevant; no valid option extracted."
+      }
+    ]
+  },
+  {
+    "raw_question": "2015 is coming in 36 hours. What is the date one year ago from today in MM/DD/YYYY?",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "What is the date one year ago from today in MM/DD/YYYY? Please provide the answer 2015 is coming in 36 hours.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the date one year ago from today in MM/DD/YYYY? Please provide the answer 2015 is coming in 36 hours.\nOptions: ##A: 12/09/2013\n##B: 01/19/2014\n##C: 12/28/2013\n##D: 07/29/2013\n##E: 12/29/2013\n##F: 02/28/2014\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: ",
+    "target": "(E)",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the date one year ago from today in MM/DD/YYYY? Please provide the answer 2015 is coming in 36 hours.\nOptions: ##A: 12/09/2013\n##B: 01/19/2014\n##C: 12/28/2013\n##D: 07/29/2013\n##E: 12/29/2013\n##F: 02/28/2014\nReply me with the option of the answer like (A) or (B) or (C) or (D) or (E) or (F)\nAnswer: \nExpected Answer: (e)\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (B) is incorrect; correct answer is (E) for 12/29/2013."
+      }
+    ]
+  }
+]

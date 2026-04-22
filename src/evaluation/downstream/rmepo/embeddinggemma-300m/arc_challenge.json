@@ -1,0 +1,133 @@
+[
+  {
+    "raw_question": "The light year is used to describe distances between Earth and stars other than the sun because the Astronomical Unit is",
+    "rmepo_response": "(C)",
+    "rmepo_prompt": "What specific reason makes the light year the preferred unit for describing distances between Earth and stars, excluding the Sun, when compared to the Astronomical Unit?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific reason makes the light year the preferred unit for describing distances between Earth and stars, excluding the Sun, when compared to the Astronomical Unit?\nOptions: ##A: too small.\n##B: too large.\n##C: not accurate.\n##D: not well defined.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "A",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific reason makes the light year the preferred unit for describing distances between Earth and stars, excluding the Sun, when compared to the Astronomical Unit?\nOptions: ##A: too small.\n##B: too large.\n##C: not accurate.\n##D: not well defined.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: a\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (C) is incorrect; correct answer is (A) as light years are used because AU is too small for interstellar distances."
+      }
+    ]
+  },
+  {
+    "raw_question": "A student studied the growth of plants in different soil types. The best way to organize the data is by",
+    "rmepo_response": "",
+    "rmepo_prompt": "How specifically can a student organize the collected data on plant growth across various soil types to ensure clarity and effectiveness in analysis?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: How specifically can a student organize the collected data on plant growth across various soil types to ensure clarity and effectiveness in analysis?\nOptions: ##A: date and time.\n##B: date and plant height.\n##C: plant height and soil type\n##D: date, plant height, and soil type.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The Florida Fish and Wildlife Conservation Commission (FWC) has helped to develop more than 300 artificial reefs in both the Atlantic Ocean and the Gulf of Mexico. Which is an unexpected negative result of establishing these reefs?",
+    "rmepo_response": "Please let me know if you need anything else.",
+    "rmepo_prompt": "What specific unintended negative consequence might arise from the Florida Fish and Wildlife Conservation Commission (FWC) creating over 300 artificial reefs in the Atlantic Ocean and the Gulf of Mexico? Please provide a detailed explanation.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific unintended negative consequence might arise from the Florida Fish and Wildlife Conservation Commission (FWC) creating over 300 artificial reefs in the Atlantic Ocean and the Gulf of Mexico? Please provide a detailed explanation.\nOptions: ##A: It enhanced recreational and diving opportunities.\n##B: It enhanced the studying of corals and other organisms.\n##C: It increased over-fishing and destruction of ecosystems.\n##D: It increased the number of fish and other aquatic organisms.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "C",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific unintended negative consequence might arise from the Florida Fish and Wildlife Conservation Commission (FWC) creating over 300 artificial reefs in the Atlantic Ocean and the Gulf of Mexico? Please provide a detailed explanation.\nOptions: ##A: It enhanced recreational and diving opportunities.\n##B: It enhanced the studying of corals and other organisms.\n##C: It increased over-fishing and destruction of ecosystems.\n##D: It increased the number of fish and other aquatic organisms.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: c\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer does not provide a valid option label."
+      }
+    ]
+  },
+  {
+    "raw_question": "Bass tapeworms attach to the gills and intestines of bass fish. These worms survive by taking nutrients from the bass. What type of relationship does this represent?",
+    "rmepo_response": "(B)",
+    "rmepo_prompt": "What specific type of biological relationship exists between bass tapeworms, which attach to the gills and intestines of bass fish, and how do these worms obtain their nutrients by parasitizing the bass?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific type of biological relationship exists between bass tapeworms, which attach to the gills and intestines of bass fish, and how do these worms obtain their nutrients by parasitizing the bass?\nOptions: ##A: predation\n##B: parasitism\n##C: mutualism\n##D: commensalism\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific type of biological relationship exists between bass tapeworms, which attach to the gills and intestines of bass fish, and how do these worms obtain their nutrients by parasitizing the bass?\nOptions: ##A: predation\n##B: parasitism\n##C: mutualism\n##D: commensalism\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: b\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer b for parasitism."
+      }
+    ]
+  },
+  {
+    "raw_question": "As a car burns fuel, a transformation from chemical to mechanical energy takes place. What is the most likely result of the fuel burning?",
+    "rmepo_response": "",
+    "rmepo_prompt": "What specifically occurs as a car burns fuel, transforming chemical energy into mechanical energy, and what is the most direct resulting output from this process?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specifically occurs as a car burns fuel, transforming chemical energy into mechanical energy, and what is the most direct resulting output from this process?\nOptions: ##A: The matter that makes up the car increases.\n##B: The amount of useful energy decreases.\n##C: The efficiency of the car increases.\n##D: The amount of heat energy decreases.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "All galaxies in the universe",
+    "rmepo_response": "(C)",
+    "rmepo_prompt": "Specifically describe the characteristics and scope you are seeking regarding all galaxies in the universe.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Specifically describe the characteristics and scope you are seeking regarding all galaxies in the universe.\nOptions: ##A: are composed of many stars.\n##B: have a clockwise spin.\n##C: are irregularly shaped.\n##D: have the same number of stars.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "A",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Specifically describe the characteristics and scope you are seeking regarding all galaxies in the universe.\nOptions: ##A: are composed of many stars.\n##B: have a clockwise spin.\n##C: are irregularly shaped.\n##D: have the same number of stars.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: a\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (C) is incorrect; correct answer is (A)."
+      }
+    ]
+  },
+  {
+    "raw_question": "A student wants to know how long it takes mold to form on bread. After preparing the bread for the investigation, what should the student most likely do next?",
+    "rmepo_response": "(A)",
+    "rmepo_prompt": "What specific steps should a student take after preparing the bread to determine the duration required for mold to develop, ensuring accurate results for their investigation?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific steps should a student take after preparing the bread to determine the duration required for mold to develop, ensuring accurate results for their investigation?\nOptions: ##A: Check the bread each day.\n##B: Record the temperature of the bread.\n##C: Measure the weight of the bread.\n##D: Give the bread different amounts of light.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "A",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific steps should a student take after preparing the bread to determine the duration required for mold to develop, ensuring accurate results for their investigation?\nOptions: ##A: Check the bread each day.\n##B: Record the temperature of the bread.\n##C: Measure the weight of the bread.\n##D: Give the bread different amounts of light.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: a\nPredicted Answer: (A)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (A) matches expected answer a."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which object has the greatest flexibility?",
+    "rmepo_response": "",
+    "rmepo_prompt": "What specific object are you referring to when asking about the greatest flexibility, considering factors such as material, structure, and intended use?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific object are you referring to when asking about the greatest flexibility, considering factors such as material, structure, and intended use?\nOptions: ##A: wooden block\n##B: paper cup\n##C: metal nail\n##D: glass bottle\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Why is water from an aquifer more likely to be cleaner than water from other sources?",
+    "rmepo_response": "(B) because it receives water directly from precipitation",
+    "rmepo_prompt": "What specific factors make water from an aquifer generally more pristine compared to water from surface sources, such as rivers or lakes? Please provide scientific explanations and examples.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific factors make water from an aquifer generally more pristine compared to water from surface sources, such as rivers or lakes? Please provide scientific explanations and examples.\nOptions: ##A: because it forms where fresh and salt water meet\n##B: because it receives water directly from precipitation\n##C: because it rises to the surface near the ocean\n##D: because pollutants are filtered by rock and soil deep within Earth\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific factors make water from an aquifer generally more pristine compared to water from surface sources, such as rivers or lakes? Please provide scientific explanations and examples.\nOptions: ##A: because it forms where fresh and salt water meet\n##B: because it receives water directly from precipitation\n##C: because it rises to the surface near the ocean\n##D: because pollutants are filtered by rock and soil deep within Earth\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: d\nPredicted Answer: (B) because it receives water directly from precipitation\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Extracted answer is (B), but correct option is D due to natural filtration."
+      }
+    ]
+  },
+  {
+    "raw_question": "In Nevada's Black Desert on October 15, 1997, Andy Green traveled a measured distance at an average speed of 339 meters per second in a jet-powered car called \"Thrust.\" Andy was the first person to",
+    "rmepo_response": "(C)",
+    "rmepo_prompt": "What specific achievements did Andy Green accomplish on October 15, 1997, when he drove a jet-powered car named \"Thrust\" through the Black Desert in Nevada, achieving an average speed of 339 meters per second over a measured distance?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific achievements did Andy Green accomplish on October 15, 1997, when he drove a jet-powered car named \"Thrust\" through the Black Desert in Nevada, achieving an average speed of 339 meters per second over a measured distance?\nOptions: ##A: use the Doppler effect.\n##B: drive in a jet-fueled car.\n##C: cross Nevada's Black Desert.\n##D: break the sound barrier on ground.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific achievements did Andy Green accomplish on October 15, 1997, when he drove a jet-powered car named \"Thrust\" through the Black Desert in Nevada, achieving an average speed of 339 meters per second over a measured distance?\nOptions: ##A: use the Doppler effect.\n##B: drive in a jet-fueled car.\n##C: cross Nevada's Black Desert.\n##D: break the sound barrier on ground.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: d\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (C) is incorrect; correct answer is (D) for breaking sound barrier."
+      }
+    ]
+  }
+]

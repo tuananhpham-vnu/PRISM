@@ -1,0 +1,121 @@
+[
+  {
+    "raw_question": "What process in the atmosphere protects people from the ultraviolet rays in sunlight?",
+    "rmepo_response": "",
+    "rmepo_prompt": "Which specific atmospheric process effectively filters and protects humans from harmful ultraviolet radiation present in solar sunlight?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which specific atmospheric process effectively filters and protects humans from harmful ultraviolet radiation present in solar sunlight?\nOptions: ##A: Ozone absorbs ultraviolet light.\n##B: Nitrogen reflects ultraviolet light.\n##C: Water vapor scatters ultraviolet light.\n##D: Carbon dioxide blocks ultraviolet light.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "A",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "A researcher's plan is to place five fish in separate tanks, give them the same amount of food each day, and keep the temperature the same. One fish will be exposed to artificial light for 24 hours each day, while the others will have light for 22 hours and then no light for 2 hours each day. Which is the control for this experiment?",
+    "rmepo_response": "(D)",
+    "rmepo_prompt": "What specific aspect of the experimental setup—where five fish are placed in separate tanks, given equal food portions daily, and maintained at consistent temperatures—serves as the control group when one fish is subjected to 24 hours of artificial light daily, while the remaining four fish experience 22 hours of light followed by 2 hours of darkness each day?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific aspect of the experimental setup—where five fish are placed in separate tanks, given equal food portions daily, and maintained at consistent temperatures—serves as the control group when one fish is subjected to 24 hours of artificial light daily, while the remaining four fish experience 22 hours of light followed by 2 hours of darkness each day?\nOptions: ##A: the separate tanks\n##B: the amount of food\n##C: the fish deprived of light\n##D: the fish exposed to light for 24 hours\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific aspect of the experimental setup—where five fish are placed in separate tanks, given equal food portions daily, and maintained at consistent temperatures—serves as the control group when one fish is subjected to 24 hours of artificial light daily, while the remaining four fish experience 22 hours of light followed by 2 hours of darkness each day?\nOptions: ##A: the separate tanks\n##B: the amount of food\n##C: the fish deprived of light\n##D: the fish exposed to light for 24 hours\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: d\nPredicted Answer: (D)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (D) matches expected answer d, both indicate the control group."
+      }
+    ]
+  },
+  {
+    "raw_question": "Refrigerators were invented to keep food cold. This is helpful in",
+    "rmepo_response": "",
+    "rmepo_prompt": "Identify specifically how refrigerators invented for keeping food cold are beneficial in the context of preserving food quality and safety over time.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Identify specifically how refrigerators invented for keeping food cold are beneficial in the context of preserving food quality and safety over time.\nOptions: ##A: growing food.\n##B: cleaning food.\n##C: keeping food dry.\n##D: keeping food fresh.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Where do plants get most of the energy they need to live and grow?",
+    "rmepo_response": "",
+    "rmepo_prompt": "What specific source of energy do plants primarily rely on for their growth and survival?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific source of energy do plants primarily rely on for their growth and survival?\nOptions: ##A: water\n##B: soil\n##C: air\n##D: sunlight\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Which environment would most likely have rich, fertile soil?",
+    "rmepo_response": "",
+    "rmepo_prompt": "What specific type of environment typically features rich and fertile soil, and why?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific type of environment typically features rich and fertile soil, and why?\nOptions: ##A: a desert plain\n##B: a coastal beach\n##C: a mountain peak\n##D: a flood plain\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Ernie made a diagram to model Earth's orbit. What shape is most like what Ernie drew for the orbit?",
+    "rmepo_response": "",
+    "rmepo_prompt": "Please specifically determine the shape that best represents the orbital path Ernie depicted in his diagram for Earth's orbit.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Please specifically determine the shape that best represents the orbital path Ernie depicted in his diagram for Earth's orbit.\nOptions: ##A: square\n##B: oval\n##C: triangle\n##D: rectangle\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Which observation provides evidence of the existence of planets orbiting other stars?",
+    "rmepo_response": "Please let me know if you need anything else.",
+    "rmepo_prompt": "What specific observational evidence demonstrates the presence of exoplanets orbiting outside our solar system?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific observational evidence demonstrates the presence of exoplanets orbiting outside our solar system?\nOptions: ##A: periodic dimming of the stars\n##B: periodic X-ray bursts from the stars\n##C: rapid location changes of the stars\n##D: regular spectrum changes from the stars\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "A",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific observational evidence demonstrates the presence of exoplanets orbiting outside our solar system?\nOptions: ##A: periodic dimming of the stars\n##B: periodic X-ray bursts from the stars\n##C: rapid location changes of the stars\n##D: regular spectrum changes from the stars\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: a\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is irrelevant; correct evidence is periodic dimming of stars."
+      }
+    ]
+  },
+  {
+    "raw_question": "Hawaii is composed mainly of volcanoes with gentle slopes and large surface areas. Which characteristics best describe the lava these volcanoes have released?",
+    "rmepo_response": "(A)",
+    "rmepo_prompt": "What specific characteristics, such as viscosity, temperature, and flow rate, do the lava types typically released by Hawaii's volcanoes with gentle slopes and large surface areas possess?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific characteristics, such as viscosity, temperature, and flow rate, do the lava types typically released by Hawaii's volcanoes with gentle slopes and large surface areas possess?\nOptions: ##A: relatively fluid and low viscosity\n##B: highly viscous and relatively cool\n##C: mix of hot gas and rock shards\n##D: mainly water vapor and large boulders\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "A",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific characteristics, such as viscosity, temperature, and flow rate, do the lava types typically released by Hawaii's volcanoes with gentle slopes and large surface areas possess?\nOptions: ##A: relatively fluid and low viscosity\n##B: highly viscous and relatively cool\n##C: mix of hot gas and rock shards\n##D: mainly water vapor and large boulders\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: a\nPredicted Answer: (A)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rmepo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (A) matches expected answer a, both indicate low viscosity lava."
+      }
+    ]
+  },
+  {
+    "raw_question": "Windmills are used to obtain usable energy from wind. Which would be an advantage of using a windmill?",
+    "rmepo_response": "",
+    "rmepo_prompt": "What specific advantage does using windmills offer for obtaining usable energy from wind compared to other methods?",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific advantage does using windmills offer for obtaining usable energy from wind compared to other methods?\nOptions: ##A: Windmills are expensive to build.\n##B: The wind does not blow all the time.\n##C: Pollution is not created by windmills.\n##D: Populations of birds can be reduced by windmills.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "C",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Which has the longest wavelength?",
+    "rmepo_response": "",
+    "rmepo_prompt": "What specific type of wave are you referring to when asking which has the longest wavelength, such as electromagnetic waves, sound waves, or seismic waves? Please specify the context for clarity.",
+    "rmepo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What specific type of wave are you referring to when asking which has the longest wavelength, such as electromagnetic waves, sound waves, or seismic waves? Please specify the context for clarity.\nOptions: ##A: red light\n##B: green light\n##C: violet light\n##D: yellow light\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "A",
+    "rmepo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  }
+]

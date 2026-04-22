@@ -1,0 +1,127 @@
+[
+  {
+    "raw_question": "Which event will occur in an area after a major flood?",
+    "rbpo_response": "(C)",
+    "rbpo_prompt": "Which event is likely to occur in an area after a major flood?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which event is likely to occur in an area after a major flood?\nOptions: ##A: a decrease in the erosion of riverbanks\n##B: a decrease in the number of native plants\n##C: an increase in the number of animal habitats\n##D: an increase in the diversity of insect species\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Which event is likely to occur in an area after a major flood?\nOptions: ##A: a decrease in the erosion of riverbanks\n##B: a decrease in the number of native plants\n##C: an increase in the number of animal habitats\n##D: an increase in the diversity of insect species\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: b\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (C) is incorrect; floods typically reduce habitats and biodiversity."
+      }
+    ]
+  },
+  {
+    "raw_question": "A hot pack is a product that releases heat when chemicals inside of it interact. What is taking place inside an active hot pack?",
+    "rbpo_response": "",
+    "rbpo_prompt": "What is taking place inside an active hot pack? Please explain the chemical reaction that occurs when the pack is heated and how it leads to the release of heat.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is taking place inside an active hot pack? Please explain the chemical reaction that occurs when the pack is heated and how it leads to the release of heat.\nOptions: ##A: electric current\n##B: a net loss of mass\n##C: thermal insulation\n##D: an exothermic reaction\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The solar system containing Earth consists of a sun and planets. Which statement best describes the motion of the planets in our solar system?",
+    "rbpo_response": "",
+    "rbpo_prompt": "The solar system containing Earth consists of a sun and planets. Which statement accurately describes the motion of the planets in our solar system?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: The solar system containing Earth consists of a sun and planets. Which statement accurately describes the motion of the planets in our solar system?\nOptions: ##A: The planets rotate around the sun.\n##B: The sun rotates around the planets.\n##C: The planets revolve around the sun.\n##D: The sun revolves around the planets.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "C",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Observation and measurement are important to scientific investigations because",
+    "rbpo_response": "(B)",
+    "rbpo_prompt": "Observation and measurement are important to scientific investigations because they provide the basis for making inferences and drawing conclusions about the behavior of a system or process.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Observation and measurement are important to scientific investigations because they provide the basis for making inferences and drawing conclusions about the behavior of a system or process.\nOptions: ##A: they are part of the instructions.\n##B: they are used to test a hypothesis.\n##C: they are required to make a hypothesis.\n##D: they keep you safe during an investigation.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Observation and measurement are important to scientific investigations because they provide the basis for making inferences and drawing conclusions about the behavior of a system or process.\nOptions: ##A: they are part of the instructions.\n##B: they are used to test a hypothesis.\n##C: they are required to make a hypothesis.\n##D: they keep you safe during an investigation.\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: b\nPredicted Answer: (B)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (B) matches expected answer b."
+      }
+    ]
+  },
+  {
+    "raw_question": "Henry learned that without the right kind of energy, plants cannot survive. What form of energy is used by plants to perform photosynthesis?",
+    "rbpo_response": "",
+    "rbpo_prompt": "Henry learned that without the right kind of energy, plants cannot survive. Explain the form of energy used by plants to perform photosynthesis.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: Henry learned that without the right kind of energy, plants cannot survive. Explain the form of energy used by plants to perform photosynthesis.\nOptions: ##A: electrical\n##B: light\n##C: mechanical\n##D: wind\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "The scientific method is the inquiry process by which scientists raise and attempt to answer new questions. Which is the best way to communicate findings that result from scientific inquiry?",
+    "rbpo_response": "(C)",
+    "rbpo_prompt": "The scientific method is the inquiry process by which scientists raise and attempt to answer new questions. Which is the best way to communicate findings that result from scientific inquiry?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: The scientific method is the inquiry process by which scientists raise and attempt to answer new questions. Which is the best way to communicate findings that result from scientific inquiry?\nOptions: ##A: discuss the findings with scientists who agree with you\n##B: discuss the findings with a well-known scientist\n##C: publish the findings in scientific journals\n##D: publish the findings in local newspapers\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "C",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: The scientific method is the inquiry process by which scientists raise and attempt to answer new questions. Which is the best way to communicate findings that result from scientific inquiry?\nOptions: ##A: discuss the findings with scientists who agree with you\n##B: discuss the findings with a well-known scientist\n##C: publish the findings in scientific journals\n##D: publish the findings in local newspapers\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: c\nPredicted Answer: (C)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer (C) matches expected answer c for communicating scientific findings."
+      }
+    ]
+  },
+  {
+    "raw_question": "Which is the correct sequence for the stages in the life cycle of a butterfly?",
+    "rbpo_response": "(A)",
+    "rbpo_prompt": "What is the correct sequence of stages in the life cycle of a butterfly?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the correct sequence of stages in the life cycle of a butterfly?\nOptions: ##A: larva; pupa; egg; adult\n##B: egg; pupa; larva; adult\n##C: adult; larva; pupa; egg\n##D: egg; larva; pupa; adult\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "D",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What is the correct sequence of stages in the life cycle of a butterfly?\nOptions: ##A: larva; pupa; egg; adult\n##B: egg; pupa; larva; adult\n##C: adult; larva; pupa; egg\n##D: egg; larva; pupa; adult\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: d\nPredicted Answer: (A)\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer (A) is incorrect; correct sequence is egg, larva, pupa, adult (D)."
+      }
+    ]
+  },
+  {
+    "raw_question": "In 1785, James Hutton, stated that evidence of past occurrences can be used to explain events which happen today. Which could most likely be used to explain an event in the geologic past?",
+    "rbpo_response": "",
+    "rbpo_prompt": "In 1785, James Hutton, stated that evidence of past occurrences can be used to explain events which happen today. Which specific evidence, such as fossil records, mineral deposits, or other geological features, could most likely be used to explain an event in the geologic past?",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: In 1785, James Hutton, stated that evidence of past occurrences can be used to explain events which happen today. Which specific evidence, such as fossil records, mineral deposits, or other geological features, could most likely be used to explain an event in the geologic past?\nOptions: ##A: sunspots\n##B: earthquakes\n##C: wave patterns\n##D: cloud formations\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  },
+  {
+    "raw_question": "Cells perform many different processes that an organism needs to survive and grow. Which is the main function of the process of cellular respiration?",
+    "rbpo_response": "Please let me know if you need anything else.",
+    "rbpo_prompt": "The main function of the process of cellular respiration is to provide energy for the cell and the organism. Please explain how cells generate energy in cellular respiration and how the process impacts the environment.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: The main function of the process of cellular respiration is to provide energy for the cell and the organism. Please explain how cells generate energy in cellular respiration and how the process impacts the environment.\nOptions: ##A: the production of sugar\n##B: the release of energy\n##C: the formation of new proteins for the cell\n##D: the removal of waste products from the cell\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "B",
+    "template": "\nQuestion: \nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: The main function of the process of cellular respiration is to provide energy for the cell and the organism. Please explain how cells generate energy in cellular respiration and how the process impacts the environment.\nOptions: ##A: the production of sugar\n##B: the release of energy\n##C: the formation of new proteins for the cell\n##D: the removal of waste products from the cell\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: \nExpected Answer: b\nPredicted Answer: Please let me know if you need anything else.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer does not provide a valid option label."
+      }
+    ]
+  },
+  {
+    "raw_question": "What remains in the same location in the sky of the Northern Hemisphere each night?",
+    "rbpo_response": "",
+    "rbpo_prompt": "What remains in the same location in the sky of the Northern Hemisphere each night? Please provide a detailed explanation or star map to help the user identify the constellation.",
+    "rbpo_input_llm": "\nAnswer the following question. No explanation. \nReturn ONLY the correct option label in the format: (<label>)\nExamples: (A), (B), (C)\n\nAfter giving the final answer, STOP immediately.\nDo not generate any new question. \n\nQuestion: What remains in the same location in the sky of the Northern Hemisphere each night? Please provide a detailed explanation or star map to help the user identify the constellation.\nOptions: ##A: the Sun\n##B: the Little Dipper\n##C: the North Star\n##D: the Moon\nReply me with the option of the answer like (A) or (B) or (C) or (D)\nAnswer: ",
+    "answer": "C",
+    "rbpo_verification_response": {
+      "response": "Wrong",
+      "Explanation": "No answer generated"
+    }
+  }
+]

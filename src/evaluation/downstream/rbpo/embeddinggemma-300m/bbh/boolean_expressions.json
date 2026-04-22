@@ -1,0 +1,142 @@
+[
+  {
+    "raw_question": "True and True and True or not False is",
+    "rbpo_response": "False",
+    "rbpo_prompt": "Determine whether the statement 'True and True and True or not False' is True or False.",
+    "rbpo_input_llm": "\nQuestion:\nDetermine whether the statement 'True and True and True or not False' is True or False.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "True",
+    "template": "\nQuestion: \nQuestion:\nDetermine whether the statement 'True and True and True or not False' is True or False.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: true\nPredicted Answer: False\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is False, but correct answer is True."
+      }
+    ]
+  },
+  {
+    "raw_question": "False and False or True and not False is",
+    "rbpo_response": "False",
+    "rbpo_prompt": "Determine the result of the expression 'False and False or True and not False is'",
+    "rbpo_input_llm": "\nQuestion:\nDetermine the result of the expression 'False and False or True and not False is'\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "True",
+    "template": "\nQuestion: \nQuestion:\nDetermine the result of the expression 'False and False or True and not False is'\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: true\nPredicted Answer: False\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Expression evaluates to True, predicted answer is False."
+      }
+    ]
+  },
+  {
+    "raw_question": "not True and False or False or True is",
+    "rbpo_response": "True",
+    "rbpo_prompt": "Please provide a brief explanation of the statement \"not True and False or False or True\"",
+    "rbpo_input_llm": "\nQuestion:\nPlease provide a brief explanation of the statement \"not True and False or False or True\"\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "True",
+    "template": "\nQuestion: \nQuestion:\nPlease provide a brief explanation of the statement \"not True and False or False or True\"\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: true\nPredicted Answer: True\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer: True."
+      }
+    ]
+  },
+  {
+    "raw_question": "not False and not True and not False is",
+    "rbpo_response": "True",
+    "rbpo_prompt": "Please provide the result of the expression 'not False and not True and not False is'.",
+    "rbpo_input_llm": "\nQuestion:\nPlease provide the result of the expression 'not False and not True and not False is'.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nPlease provide the result of the expression 'not False and not True and not False is'.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: True\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is True, but correct answer is False."
+      }
+    ]
+  },
+  {
+    "raw_question": "not False and False and False or False is",
+    "rbpo_response": "True",
+    "rbpo_prompt": "Please provide a response that explains why \"not False and False and False or False is\" is a true statement.",
+    "rbpo_input_llm": "\nQuestion:\nPlease provide a response that explains why \"not False and False and False or False is\" is a true statement.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nPlease provide a response that explains why \"not False and False and False or False is\" is a true statement.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: True\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is True, but correct answer is False."
+      }
+    ]
+  },
+  {
+    "raw_question": "not not ( True ) or not True is",
+    "rbpo_response": "True",
+    "rbpo_prompt": "Please provide a brief explanation of the logical expression 'not not (True) or not True'.",
+    "rbpo_input_llm": "\nQuestion:\nPlease provide a brief explanation of the logical expression 'not not (True) or not True'.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "True",
+    "template": "\nQuestion: \nQuestion:\nPlease provide a brief explanation of the logical expression 'not not (True) or not True'.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: true\nPredicted Answer: True\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer 'True' matches expected answer 'true'."
+      }
+    ]
+  },
+  {
+    "raw_question": "True and False and not True or False is",
+    "rbpo_response": "- True",
+    "rbpo_prompt": "Please respond with either True or False.\nTrue and False and not True or False is",
+    "rbpo_input_llm": "\nQuestion:\nPlease respond with either True or False.\nTrue and False and not True or False is\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nPlease respond with either True or False.\nTrue and False and not True or False is\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: - True\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is True, but correct answer is False."
+      }
+    ]
+  },
+  {
+    "raw_question": "True or not False and False and False is",
+    "rbpo_response": "False.",
+    "rbpo_prompt": "True or False: Is it possible for a statement to be both true and false at the same time?",
+    "rbpo_input_llm": "\nQuestion:\nTrue or False: Is it possible for a statement to be both true and false at the same time?\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "True",
+    "template": "\nQuestion: \nQuestion:\nTrue or False: Is it possible for a statement to be both true and false at the same time?\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: true\nPredicted Answer: False.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is False, but expected answer is True."
+      }
+    ]
+  },
+  {
+    "raw_question": "not False and False or True and True is",
+    "rbpo_response": "True\nExplanation:\nThe given binary expression `not False and False or True and True` can be evaluated as follows:\n\n1. `not False` evaluates to `True`.\n2. `False or True` evaluates to `True`.\n\nTherefore, the final result of the expression is `True`.",
+    "rbpo_prompt": "Please provide a response that correctly identifies the given binary expression `not False and False or True and True` and provides a detailed explanation of the result.",
+    "rbpo_input_llm": "\nQuestion:\nPlease provide a response that correctly identifies the given binary expression `not False and False or True and True` and provides a detailed explanation of the result.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "True",
+    "template": "\nQuestion: \nQuestion:\nPlease provide a response that correctly identifies the given binary expression `not False and False or True and True` and provides a detailed explanation of the result.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: true\nPredicted Answer: True\nExplanation:\nThe given binary expression `not False and False or True and True` can be evaluated as follows:\n\n1. `not False` evaluates to `True`.\n2. `False or True` evaluates to `True`.\n\nTherefore, the final result of the expression is `True`.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer True."
+      }
+    ]
+  },
+  {
+    "raw_question": "False and False or False or not True is",
+    "rbpo_response": "True",
+    "rbpo_prompt": "Determine the meaning of the expression 'False and False or False or not True is' and provide an explanation.",
+    "rbpo_input_llm": "\nQuestion:\nDetermine the meaning of the expression 'False and False or False or not True is' and provide an explanation.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "False",
+    "template": "\nQuestion: \nQuestion:\nDetermine the meaning of the expression 'False and False or False or not True is' and provide an explanation.\nOptions:\n- True\n- False\nReply me with the option of the answer like True or False.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: false\nPredicted Answer: True\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is True, but correct answer is False."
+      }
+    ]
+  }
+]

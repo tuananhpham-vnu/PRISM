@@ -1,0 +1,142 @@
+[
+  {
+    "raw_question": "Is the following sentence plausible? \"Mike Trout hit a walkoff homer.\"",
+    "rbpo_response": "Yes",
+    "rbpo_prompt": "Is the following sentence plausible? \"Mike Trout hit a walkoff homer.\"",
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Mike Trout hit a walkoff homer.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "yes",
+    "template": "\nQuestion: \nQuestion:\nIs the following sentence plausible? \"Mike Trout hit a walkoff homer.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: yes\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer 'Yes' matches expected answer 'yes'."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Walker Buehler earned a trip to the penalty box.\"",
+    "rbpo_response": "No",
+    "rbpo_prompt": "Is the sentence \"Walker Buehler earned a trip to the penalty box.\" plausible?",
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Walker Buehler earned a trip to the penalty box.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nIs the sentence \"Walker Buehler earned a trip to the penalty box.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: No\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer: No."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Kailer Yamamoto caught the back shoulder fade.\"",
+    "rbpo_response": "No",
+    "rbpo_prompt": "Is the following sentence plausible? \"Kailer Yamamoto caught the back shoulder fade.\"",
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Kailer Yamamoto caught the back shoulder fade.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nIs the following sentence plausible? \"Kailer Yamamoto caught the back shoulder fade.\"\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: No\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer exactly."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Kevin Durant hit a walkoff homer.\"",
+    "rbpo_response": "No.\nExplanation: Kevin Durant is a basketball player, not a baseball player, so it is highly unlikely that he would hit a walkoff homer in baseball.",
+    "rbpo_prompt": "Is the following sentence plausible? \"Kevin Durant hit a walkoff homer.\" Please explain why or why not.",
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"Kevin Durant hit a walkoff homer.\" Please explain why or why not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nIs the following sentence plausible? \"Kevin Durant hit a walkoff homer.\" Please explain why or why not.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: No.\nExplanation: Kevin Durant is a basketball player, not a baseball player, so it is highly unlikely that he would hit a walkoff homer in baseball.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer 'No' matches expected answer 'no'."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Frederik Andersen crossed the blue line in the Stanley Cup.\"",
+    "rbpo_response": "No",
+    "rbpo_prompt": "Is the sentence \"Frederik Andersen crossed the blue line in the Stanley Cup.\" plausible?",
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Frederik Andersen crossed the blue line in the Stanley Cup.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "yes",
+    "template": "\nQuestion: \nQuestion:\nIs the sentence \"Frederik Andersen crossed the blue line in the Stanley Cup.\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: yes\nPredicted Answer: No\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is No, but expected answer is Yes."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Tom Brady was safe at first.\"",
+    "rbpo_response": "Yes",
+    "rbpo_prompt": "Is the sentence \"Tom Brady was safe at first\" plausible?",
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Tom Brady was safe at first\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nIs the sentence \"Tom Brady was safe at first\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is Yes, but correct answer is No."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Mitchell Marner nutmegged the defender.\"",
+    "rbpo_response": "Yes",
+    "rbpo_prompt": "Is the sentence \"Mitchell Marner nutmegged the defender\" plausible?",
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Mitchell Marner nutmegged the defender\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nIs the sentence \"Mitchell Marner nutmegged the defender\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "Predicted answer is Yes, but expected answer is No."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"De'Aaron Fox scored a bicycle kick.\"",
+    "rbpo_response": "Yes\nExplanation: The sentence \"De'Aaron Fox scored a bicycle kick\" is plausible because bicycle kicks are a type of goal that can be scored in soccer, and De'Aaron Fox is a professional soccer player who has actually scored goals in this manner. Therefore, while the sentence may be unexpected or unusual, it is not necessarily implausible.",
+    "rbpo_prompt": "Is the following sentence plausible? \"De'Aaron Fox scored a bicycle kick.\" Please provide a response that acknowledges the sentence's plausibility and suggests why.",
+    "rbpo_input_llm": "\nQuestion:\nIs the following sentence plausible? \"De'Aaron Fox scored a bicycle kick.\" Please provide a response that acknowledges the sentence's plausibility and suggests why.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nIs the following sentence plausible? \"De'Aaron Fox scored a bicycle kick.\" Please provide a response that acknowledges the sentence's plausibility and suggests why.\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: Yes\nExplanation: The sentence \"De'Aaron Fox scored a bicycle kick\" is plausible because bicycle kicks are a type of goal that can be scored in soccer, and De'Aaron Fox is a professional soccer player who has actually scored goals in this manner. Therefore, while the sentence may be unexpected or unusual, it is not necessarily implausible.\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Wrong",
+        "Explanation": "De'Aaron Fox is a basketball player, not soccer."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Elias Lindholm took the snap.\"",
+    "rbpo_response": "No",
+    "rbpo_prompt": "Is the sentence \"Elias Lindholm took the snap\" plausible?",
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Elias Lindholm took the snap\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "no",
+    "template": "\nQuestion: \nQuestion:\nIs the sentence \"Elias Lindholm took the snap\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: no\nPredicted Answer: No\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer exactly."
+      }
+    ]
+  },
+  {
+    "raw_question": "Is the following sentence plausible? \"Robert Woods converted the first down.\"",
+    "rbpo_response": "Yes",
+    "rbpo_prompt": "Is the sentence \"Robert Woods converted the first down\" plausible?",
+    "rbpo_input_llm": "\nQuestion:\nIs the sentence \"Robert Woods converted the first down\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:",
+    "target": "yes",
+    "template": "\nQuestion: \nQuestion:\nIs the sentence \"Robert Woods converted the first down\" plausible?\nOptions:\n- Yes\n- No\nReply me with the option of the answer like Yes or No.\nAfter giving the final answer, STOP immediately.\nDo not generate any new question.\nAnswer:\nExpected Answer: yes\nPredicted Answer: Yes\n\nTask:\nDetermine whether the predicted answer correctly answers the question.\n\nImportant Instructions:\n- The predicted answer may include extra, irrelevant, or hallucinated content.\n- Extract ONLY the FIRST valid answer corresponding to the original question.\n- If the answer is presented as a list (e.g., \"1. Yes\", \"A. No\"), use ONLY the first item.\n- For numeric problems, extract the first occurring number.\n- Ignore any content after the first answer, especially if patterns like \"Q:\", \"A:\", \"####\", or additional QA examples appear.\n- If multiple answers exist, ONLY use the earliest valid one.\n- Evaluate correctness based solely on this extracted answer.\n\nOutput format (STRICT):\nReturn a JSON list with exactly one object:\n[\n  {\n    \"response\": \"Right\" or \"Wrong\",\n    \"Explanation\": \"<brief explanation, <= 32 tokens>\"\n  }\n]\n\nRules:\n- \"response\" must be exactly \"Right\" or \"Wrong\"\n- Explanation must be concise (<= 32 tokens)\n- Do NOT output anything outside the JSON list\n",
+    "rbpo_verification_response": [
+      {
+        "response": "Right",
+        "Explanation": "Predicted answer matches expected answer exactly."
+      }
+    ]
+  }
+]
