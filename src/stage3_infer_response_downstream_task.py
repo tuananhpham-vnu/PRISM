@@ -2,8 +2,8 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from dotenv import load_dotenv
 from config import MODEL_CACHE_PATH
-from helper import (LLAMA2_7B, PIQA, clean_name, downstream_folder_name, downstream_tasks, RBPO, RMEPO, GEMMA_EMBEDDING_MODEL, MINILM_EMBEDDING_MODEL, base_llm_models, BBH, device, embedding_models)
-import json, os
+from helper import (LLAMA2_7B, PIQA, clean_name, downstream_folder_name, downstream_tasks, RBPO, RMEPO, GEMMA_EMBEDDING_MODEL, MINILM_EMBEDDING_MODEL, base_llm_models, BBH, device, embedding_models, load_model_and_tokenizer)
+import json, os, torch, gc
 
 from config import prompt_template_gsm8k, prompt_template_piqa, prompt_template_multiple_choice
 from utils import generate, generate_batch
@@ -25,22 +25,10 @@ METHOD = [
 ]
 
 res = []
-for method in METHOD:
-    for base_model in base_llm_models:
+for base_model in base_llm_models:
+    model, tokenizer = load_model_and_tokenizer(base_model, MODEL_CACHE_PATH, hf_token)
+    for method in METHOD:
         for embed_model_name in embedding_models:
-            model = AutoModelForCausalLM.from_pretrained(
-                base_model,
-                cache_dir=MODEL_CACHE_PATH,
-                token = hf_token,
-                torch_dtype="auto"
-            ).eval().to(device)
-
-            tokenizer = AutoTokenizer.from_pretrained(
-                base_model,
-                cache_dir=MODEL_CACHE_PATH,
-                token = hf_token,
-                legacy=False
-            )
             for task in downstream_tasks:
                 if task == "demo":
                     continue
@@ -107,20 +95,25 @@ for method in METHOD:
                         prompts.append(prompt)
                         indices.append(i)
                         
-                    responses = generate_batch(
-                        model=model,
-                        tokenizer=tokenizer,
-                        prompts=prompts,
-                        context=None,
-                        do_sample=False,
-                        apply_chat_template=False,
-                        device=device
-                    )
+                    with torch.no_grad():
+                        responses = generate_batch(
+                            model=model,
+                            tokenizer=tokenizer,
+                            prompts=prompts,
+                            context=None,
+                            do_sample=False,
+                            apply_chat_template=False,
+                            device=device
+                        )   
                     for i, response in zip(indices, responses):
                         data[i][f"{method}_response"] = response
                         
                     with open(data_path, "w", encoding="utf-8") as f:
                         json.dump(data, f, ensure_ascii=False, indent=2)
-        if os.path.exists(MODEL_CACHE_PATH):
-            import shutil
-            shutil.rmtree(MODEL_CACHE_PATH, ignore_errors=True)           
+    
+    del model
+    torch.cuda.empty_cache() 
+    gc.collect()  
+    if os.path.exists(MODEL_CACHE_PATH):
+        import shutil
+        shutil.rmtree(MODEL_CACHE_PATH, ignore_errors=True)           

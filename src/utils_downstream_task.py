@@ -1,6 +1,7 @@
 import os
 import json
 import random
+import time
 import requests
 from config import prompt_template_gsm8k, prompt_template_piqa, prompt_template_multiple_choice, prompt_template_bbh_yes_no,prompt_template_bbh_true_false, prompt_template_bbh_valid
 from helper import DEEPSEEK, GSM8K, BBH, ARC_C, ARC_E, PIQA
@@ -271,27 +272,72 @@ def keyword_verify(data_path,task_name,method_key,is_bbh):
         
 # EXTRACT JSON
 def extract_json(raw):
-    # check raw la json chua, neu da la json thi return string do luon
+    """Extract JSON from API response with better error handling"""
     import json
     import re
+    
+    if not raw or not raw.strip():
+        raise ValueError("Empty response from API")
+    
+    raw = raw.strip()
+    
+    # Try to parse raw as-is first
     try: 
-        json.loads(raw)  # Verify it's valid JSON
-        return raw  # Return the raw string, not the parsed dict
+        json.loads(raw)
+        return raw
     except Exception:
         pass
-        
-    """Strip thinking tags, markdown code blocks, lấy chỉ phần JSON"""
-    # Bỏ <think>...</think>
-    raw = re.sub(r'<think>.*?</think>', '', raw, flags=re.DOTALL)
-    # Bỏ ```json ... ``` hoặc ``` ... ```
-    match = re.search(r'```(?:json)?\s*(.*?)```', raw, flags=re.DOTALL)
+    
+    # Strip thinking tags
+    cleaned = re.sub(r'<think>.*?</think>', '', raw, flags=re.DOTALL).strip()
+    
+    # Try after removing thinking tags
+    try:
+        json.loads(cleaned)
+        return cleaned
+    except Exception:
+        pass
+    
+    # Remove markdown code blocks
+    match = re.search(r'```(?:json)?\s*(.*?)```', cleaned, flags=re.DOTALL)
     if match:
-        return match.group(1).strip()
-    # Nếu không có code block, tìm JSON object đầu tiên
-    match = re.search(r'\{.*\}', raw, flags=re.DOTALL)
+        extracted = match.group(1).strip()
+        try:
+            json.loads(extracted)
+            return extracted
+        except Exception:
+            pass
+    
+    # Try to find JSON array [...]
+    match = re.search(r'\[.*\]', cleaned, flags=re.DOTALL)
     if match:
-        return match.group(0).strip()
-    return raw.strip()
+        try:
+            json.loads(match.group(0))
+            return match.group(0)
+        except Exception:
+            pass
+    
+    # Try to find JSON object {...}
+    # Use non-greedy matching with proper bracket counting
+    for i in range(len(cleaned)):
+        if cleaned[i] == '{':
+            count = 0
+            for j in range(i, len(cleaned)):
+                if cleaned[j] == '{':
+                    count += 1
+                elif cleaned[j] == '}':
+                    count -= 1
+                    if count == 0:
+                        candidate = cleaned[i:j+1]
+                        try:
+                            json.loads(candidate)
+                            return candidate
+                        except Exception:
+                            pass
+                        break
+    
+    # If all else fails, raise error with diagnostics
+    raise ValueError(f"Could not extract valid JSON. Raw response: {raw[:300]}")
 
 def generate_verification_response(system_prompt, user_prompt):
     headers = {
@@ -324,7 +370,10 @@ def llm_verify(data_path, task_name, method_key, is_bbh):
         
     task = check_main_task(task_name)
     
-    for item in data:
+    error_count = 0
+    success_count = 0
+    
+    for idx, item in enumerate(data):
         question = item.get(f'{method_key}_input_llm')
         predicted_ans = item.get(f'{method_key}_response')
         expected_ans = None
@@ -367,10 +416,48 @@ def llm_verify(data_path, task_name, method_key, is_bbh):
         
         item['template'] = verify_prompt
         
-        raw_response = generate_verification_response(downstream_verify_system_prompt, verify_prompt)
-        json_str = extract_json(raw_response)
-        item[f'{method_key}_verification_response'] = json.loads(json_str)
-    
+        # Try API call with retries
+        max_retries = 3
+        retry_count = 0
+        success = False
+        
+        while retry_count < max_retries and not success:
+            try:
+                raw_response = generate_verification_response(downstream_verify_system_prompt, verify_prompt)
+                json_str = extract_json(raw_response)
+                
+                parsed_json = json.loads(json_str)
+                # Handle both array format [{}] and object format {}
+                if isinstance(parsed_json, list):
+                    item[f'{method_key}_verification_response'] = parsed_json[0] if parsed_json else {"response": "Error", "Explanation": "Empty response"}
+                else:
+                    item[f'{method_key}_verification_response'] = parsed_json
+                
+                success = True
+                success_count += 1
+                
+            except json.JSONDecodeError as e:
+                retry_count += 1
+                if retry_count >= max_retries:
+                    print(f"\n[ERROR at sample {idx}] JSON decode failed after {max_retries} retries")
+                    print(f"  Question: {question[:100]}...")
+                    print(f"  Raw response: {raw_response[:200]}")
+                    print(f"  Extracted JSON: {json_str[:200]}")
+                    item[f'{method_key}_verification_response'] = {"response": "Error", "Explanation": "JSON parsing failed"}
+                    error_count += 1
+                else:
+                    print(f"[RETRY {retry_count}/{max_retries}] Sample {idx} - Waiting 2 seconds...")
+                    time.sleep(2)  # Wait before retry
+            
+            except Exception as e:
+                print(f"[ERROR at sample {idx}] Unexpected error: {str(e)[:100]}")
+                item[f'{method_key}_verification_response'] = {"response": "Error", "Explanation": str(e)[:50]}
+                error_count += 1
+                break
+        
     with open(data_path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"Verification completed for {data_path}. Results saved.")
+    print(f"\n=== Verification completed ===")
+    print(f"Path: {data_path}")
+    print(f"Success: {success_count} | Errors: {error_count} | Total: {len(data)}")
+    print(f"Results saved.")

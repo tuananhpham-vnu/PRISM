@@ -13,12 +13,12 @@ folder_path = f"{eval_folder_name}/{downstream_folder_name}"
 base_llm_models = [LLAMA2_7B]
 
 embedding_models = [
-    GEMMA_EMBEDDING_MODEL,
+    # GEMMA_EMBEDDING_MODEL,
     MINILM_EMBEDDING_MODEL
 ]
 
 METHOD = [
-    RBPO,
+    # RBPO,
     RMEPO
 ]
         
