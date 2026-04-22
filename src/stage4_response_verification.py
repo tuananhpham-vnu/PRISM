@@ -46,7 +46,7 @@ for method in METHOD:
                     'word_sorting'
                 ]
                     for subtask in multiple_choice:
-                        data_path = f"{folder_path}/{method}/{clean_name(embed_model_name)}/{task}/{subtask}_demo.json"
+                        data_path = f"{folder_path}/{method}/{clean_name(embed_model_name)}/{task}/{subtask}.json"
                         print(f"\nBase model: {base_model} | Task: {subtask} | Embedding: {clean_name(embed_model_name)} | Dataset: {data_path}")                        
                         
                         # keyword_verify(data_path, subtask, method_key=method, is_bbh=True)
@@ -54,7 +54,7 @@ for method in METHOD:
                 else:
                     # continue
                 # elif task == GSM8K:
-                    data_path= f"{folder_path}/{method}/{clean_name(embed_model_name)}/{task}demo.json"
+                    data_path= f"{folder_path}/{method}/{clean_name(embed_model_name)}/{task}.json"
                     print(f"\nBase model: {base_model} | Task: {task} | Embedding: {clean_name(embed_model_name)} | Dataset: {data_path}")
                     
                     # keyword_verify(data_path, task, method_key=method, is_bbh=False)
