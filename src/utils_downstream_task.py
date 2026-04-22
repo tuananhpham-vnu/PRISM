@@ -322,7 +322,7 @@ def llm_verify(data_path, task_name, method_key, is_bbh):
     with open(data_path, "r", encoding="utf-8") as f:
         data = json.load(f) # NOTE: Only verify the first 5 samples for quick testing. Remove [:5] to verify the entire dataset.
     
-    data = random.sample(data, 10)
+    # data = random.sample(data, 10)
         
     task = check_main_task(task_name)
     
