@@ -21,13 +21,33 @@ batch_size = 8
 folder_name = f'ablation'
 embedding_models = [MINILM_EMBEDDING_MODEL]
 evaluation_datasets = [
-    # DOLLY_EVAL, SELF_INSTRUCT_EVAL
-    DEMO_EVAL
+    DOLLY_EVAL, SELF_INSTRUCT_EVAL
+    # DEMO_EVAL
     ]
 
 evaluator_models = [DEEPSEEK]
 METHOD = [RMEPO]
 base_llm_models = [LLAMA2_7B]
+
+def prepare_ablation_file(source_path, output_path):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    with open(source_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    normalized = []
+    for idx, item in enumerate(data, start=1):
+        normalized.append({
+            "id": item.get("id") or item.get("question_id") or item.get("idx") or idx,
+            "ori_prompt": item.get("instruction") or item.get("prompt") or item.get("text"),
+            "context": item.get("context"),
+            "bpo_prompt": item.get("optimized_prompt"),
+            "category": item.get("category"),
+            "expected_response": item.get("output") or item.get("good_res") or item.get("response"),
+        })
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(normalized, f, ensure_ascii=False, indent=2)
 
 # =========================
 # Step 1: Infer MePO prompt for all items
@@ -35,13 +55,15 @@ base_llm_models = [LLAMA2_7B]
 for base_llm in base_llm_models:
     for data_path in evaluation_datasets:
         for evaluator in evaluator_models:
-            path = f'{folder_name}/{create_combined_name(base_llm, data_path, evaluator)}.json'
-            print(f"Processing: {path}")
-            
-            res,_,_,_ = process_mepo_batch(base_llm, path, evaluator, model=mepo_model, batch_size=batch_size)    
+            source_path = f'testset/{data_path}'
+            output_path = f'{folder_name}/{create_combined_name(base_llm, data_path, evaluator)}.json'
+            print(f"Processing: {output_path}")
+
+            prepare_ablation_file(source_path, output_path)
+            res,_,_,_ = process_mepo_batch(base_llm, source_path, evaluator, model=mepo_model, batch_size=batch_size)
             merge_res = merge_optim_prompt_with_original(
                 res,
-                f'{folder_name}/{create_combined_name(base_llm, data_path, evaluator)}.json',
+                output_path,
                 MEPO
             )
             
