@@ -1,14 +1,12 @@
-from helper import BPO_MODEL, HF_TOKEN, device, experiment_file_name, M, eval_folder_name, load_model_and_tokenizer
+from helper import BPO_MODEL, HF_TOKEN, device, experiment_file_name, M, eval_folder_name, load_model_and_tokenizer, set_global_seed
 from config import MODEL_CACHE_PATH, SEED, prompt_template_optimize
 import torch, os, gc, json
 from utils import generate, generate_batch
 
-
-from transformers import AutoModelForCausalLM, AutoTokenizer
-
-experiment_file_name = "demo_experiment.txt"
-
-torch.manual_seed(SEED)
+# ========================================
+# Step 0: Configure and load BPO model
+# ========================================
+set_global_seed(SEED)
 
 bpo_model, bpo_tokenizer = load_model_and_tokenizer(
     BPO_MODEL, 
@@ -16,24 +14,6 @@ bpo_model, bpo_tokenizer = load_model_and_tokenizer(
     cache_dir=MODEL_CACHE_PATH, 
     token=HF_TOKEN
 )
-# # Loading BPO
-# print("Loading BPO model once...")
-# bpo_model = AutoModelForCausalLM.from_pretrained(
-#     BPO_MODEL,
-#     cache_dir=MODEL_CACHE_PATH,
-#     torch_dtype=torch.float16
-# ).eval().to(device)
-
-# bpo_tokenizer = AutoTokenizer.from_pretrained(
-#     BPO_MODEL,
-#     cache_dir=MODEL_CACHE_PATH,
-#     use_fast=False,
-#     legacy=True
-# )
-# bpo_model.config.return_dict = True
-# if bpo_tokenizer.pad_token_id is None:
-#     bpo_tokenizer.pad_token_id = bpo_tokenizer.eos_token_id
-
 
 # Doc tung hang trong experiment.txt co cac path. Moi lan doc thi toi se vao cac path day de chinh sua noi dung
 # ========================================

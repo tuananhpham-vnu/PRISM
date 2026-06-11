@@ -41,9 +41,11 @@ def process_mepo_batch(base_llm, data_path, evaluator, model=None, batch_size=BA
     batch_refs = []
 
     for sample in tqdm(corpus, desc=f"Processing {base_llm} + {data_path}"):
-        ori_prompt = sample.get('instruction') or sample.get('text')
+        ori_prompt = sample.get('instruction') or sample.get('prompt') or sample.get('text')
+        context = sample.get('context', None)
+        category = sample.get('category', None)
         if not ori_prompt:
-            continue
+            raise ValueError(f"Sample missing 'instruction'/'prompt'/'text': {sample}")
 
         po_qs_input = model.po_prompt_ins.replace("S_P", ori_prompt)
 
@@ -57,6 +59,8 @@ def process_mepo_batch(base_llm, data_path, evaluator, model=None, batch_size=BA
             for ori, opt in zip(batch_refs, outputs):
                 result.append({
                     "ori_prompt": ori,
+                    "context": context,
+                    "category": category,
                     "mepo_prompt": opt
                 })
 
@@ -69,6 +73,8 @@ def process_mepo_batch(base_llm, data_path, evaluator, model=None, batch_size=BA
         for ori, opt in zip(batch_refs, outputs):
             result.append({
                 "ori_prompt": ori,
+                "context": context,
+                "category": category,
                 "mepo_prompt": opt
             })
     

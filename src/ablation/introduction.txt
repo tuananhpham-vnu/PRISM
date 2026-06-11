@@ -1,0 +1,12 @@
+"Experiment A.1
+Tất cả đều so sánh với base LLMm, dataset thì dùng luôn của 4 cái?
+
+baseLLM: llama_7B
+embedding: all-miniLM
+12Vram GB
+NVIDIA GeForce RTX 4070 Ti
+ CUDA Version: 13.0"				
+
+deepseek-chat
+dolly, self-instruct
+MePO					

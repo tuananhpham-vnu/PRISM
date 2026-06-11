@@ -1,0 +1,27 @@
+[
+    {
+    "instruction": "Who owns the largest share of the Vancouver Whitecaps FC?",
+    "context": "Vancouver Whitecaps FC is owned by a group of four investors: Greg Kerfoot, Steve Luczo, Jeff Mallett, and Steve Nash. The group has a collective net worth over $2 billion. Kerfoot has been the majority owner of the Whitecaps since 2002, when he saved the club from contraction after previous owner David Stadnyk left the club, selling it to United Soccer Leagues. Mallett, a former chief operating officer (COO) of Yahoo!, who was raised in Victoria, British Columbia, and played for several collegiate soccer teams. He later purchased minority stakes in the San Francisco Giants of Major League Baseball and English soccer club Derby County F.C. Having first met at a charity soccer event in 2005, Mallett partnered with Steve Nash—a two-time National Basketball Association (NBA) Most Valuable Player who was also raised in Victoria—to put together a bid for a minority share of English soccer club Tottenham Hotspur F.C. in 2008. After that transaction fell through, the duo contacted Kerfoot about a minority stake in the club. Nash is the older brother of former Whitecaps midfielder Martin Nash. The fourth partner, Steve Luczo, is the president, chairman, and CEO of Seagate Technology and a partner in Boston Basketball Partners L.L.C., a group who own the NBA Boston Celtics. Luczo met Kerfoot while the two were both employed by Seagate Technology, and Kerfoot contacted Luczo proposing he become part of the club's MLS bid. In 2009, the group paid a $35 million expansion fee to MLS for the right to join the league.",
+    "response": "Of the group of 4 investors, Greg Kerfoot is the majority owner the Vancouver Whitecaps FC investors group.",
+    "category": "information_extraction",
+    "idx": 0
+  },
+  {
+    "prompt": "Complete the lyrics of the following song\nOh stars in the night,",
+    "optimized_prompt": "Complete the lyrics of the following song\nOh stars in the night,",
+    "good_res": "Oh stars in the night,\nShining so bright,\nWith your gentle light,\nGuiding me through the night.\n\nIn the stillness and peace,\nAs the world's noises cease,\nI look up to see,\nYour beauty and majesty.\n\nWith your flickering glow,\nYou put on a wondrous show,\nAnd I am filled with awe,\nAt the wonder of it all.\n\nOh stars in the night,\nGuiding me with your light,\nI am grateful for your presence,\nAs I journey through this existence.",
+    "bad_res": "Shine so bright and guide me right."
+  },
+  {
+    "id": "user_oriented_task_0",
+    "category": "Grammarly",
+    "instruction": "The sentence you are given might be too wordy, complicated, or unclear. Rewrite the sentence and make your writing clearer by keeping it concise. Whenever possible, break complex sentences into multiple sentences and eliminate unnecessary words.",
+    "context": "If you have any questions about my rate or if you find it necessary to increase or decrease the scope for this project, please let me know.",
+    "output": "If you have any questions about my rate or find it necessary to increase or decrease this project's scope, please let me know."
+  },
+  {
+    "question_id": 3,
+    "text": "What are the main differences between Python and JavaScript programming languages?",
+    "category": "generic"
+  }
+]

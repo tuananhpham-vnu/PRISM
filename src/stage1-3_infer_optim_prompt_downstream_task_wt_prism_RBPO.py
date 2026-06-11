@@ -4,16 +4,17 @@ import json
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from datasets import load_dataset
 from dotenv import load_dotenv
-from config import MODEL_CACHE_PATH
+from config import MODEL_CACHE_PATH, SEED
 from tqdm import tqdm
 from helper import (MEPO_MODEL, METHOD, RBPO, RMEPO, downstream_tasks,
-    downstream_folder_name, M, temp_po_models)
+    downstream_folder_name, M, temp_po_models, set_global_seed)
 from utils import generate_batch, make_prompt_template
 from helper import MEPO, BPO_MODEL,BPO
 from config import prompt_template_optimize
 
 load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")    
+set_global_seed(SEED)
 
 def read_txt(filename):
     with open(filename, 'r', encoding='utf-8') as f:

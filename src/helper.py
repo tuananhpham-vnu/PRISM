@@ -5,7 +5,7 @@ import os
 import torch
 from dotenv import load_dotenv
 
-from config import MODEL_CACHE_PATH
+from config import MODEL_CACHE_PATH, SEED
 
 load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")
@@ -36,10 +36,11 @@ GEMMA3 = "google/gemma-3-4b-it"
 VICUNA_13B = "lmsys/vicuna-13b-v1.5"
 base_llm_models = [VICUNA_7B,LLAMA2_7B, GEMMA3, VICUNA_13B]
 
-DOLLY_EVAL = "testset/dolly_eval.json"
-VICUNA_EVAL = "testset/vicuna_eval.json"
-BPO_EVAL = "testset/bpo_test.json"
-SELF_INSTRUCT_EVAL = "testset/self_instruct_eval.json"
+DOLLY_EVAL = "instruction-following/dolly_eval.json"
+VICUNA_EVAL = "instruction-following/vicuna_eval.json"
+BPO_EVAL = "instruction-following/bpo_test.json"
+SELF_INSTRUCT_EVAL = "instruction-following/self_instruct_eval.json"
+DEMO_EVAL = "instruction-following/demo_eval.json"
 evaluation_datasets = [VICUNA_EVAL, DOLLY_EVAL, BPO_EVAL, SELF_INSTRUCT_EVAL]
 
 BBH = "bbh"
@@ -62,8 +63,10 @@ RBPO = "rbpo"
 MEPO = "mepo"
 RMEPO = "rmepo"
 METHOD = [BPO, RBPO, MEPO, RMEPO]
+
+# Only using for downstream benchmark
 temp_po_models = {
-    f'{RBPO}': 0.9,
+    f'{RBPO}': 0.7,
     f'{RMEPO}': 0.7
 }
 
@@ -225,6 +228,16 @@ def load_model_and_tokenizer(
     print(f"Precision mode: {inference_precision}")
 
     return model, tokenizer
+
+def set_global_seed(seed = SEED):
+    import random
+    import numpy as np
+    import torch
+
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
 
 if __name__ == "__main__":
     # dataset_processing(evaluation_datasets)
