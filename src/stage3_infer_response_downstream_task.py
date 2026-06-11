@@ -26,7 +26,7 @@ METHOD = [
 
 res = []
 for base_model in base_llm_models:
-    model, tokenizer = load_model_and_tokenizer(base_model, MODEL_CACHE_PATH, hf_token)
+    model, tokenizer = load_model_and_tokenizer(base_model, device_map="auto", cache_dir=MODEL_CACHE_PATH, token=hf_token)
     for method in METHOD:
         for embed_model_name in embedding_models:
             for task in downstream_tasks:

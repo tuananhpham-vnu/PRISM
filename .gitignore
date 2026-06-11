@@ -15,7 +15,7 @@ src/hf-cache/model
 
 *.jsonl
 
-# *.json
+*.json
 
 trick.txt
 
@@ -60,7 +60,7 @@ src/mepo/api.txt
 *demo_output.json
 
 src/analysis/
-# src/evaluation/
+src/evaluation/downstream/
 src/evaluation/embeddinggemma-300m
 src/rbpo_mepo/
 src/downstream/demo/
@@ -71,3 +71,4 @@ demo.json
 
 .gitignore
 processing.py
+doc/
