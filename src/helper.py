@@ -9,6 +9,7 @@ from config import MODEL_CACHE_PATH
 
 load_dotenv()
 HF_TOKEN = os.getenv("HF_TOKEN")
+INFERENCE_PRECISION = os.getenv("INFERENCE_PRECISION")
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -158,30 +159,71 @@ def read_json(file_path):
         data = json.load(file)  # Load JSON data
     return data
 
-def load_model_and_tokenizer(model_path,
+def load_model_and_tokenizer(
+    model_path,
     device_map="auto",
     cache_dir=MODEL_CACHE_PATH,
-    token=HF_TOKEN
+    token=HF_TOKEN,
+    inference_precision=INFERENCE_PRECISION
 ):
+    import torch
     from transformers import AutoModelForCausalLM, AutoTokenizer
-    model = AutoModelForCausalLM.from_pretrained(model_path, 
-        device_map=device_map,
-        cache_dir=cache_dir,
-        token=token,
-        torch_dtype="auto"
-    )
+    
+    inference_precision = inference_precision.lower().strip()
+    
+    if inference_precision not in ["fp16", "4bit"]:
+        raise ValueError("precision must be either 'fp16' or '4bit'")
+
     tokenizer = AutoTokenizer.from_pretrained(
         model_path,
-        cache_dir=MODEL_CACHE_PATH,
-        token=HF_TOKEN,
+        cache_dir=cache_dir,
+        token=token,
         legacy=False,
         truncation_side='left',
         padding_side='left'
     )
-    model.config.return_dict = True
+    
     if tokenizer.pad_token is None:
-            tokenizer.pad_token = tokenizer.eos_token
-            
+        tokenizer.pad_token = tokenizer.eos_token
+    
+    if inference_precision == "fp16":
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            device_map=device_map,
+            cache_dir=cache_dir,
+            token=token,
+            torch_dtype=torch.float16,
+            low_cpu_mem_usage=True,
+        )
+    elif inference_precision == "4bit":
+        from transformers import BitsAndBytesConfig
+
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_use_double_quant=True,
+        )
+
+        model = AutoModelForCausalLM.from_pretrained(
+            model_path,
+            device_map=device_map,
+            cache_dir=cache_dir,
+            token=token,
+            quantization_config=bnb_config,
+            low_cpu_mem_usage=True,
+        )
+    
+    model.config.return_dict = True
+    model.config.pad_token_id = tokenizer.pad_token_id
+    model.eval()
+    
+    print("="*80)
+    print(f"Loading base LLM")
+    print("="*80)
+    print(f"Loaded model: {model_path}")
+    print(f"Precision mode: {inference_precision}")
+
     return model, tokenizer
 
 if __name__ == "__main__":

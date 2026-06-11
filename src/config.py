@@ -2,7 +2,7 @@
 import torch
 
 
-SEED = 2411
+SEED = 42
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 MODEL_CACHE_PATH = "./hf_cache/model"
 OPT_PROMPT_MODEL_CACHE_PATH = "./hf_cache/opt_prompt_model"

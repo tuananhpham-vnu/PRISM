@@ -72,3 +72,5 @@ demo.json
 .gitignore
 processing.py
 doc/
+
+*test.py

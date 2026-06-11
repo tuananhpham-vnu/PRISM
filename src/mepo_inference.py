@@ -39,24 +39,71 @@ class MePOModel:
 
         self.cache = {}
 
-    def load_model_and_tokenizer(self, model_path):
-        model_ = AutoModelForCausalLM.from_pretrained(
-            model_path, 
-            device_map="auto",
-            cache_dir=OPT_PROMPT_MODEL_CACHE_PATH,
-            token=mepo_hf,
-            torch_dtype=torch.float16 # Kaggle hỗ trợ
-        )
+    def load_model_and_tokenizer(self, 
+        model_path,
+        device_map="auto",
+        cache_dir=OPT_PROMPT_MODEL_CACHE_PATH,
+        token=mepo_hf,
+        inference_precision= os.getenv("INFERENCE_PRECISION")
+    ):
+        import torch
+        from transformers import AutoModelForCausalLM, AutoTokenizer
+        
+        infer_precision = inference_precision.lower().strip()
+        if infer_precision not in ["fp16", "4bit"]:
+            raise ValueError("Inference precision must be either 'fp16' or '4bit'")
+        
         tokenizer_ = AutoTokenizer.from_pretrained(
             model_path,
-            cache_dir=OPT_PROMPT_MODEL_CACHE_PATH,
+            cache_dir=cache_dir,
+            token=token,
+            legacy=False,
             truncation_side='left',
             padding_side='left'
         )
         # Fix pad token
         if tokenizer_.pad_token is None:
             tokenizer_.pad_token = tokenizer_.eos_token
+        
+        if infer_precision == "fp16":
+            model_ = AutoModelForCausalLM.from_pretrained(
+                model_path, 
+                device_map=device_map,
+                cache_dir=cache_dir,
+                token=token,
+                torch_dtype=torch.float16
+            )
+        elif infer_precision == "4bit":
+            from transformers import BitsAndBytesConfig
 
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_compute_dtype=torch.float16,
+                bnb_4bit_use_double_quant=True,
+            )
+            
+            model_ = AutoModelForCausalLM.from_pretrained(
+                model_path, 
+                device_map=device_map,
+                cache_dir=cache_dir,
+                token=token,
+                quantization_config=bnb_config,
+                low_cpu_mem_usage=True,
+            )
+        else:
+            raise ValueError("Inference precision must be either 'fp16' or '4bit'")
+        
+        model_.config.return_dict = True
+        model_.config.pad_token_id = tokenizer_.pad_token_id
+        model_.eval()
+        
+        print("="*80)
+        print(f"Loading base LLM")
+        print("="*80)
+        print(f"Loaded model: {model_path}")
+        print(f"Precision mode: {inference_precision}")
+        
         return model_, tokenizer_
     
     @torch.no_grad()
