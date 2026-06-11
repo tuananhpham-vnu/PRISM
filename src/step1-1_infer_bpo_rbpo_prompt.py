@@ -1,5 +1,5 @@
 from helper import BPO_MODEL, device, experiment_file_name, M, eval_folder_name
-from config import MODEL_CACHE_PATH, prompt_template_optimize
+from config import MODEL_CACHE_PATH, SEED, prompt_template_optimize
 import torch, os, gc, json
 from utils import generate, generate_batch
 
@@ -8,7 +8,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 experiment_file_name = "demo_experiment.txt"
 
-torch.manual_seed(42)
+torch.manual_seed(SEED)
 # Loading BPO
 print("Loading BPO model once...")
 bpo_model = AutoModelForCausalLM.from_pretrained(

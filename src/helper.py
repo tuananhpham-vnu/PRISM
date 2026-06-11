@@ -32,7 +32,8 @@ evaluator_models = [DEEPSEEK]
 LLAMA2_7B = "meta-llama/Llama-2-7b-chat-hf"
 VICUNA_7B = "lmsys/vicuna-7b-v1.3"
 GEMMA3 = "google/gemma-3-4b-it"
-base_llm_models = [VICUNA_7B,LLAMA2_7B, GEMMA3]
+VICUNA_13B = "lmsys/vicuna-13b-v1.5"
+base_llm_models = [VICUNA_7B,LLAMA2_7B, GEMMA3, VICUNA_13B]
 
 DOLLY_EVAL = "testset/dolly_eval.json"
 VICUNA_EVAL = "testset/vicuna_eval.json"
