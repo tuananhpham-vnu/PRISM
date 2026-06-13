@@ -65,7 +65,6 @@ def select_no_clustering_prompts(item, key, embedding_model, rng):
     item[f"{output_prefix}_random_idx"] = random_idx
     item[f"{output_prefix}_nearest_idx"] = nearest_idx
     item[f"{output_prefix}_farthest_idx"] = farthest_idx
-    item[f"{output_prefix}_furthest_idx"] = farthest_idx
     item[f"{output_prefix}_majority_idx"] = majority_idx
     item[f"{output_prefix}_similarity_to_original"] = [
         float(score) for score in sims_to_original
