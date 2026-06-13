@@ -9,10 +9,6 @@ import torch
 from config import MODEL_CACHE_PATH
 from helper import IMP_ENC, clean_name, experiment_file_name, eval_folder_name, device, M, embedding_models, distance_thresholds, METHOD
 
-print("===== STEP 2: SBERT clustering =====")
-torch.cuda.empty_cache()
-gc.collect()
-
 
 def prompt_clustering(key, item, embedding_model, M, distance_threshold):
     ori_prompt = item.get("ori_prompt", "")
@@ -109,53 +105,54 @@ method_keys = [
 from helper import GEMMA_EMBEDDING_MODEL
 
 embedding_models = [GEMMA_EMBEDDING_MODEL]
-for model_name in embedding_models:
-    
-    embed_model = SentenceTransformer(
-        model_name,
-        device=device,
-        cache_folder=MODEL_CACHE_PATH
-    )
-    
-    distance_threshold = distance_thresholds.get(model_name,None)
-    print(f"Using embedding model: {model_name} with distance threshold: {distance_threshold}")
-    
-    assert distance_threshold is not None, f"Distance threshold not found for embedding model '{model_name}'"
-    with open(experiment_file_name, "r") as f:
-        lines = f.readlines()
-
-    for line in lines:
-        path = line.strip()
-        print(f"Processing: {path}")
-        with open(f'{eval_folder_name}/{path}.json', "r", encoding="utf-8") as f:
-            data = json.load(f)
-        # with open(f'{eval_folder_name}/{path}.json', "r") as f:
-        #     data = json.load(f)
-        print(len(data))
+if __name__ == "__main__":
+    for model_name in embedding_models:
         
-        for item in data:
-            for key in method_keys:
-                clusters, embeddings = prompt_clustering(key, item, embed_model, M, distance_threshold)
-                if clusters is None or len(clusters) == 0:  # Bỏ qua nếu dữ liệu không đủ
-                    print(f"Warning: Không thể thực hiện clustering cho key '{key}' do dữ liệu không đủ, bỏ qua item này")
-                    continue
-                cluster_representatives, single_cluster = representative_selection(item, embed_model,clusters, embeddings)
-                consensus_scores = compute_consensus_score(key, item, embed_model, clusters, embeddings, cluster_representatives, single_cluster)
-                best_rep_idx = optimize_prompt_selection(key, item, clusters, embeddings, cluster_representatives, consensus_scores)
-                output_key = "rbpo" if key == "rbpo_paraphrases" else "rmepo"
-                item[f'{output_key}_clusters'] = [[item[key][idx] for idx in cluster] for cluster in clusters]
-                item[f'{output_key}_prompt'] = item[key][best_rep_idx]
-                item[f"{output_key}_cluster_representatives"] = [item[key][idx] for idx in cluster_representatives]
-                item[f"{output_key}_consensus_scores"] = consensus_scores
-                for key in METHOD:
-                    key_to_remove = f"{key}_response"
-                    if item.get(key_to_remove) is not None:
-                        del item[key_to_remove]
-        output_path = f'{eval_folder_name}/{clean_name(model_name)}/{path}.json'
-        if not os.path.exists(os.path.dirname(output_path)):
-            os.makedirs(os.path.dirname(output_path))
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-    # remove MODEL_CACHE_PATH
-    if os.path.exists(MODEL_CACHE_PATH):
-        shutil.rmtree(MODEL_CACHE_PATH, ignore_errors=True)
+        embed_model = SentenceTransformer(
+            model_name,
+            device=device,
+            cache_folder=MODEL_CACHE_PATH
+        )
+        
+        distance_threshold = distance_thresholds.get(model_name,None)
+        print(f"Using embedding model: {model_name} with distance threshold: {distance_threshold}")
+        
+        assert distance_threshold is not None, f"Distance threshold not found for embedding model '{model_name}'"
+        with open(experiment_file_name, "r") as f:
+            lines = f.readlines()
+
+        for line in lines:
+            path = line.strip()
+            print(f"Processing: {path}")
+            with open(f'{eval_folder_name}/{path}.json', "r", encoding="utf-8") as f:
+                data = json.load(f)
+            # with open(f'{eval_folder_name}/{path}.json', "r") as f:
+            #     data = json.load(f)
+            print(len(data))
+            
+            for item in data:
+                for key in method_keys:
+                    clusters, embeddings = prompt_clustering(key, item, embed_model, M, distance_threshold)
+                    if clusters is None or len(clusters) == 0:  # Bỏ qua nếu dữ liệu không đủ
+                        print(f"Warning: Không thể thực hiện clustering cho key '{key}' do dữ liệu không đủ, bỏ qua item này")
+                        continue
+                    cluster_representatives, single_cluster = representative_selection(item, embed_model,clusters, embeddings)
+                    consensus_scores = compute_consensus_score(key, item, embed_model, clusters, embeddings, cluster_representatives, single_cluster)
+                    best_rep_idx = optimize_prompt_selection(key, item, clusters, embeddings, cluster_representatives, consensus_scores)
+                    output_key = "rbpo" if key == "rbpo_paraphrases" else "rmepo"
+                    item[f'{output_key}_clusters'] = [[item[key][idx] for idx in cluster] for cluster in clusters]
+                    item[f'{output_key}_prompt'] = item[key][best_rep_idx]
+                    item[f"{output_key}_cluster_representatives"] = [item[key][idx] for idx in cluster_representatives]
+                    item[f"{output_key}_consensus_scores"] = consensus_scores
+                    for key in METHOD:
+                        key_to_remove = f"{key}_response"
+                        if item.get(key_to_remove) is not None:
+                            del item[key_to_remove]
+            output_path = f'{eval_folder_name}/{clean_name(model_name)}/{path}.json'
+            if not os.path.exists(os.path.dirname(output_path)):
+                os.makedirs(os.path.dirname(output_path))
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+        # remove MODEL_CACHE_PATH
+        if os.path.exists(MODEL_CACHE_PATH):
+            shutil.rmtree(MODEL_CACHE_PATH, ignore_errors=True)

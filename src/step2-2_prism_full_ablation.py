@@ -7,10 +7,10 @@ from sentence_transformers import SentenceTransformer
 from sklearn.cluster import AgglomerativeClustering
 import torch
 from config import MODEL_CACHE_PATH, SEED
-from helper import DEEPSEEK, DOLLY_EVAL, LLAMA2_7B, RMEPO, SELF_INSTRUCT_EVAL, clean_name, eval_folder_name, device, M, distance_thresholds, METHOD, MINILM_EMBEDDING_MODEL, set_global_seed, create_combined_name
+from helper import DEEPSEEK, DOLLY_EVAL, LLAMA2_7B, RMEPO, SELF_INSTRUCT_EVAL, clean_name, device, M, distance_thresholds, METHOD, MINILM_EMBEDDING_MODEL, set_global_seed, create_combined_name
 from step2_clustering_and_selecting import prompt_clustering, representative_selection, compute_consensus_score, optimize_prompt_selection
 
-print("===== STEP 2.1: PRISM ablation selection =====")
+print("===== STEP 2.2: PRISM full ablation selection =====")
 set_global_seed(SEED)
 torch.cuda.empty_cache()
 gc.collect()
@@ -64,10 +64,10 @@ for base_llm in base_llm_models:
                     key_to_remove = f"{key}_response"
                     if item.get(key_to_remove) is not None:
                         del item[key_to_remove]
-            output_path = f'{eval_folder_name}/{clean_name(embedding_model_name)}/{path}.json'
-            if not os.path.exists(os.path.dirname(output_path)):
-                os.makedirs(os.path.dirname(output_path))
-            with open(output_path, "w", encoding="utf-8") as f:
+            # output_path = f'{folder_name}/{clean_name(embedding_model_name)}/{path}.json'
+            if not os.path.exists(os.path.dirname(path)):
+                os.makedirs(os.path.dirname(path))
+            with open(path, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
 # remove MODEL_CACHE_PATH
 if os.path.exists(MODEL_CACHE_PATH):
