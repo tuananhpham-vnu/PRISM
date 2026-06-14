@@ -28,7 +28,8 @@ distance_thresholds = {
 }
 
 DEEPSEEK = "deepseek-chat"
-evaluator_models = [DEEPSEEK]   
+CHATGPT = "gpt-5.4-mini"
+evaluator_models = [DEEPSEEK, CHATGPT]
 
 LLAMA2_7B = "meta-llama/Llama-2-7b-chat-hf"
 VICUNA_7B = "lmsys/vicuna-7b-v1.3"
